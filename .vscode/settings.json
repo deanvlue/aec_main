@@ -1,7 +1,8 @@
 {
   "cSpell.enableFiletypes": [
     "!css",
-    "!html"
+    "!html",
+    "!javascript"
   ],
   "git.ignoreLimitWarning": true
 }

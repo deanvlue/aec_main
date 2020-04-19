@@ -104,8 +104,8 @@ const agendaActividad = [
       tarea:"PAUSA ACTIVA"
     },
     {
-      materia: materias[1],
-      tarea: "Español Jueves"
+      materia: "",
+      tarea: ""
     },
     {
       materia: materias[2],
@@ -142,8 +142,8 @@ const agendaActividad = [
       tarea:"PAUSA ACTIVA"
     },
     {
-      materia: materias[3],
-      tarea: "Civismo"
+      materia: "",
+      tarea: ""
     }
   ]
 ];
@@ -165,8 +165,6 @@ function transformAgenda(a){
   }
   return agenda;
 }
-
-const agendaFecha = transformAgenda(agendaActividad);
 
 
 tablaAgenda = document.querySelector("#tablaAgenda");
@@ -194,6 +192,9 @@ horarios.forEach((h,i) =>{
         btn.className="btn btn-agenda btn-primary";
         if(i===0 && it ===0){
           btn.id="mainbutton";
+        }else{
+          let btnName = "B-"+i+"-"+it;
+          btn.id=btnName;
         }
         btn.innerHTML= "<b>"+materiaText+"</b><br/>"+tareaText;
         btn.setAttribute("data-toggle", "modal");

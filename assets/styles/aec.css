@@ -13,11 +13,15 @@
 }
 
 .breadcrumb.aec a{
-  color: white;
+  color: white !important;
 }
 
 .breadcrumb > li + li::before{
-  color: #fff;
+  color: #fff !important;
+}
+
+.breadcrumb>li+li {
+    color: #fff;
 }
 
 .breadcrumb.aec>.active {
@@ -76,4 +80,10 @@ button.btn-aec{
 
 .margin-bottom{
   margin-bottom: 50px;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: rgba(179, 51, 127, 1.0) !important;
+    border-color: rgba(179, 51, 127, 1.0) !important;
 }

@@ -1,7 +1,8 @@
-const folderName = location.pathname;
+const levelName = location.pathname.split("/").reverse()[1];
+
 
 document.querySelectorAll("#nivel").forEach(obj=>{
-  obj.textContent = firstUpper(folderName.split("/").reverse()[1]);
+  obj.textContent = firstUpper(levelName);
 })
 
 function firstUpper(cadena){

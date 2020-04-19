@@ -214,5 +214,9 @@ horarios.forEach((h,i) =>{
 
 
 function cambiaHorario(val){
-  document.querySelector("#mainbutton").innerHTML="<b>NUEVA TAREA 1</b><br/>Prueba tarea";
+  if(val===1){
+    document.querySelector("#mainbutton").innerHTML="<b>NUEVA TAREA 1</b><br/>Prueba tarea";
+  }else{
+    document.querySelector("#mainbutton").innerHTML="<b>OTRA TAREA 2</b><br/>Prueba tarea DOS";
+  }
 }

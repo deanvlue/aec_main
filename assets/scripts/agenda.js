@@ -22,6 +22,10 @@ const agendaActividad = [
       tarea: "Lunes Algebra"
     },
     {
+      materia: "PAUSA",
+      tarea:"PAUSA ACTIVA"
+    },
+    {
       materia: materias[1],
       tarea: "Español Lunes"
     },
@@ -30,18 +34,22 @@ const agendaActividad = [
       tarea: "Salud"
     },
     {
+      materia: "PAUSA",
+      tarea:"PAUSA ACTIVA"
+    },
+    {
       materia: materias[3],
       tarea: "Civismo"
     },
-    {
-      materia: materias[0],
-      tarea: "Recreación Matemática Lunes"
-    }
   ],
   [
     {
       materia: materias[0],
       tarea: "Martes Algebra"
+    },
+    {
+      materia: "PAUSA",
+      tarea:"PAUSA ACTIVA"
     },
     {
       materia: materias[1],
@@ -52,6 +60,10 @@ const agendaActividad = [
       tarea: "Salud"
     },
     {
+      materia: "PAUSA",
+      tarea:"PAUSA ACTIVA"
+    },
+    {
       materia: materias[3],
       tarea: "Civismo"
     }
@@ -60,6 +72,10 @@ const agendaActividad = [
     {
       materia: materias[0],
       tarea: "Algebra"
+    },
+    {
+      materia: "PAUSA",
+      tarea:"PAUSA ACTIVA"
     },
     {
       materia: materias[1],
@@ -70,6 +86,10 @@ const agendaActividad = [
       tarea: "Salud"
     },
     {
+      materia: "PAUSA",
+      tarea:"PAUSA ACTIVA"
+    },
+    {
       materia: materias[3],
       tarea: "Civismo"
     }
@@ -80,12 +100,20 @@ const agendaActividad = [
       tarea: "Algebra"
     },
     {
+      materia: "PAUSA",
+      tarea:"PAUSA ACTIVA"
+    },
+    {
       materia: materias[1],
       tarea: "Español Jueves"
     },
     {
       materia: materias[2],
       tarea: "Salud"
+    },
+    {
+      materia: "PAUSA",
+      tarea:"PAUSA ACTIVA"
     },
     {
       materia: materias[3],
@@ -98,12 +126,20 @@ const agendaActividad = [
       tarea: "Algebra"
     },
     {
+      materia: "PAUSA",
+      tarea:"PAUSA ACTIVA"
+    },
+    {
       materia: materias[1],
       tarea: "Español"
     },
     {
       materia: materias[2],
       tarea: "Salud"
+    },
+    {
+      materia: "PAUSA",
+      tarea:"PAUSA ACTIVA"
     },
     {
       materia: materias[3],
@@ -144,26 +180,39 @@ horarios.forEach((h,i) =>{
   row.appendChild(horario);
 
     let tareaText="" ;
-
-      if(i===1 || i===4){
-        let pausa = document.createElement('td')
-        pausa.colSpan="6";
-        pausa.className="text-center warning";
-        pausa.innerText="PAUSA ACTIVA";
-        row.appendChild(pausa);
-        tablaAgenda.appendChild(row);
-      }
-    agendaActividad.forEach(tslot=>{
+    let materiaText="";
+    agendaActividad.forEach((tslot,it)=>{
       let cell = document.createElement('td')
         if(tslot[i].tarea === undefined){
         tareaText = " Matemáticas";
         }else{
           tareaText = tslot[i].tarea;
+          materiaText= tslot[i].materia;
         }
-      let cellText = document.createTextNode(tareaText);
-      cell.appendChild(cellText);
+      // genera un botón con la información de la tarea:
+        let btn = document.createElement('button');
+        btn.className="btn btn-agenda btn-primary";
+        if(i===0 && it ===0){
+          btn.id="mainbutton";
+        }
+        btn.innerHTML= "<b>"+materiaText+"</b><br/>"+tareaText;
+        btn.setAttribute("data-toggle", "modal");
+        btn.setAttribute("data-target","#seleccionaTarea");
+      // fin de botón
+//      let cellText = document.createTextNode(tareaText);
+      cell.appendChild(btn);
+      cell.className="text-center"
+      if(tareaText==="PAUSA ACTIVA"){
+        btn.className="btn btn-agenda btn-warning";
+        cell.className=cell.className + " warning";
+      }
       row.appendChild(cell);
     })
     tablaAgenda.appendChild(row);
   
 });
+
+
+function cambiaHorario(val){
+  document.querySelector("#mainbutton").innerHTML="<b>NUEVA TAREA 1</b><br/>Prueba tarea";
+}

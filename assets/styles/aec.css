@@ -82,6 +82,26 @@ button.btn-agenda:hover{
   box-shadow: 0px 0px 0px;
 }
 
+.panel-actividades{
+  border-radius: 8px;
+  border: solid 1px #cccccc;
+  background-color: var(--zwicon-white);
+  padding: 10px;
+}
+
+.btn-actividad{
+  margin:0px;
+  height: 54px;
+  border-radius: 4px;
+  border: solid 1px #eceeef;
+  background-color: var(--zwicon-white);
+}
+
+.act-h4{
+  color: #333e53 !important;
+}
+
+
 .margin-bottom{
   margin-bottom: 50px;
 }
@@ -99,4 +119,8 @@ button.btn-agenda:hover{
 .btn-agenda{
   width:100%;
   font-size: 0.4em;
+}
+
+hr.agenda{
+  border-top: 3px solid #b3337f;
 }

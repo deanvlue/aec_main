@@ -17,6 +17,6 @@ function getQueryParams(URL){
 
 const r = getQueryParams(nivelActual);
 
-document.querySelector("#nivel").textContent = r.nivel + " y la actividad es: " + r.actividad;
+//document.querySelector("#nivel").textContent = r.nivel + " y la actividad es: " + r.actividad;
 document.querySelector("#link-nivel").href="../niveles/"+r.nivel+"/index.html";
-document.querySelector("#img-link").src="/assets/images/btn/niveles/icono_"+r.nivel+"@2x.svg";
+document.getElementById("img-link").src="/assets/images/btn/niveles/icono_"+r.nivel+"@2x.svg";

@@ -15,22 +15,14 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162114925-1"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
-<script src="/aprende-en-casa/assets/scripts/vendor/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <script src="/aprende-en-casa/assets/scripts/plugins.js"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-162114925-1');
-</script>
-    <script type="text/javascript" src="/aprende-en-casa/assets/scripts/vendor/modernizr.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700&amp;subset=latin" media="all">	
-	<link href="/assets/styles/main.css"   rel="stylesheet" />
-  <link href="/assets/styles/aec.css" rel="stylesheet" />
-  <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+<script type="text/javascript" src="/aprende-en-casa/assets/scripts/vendor/modernizr.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700&amp;subset=latin" media="all">	
+<link href="/assets/styles/main.css"   rel="stylesheet" />
+<link href="/assets/styles/aec.css" rel="stylesheet" />
 </head>
+<script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
 <body>
 <!-- Es el submenú y estilos adicionales -->
 <div w3-include-html="https://www.aprendeencasa.mx/aprende-en-casa/header/header_gbmx.html"></div> 
@@ -80,6 +72,17 @@
               </a>
             </div>
           </div>
+          <div class="row">
+            <div>&nbsp;</div>
+            <div class="col-md-4">
+              <div class="center-block">
+                <a href="#" data-toggle="modal" data-target="#sonidoModal">
+                <img class="img-responsive" src="/assets/images/btn/sonido/audio.svg" />
+              </div>
+              </a>
+            </div>
+            <div class="col-md-span-8"></div>
+          </div>
       
       
           <div class="row">
@@ -90,15 +93,36 @@
               <p>Para ello, hemos preparado algunos materiales educativos que te servirán como apoyo durante estos días. Junto con tu familia y maestr@s te invitamos a revisar la plataforma Aprende en Casa.</p>
               <p style="font-size: 18px">¡Disfrútalos!</p>
             </div>
-            </div>
+          </div>
             <a class="btn btn-aec btn-primary" href="acceso.html" role="button">Aceptar</a>
             <div>&nbsp;</div> 
     </div> 
-    <script src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/pace.min.js"></script>
+  <!--modal sonido-->
+  <div class="modal fade" id="sonidoModal" tabIndex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content text-center">
+          <div class="modal-body ">
+              <p>Audiolibro Habi, de Guillermo Samperio</p>
+              <audio controls="controls" preload="auto">
+                <source src="audio-libros/Audiolibro Habi, de Guillermo Samperio .mp3"> <!--- audio mp3 -->
+              </audio>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!--modal sonido end-->
+
+    <!--<script src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/pace.min.js"></script>-->
     <script> w3IncludeHTML(); </script>
     <script src="/assets/scripts/videoPlayer.js"></script>
   </div> <!--row-->
 </div>
   <div class="margin-bottom">&nbsp;</div>
+
+
 </body>
 </html>

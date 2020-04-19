@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dth">
 <html xmlns="http://www.w3.org/1999/xhtml">
  <!-- Para que funcione el js como un include en html -->
 <script src="https://www.aprendeencasa.mx/gbmx/function/includehtml.js"></script>
@@ -78,11 +78,70 @@
           </div>
         </div>
       </div>
-      <div class="row space-16">&nbsp;</div>
+      <div class="row  ">&nbsp;</div>
     </div>
 
     <!--contenedor de agenda-->
-      
+      <div id="like_button_container"></div>
+      <div class="table-responsive">
+        <table class="table ">
+          <tr>
+            <th>Horario</th>
+            <th>Lunes <span id="monday-day"></span> </th>
+            <th>Martes <span id="tuesday-day"></span></th>
+            <th>Miércoles <span id="wednesday-day"></span></th>
+            <th>Jueves <span id="thursday-day"></span></th>
+            <th>Viernes <span id="friday-day"></span></th>
+          </tr>
+          <tbody>
+            <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            </tr>
+            <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            </tr>
+            <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            </tr>
+            <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            </tr>
+            <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+      </div>
     <!--contenedor de agenda-->
 
 
@@ -98,5 +157,15 @@
 <script src="/assets/scripts/semana.js"></script>
   <div>&nbsp;</div>
   <div>&nbsp;</div>
+
+  <!-- Load React. -->
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <!--<script src="/assets/scripts/like_button.js"></script>-->
+<div class="margin-bottom">&nbsp;</div>
 </body>
 </html>

@@ -83,7 +83,7 @@ button.btn-aec{
 }
 
 .btn-primary {
-    color: #FFF;
+    color: #FFF !important;
     background-color: rgba(179, 51, 127, 1.0) !important;
     border-color: rgba(179, 51, 127, 1.0) !important;
 }

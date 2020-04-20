@@ -1,4 +1,5 @@
 const nivelActual = location.search;
+let req;
 
 const niveles={
   "inicial":[ "lactantes", "maternales"],
@@ -38,15 +39,17 @@ function firstUpper(cadena){
 
 const r = getQueryParams(nivelActual);
 
+function openLink()
+
 //document.querySelector("#nivel").textContent = r.nivel + " y la actividad es: " + r.actividad;
 document.querySelector("#link-nivel").href="../niveles/"+r.nivel+"/index.html";
 document.getElementById("img-link").src="/assets/images/btn/niveles/icono_"+r.nivel+"@2x.svg";
 
 window.addEventListener('load',()=>{
   const nivelActual = location.search;
-  const r = getQueryParams(nivelActual);
+  req = getQueryParams(nivelActual);
   //console.log(r);
-  const currentLevel = niveles[r.nivel];
+  const currentLevel = niveles[req.nivel];
 
   const navbar = document.getElementById("navigation-pills");
 

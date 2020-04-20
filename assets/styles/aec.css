@@ -95,6 +95,27 @@ button.btn-agenda:hover{
   border-radius: 4px;
   border: solid 1px #eceeef;
   background-color: var(--zwicon-white);
+  padding: 2px;
+  margin-bottom: 15px;
+  width: 210px;
+  height: 54px;
+  text-align: left;
+}
+
+.btn-actividad:hover{
+    background-color: #006dd0;
+    color: #fff;
+}
+
+.img-actividad-icon{
+  display: inline;
+  width: 50px;
+}
+
+.btn-actividad-titulo{
+  display: inline;
+  font-size: 0.9em;
+  padding-inline: 5px;
 }
 
 .act-h4{
@@ -123,4 +144,18 @@ button.btn-agenda:hover{
 
 hr.agenda{
   border-top: 3px solid #b3337f;
+}
+
+.nav-pills>li>a{
+  text-decoration: none;
+  border-radius: 30px;
+ background-color: #e4e9f2;
+ color: #333e53;
+}
+.nav-pills>li.active>a{
+ background-color: #00b0ed ;
+}
+
+.contenido-externo{
+  width: 100%;
 }

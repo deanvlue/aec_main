@@ -14,6 +14,22 @@ const horarios = [
   "12:35 a 13:00",
 ]
 
+const tareasDisponibles = [
+  "Ver la clase por TV",
+  "Realizar actividades para la Carpeta de experiencias ",
+  "Realizar ejercicios de la ficha de repaso",
+  "Revisión de libro de texto",
+  "Ver un video",
+  "Jugar un videojuego",
+  "Realizar una lectura ",
+  "Escuchar un audiolibro",
+  "Participar en un reto",
+  "Realizar una activación física",
+  "Explorar una plataforma de reforzamiento del conocimiento ",
+  "Visitar un museo virtual ",
+  "Realizard Test Misión Paz Escolar",
+  "Ver una película de Cineclub familiar",
+]
 
 const agendaActividad = [
   [
@@ -167,7 +183,7 @@ function transformAgenda(a){
 }
 
 
-tablaAgenda = document.querySelector("#tablaAgenda");
+let tablaAgenda = document.querySelector("#tablaAgenda");
 
 horarios.forEach((h,i) =>{
   let row = document.createElement('tr');
@@ -213,6 +229,19 @@ horarios.forEach((h,i) =>{
   
 });
 
+
+  tareasDisponibles.forEach((tarea, index)=>{
+    let btnTask = document.createElement('button');
+    btnTask.className="btn btn-primary btn-tarea";
+    btnTask.setAttribute('data-dismiss', 'modal')
+    btnTask.innerText=tarea;
+    if(index%2 !== 0){
+      modalTareasDisponibles = document.getElementById("modal-tareas-disponibles");
+    }else{
+      modalTareasDisponibles = document.getElementById("modal-tareas-disponibles-p");
+    }
+    modalTareasDisponibles.appendChild(btnTask);
+  })
 
 function cambiaHorario(val){
   if(val===1){

@@ -159,3 +159,15 @@ hr.agenda{
 .contenido-externo{
   width: 100%;
 }
+.btn-tarea{
+  white-space:normal !important;
+  word-wrap: break-word; 
+  max-width:150px;
+
+  }
+.btn-tarea:hover{
+  white-space:normal !important;
+  word-wrap: break-word; 
+  max-width:150px;
+  background-color: rgba(179, 51, 127, 0.6) !important;
+  }

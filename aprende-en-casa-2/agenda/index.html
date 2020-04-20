@@ -112,30 +112,27 @@
 </div> <!--container-->
 
 
-<script src="https://framework-gb.cdn.gob.mx//assets/scripts/vendor/pace.min.js"></script>
-<script> w3IncludeHTML(); </script>
-<script src="/assets/scripts/semana.js"></script>
-<script src="/assets/scripts/agenda.js"></script>
-  <div>&nbsp;</div>
-  <div>&nbsp;</div>
 
-<div class="margin-bottom">&nbsp;</div>
 
 
 <!-- seleccionar tarea-->
 <div class="modal fade" id="seleccionaTarea">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
           Estas son las tareas seleccionables
         </div>
         <div class="modal-body">
-         <button class="btn btn-primary" onclick="cambiaHorario(1)">
+          <div class="row">
+            <div class="col-sm-6" id="modal-tareas-disponibles"></div>
+            <div class="col-sm-6" id="modal-tareas-disponibles-p"></div>
+          </div>
+        <!-- <button class="btn btn-primary" onclick="cambiaHorario(1)">
            Tarea Nueva
          </button> 
          <button class="btn btn-primary" onclick="cambiaHorario(2)">
            Tarea Nueva 2
-         </button> 
+         </button> -->
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
@@ -149,5 +146,12 @@
 <!--fin seleccionar tarea-->
 
 
+  <script src="https://framework-gb.cdn.gob.mx//assets/scripts/vendor/pace.min.js"></script>
+  <script> w3IncludeHTML(); </script>
+  <script src="/assets/scripts/semana.js"></script>
+  <script src="/assets/scripts/agenda.js"></script>
+  <div>&nbsp;</div>
+  <div>&nbsp;</div>
+  <div class="margin-bottom">&nbsp;</div>
 </body>
 </html>

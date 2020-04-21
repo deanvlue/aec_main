@@ -73,7 +73,7 @@ horarios.forEach((h,i) =>{
         let btnName = "B-"+i+"-"+it;
         btn.id=btnName;
         //btn.innerHTML= "<b>"+materiaText+"</b><br/>"+tareaText;
-        btn.innerHTML= "<b>"+tareaText+"</b>";
+        btn.innerHTML= tareaText;
         btn.setAttribute("data-toggle", "modal");
         btn.setAttribute("data-target","#seleccionaTarea");
         btn.setAttribute("onclick","capturaEvento(this);");

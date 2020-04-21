@@ -142,6 +142,9 @@ button.btn-agenda:hover{
   width:100%;
   font-size: 0.8em !important;
   padding: 5px 5px !important;
+  word-wrap: break-word;
+  white-space: normal;
+  min-height: 50px !important;
 }
 
 

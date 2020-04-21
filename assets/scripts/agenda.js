@@ -57,16 +57,13 @@ horarios.forEach((h,i) =>{
       // genera un botón con la información de la tarea:
         let btn = document.createElement('button');
         btn.className="btn btn-agenda btn-primary";
-        if(i===0 && it ===0){
-          btn.id="mainbutton";
-        }else{
-          let btnName = "B-"+i+"-"+it;
-          btn.id=btnName;
-        }
+        let btnName = "B-"+i+"-"+it;
+        btn.id=btnName;
         //btn.innerHTML= "<b>"+materiaText+"</b><br/>"+tareaText;
         btn.innerHTML= "<b>"+tareaText+"</b>";
         btn.setAttribute("data-toggle", "modal");
         btn.setAttribute("data-target","#seleccionaTarea");
+        btn.setAttribute("onclick","capturaEvento(this);");
       // fin de botón
 //      let cellText = document.createTextNode(tareaText);
       cell.appendChild(btn);
@@ -79,27 +76,43 @@ horarios.forEach((h,i) =>{
       row.appendChild(cell);
     })
     tablaAgenda.appendChild(row);
-  
 });
 
+let idButtonHorario = "";
 
-  tareasDisponibles.forEach((tarea, index)=>{
-    let btnTask = document.createElement('button');
-    btnTask.className="btn btn-primary btn-tarea";
-    btnTask.setAttribute('data-dismiss', 'modal')
-    btnTask.innerText=tarea;
-    if(index%2 !== 0){
-      modalTareasDisponibles = document.getElementById("modal-tareas-disponibles");
-    }else{
-      modalTareasDisponibles = document.getElementById("modal-tareas-disponibles-p");
-    }
-    modalTareasDisponibles.appendChild(btnTask);
-  })
+let tareasButtons = document.querySelectorAll(".modal-body button");
 
-function cambiaHorario(val){
-  if(val===1){
-    document.querySelector("#mainbutton").innerHTML="<b>NUEVA TAREA 1</b><br/>Prueba tarea";
+tareasButtons.forEach((b,i)=>{
+  if(tareasDisponibles[i] !== undefined || tareasDisponibles !== ""){
+    b.innerHTML = tareasDisponibles[i];
+    b.setAttribute("onclick","seleccionaTarea(this);")
   }else{
-    document.querySelector("#mainbutton").innerHTML="<b>OTRA TAREA 2</b><br/>Prueba tarea DOS";
+    b.classList = "hidden";
   }
+});
+
+function seleccionaTarea(e){
+  if(idButtonHorario===""){
+    return;
+  }
+  // cambia estatus del botón
+  document.getElementById(idButtonHorario).innerHTML = e.innerHTML;
+  // cambia estatus de agenda actividdad
+  //console.log(idButtonHorario);
+  cambiaEstatusAgenda(idButtonHorario, e.innerHTML);
+  console.log(agendaActividad);
+  //guarda estatus en el storage local
+}
+
+function cambiaEstatusAgenda(id, newValue){
+  if(id!==""){
+    const tareasLocation = id.split("-");
+    //console.log(tareasLocation[1]);
+    agendaActividad[tareasLocation[1]][tareasLocation[2]].tarea= newValue;
+  }
+  return
+}
+
+function capturaEvento(e){
+  idButtonHorario=e.id;
 }

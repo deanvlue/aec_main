@@ -1,4 +1,4 @@
-const agendaActividad = [
+let agendaActividad = [
   [
     {
       "tarea": "Lunes Algebra"
@@ -104,7 +104,7 @@ const agendaActividad = [
 
 const tareasDisponibles = [
   "Ver la clase por TV",
-  "Realizar actividades para la Carpeta de experiencias ",
+  "Actividad para Carpeta de experiencias ",
   "Realizar ejercicios de la ficha de repaso",
   "Revisión de libro de texto",
   "Ver un video",
@@ -113,7 +113,7 @@ const tareasDisponibles = [
   "Escuchar un audiolibro",
   "Participar en un reto",
   "Realizar una activación física",
-  "Explorar una plataforma de reforzamiento del conocimiento ",
+  "Reforzamiento del conocimiento ",
   "Visitar un museo virtual ",
   "Realizard Test Misión Paz Escolar",
   "Ver una película de Cineclub familiar",

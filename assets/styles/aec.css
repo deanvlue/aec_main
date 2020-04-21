@@ -124,7 +124,7 @@ button.btn-agenda:hover{
 
 
 .margin-bottom{
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 
@@ -143,6 +143,7 @@ button.btn-agenda:hover{
   font-size: 0.8em !important;
   padding: 5px 5px !important;
 }
+
 
 hr.agenda{
   border-top: 3px solid #b3337f;
@@ -172,13 +173,12 @@ hr.agenda{
 }
 .btn-tarea{
   white-space:normal !important;
-  word-wrap: break-word; 
-  max-width:150px;
+  font-size: 0.8em !important;
+  padding: 5px 5px !important;
+  width: 100%;
+}
 
-  }
 .btn-tarea:hover{
   white-space:normal !important;
-  word-wrap: break-word; 
-  max-width:150px;
   background-color: rgba(179, 51, 127, 0.6) !important;
   }

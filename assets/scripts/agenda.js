@@ -14,156 +14,9 @@ const horarios = [
   "12:35 a 13:00",
 ]
 
-const tareasDisponibles = [
-  "Ver la clase por TV",
-  "Realizar actividades para la Carpeta de experiencias ",
-  "Realizar ejercicios de la ficha de repaso",
-  "Revisión de libro de texto",
-  "Ver un video",
-  "Jugar un videojuego",
-  "Realizar una lectura ",
-  "Escuchar un audiolibro",
-  "Participar en un reto",
-  "Realizar una activación física",
-  "Explorar una plataforma de reforzamiento del conocimiento ",
-  "Visitar un museo virtual ",
-  "Realizard Test Misión Paz Escolar",
-  "Ver una película de Cineclub familiar",
-]
-
-const agendaActividad = [
-  [
-    {
-      materia: materias[0],
-      tarea: "Lunes Algebra"
-    },
-    {
-      materia: "PAUSA",
-      tarea:"PAUSA ACTIVA"
-    },
-    {
-      materia: materias[1],
-      tarea: "Español Lunes"
-    },
-    {
-      materia: materias[2],
-      tarea: "Salud"
-    },
-    {
-      materia: "PAUSA",
-      tarea:"PAUSA ACTIVA"
-    },
-    {
-      materia: materias[3],
-      tarea: "Civismo"
-    },
-  ],
-  [
-    {
-      materia: materias[0],
-      tarea: "Martes Algebra"
-    },
-    {
-      materia: "PAUSA",
-      tarea:"PAUSA ACTIVA"
-    },
-    {
-      materia: materias[1],
-      tarea: "Español Martes"
-    },
-    {
-      materia: materias[2],
-      tarea: "Salud"
-    },
-    {
-      materia: "PAUSA",
-      tarea:"PAUSA ACTIVA"
-    },
-    {
-      materia: materias[3],
-      tarea: "Civismo"
-    }
-  ],
-  [
-    {
-      materia: materias[0],
-      tarea: "Algebra"
-    },
-    {
-      materia: "PAUSA",
-      tarea:"PAUSA ACTIVA"
-    },
-    {
-      materia: materias[1],
-      tarea: "Español Miércoles"
-    },
-    {
-      materia: materias[2],
-      tarea: "Salud"
-    },
-    {
-      materia: "PAUSA",
-      tarea:"PAUSA ACTIVA"
-    },
-    {
-      materia: materias[3],
-      tarea: "Civismo"
-    }
-  ],
-  [
-    {
-      materia: materias[0],
-      tarea: "Algebra"
-    },
-    {
-      materia: "PAUSA",
-      tarea:"PAUSA ACTIVA"
-    },
-    {
-      materia: "",
-      tarea: ""
-    },
-    {
-      materia: materias[2],
-      tarea: "Salud"
-    },
-    {
-      materia: "PAUSA",
-      tarea:"PAUSA ACTIVA"
-    },
-    {
-      materia: materias[3],
-      tarea: "Civismo"
-    }
-  ],
-  [ 
-    {
-      materia: materias[0],
-      tarea: "Algebra"
-    },
-    {
-      materia: "PAUSA",
-      tarea:"PAUSA ACTIVA"
-    },
-    {
-      materia: materias[1],
-      tarea: "Español"
-    },
-    {
-      materia: materias[2],
-      tarea: "Salud"
-    },
-    {
-      materia: "PAUSA",
-      tarea:"PAUSA ACTIVA"
-    },
-    {
-      materia: "",
-      tarea: ""
-    }
-  ]
-];
-
+// variables de agendaActividad en ./actividades/actividades.js
+// variables de  tareasDisponibles en ./actividades/actividades.js
+ 
 
 function transformAgenda(a){
   let agendaHora = [];
@@ -194,14 +47,12 @@ horarios.forEach((h,i) =>{
   row.appendChild(horario);
 
     let tareaText="" ;
-    let materiaText="";
     agendaActividad.forEach((tslot,it)=>{
       let cell = document.createElement('td')
-        if(tslot[i].tarea === undefined){
-        tareaText = " Matemáticas";
+        if(tslot[i].tarea === undefined || tslot[i].tarea===""){
+        tareaText = '&nbsp';
         }else{
           tareaText = tslot[i].tarea;
-          materiaText= tslot[i].materia;
         }
       // genera un botón con la información de la tarea:
         let btn = document.createElement('button');
@@ -212,7 +63,8 @@ horarios.forEach((h,i) =>{
           let btnName = "B-"+i+"-"+it;
           btn.id=btnName;
         }
-        btn.innerHTML= "<b>"+materiaText+"</b><br/>"+tareaText;
+        //btn.innerHTML= "<b>"+materiaText+"</b><br/>"+tareaText;
+        btn.innerHTML= "<b>"+tareaText+"</b>";
         btn.setAttribute("data-toggle", "modal");
         btn.setAttribute("data-target","#seleccionaTarea");
       // fin de botón
@@ -220,8 +72,9 @@ horarios.forEach((h,i) =>{
       cell.appendChild(btn);
       cell.className="text-center"
       if(tareaText==="PAUSA ACTIVA"){
-        btn.className="btn btn-agenda btn-warning";
+        btn.className="btn btn-warning btn-agenda";
         cell.className=cell.className + " warning";
+        btn.disabled="disabled";
       }
       row.appendChild(cell);
     })

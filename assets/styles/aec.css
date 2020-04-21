@@ -127,23 +127,34 @@ button.btn-agenda:hover{
   margin-bottom: 50px;
 }
 
+
 .btn-primary {
     color: #FFF !important;
     background-color: rgba(179, 51, 127, 1.0) !important;
     border-color: rgba(179, 51, 127, 1.0) !important;
 }
 
-.btn-agenda:hover{
+.btn-agenda.btn-primary:hover{
   background-color: rgb(184, 96, 149) !important;
 }
 
 .btn-agenda{
   width:100%;
-  font-size: 0.4em;
+  font-size: 0.8em !important;
+  padding: 5px 5px !important;
 }
 
 hr.agenda{
   border-top: 3px solid #b3337f;
+}
+
+.btn-agenda.btn-warning{
+  color: #333e53;
+
+}
+
+.btn-agenda.btn-warning:hover{
+  background-color: #f0ad4e !important;
 }
 
 .nav-pills>li>a{

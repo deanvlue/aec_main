@@ -18,6 +18,19 @@ const horarios = [
 // variables de  tareasDisponibles en ./actividades/actividades.js
  
 
+if (typeof(Storage) !== "undefined") {
+  // Code for localStorage/sessionStorage.
+  //console.log("Si hay pa guardar");
+  let agenda = localStorage.getItem('agendaActividad');
+  if(agenda === null){
+    localStorage.setItem('agendaActividad', JSON.stringify(agendaActividad));
+  }else{
+    agendaActividad = JSON.parse(agenda);
+  }
+} else {
+  // Sorry! No Web Storage support..
+}
+
 function transformAgenda(a){
   let agendaHora = [];
   let agenda = [];
@@ -70,6 +83,7 @@ horarios.forEach((h,i) =>{
       cell.className="text-center"
       if(tareaText==="PAUSA ACTIVA"){
         btn.className="btn btn-warning btn-agenda";
+        btn.id="PA";
         cell.className=cell.className + " warning";
         btn.disabled="disabled";
       }
@@ -98,9 +112,7 @@ function seleccionaTarea(e){
   // cambia estatus del botón
   document.getElementById(idButtonHorario).innerHTML = e.innerHTML;
   // cambia estatus de agenda actividdad
-  //console.log(idButtonHorario);
   cambiaEstatusAgenda(idButtonHorario, e.innerHTML);
-  console.log(agendaActividad);
   //guarda estatus en el storage local
 }
 
@@ -108,7 +120,8 @@ function cambiaEstatusAgenda(id, newValue){
   if(id!==""){
     const tareasLocation = id.split("-");
     //console.log(tareasLocation[1]);
-    agendaActividad[tareasLocation[1]][tareasLocation[2]].tarea= newValue;
+    agendaActividad[tareasLocation[2]][tareasLocation[1]].tarea= newValue;
+    localStorage.setItem('agendaActividad', JSON.stringify(agendaActividad));
   }
   return
 }

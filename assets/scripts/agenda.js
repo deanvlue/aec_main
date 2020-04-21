@@ -82,9 +82,9 @@ horarios.forEach((h,i) =>{
       cell.appendChild(btn);
       cell.className="text-center"
       if(tareaText==="PAUSA ACTIVA"){
-        btn.className="btn btn-warning btn-agenda";
+        btn.className="btn btn-disabled ";
         btn.id="PA";
-        cell.className=cell.className + " warning";
+        cell.className=cell.className + " disabled";
         btn.disabled="disabled";
       }
       row.appendChild(cell);

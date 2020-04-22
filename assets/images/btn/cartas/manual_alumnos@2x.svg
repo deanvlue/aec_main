@@ -1,41 +1,139 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="240px" height="57px" viewBox="0 0 240 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>carta_padres copy@2x</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Introducción-" transform="translate(-340.000000, -790.000000)">
-            <g id="Group-2" transform="translate(165.000000, 217.000000)">
-                <g id="carta_padres-copy" transform="translate(175.000000, 569.000000)">
-                    <rect id="Rectangle" fill="#00A2AA" x="0" y="13" width="240" height="48" rx="24"></rect>
-                    <circle id="Oval" fill="#037D83" cx="24" cy="37" r="24"></circle>
-                    <g id="manual" transform="translate(0.000000, 4.000000)">
-                        <path d="M46.656,44.1724218 L3.456,44.1724218 L3.456,13.0684218 L0,13.0684218 L0,47.6284218 L21.029625,47.6284218 C21.7286718,47.611125 22.3720313,48.0072657 22.6715625,48.6392343 C23.0786718,49.5947813 24.0169218,50.2153593 25.056,50.2153593 C26.0950782,50.2153593 27.0333282,49.5947813 27.4404375,48.6392343 C27.7399687,48.0072657 28.3833282,47.611125 29.082375,47.6284218 L50.112,47.6284218 L50.112,13.0684218 L46.656,13.0684218 L46.656,44.1724218 Z" id="Path" fill="#006DD0"></path>
-                        <polygon id="Path" fill="#EFEADD" fill-rule="nonzero" points="3.456 9.61242185 46.656 9.61242185 46.656 44.1724218 3.456 44.1724218"></polygon>
-                        <polygon id="Path" fill="#333E53" fill-rule="nonzero" points="6.912 18.2524218 20.736 18.2524218 20.736 28.6204218 6.912 28.6204218"></polygon>
-                        <path d="M37.152,12.2044218 C37.1498907,17.4390468 33.7820625,22.07925 28.805625,23.7043125 L25.056,30.40875 L21.306375,23.7043125 C15.4216407,21.7852032 11.9348437,15.73425 13.2262032,9.68076565 C14.5171407,3.62770315 20.1694218,-0.474609348 26.3245782,0.174656304 C32.4801563,0.823921848 37.152,6.01467185 37.152,12.2044218 Z" id="Path" fill="#FFB233"></path>
-                        <polygon id="Path" fill="#333E53" fill-rule="nonzero" points="28.512 32.9404218 43.2 32.9404218 43.2 39.8524218 28.512 39.8524218"></polygon>
-                        <polygon id="Path" fill="#FFFFFF" points="23.328 11.3404218 26.784 11.3404218 26.784 19.9804218 23.328 19.9804218"></polygon>
-                        <path d="M26.784,7.02042185 C26.784,7.97470315 26.0102813,8.74842185 25.056,8.74842185 C24.1017187,8.74842185 23.328,7.97470315 23.328,7.02042185 C23.328,6.0657187 24.1017187,5.29242185 25.056,5.29242185 C26.0102813,5.29242185 26.784,6.0657187 26.784,7.02042185 Z" id="Path" fill="#FFFFFF"></path>
-                        <path d="M3.456,22.5724218 L3.456,44.1724218 L23.328,44.1724218 C12.3440625,44.1724218 3.456,34.5110625 3.456,22.5724218 Z" id="Path" fill="#D7D3C7" fill-rule="nonzero"></path>
-                        <g id="Group" transform="translate(6.048000, 18.252000)" fill="#333E53" fill-rule="nonzero">
-                            <polygon id="Path" points="0 12.9604218 1.728 12.9604218 1.728 14.6884218 0 14.6884218"></polygon>
-                            <polygon id="Path" points="3.456 12.9604218 15.552 12.9604218 15.552 14.6884218 3.456 14.6884218"></polygon>
-                            <polygon id="Path" points="0 16.4164218 1.728 16.4164218 1.728 18.1444218 0 18.1444218"></polygon>
-                            <polygon id="Path" points="3.456 16.4164218 15.552 16.4164218 15.552 18.1444218 3.456 18.1444218"></polygon>
-                            <polygon id="Path" points="0 19.8724218 1.728 19.8724218 1.728 21.6004218 0 21.6004218"></polygon>
-                            <polygon id="Path" points="3.456 19.8724218 15.552 19.8724218 15.552 21.6004218 3.456 21.6004218"></polygon>
-                            <polygon id="Path" points="25.92 10.3684218 37.152 10.3684218 37.152 12.0964218 25.92 12.0964218"></polygon>
-                            <polygon id="Path" points="25.92 6.91242185 37.152 6.91242185 37.152 8.64042185 25.92 8.64042185"></polygon>
-                            <polygon id="Path" points="30.24 3.45642185 37.152 3.45642185 37.152 5.18442185 30.24 5.18442185"></polygon>
-                            <polygon id="Path" points="31.968 0.000421848 37.152 0.000421848 37.152 1.72842185 31.968 1.72842185"></polygon>
-                        </g>
-                    </g>
-                    <text id="Manual-para-alumnos" font-family="Montserrat-Medium, Montserrat" font-size="16" font-weight="400" fill="#FFFFFF">
-                        <tspan x="55" y="43">Manual para alumnos </tspan>
-                    </text>
-                </g>
-            </g>
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="240px"
+   height="61px"
+   viewBox="0 0 240 61"
+   version="1.1"
+   id="svg872"
+   sodipodi:docname="manual_alumnos@2x.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata878">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>carta_padres@2x</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs876" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1894"
+     inkscape:window-height="1032"
+     id="namedview874"
+     showgrid="false"
+     showborder="true"
+     inkscape:zoom="4.6333333"
+     inkscape:cx="76.460242"
+     inkscape:cy="30.5"
+     inkscape:window-x="9"
+     inkscape:window-y="31"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer2" />
+  <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+  <title
+     id="title834">carta_padres@2x</title>
+  <desc
+     id="desc836">Created with Sketch.</desc>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="opacity:1">
+    <g
+       style="fill:none;fill-rule:evenodd"
+       id="g1047">
+      <rect
+         style="fill:#00a2aa"
+         x="0"
+         width="240"
+         height="48"
+         y="13"
+         rx="24"
+         id="rect1021" />
+      <circle
+         style="fill:#037d83"
+         cx="24"
+         cy="37"
+         r="24"
+         id="circle1023" />
+      <path
+         style="fill:#006dd0"
+         inkscape:connector-curvature="0"
+         d="M 46.656,44.172 H 3.456 V 13.068 H 0 v 34.56 h 21.03 c 0.699,-0.017 1.342,0.38 1.642,1.011 0.407,0.956 1.345,1.576 2.384,1.576 1.04,0 1.977,-0.62 2.384,-1.576 0.3,-0.632 0.943,-1.028 1.642,-1.01 h 21.03 v -34.56 h -3.456 z"
+         id="path1025" />
+      <path
+         style="fill:#efeadd;fill-rule:nonzero"
+         inkscape:connector-curvature="0"
+         d="m 3.456,9.612 h 43.2 v 34.56 h -43.2 z"
+         id="path1027" />
+      <path
+         style="fill:#333e53;fill-rule:nonzero"
+         inkscape:connector-curvature="0"
+         d="M 6.912,18.252 H 20.736 V 28.62 H 6.912 Z"
+         id="path1029" />
+      <path
+         style="fill:#ffb233"
+         inkscape:connector-curvature="0"
+         d="m 37.152,12.204 c -0.002,5.235 -3.37,9.875 -8.346,11.5 l -3.75,6.705 -3.75,-6.705 c -5.884,-1.919 -9.371,-7.97 -8.08,-14.023 1.291,-6.053 6.944,-10.156 13.099,-9.506 6.155,0.649 10.827,5.84 10.827,12.03 z"
+         id="path1031" />
+      <path
+         style="fill:#333e53;fill-rule:nonzero"
+         inkscape:connector-curvature="0"
+         d="M 28.512,32.94 H 43.2 v 6.912 H 28.512 Z"
+         id="path1033" />
+      <path
+         style="fill:#ffffff"
+         inkscape:connector-curvature="0"
+         d="m 23.328,11.34 h 3.456 v 8.64 h -3.456 z m 3.456,-4.32 c 0,0.955 -0.774,1.728 -1.728,1.728 -0.954,0 -1.728,-0.773 -1.728,-1.728 0,-0.954 0.774,-1.728 1.728,-1.728 0.954,0 1.728,0.774 1.728,1.728 z"
+         id="path1035" />
+      <path
+         style="fill:#d7d3c7;fill-rule:nonzero"
+         inkscape:connector-curvature="0"
+         d="m 3.456,22.572 v 21.6 h 19.872 c -10.984,0 -19.872,-9.66 -19.872,-21.6 z"
+         id="path1037" />
+      <g
+         style="fill:#333e53;fill-rule:nonzero"
+         id="g1041">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 0,12.96 h 1.728 v 1.728 H 0 Z m 3.456,0 h 12.096 v 1.728 H 3.456 Z M 0,16.416 h 1.728 v 1.728 H 0 Z m 3.456,0 h 12.096 v 1.728 H 3.456 Z M 0,19.872 H 1.728 V 21.6 H 0 Z m 3.456,0 H 15.552 V 21.6 H 3.456 Z M 25.92,10.368 h 11.232 v 1.728 H 25.92 Z m 0,-3.456 H 37.152 V 8.64 H 25.92 Z m 4.32,-3.456 h 6.912 V 5.184 H 30.24 Z M 31.968,0 h 5.184 v 1.728 h -5.184 z"
+           transform="translate(6.048,18.252)"
+           id="path1039" />
+      </g>
+      <text
+         style="font-weight:400;font-size:16px;font-family:Montserrat-Medium, Montserrat;fill:#ffffff"
+         font-size="16"
+         font-weight="400"
+         id="text1045">
+        <tspan
+           x="55"
+           y="43"
+           id="tspan1043">Manual para alumnos</tspan>
+      </text>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 1" />
 </svg>

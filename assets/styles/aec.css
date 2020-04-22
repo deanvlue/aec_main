@@ -53,8 +53,10 @@ h3{
  padding:0px 5em;
 }
 
-button.btn-aec{
+.btn-aec{
   background-color: rgba(179, 51, 127, 1.0) !important;
+  color: #fff !important;
+
 }
 button.btn-agenda:hover{
   background-color: rgb(184, 96, 149) !important;

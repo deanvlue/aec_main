@@ -26,15 +26,36 @@
   gtag('config', 'UA-162114925-1');
 </script>
 
-    <script type="text/javascript" src="/assets/scripts/vendor/modernizr.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700&amp;subset=latin" media="all">	
-	<link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
-	<link href="/assets/styles/aec.css" rel="stylesheet" />
+	<link  href="/assets/styles/aec.css"  rel="stylesheet" type="text/css" />
   <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+  <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
 </head>
 <body>
 <!-- Es el submenú y estilos adicionales -->
-<div w3-include-html="https://www.aprendeencasa.mx/aprende-en-casa/header/header_gbmx.html"></div> 
+<!--div w3-include-html="https://www.aprendeencasa.mx/aprende-en-casa/header/header_gbmx.html"></div--> 
+<!--Inicia Submenú-->
+<nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+						<!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces"-->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces" aria-expanded="false">
+							<span class="sr-only">Interruptor de Navegación</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+             <a class="navbar-brand logo" href="/" ></a>
+        </div>
+        <div class="collapse navbar-collapse" id="subenlaces">
+        <!--div id="subenlaces"-->
+					<ul class="nav navbar-nav navbar-right">       
+          </ul> 
+      </div>  
+</div>
+</nav>    
+<br /> 
+<div>&nbsp;</div>
 <div>&nbsp;</div>
 <div class="container">
   <!-- barra de navegación-->
@@ -57,7 +78,7 @@
   <!-- barra de navegación-->
   <div class="row">
     <div>&nbsp;</div>
-    <h3 class="text-center"> Bienvenid@ ¡Queremos conocerte!</h3>
+    <h3 class="text-center"> Bienvenido ¡Queremos conocerte!</h3>
   </div>
 
   <div class="row">
@@ -68,19 +89,19 @@
               <a href="niveles/index.html">
                 <img class="img-responsive" src="/assets/images/btn/acceso/Alumnos@2x.svg" />
               </a>
-              <h4 class="text-center">Alumn@s</h4>
+              <h4 class="text-center">Alumnos</h4>
             </div>
             <div class="col-sm-4">
-              <a href="niveles/index.html">
+              <!--a href="niveles/index.html"-->
                 <img class="img-responsive" src="/assets/images/btn/acceso/Padres@2x.svg" />
-              </a>
+              <!--/a-->
               <h4 class="text-center">Padres de familia</h4>
             </div>
             <div class="col-sm-4">
-              <a href="niveles/index.html">
+              <!--a href="niveles/index.html"-->
                 <img class="img-responsive" src="/assets/images/btn/acceso/Profesores@2x.svg" />
-              </a>
-              <h4 class="text-center">Maestr@s</h4>
+              <!--/a-->
+              <h4 class="text-center">Maestros</h4>
             </div>
           </div>
       
@@ -90,8 +111,7 @@
 </div> <!--container-->
 
 
-<script src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/pace.min.js"></script>
-<script> w3IncludeHTML(); </script>
   <div class="margin-bottom">&nbsp;</div>
+<script> w3IncludeHTML(); </script>
 </body>
 </html>

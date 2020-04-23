@@ -218,3 +218,7 @@ td.disabled{
   white-space:normal !important;
   background-color: rgba(179, 51, 127, 0.6) !important;
   }
+
+.menu-middle{
+  margin-top: 30px;
+}

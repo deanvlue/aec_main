@@ -129,3 +129,13 @@ function cambiaEstatusAgenda(id, newValue){
 function capturaEvento(e){
   idButtonHorario=e.id;
 }
+
+// temporal cambia título
+function cambiaTitulo(){
+  let t = document.getElementById("tituloAgenda");
+  if(t.innerText ==="Te invitamos a que diseñes tu agenda de actividades en casa:"){
+    t.innerText = "Ejemplo de Agenda de actividades en casa";
+  }else{
+    t.innerText = "Te invitamos a que diseñes tu agenda de actividades en casa:";
+  }
+}

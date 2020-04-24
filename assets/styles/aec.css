@@ -199,9 +199,16 @@ td.disabled{
   border-radius: 30px;
  background-color: #e4e9f2;
  color: #333e53;
+ margin-right: 15px;
 }
-.nav-pills>li.active>a{
- background-color: #00b0ed ;
+
+.nav-pills>li{
+  margin-right: 0.5em;
+}
+
+.nav-pills>li>a.active{
+ background-color: #006dd0;
+color: #fff;
 }
 
 .contenido-externo{
@@ -262,10 +269,5 @@ td.disabled{
 
 .btn-actividad.active{
   background-color: #006dd0;
-  color: #fff;
-}
-
-.nav-pills>li>a.active{
-  background-color:#006dd0;
   color: #fff;
 }

@@ -102,7 +102,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-12">
-                <button id="fichas" class="btn btn-actividad" onclick="filterActivities('fichas')" > 
+                <button id="fichas" class="btn btn-actividad" onclick="filterActivities(this, 'fichas')" > 
                       <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-fichas.svg" alt="">
                       <div class="btn-actividad-titulo">Fichas de repaso</div>  
                 </button>
@@ -110,7 +110,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-12">
-                <button id="tv" class="btn btn-actividad" onclick="filterActivities('tv')"> 
+                <button id="tv" class="btn btn-actividad" onclick="filterActivities(this,'tv')"> 
                       <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-tv.svg" alt="">
                       <div class="btn-actividad-titulo">Televisión</div>  
                 </button>
@@ -118,7 +118,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad"> 
+                <button class="btn btn-actividad" onclick="filterActivities(this,'ludicas')"> 
                       <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-l-dicas.svg" alt="">
                       <div class="btn-actividad-titulo">A. Lúdicas</div>  
                 </button>

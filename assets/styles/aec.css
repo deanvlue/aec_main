@@ -259,3 +259,13 @@ td.disabled{
 .show{
   display: block;
 }
+
+.btn-actividad.active{
+  background-color: #006dd0;
+  color: #fff;
+}
+
+.nav-pills>li>a.active{
+  background-color:#006dd0;
+  color: #fff;
+}

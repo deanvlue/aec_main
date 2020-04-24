@@ -45,6 +45,8 @@ const r = getQueryParams(nivelActual);
 document.querySelector("#link-nivel").href="../niveles/"+r.nivel+"/index.html";
 document.getElementById("img-link").src="/assets/images/btn/niveles/icono_"+r.nivel+"@2x.svg";
 
+
+/******* ON LOAD ****** */
 window.addEventListener('load',()=>{
   const nivelActual = location.search;
   req = getQueryParams(nivelActual);
@@ -53,6 +55,7 @@ window.addEventListener('load',()=>{
 
   cargaActividades(links);
 
+  filterActivities(null,"all");
 
 });
 //  genera los botoones pills de grados
@@ -69,7 +72,8 @@ function generaBotonesGrados(req){
     btnNav.role="presentation";
     linkNav.href="#";
     linkNav.id = l;
-    linkNav.setAttribute('onclick',`filterActivities('${l}')`);
+    linkNav.classList.add("grado");
+    linkNav.setAttribute('onclick',`filterActivities(this,'${l}')`);
     linkNav.innerText = firstUpper(l);
     btnNav.appendChild(linkNav)
     navbar.appendChild(btnNav);
@@ -92,16 +96,12 @@ function cargaActividades(links){
       actividades.forEach(actividad=>{
         const links = Object.values(_links[nivel][grado][actividad])
         links.forEach(l=>{
-          console.log(`${nivel}-${grado}-${actividad}---${l.link}`);
-          contenedor.appendChild(createCard(l,actividad, grado))
-        })
-      })
-    })
-  })
-
-
-
-
+          //console.log(`${nivel}-${grado}-${actividad}---${l.link}`);
+          contenedor.appendChild(createCard(l,actividad, grado));
+        });
+      });
+    });
+  });
 }
 
 // genera las tarjetas para cada link.
@@ -140,4 +140,38 @@ function createCard(link, actividad, grado){
 
     gridItem.appendChild(panel);
   return gridItem;
-}  
+} 
+
+
+// filterActivities filtra las actividades por el boton selecionado
+function filterActivities(e, cName){
+  //if(cName === "all") cName = "";
+  if(e.classList.contains("grado")){
+    let gradoButtons = document.getElementsByClassName("grado");
+    for(let i = 0; i < gradoButtons.length; i++){
+      gradoButtons[i].classList.remove('active')
+    }
+    e.classList.add('active');
+  }else{
+
+    let activityButtons = document.getElementsByClassName("btn-actividad");
+    for(let i = 0; i < activityButtons.length; i++){
+      activityButtons[i].classList.remove('active')
+    }
+    e.classList.add('active');
+  }
+
+  let items = document.getElementsByClassName("grid-item");
+
+  for(let i=0; i < items.length; i++){
+    items[i].classList.remove('show');
+    if(items[i].classList.contains(cName)){
+      items[i].classList.toggle('show');
+    }
+  }
+
+  /*for(let i; i < items.length; i++){
+    items[i].classList.toggle('show');
+  }*/
+
+}

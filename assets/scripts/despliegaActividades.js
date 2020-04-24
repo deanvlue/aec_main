@@ -124,7 +124,7 @@ function createCard(link, actividad, grado){
       caption.className="caption";
   
   //cabecero y boton de link
-  let header = document.createElement('h3');
+  let header = document.createElement('p');
     header.innerText = link.name;
   let anchor = document.createElement('a');
         anchor.className="btn btn-primary"

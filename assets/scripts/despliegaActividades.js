@@ -55,7 +55,7 @@ window.addEventListener('load',()=>{
 
   cargaActividades(links);
 
-  filterActivities(null,"all");
+  filterActivities(null,"repaso");
 
 });
 //  genera los botoones pills de grados
@@ -74,6 +74,11 @@ function generaBotonesGrados(req){
     linkNav.id = l;
     linkNav.classList.add("grado");
     linkNav.setAttribute('onclick',`filterActivities(this,'${l}')`);
+
+    linkNav.addEventListener("click",(e)=>{
+      e.preventDefault();
+    })
+
     linkNav.innerText = firstUpper(l);
     btnNav.appendChild(linkNav)
     navbar.appendChild(btnNav);
@@ -145,24 +150,33 @@ function createCard(link, actividad, grado){
 
 // filterActivities filtra las actividades por el boton selecionado
 function filterActivities(e, cName){
+    let gradoButtons = document.getElementsByClassName("grado");
+    let activityButtons = document.getElementsByClassName("btn-actividad");
+  let items = document.getElementsByClassName("grid-item");
+
+  if(e===null){
+    activityButtons[0].click();
+  }
   //if(cName === "all") cName = "";
   if(e.classList.contains("grado")){
-    let gradoButtons = document.getElementsByClassName("grado");
     for(let i = 0; i < gradoButtons.length; i++){
       gradoButtons[i].classList.remove('active')
     }
     e.classList.add('active');
   }else{
 
-    let activityButtons = document.getElementsByClassName("btn-actividad");
     for(let i = 0; i < activityButtons.length; i++){
       activityButtons[i].classList.remove('active')
     }
     e.classList.add('active');
   }
 
-  let items = document.getElementsByClassName("grid-item");
 
+
+// tiene que validar si hay algún botón activo del otro bando
+// si da click en grado, busca en actividad
+// y viceversa
+// y con esto valida los dos estados
   for(let i=0; i < items.length; i++){
     items[i].classList.remove('show');
     if(items[i].classList.contains(cName)){

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
  <!-- Para que funcione el js como un include en html -->
-<script src="https://www.aprendeencasa.mx/gbmx/function/includehtml.js"></script>
+<!--script src="https://www.aprendeencasa.mx/gbmx/function/includehtml.js"></script-->
 <!--Antes de la etiqueta head de cada html -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -15,9 +15,9 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162114925-1"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
-<script src="/assets/scripts/vendor/jquery.min.js"></script>
+<!--script src="/assets/scripts/vendor/jquery.min.js"></script-->
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-<script src="/assets/scripts/plugins.js"></script>
+<!--script src="/assets/scripts/plugins.js"></script-->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -26,7 +26,7 @@
   gtag('config', 'UA-162114925-1');
 </script>
 
-    <script type="text/javascript" src="/assets/scripts/vendor/modernizr.js"></script>
+    <!--script type="text/javascript" src="/assets/scripts/vendor/modernizr.js"></script-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700&amp;subset=latin" media="all">	
 	<link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
 	<link href="/assets/styles/aec.css" rel="stylesheet" />
@@ -102,7 +102,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad" onclick="openLink()" > 
+                <button id="fichas" class="btn btn-actividad" onclick="setState(this,'fichas')" > 
                       <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-fichas.svg" alt="">
                       <div class="btn-actividad-titulo">Fichas de repaso</div>  
                 </button>
@@ -110,7 +110,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad"> 
+                <button id="tv" class="btn btn-actividad" onclick="setState(this,'tv')"> 
                       <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-tv.svg" alt="">
                       <div class="btn-actividad-titulo">Televisión</div>  
                 </button>
@@ -198,10 +198,17 @@
                     <!-- aqui val los botones generados por js-->
                   </ul>
               </div>
+              <div class="margin-bottom"></div>
+              <div class="margin-bottom"></div>
             </div>
              <div class="row"><!--links-->
               <div class="col-sm-12 col-md-12">
-                <div id="contenido" class="contenido-externo"></div>
+                
+                <div>
+                  <div class="grid">
+                    <div class="grid-sizer" id="contenido"></div>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -210,10 +217,13 @@
 </div> <!--container-->
 
 
-<script src="https://framework-gb.cdn.gob.mx//assets/scripts/vendor/pace.min.js"></script>
-<script> w3IncludeHTML(); </script>
+<!--script src="https://framework-gb.cdn.gob.mx//assets/scripts/vendor/pace.min.js"></script-->
+<!--script> w3IncludeHTML(); </script-->
+<!--script src="https://code.jquery.com/jquery-3.5.0.slim.min.js"></script-->
+<script src="/assets/scripts/actividades/links.js"></script>
 <script src="/assets/scripts/despliegaActividades.js"></script>
 <script src="/assets/scripts/semana.js"></script>
+<script src="/assets/scripts/masonry/masonry.js"></script>
   <div class="margin-bottom">&nbsp;</div>
 </body>
 </html>

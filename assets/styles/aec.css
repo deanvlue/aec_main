@@ -227,3 +227,29 @@ td.disabled{
 .img-carpeta {
     max-height: 55.5px;
 }
+
+
+.grid {
+  max-width: 950px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* ---- grid-item ---- */
+
+.grid-sizer{
+  width:100%;
+}
+
+
+.grid-item {
+  width: 30%;
+  margin: 2px;
+  float: left;
+  border-radius: 5px;
+  display: block;
+}

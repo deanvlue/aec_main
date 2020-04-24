@@ -12,12 +12,28 @@ const niveles={
 };
 
 
+/*****
+ * 
+Televisión - General
+Fichas - Filtro Grado:  1°, 2°, 3°, 4°, 5° y 6°
+Libros de Texto  - Link externo
+Lecturas - Filtro 1°, 2°, 3°, 4°, 5° y 6°
+Videos - Filtro Asignaturas: Matemáticas, Español, Ciencias, Salud ** aquí pueden entrar más
+Videojuegos - General 
+Reforzamiento - General
+Programación - Filtro Grado (En este momento solo tenemos 1°, pero "podríamos recibir más")
+Activación física - Link externo
+Retos - General
+Actividades Lúdicas - General
+Cineclub Familiar - General
+ */
+
 function getQueryParams(URL){
   let request = { };
 
   let _URL = URL.replace("?","");
     _URL = _URL.split("&");
-    if(_URL.length > 1){
+    if(_URL.length >= 1){
       _URL.forEach(element => {
         request[element.split("=")[0]] = element.split("=")[1];
       });
@@ -52,15 +68,15 @@ window.addEventListener('load',()=>{
   req = getQueryParams(nivelActual);
   //console.log(req);
   generaBotonesGrados(req);
-
-  cargaActividades(links);
-
-  filterActivities(null,"repaso");
+  generaBtnActividades(req, links);
+  //cargaActividades(links);
+  //filterActivities(null,"repaso");
 
 });
+
+
 //  genera los botoones pills de grados
 function generaBotonesGrados(req){
-
   // determina el nivel actual para deplegar los grados, ej. primaria: primero a sexto
   const currentLevel = niveles[req.nivel];
 
@@ -83,6 +99,18 @@ function generaBotonesGrados(req){
     btnNav.appendChild(linkNav)
     navbar.appendChild(btnNav);
   });
+}
+
+function generaBtnActividades(req, links){
+  const _req = req;
+  const _links = links
+
+  //console.log(_req);
+  //console.log(_links);
+  let activities = Object.keys(_links);
+  console.log(activities)
+  
+
 }
 
 // lee los links y carga todos los botones
@@ -170,22 +198,14 @@ function filterActivities(e, cName){
     }
     e.classList.add('active');
   }
-
-
-
-// tiene que validar si hay algún botón activo del otro bando
-// si da click en grado, busca en actividad
-// y viceversa
-// y con esto valida los dos estados
+  // tiene que validar si hay algún botón activo del otro bando
+  // si da click en grado, busca en actividad
+  // y viceversa
+  // y con esto valida los dos estados
   for(let i=0; i < items.length; i++){
     items[i].classList.remove('show');
     if(items[i].classList.contains(cName)){
       items[i].classList.toggle('show');
     }
   }
-
-  /*for(let i; i < items.length; i++){
-    items[i].classList.toggle('show');
-  }*/
-
 }

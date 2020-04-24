@@ -105,10 +105,14 @@ function generaBtnActividades(req, links){
   const _req = req;
   const _links = links
 
+  let menu = document.getElementById("menu-botones-actividad");
   //console.log(_req);
   //console.log(_links);
   let activities = Object.keys(_links);
-  console.log(activities)
+  //console.log(activities)
+  activities.forEach(a=>{
+    menu.appendChild(createButton(a));
+  })
   
 
 }
@@ -208,4 +212,45 @@ function filterActivities(e, cName){
       items[i].classList.toggle('show');
     }
   }
+}
+
+function createButton(activity){
+
+  const actTitle ={
+    tv:"Television",
+    fichas:"Fichas de Repaso",
+    libros: "Libros",
+    lecturas: "Lecturas",
+    videos: "Videos",
+    videojuegos:"Videojuegos",
+    programacion: "Programación",
+    activacion: "Activación física",
+    retos: "Retos",
+    ludicas: "A. Lúdicas",
+    cineclub: "Cine Club Familiar",
+    reforzamiento:"Reforzamiento"
+  }
+
+  let row = document.createElement('div');
+    row.classList.add('row');
+  let col = document.createElement('div');
+    col.classList.add('col-sm-12');
+    col.classList.add('col-md-12');
+  let btn = document.createElement('button')
+    btn.id= activity;
+    btn.classList.add('btn');
+    btn.classList.add('btn-actividad');
+  let img = document.createElement('img');
+    img.classList.add('img-responsive');
+    img.classList.add('img-actividad-icon')
+    img.src=`/assets/images/btn/actividades/min/icono-${activity}.svg`;
+  let titulo = document.createElement('div')
+    titulo.classList.add('btn-actividad-titulo');
+    titulo.innerText = actTitle[activity];
+
+    btn.appendChild(img);
+    btn.appendChild(titulo);
+    col.appendChild(btn);
+    row.appendChild(col);
+    return row;
 }

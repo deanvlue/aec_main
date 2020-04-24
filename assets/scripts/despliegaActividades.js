@@ -51,24 +51,9 @@ window.addEventListener('load',()=>{
   //console.log(req);
   generaBotonesGrados(req);
 
-  cargaActividades(link);
+  cargaActividades(links);
 
 
-//  document.getElementById("contenido").innerHTML='<object type="text/html" data="links/link001.html" ></object>';
-  //aprende-en-casa-2\actividades\links\link001.html
-
-    /*fetch("links/mason.html")
-    .then((response) => response.text())
-    .then((html) => {
-        document.getElementById("contenido").innerHTML = html
-    })
-    .catch((error) => {
-        console.warn(error);
-    });*/
-    //console.log(links);
-    
-    // deprecated
-    //cambiaContenido(links, req.nivel, grado ,'fichas');
 });
 //  genera los botoones pills de grados
 function generaBotonesGrados(req){
@@ -84,6 +69,7 @@ function generaBotonesGrados(req){
     btnNav.role="presentation";
     linkNav.href="#";
     linkNav.id = l;
+    linkNav.setAttribute('onclick',`filterActivities('${l}')`);
     linkNav.innerText = firstUpper(l);
     btnNav.appendChild(linkNav)
     navbar.appendChild(btnNav);
@@ -91,32 +77,39 @@ function generaBotonesGrados(req){
 }
 
 // lee los links y carga todos los botones
+function cargaActividades(links){
+  let contenedor = document.getElementById("contenido");
+  const _links = links;
 
-
-
-// esta funcion cambia el estado actual de la actividad seleccionada
-function setState(e, estado){
-  //document.getElementById(e.id).className = document.getElementById(e.id).className + " active";
-  cambiaContenido(links, req.nivel, grado ,e.id);
-}
-
-function cambiaContenido(linkDoc, nivel, grado , actividad){
-    let contenido = document.getElementById("contenido");
-    contenido.innerHTML="";
-    let links = {};
-    _links = linkDoc[nivel][grado][actividad];
-
-    _links.forEach(l=>{
-      let card = createCard(l, actividad);
-      contenido.appendChild(card);
+  const niveles = Object.keys(_links)
+  
+  niveles.forEach(nivel=>{
+    const grados = Object.keys(_links[nivel]);
+    //console.log(`${nivel}-${grados}`);
+    grados.forEach(grado=>{
+      const actividades = Object.keys(_links[nivel][grado]);
+      //console.log(`${nivel}-${grado}-${actividades}`);
+      actividades.forEach(actividad=>{
+        const links = Object.values(_links[nivel][grado][actividad])
+        links.forEach(l=>{
+          console.log(`${nivel}-${grado}-${actividad}---${l.link}`);
+          contenedor.appendChild(createCard(l,actividad, grado))
+        })
+      })
     })
-    //contenido.innerHTML = '<p>' + JSON.stringify(links[nivel][actividad]) + '</p>';
+  })
+
+
+
+
 }
 
-function createCard(link, actividad){
-
+// genera las tarjetas para cada link.
+function createCard(link, actividad, grado){
   let gridItem = document.createElement('div');
-    gridItem.className="grid-item";
+    gridItem.className="grid-item"
+    gridItem.classList.add(actividad);
+    gridItem.classList.add(grado);
   let panel = document.createElement('div');
     panel.className="thumbnail";
   let image = document.createElement('img');
@@ -124,14 +117,16 @@ function createCard(link, actividad){
       image.className="img-responsive"
   let caption = document.createElement('div');  
       caption.className="caption";
+  
+  //cabecero y boton de link
+  let header = document.createElement('h3');
+    header.innerText = link.name;
   let anchor = document.createElement('a');
         anchor.className="btn btn-primary"
         anchor.role="button"
         anchor.href=link.link
         anchor.innerText="Leer";
 
-  let header = document.createElement('h3');
-    header.innerText = link.name;
   let p = document.createElement('p');
     p.appendChild(anchor);
 

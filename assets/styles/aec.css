@@ -231,6 +231,7 @@ td.disabled{
 
 .grid {
   max-width: 950px;
+  padding-bottom: 100px;
 }
 
 /* clearfix */
@@ -248,8 +249,13 @@ td.disabled{
 
 .grid-item {
   width: 30%;
+  height: 370px;
   margin: 2px;
   float: left;
   border-radius: 5px;
+  display: none;
+}
+
+.show{
   display: block;
 }

@@ -11,7 +11,7 @@ const niveles={
   "eadultos":["primaria", "secundaria incial", "secundaria avanzada"]
 };
 
-
+let actividadSeleccionada = {};
 /*****
  * 
 Televisión - General
@@ -226,9 +226,28 @@ function filtraActividad(e){
   desactivaBotonesActividad();
   e.classList.add('active');
   let activity = e.id;
+  // Se le pasa la actividad y el nivel
+  //console.log(contenido.childNodes);
+  // Limpia Contenido
+  for(let i =0; i < contenido.childElementCount; i++){
+    contenido.removeChild(contenido.childNodes[i]);
+  }
 
-  contenido.innerText = JSON.stringify(links[activity]);
+  despliegaContenido(contenido, activity, req.nivel);
+}
 
+function despliegaContenido(c, act, level){
+  let iframe = document.createElement('iframe');
+  actividadSeleccionada = links[act];
+  //myObj.hasOwnProperty('key') 
+  if(actividadSeleccionada.hasOwnProperty(level)){
+    actividadSeleccionada = actividadSeleccionada[level]
+    c.innerText = JSON.stringify(actividadSeleccionada);
+    actividadSeleccionada={};
+  }else{
+    iframe.src = actividadSeleccionada.link;
+    c.appendChild(iframe);
+  }
 }
 
 function createButton(activity){

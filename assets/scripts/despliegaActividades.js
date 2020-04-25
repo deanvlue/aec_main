@@ -214,6 +214,23 @@ function filterActivities(e, cName){
   }
 }
 
+function desactivaBotonesActividad(){
+  let activityBtns = document.getElementsByClassName("btn-actividad");
+  for( let i=0; i < activityBtns.length ; i++){
+    activityBtns[i].classList.remove('active');
+  }
+}
+
+function filtraActividad(e){
+  let contenido = document.getElementById("contenido");
+  desactivaBotonesActividad();
+  e.classList.add('active');
+  let activity = e.id;
+
+  contenido.innerText = JSON.stringify(links[activity]);
+
+}
+
 function createButton(activity){
 
   const actTitle ={
@@ -240,6 +257,7 @@ function createButton(activity){
     btn.id= activity;
     btn.classList.add('btn');
     btn.classList.add('btn-actividad');
+    btn.setAttribute('onclick','filtraActividad(this)')
   let img = document.createElement('img');
     img.classList.add('img-responsive');
     img.classList.add('img-actividad-icon')

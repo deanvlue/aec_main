@@ -260,7 +260,7 @@ color: #fff;
   margin: 2px;
   float: left;
   border-radius: 5px;
-  display: none;
+  /*display: none;*/
 }
 
 .show{

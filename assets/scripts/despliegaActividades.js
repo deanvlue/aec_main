@@ -1,6 +1,7 @@
 const nivelActual = location.search;
 let req;
 let grado = "primero";
+let actividadActual = "";
 
 const niveles={
   "inicial":[ "lactantes", "maternales"],
@@ -67,7 +68,7 @@ window.addEventListener('load',()=>{
   const nivelActual = location.search;
   req = getQueryParams(nivelActual);
   //console.log(req);
-  generaBotonesGrados(req);
+  //generaBotonesGrados(req);
   generaBtnActividades(req, links);
   //cargaActividades(links);
   //filterActivities(null,"repaso");
@@ -75,31 +76,6 @@ window.addEventListener('load',()=>{
 });
 
 
-//  genera los botoones pills de grados
-function generaBotonesGrados(req){
-  // determina el nivel actual para deplegar los grados, ej. primaria: primero a sexto
-  const currentLevel = niveles[req.nivel];
-
-  const navbar = document.getElementById("navigation-pills");
-
-  currentLevel.forEach(l=>{
-    let btnNav = document.createElement('li')
-    let linkNav = document.createElement('a');
-    btnNav.role="presentation";
-    linkNav.href="#";
-    linkNav.id = l;
-    linkNav.classList.add("grado");
-    linkNav.setAttribute('onclick',`filterActivities(this,'${l}')`);
-
-    linkNav.addEventListener("click",(e)=>{
-      e.preventDefault();
-    })
-
-    linkNav.innerText = firstUpper(l);
-    btnNav.appendChild(linkNav)
-    navbar.appendChild(btnNav);
-  });
-}
 
 function generaBtnActividades(req, links){
   const _req = req;
@@ -156,8 +132,8 @@ function createCard(link, actividad, grado){
       caption.className="caption";
   
   //cabecero y boton de link
-  let header = document.createElement('h3');
-    header.innerText = link.name;
+  let header = document.createElement('h5');
+    header.innerHTML = `${link.name}`;
   let anchor = document.createElement('a');
         anchor.className="btn btn-primary"
         anchor.role="button"
@@ -222,6 +198,8 @@ function desactivaBotonesActividad(){
 }
 
 function filtraActividad(e){
+  cleanNavPills();
+
   let contenido = document.getElementById("contenido");
   desactivaBotonesActividad();
   e.classList.add('active');
@@ -229,24 +207,88 @@ function filtraActividad(e){
   // Se le pasa la actividad y el nivel
   //console.log(contenido.childNodes);
   // Limpia Contenido
-  for(let i =0; i < contenido.childElementCount; i++){
-    contenido.removeChild(contenido.childNodes[i]);
-  }
-
   despliegaContenido(contenido, activity, req.nivel);
+  actividadActual = activity;
 }
 
 function despliegaContenido(c, act, level){
+  cleanSlate(c);
   let iframe = document.createElement('iframe');
   actividadSeleccionada = links[act];
   //myObj.hasOwnProperty('key') 
   if(actividadSeleccionada.hasOwnProperty(level)){
     actividadSeleccionada = actividadSeleccionada[level]
-    c.innerText = JSON.stringify(actividadSeleccionada);
-    actividadSeleccionada={};
+    //c.innerText = JSON.stringify(actividadSeleccionada);
+    //actividadSeleccionada={};
   }else{
     iframe.src = actividadSeleccionada.link;
     c.appendChild(iframe);
+  }
+
+  generaBotonesOpciones(actividadSeleccionada);
+
+} 
+
+//  genera los botoones pills de grados
+function generaBotonesOpciones(opciones){
+  // determina el nivel actual para deplegar los grados, ej. primaria: primero a sexto
+  //const currentLevel = niveles[req.nivel];
+  let _op = Object.keys(opciones);
+  let btnTodos = document.getElementById("opcion-todos");
+  const navbarPills = document.getElementById("navigation-pills");
+
+  if(_op.length > 2){
+
+    //btnTodos.classList.toggle("hidden");
+    // aquí el botón de todos debe de ir escondido
+    if(!btnTodos.classList.contains("hidden")){
+      btnTodos.classList.add("hidden");
+    }
+
+    _op.forEach(l=>{
+
+      /* si el elemento ya existe, solamente le quita la clase de hidden 
+      * si no existe lo crea
+      */
+     let pillBtn = document.getElementById(l);
+     if(!pillBtn){
+
+      let btnNav = document.createElement('li')
+      let linkNav = document.createElement('a');
+      btnNav.role="presentation";
+      btnNav.id=l
+      linkNav.href="#";
+      linkNav.classList.add("grado");
+      linkNav.setAttribute('onclick',`filtraOpciones(this, '${l}')`);
+
+      linkNav.addEventListener("click",(e)=>{
+        e.preventDefault();
+      })
+
+      linkNav.innerText = firstUpper(l);
+      btnNav.appendChild(linkNav)
+      navbarPills.appendChild(btnNav);
+     }else{
+        pillBtn.classList.remove('hidden');
+     }
+
+    });
+  }else{
+    if(btnTodos.classList.contains("hidden")){
+      btnTodos.classList.remove("hidden");
+    }
+      for (n of navbarPills.children){
+        if(n.id !=="opcion-todos"){
+          n.classList.add("hidden");
+        }
+      }
+  }
+}
+
+function cleanSlate(c){
+  // clean contenido
+  while (c.hasChildNodes()) {  
+    c.removeChild(c.firstChild);
   }
 }
 
@@ -290,4 +332,30 @@ function createButton(activity){
     col.appendChild(btn);
     row.appendChild(col);
     return row;
+}
+
+function filtraOpciones(btn, op){
+  // asegurar que ltodos los botones no estén activados
+  //console.log(op);
+  cleanNavPills()
+  //for(n of navPills.children){
+  btn.parentNode.classList.add('active');
+  // dibuja sobre contenido las tarjetas con la actividad seleccionada
+  let contenido = document.getElementById("contenido")
+  let actividades = actividadSeleccionada[op];
+  contenido.innerText="";
+
+  actividades.forEach(a=>{
+    let card = createCard(a,actividadActual,op);
+    contenido.appendChild(card);
+  })
+  //contenido.innerText = JSON.stringify(actividadSeleccionada[op])
+  //console.log(actividadSeleccionada[op])
+}
+
+function cleanNavPills(){
+  let navPills = document.getElementById("navigation-pills").children;
+  for(let i =0; i < navPills.length; i++){
+    navPills[i].classList.remove('active');
+  }
 }

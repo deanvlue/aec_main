@@ -1,6 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
  <!-- Para que funcione el js como un include en html -->
+<<<<<<< HEAD
+=======
+<!--script src="https://www.aprendeencasa.mx/gbmx/function/includehtml.js"></script-->
+>>>>>>> f191dcc7a9164c50cc45831c9337e0d8e4e50b8e
 <!--Antes de la etiqueta head de cada html -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -14,9 +18,9 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162114925-1"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
-<script src="/assets/scripts/vendor/jquery.min.js"></script>
+<!--script src="/assets/scripts/vendor/jquery.min.js"></script-->
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-<script src="/assets/scripts/plugins.js"></script>
+<!--script src="/assets/scripts/plugins.js"></script-->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -25,7 +29,7 @@
   gtag('config', 'UA-162114925-1');
 </script>
 
-    <script type="text/javascript" src="/assets/scripts/vendor/modernizr.js"></script>
+    <!--script type="text/javascript" src="/assets/scripts/vendor/modernizr.js"></script-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700&amp;subset=latin" media="all">	
 	<link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
 	<link href="/assets/styles/aec.css" rel="stylesheet" />
@@ -64,7 +68,7 @@
     
     <div class="row">
       <div class="col-md-8">
-        <h3 > Esto puedes hacer esta semana </h3>
+        <h3 > Te invitamos a que desarrolles tu conocimiento desde casa: </h3>
         <h4 > <span id="semana"> Semana del 1° de Enero de 2020 a el 7 de Enero de 2020</span> </h4>
       </div>
       <div class="col-md-4">
@@ -97,13 +101,16 @@
                 <h4 class="act-h4">Actividades </h4>
               </div>
             </div>
-            <div class="row">
+           <!--Aquí se generarán de manera programática los botones de actividades y sus links-->
+            <div id="menu-botones-actividad"></div>
+            <!--div class="row">
               <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad" onclick="openLink()" > 
+                <button id="fichas" class="btn btn-actividad" onclick="filterActivities(this, 'fichas')" > 
                       <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-fichas.svg" alt="">
                       <div class="btn-actividad-titulo">Fichas de repaso</div>  
                 </button>
               </div>
+<<<<<<< HEAD
             </div>
             <div class="row">
               <div class="col-sm-12 col-md-12">
@@ -177,6 +184,10 @@
                 </button>
               </div>
             </div>
+=======
+            </div-->
+          </div>
+>>>>>>> f191dcc7a9164c50cc45831c9337e0d8e4e50b8e
         </div>
       </div>
 
@@ -185,19 +196,29 @@
         <div class="panel panel-actividades">
             <div class="row">
               <div class="col-sm-12 col-md-12">
-                <h4 class="act-h4">Selecciona un grado: </h4>
+                <h4 class="act-h4">Selecciona tu grado: </h4>
               </div>
             </div>
             <div class="row"> <!-- Button pills -->
               <div class="col-sm-12 col-md-12">
                   <ul class="nav nav-pills" id="navigation-pills">
                     <!-- aqui val los botones generados por js-->
+                    <li id="opcion-todos" role="presentation" class="hidden active">
+                      <a href="#" >Todos</a>
+                    </li>
                   </ul>
               </div>
+              <div class="margin-bottom"></div>
+              <div class="margin-bottom"></div>
             </div>
              <div class="row"><!--links-->
               <div class="col-sm-12 col-md-12">
-                <div id="contenido" class="contenido-externo"></div>
+                
+                <div>
+                  <div class="grid">
+                    <div class="grid-sizer" id="contenido"></div>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
@@ -206,10 +227,17 @@
 </div> <!--container-->
 
 
+<<<<<<< HEAD
 <script src="https://www.aprendeencasa.mx/gbmx/function/includehtml.js"></script>
 <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
 <script src="https://framework-gb.cdn.gob.mx//assets/scripts/vendor/pace.min.js"></script>
 <script> w3IncludeHTML(); </script>
+=======
+<!--script src="https://framework-gb.cdn.gob.mx//assets/scripts/vendor/pace.min.js"></script-->
+<!--script> w3IncludeHTML(); </script-->
+<!--script src="https://code.jquery.com/jquery-3.5.0.slim.min.js"></script-->
+<script src="/assets/scripts/actividades/links_.js"></script>
+>>>>>>> f191dcc7a9164c50cc45831c9337e0d8e4e50b8e
 <script src="/assets/scripts/despliegaActividades.js"></script>
 <script src="/assets/scripts/semana.js"></script>
   <div class="margin-bottom">&nbsp;</div>

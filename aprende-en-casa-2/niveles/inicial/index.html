@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
  <!-- Para que funcione el js como un include en html -->
-<script src="https://www.aprendeencasa.mx/gbmx/function/includehtml.js"></script>
+<script src="/../../gbmx/function/includehtml.js"></script>
 <!--Antes de la etiqueta head de cada html -->
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -28,17 +28,14 @@
 
     <script type="text/javascript" src="/assets/scripts/vendor/modernizr.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700&amp;subset=latin" media="all">	
-	<link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
 	<link href="/assets/styles/aec.css" rel="stylesheet" />
-  <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+    <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+  
+  <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
 </head>
 <body>
 <!-- Es el submenú y estilos adicionales -->
-<div w3-include-html="https://www.aprendeencasa.mx/aprende-en-casa/header/header_gbmx.html"></div> 
-<div>&nbsp;</div>
-
-
-
+<div w3-include-html="../../header/header_gbmx.html"></div> 
 <div class="container">
   <!-- barra de navegación-->
       <nav class="navbar aec">
@@ -63,17 +60,12 @@
   <div class="container-fluid">
     <div class="row">
       <div>&nbsp;</div>
-      <div class="col-sm-8 col-md-8">
+      <div class="col-sm-10 col-md-10">
         <h3 class="text-center"> Educación <span id="nivel"></span> </h3>
       </div>
       <div class="col-sm-2 col-md-2">
-        <a href="../../agenda/index.html" class="hidden">
+        <a href="../../agenda/index.html">
           <img class="img-responsive img-menu" src="/assets/images/btn/acciones/agenda@2x.png" />
-        </a>
-      </div>
-      <div class="col-sm-2 col-md-2">
-        <a href="../../experiencias/" class="hidden">
-          <img class="img-menu img-responsive" src="/assets/images/btn/acciones/experiencias@2x.png" />
         </a>
       </div>
     </div>
@@ -85,62 +77,38 @@
       <div class="col-sm-3 col-md-3">
         <div class=" panel"></div>
           <div class="panel-body">
-                <a href="#">
+                <a href="../../alumnos-inicial/tareas/index.html">
                   <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/ficha@2x.svg" />
                 </a>
           </div>
         </div><!-- fin columna -->
-      <div class="col-sm-3 col-md-3">
+       <div class="col-sm-3 col-md-3">
         <div class=" panel "></div>
           <div class="panel-body">
-                <a href="#">
-                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/television@2x.svg" />
+                <a href="https://libros.conaliteg.gob.mx/catalogo.htm" target="_blank">
+                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/libros@2x.svg" />
                 </a>
           </div>
         </div><!-- fin columna -->
-      <div class="col-sm-3 col-md-3">
+       <div class="col-sm-3 col-md-3">
         <div class=" panel "></div>
           <div class="panel-body">
-                <a href="https://www.aprendeencasa.mx/aprende-en-casa/alumnos-inicial/actividades-ludicas/index.html">
-                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/ludicas@2x.svg" />
+                <a href="../../alumnos-inicial/lecturas/index.html">
+                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/lecturas@2x.svg" />
                 </a>
           </div>
         </div><!-- fin columna -->
-      <div class="col-sm-3 col-md-3">
+       <div class="col-sm-3 col-md-3">
         <div class=" panel"></div>
           <div class="panel-body">
-                <a href="https://www.aprendeencasa.mx/aprende-en-casa/alumnos-inicial/videos/index.html">
+                <a href="../../alumnos-inicial/videos/index.html">
                   <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/videos@2x.svg" />
                 </a>
           </div>
         </div><!-- fin columna -->
     </div><!-- fin de Row-->
     <div class="row">
-      <div class="col-sm-3 col-md-3">
-        <div class=" panel"></div>
-          <div class="panel-body">
-                <a href="https://www.aprendeencasa.mx/aprende-en-casa/alumnos-inicial/concursos/index.html">
-                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/retos@2x.svg" />
-                </a>
-          </div>
-        </div><!-- fin columna -->
-      <div class="col-sm-3 col-md-3">
-        <div class=" panel "></div>
-          <div class="panel-body">
-                <a href="https://www.aprendeencasa.mx/aprende-en-casa/alumnos-inicial/lecturas/index.html">
-                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/lecturas@2x.svg" />
-                </a>
-          </div>
-        </div><!-- fin columna -->
-      <div class="col-sm-3 col-md-3">
-        <div class=" panel "></div>
-          <div class="panel-body">
-                <a href="https://www.aprendeencasa.mx/aprende-en-casa/alumnos-inicial/reforzamiento/index.html">
-                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/reforzamiento@2x.svg" />
-                </a>
-          </div>
-        </div><!-- fin columna -->
-      <div class="col-sm-3 col-md-3">
+     <div class="col-sm-3 col-md-3">
         <div class=" panel"></div>
           <div class="panel-body">
                 <a href="#">
@@ -148,23 +116,45 @@
                 </a>
           </div>
         </div><!-- fin columna -->
-    </div><!-- fin de Row-->
-    <div class="row">
-      <div class="col-sm-3 col-md-3">
+        <div class="col-sm-3 col-md-3">
         <div class=" panel "></div>
           <div class="panel-body">
-                <a href="#">
-                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/libros@2x.svg" />
+                <a href="../../alumnos-inicial/reforzamiento/index.html">
+                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/reforzamiento@2x.svg" />
                 </a>
           </div>
         </div><!-- fin columna -->
-      <div class="col-sm-3 col-md-3">
+        <div class="col-sm-3 col-md-3">
         <div class=" panel "></div>
           <div class="panel-body">
-                <a href="#">
+                <a href="http://sumaminutos.televisioneducativa.gob.mx/" target="_blank">
                   <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/activacion@2x.svg" />
                 </a>
           </div>
+        </div><!-- fin columna -->
+       <div class="col-sm-3 col-md-3">
+        <div class=" panel"></div>
+          <div class="panel-body">
+                <a href="../../alumnos-inicial/concursos/index.html">
+                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/retos@2x.svg" />
+                </a>
+          </div>
+        </div><!-- fin columna -->
+    </div><!-- fin de Row-->
+    <div class="row">
+     <div class="col-sm-3 col-md-3">
+        <div class=" panel "></div>
+          <div class="panel-body">
+                <a href="../../alumnos-inicial/actividades-ludicas/index.html">
+                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/ludicas@2x.svg" />
+                </a>
+          </div>
+        </div><!-- fin columna -->
+        <div class="col-sm-3 col-md-3">
+        <div class=" panel "></div>
+          <div class="panel-body">
+                <a href="#">
+                  <img width="200" class="img-responsive center-block" src="/assets/images/btn/actividades/cine_club.svg" /></a></div>
         </div><!-- fin columna -->
     </div><!-- fin de Row-->
 

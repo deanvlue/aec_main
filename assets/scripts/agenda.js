@@ -8,7 +8,7 @@ const horarios = [
     "12:00 a 12:25",
     "12:25 a 12:35",
     "12:35 a 13:00",
-]
+];
 
 // variables de agendaActividad en ./actividades/actividades.js
 // variables de  tareasDisponibles en ./actividades/actividades.js
@@ -56,7 +56,7 @@ horarios.forEach((h, i) => {
 
     let tareaText = "";
     agendaActividad.forEach((tslot, it) => {
-        let cell = document.createElement('td')
+        let cell = document.createElement('td');
         if (tslot[i].tarea === undefined || tslot[i].tarea === "") {
             tareaText = '&nbsp';
         } else {
@@ -76,7 +76,7 @@ horarios.forEach((h, i) => {
         // fin de botón
         //      let cellText = document.createTextNode(tareaText);
         cell.appendChild(btn);
-        cell.className = "text-center"
+        cell.className = "text-center";
         if (tareaText === "PAUSA ACTIVA") {
             btn.className = "btn btn-disabled ";
             btn.id = "PA";
@@ -84,7 +84,7 @@ horarios.forEach((h, i) => {
             btn.disabled = "disabled";
         }
         row.appendChild(cell);
-    })
+    });
     tablaAgenda.appendChild(row);
 });
 
@@ -95,7 +95,7 @@ let tareasButtons = document.querySelectorAll(".modal-body button");
 tareasButtons.forEach((b, i) => {
     if (tareasDisponibles[i] !== undefined || tareasDisponibles !== "") {
         b.innerHTML = tareasDisponibles[i];
-        b.setAttribute("onclick", "seleccionaTarea(this);")
+        b.setAttribute("onclick", "seleccionaTarea(this);");
     } else {
         b.classList = "hidden";
     }
@@ -119,7 +119,7 @@ function cambiaEstatusAgenda(id, newValue) {
         agendaActividad[tareasLocation[2]][tareasLocation[1]].tarea = newValue;
         localStorage.setItem('agendaActividad', JSON.stringify(agendaActividad));
     }
-    return
+    return;
 }
 
 function capturaEvento(e) {

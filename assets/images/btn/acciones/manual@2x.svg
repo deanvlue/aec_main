@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220px" height="84px" viewBox="0 0 220 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>manual@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.6003,9.59912689 C3.2931,9.59912689 2.9859,9.48152689 2.7519,9.24752689 C2.2827,8.77832689 2.2827,8.01992689 2.7519,7.55072689 L6.7179,3.58472689 L2.9019,-0.366873106 C2.4423,-0.844473106 2.4555,-1.60407311 2.9319,-2.06367311 C3.4095,-2.52327311 4.1691,-2.51007311 4.6287,-2.03487311 L9.2631,2.76512689 C9.7179,3.23672689 9.7119,3.98432689 9.2487,4.44752689 L4.4487,9.24752689 C4.2147,9.48152689 3.9075,9.59912689 3.6003,9.59912689" id="path-1"></path>
+    </defs>
+    <g id="manual" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(9.000000, 13.000000)">
+            <g id="atomo/-button/-primario/-228x48px" transform="translate(22.400000, 4.000000)">
+                <g id="Group">
+                    <rect id="Rectangle" fill="#00A2AA" x="0" y="0" width="183.6" height="56.7887324" rx="28.3943662"></rect>
+                    <g id="Group-2" transform="translate(60.400000, 16.800000)">
+                        <g id="Group-3">
+                            <g id="Group-4" transform="translate(0.113089, 0.000000)">
+                                <text id="Manual" font-family="Montserrat-Medium, Montserrat" font-size="19.2" font-weight="400" line-spacing="24" fill="#FFFFFF">
+                                    <tspan x="0.1352" y="19">Manual</tspan>
+                                </text>
+                                <g id="Arrow_down" transform="translate(95.486911, 13.200000) rotate(-90.000000) translate(-95.486911, -13.200000) translate(89.486911, 9.600000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="🎨-Icon-Сolor" fill="#FFFFFF" fill-rule="nonzero" transform="translate(6.000096, 3.599563) rotate(-270.000000) translate(-6.000096, -3.599563) " xlink:href="#path-1"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="experiencias" fill="#057075">
+                <ellipse id="Oval" cx="32.66" cy="31.8112676" rx="31.86" ry="31.4112676"></ellipse>
+            </g>
+        </g>
+        <g id="calendar" transform="translate(9.000000, 12.000000)">
+            <path d="M0,18.432 L59.392,18.432 L59.392,47.104 C59.392,51.6283167 55.7243167,55.296 51.2,55.296 L4.096,55.296 C1.83384166,55.296 0,53.4621583 0,51.2 L0,18.432 Z" id="Path" fill="#E4E9F2" fill-rule="nonzero"></path>
+            <path d="M55.296,6.144 L4.096,6.144 C1.83384166,6.144 0,7.97784166 0,10.24 L0,18.432 L59.392,18.432 L59.392,10.24 C59.392,7.97784166 57.5581583,6.144 55.296,6.144 Z" id="Path" fill="#6E79E0"></path>
+            <path d="M46.08,12.288 C47.7766188,12.288 49.152,10.9126188 49.152,9.216 L49.152,3.072 C49.152,1.37538125 47.7766188,0 46.08,0 C44.3833812,0 43.008,1.37538125 43.008,3.072 L43.008,9.216 C43.008,10.9126188 44.3833812,12.288 46.08,12.288 Z" id="Path" fill="#FFB233"></path>
+            <path d="M29.696,12.288 C31.3926188,12.288 32.768,10.9126188 32.768,9.216 L32.768,3.072 C32.768,1.37538125 31.3926188,0 29.696,0 C27.9993812,0 26.624,1.37538125 26.624,3.072 L26.624,9.216 C26.624,10.9126188 27.9993812,12.288 29.696,12.288 Z" id="Path" fill="#FFB233"></path>
+            <path d="M13.312,12.288 C15.0086188,12.288 16.384,10.9126188 16.384,9.216 L16.384,3.072 C16.384,1.37538125 15.0086188,0 13.312,0 C11.6153812,0 10.24,1.37538125 10.24,3.072 L10.24,9.216 C10.24,10.9126188 11.6153812,12.288 13.312,12.288 Z" id="Path" fill="#FFB233"></path>
+            <g id="Group" transform="translate(8.192000, 25.600000)" fill="#333E53" fill-rule="nonzero">
+                <rect id="Rectangle" x="12.288" y="0" width="6.144" height="5.12" rx="1.024"></rect>
+                <rect id="Rectangle" x="0" y="0" width="6.144" height="5.12" rx="1.024"></rect>
+                <rect id="Rectangle" x="36.864" y="0" width="6.144" height="5.12" rx="1.024"></rect>
+                <rect id="Rectangle" x="12.288" y="9.216" width="6.144" height="5.12" rx="1.024"></rect>
+                <rect id="Rectangle" x="0" y="9.216" width="6.144" height="5.12" rx="1.024"></rect>
+                <rect id="Rectangle" x="12.288" y="18.432" width="6.144" height="5.12" rx="1.024"></rect>
+                <rect id="Rectangle" x="24.576" y="0" width="6.144" height="5.12" rx="1.024"></rect>
+                <rect id="Rectangle" x="24.576" y="9.216" width="6.144" height="5.12" rx="1.024"></rect>
+                <rect id="Rectangle" x="0" y="18.432" width="6.144" height="5.12" rx="1.024"></rect>
+            </g>
+            <circle id="Oval" fill="#95C11F" cx="47.104" cy="47.104" r="12.288"></circle>
+            <path d="M53.020672,42.811392 L45.056,50.776064 L41.43616,47.1552 C41.034364,46.7671325 40.3956892,46.7726824 40.0006978,47.1676738 C39.6057064,47.5626652 39.6001565,48.20134 39.988224,48.603136 L44.332032,52.947968 C44.7319038,53.3477191 45.3800962,53.3477191 45.779968,52.947968 L54.468608,44.259328 C54.8566755,43.857532 54.8511256,43.2188572 54.4561342,42.8238658 C54.0611428,42.4288744 53.422468,42.4233245 53.020672,42.811392 Z" id="Path" fill="#F1F2F2" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

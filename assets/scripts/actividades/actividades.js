@@ -1,106 +1,107 @@
+/* jshint esversion: 6 */
+
 let agendaActividad = [
   [
     {
-      "tarea": "Lunes Algebra"
+      tarea: "",
     },
     {
-      "tarea":"PAUSA ACTIVA"
+      tarea: "PAUSA ACTIVA",
     },
     {
-      "tarea": "Español Lunes"
+      tarea: "",
     },
     {
-      "tarea": "Salud"
+      tarea: "",
     },
     {
-      "tarea":"PAUSA ACTIVA"
+      tarea: "PAUSA ACTIVA",
     },
     {
-      "tarea": "Civismo"
-    }
+      tarea: "",
+    },
   ],
   [
     {
-      "tarea": "Martes Algebra"
+      tarea: "",
     },
     {
-      "tarea":"PAUSA ACTIVA"
+      tarea: "PAUSA ACTIVA",
     },
     {
-      "tarea": "Español Martes"
+      tarea: "",
     },
     {
-      "tarea": "Salud"
+      tarea: "",
     },
     {
-      "tarea":"PAUSA ACTIVA"
+      tarea: "PAUSA ACTIVA",
     },
     {
-      "tarea": "Civismo"
-    }
+      tarea: "",
+    },
   ],
   [
     {
-      "tarea": "Algebra"
+      tarea: "",
     },
     {
-      "tarea":"PAUSA ACTIVA"
+      tarea: "PAUSA ACTIVA",
     },
     {
-      "tarea": "Español Miércoles"
+      tarea: "",
     },
     {
-      "tarea": "Salud"
+      tarea: "",
     },
     {
-      "tarea":"PAUSA ACTIVA"
+      tarea: "PAUSA ACTIVA",
     },
     {
-      "tarea": "Civismo"
-    }
+      tarea: "",
+    },
   ],
   [
     {
-      "tarea": "Algebra"
+      tarea: "",
     },
     {
-      "tarea":"PAUSA ACTIVA"
+      tarea: "PAUSA ACTIVA",
     },
     {
-      "tarea": ""
+      tarea: "",
     },
     {
-      "tarea": "Salud"
+      tarea: "",
     },
     {
-      "tarea":"PAUSA ACTIVA"
+      tarea: "PAUSA ACTIVA",
     },
     {
-      "tarea": "Civismo"
-    }
+      tarea: "",
+    },
   ],
-  [ 
+  [
     {
-      "tarea": "Algebra"
+      tarea: "",
     },
     {
-      "tarea":"PAUSA ACTIVA"
+      tarea: "PAUSA ACTIVA",
     },
     {
-      "tarea": "Español"
+      tarea: "",
     },
     {
-      "tarea": "Salud"
+      tarea: "",
     },
     {
-      "tarea":"PAUSA ACTIVA"
+      tarea: "PAUSA ACTIVA",
     },
     {
-      "tarea": ""
-    }
-  ]
+      tarea: "",
+    },
+  ],
 ];
-
 
 const tareasDisponibles = [
   "Ver la clase por TV",

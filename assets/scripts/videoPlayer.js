@@ -1,8 +1,11 @@
-var introVideo = document.getElementById("introVideo");
+/* jshint esversion:6 */
+let introVideo = document.getElementById("introVideo");
 
-function playPause(){
-  if(introVideo.paused)
-    introVideo.play();
-  else 
-    introVideo.pause();
+function playPause() {
+    if (introVideo.paused) 
+        introVideo.play();
+     else 
+        introVideo.pause();
+    
+
 }

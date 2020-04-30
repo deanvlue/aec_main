@@ -230,6 +230,39 @@
     </div>
     <!--container-->
 
+    <!--modal sonido-->
+    <div
+      class="modal fade"
+      id="sonidoModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="text-center">
+              <img
+                src="/assets/images/btn/cartas/boton_escuchando.svg"
+                alt=""
+              />
+              <audio controls="controls" preload="auto">
+                <source src="video/manual-alumnos.mp3" />
+                <!--- audio mp3 -->
+              </audio>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Aceptar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--modal sonido end-->
     <div class="margin-bottom">&nbsp;</div>
     <script>
       w3IncludeHTML();

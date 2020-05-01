@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="240px" height="57px" viewBox="0 0 240 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="240px" height="61px" viewBox="0 0 240 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>carta_padres copy@2x</title>
+    <title>prueba@2x</title>
     <desc>Created with Sketch.</desc>
     <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Introducción-" transform="translate(-340.000000, -790.000000)">
+        <g id="Introducción-" transform="translate(-340.000000, -786.000000)">
             <g id="Group-2" transform="translate(165.000000, 217.000000)">
-                <g id="carta_padres-copy" transform="translate(175.000000, 569.000000)">
+                <g id="prueba" transform="translate(175.000000, 569.000000)">
                     <rect id="Rectangle" fill="#00A2AA" x="0" y="13" width="240" height="48" rx="24"></rect>
                     <circle id="Oval" fill="#037D83" cx="24" cy="37" r="24"></circle>
-                    <g id="manual" transform="translate(0.000000, 4.000000)">
+                    <g id="manual">
                         <path d="M46.656,44.1724218 L3.456,44.1724218 L3.456,13.0684218 L0,13.0684218 L0,47.6284218 L21.029625,47.6284218 C21.7286718,47.611125 22.3720313,48.0072657 22.6715625,48.6392343 C23.0786718,49.5947813 24.0169218,50.2153593 25.056,50.2153593 C26.0950782,50.2153593 27.0333282,49.5947813 27.4404375,48.6392343 C27.7399687,48.0072657 28.3833282,47.611125 29.082375,47.6284218 L50.112,47.6284218 L50.112,13.0684218 L46.656,13.0684218 L46.656,44.1724218 Z" id="Path" fill="#006DD0"></path>
                         <polygon id="Path" fill="#EFEADD" fill-rule="nonzero" points="3.456 9.61242185 46.656 9.61242185 46.656 44.1724218 3.456 44.1724218"></polygon>
                         <polygon id="Path" fill="#333E53" fill-rule="nonzero" points="6.912 18.2524218 20.736 18.2524218 20.736 28.6204218 6.912 28.6204218"></polygon>

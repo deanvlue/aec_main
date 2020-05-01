@@ -30,7 +30,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700&amp;subset=latin" media="all">	
 	<link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
 	<link href="/assets/styles/aec.css" rel="stylesheet" />
-  <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
 </head>
 <body>
 <!-- Es el submenú y estilos adicionales -->
@@ -66,7 +65,7 @@
     
     <div class="row">
       <div class="col-md-8">
-        <h3 > Esto puedes hacer esta semana </h3>
+        <h3 > Te invitamos a que desarrolles tu conocimiento desde casa: </h3>
         <h4 > <span id="semana"> Semana del 1° de Enero de 2020 a el 7 de Enero de 2020</span> </h4>
       </div>
       <div class="col-md-4">
@@ -94,92 +93,21 @@
       <!-- menu de actividades-->
       <div class="col-md-3">
         <div class="panel panel-actividades">
-          <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12">
                 <h4 class="act-h4">Actividades </h4>
               </div>
             </div>
-            <div class="row">
+           <!--Aquí se generarán de manera programática los botones de actividades y sus links-->
+            <div id="menu-botones-actividad"></div>
+            <!--div class="row">
               <div class="col-sm-12 col-md-12">
                 <button id="fichas" class="btn btn-actividad" onclick="filterActivities(this, 'fichas')" > 
                       <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-fichas.svg" alt="">
                       <div class="btn-actividad-titulo">Fichas de repaso</div>  
                 </button>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <button id="tv" class="btn btn-actividad" onclick="filterActivities(this,'tv')"> 
-                      <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-tv.svg" alt="">
-                      <div class="btn-actividad-titulo">Televisión</div>  
-                </button>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad" onclick="filterActivities(this,'ludicas')"> 
-                      <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-l-dicas.svg" alt="">
-                      <div class="btn-actividad-titulo">A. Lúdicas</div>  
-                </button>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad"> 
-                      <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-videos.svg" alt="">
-                      <div class="btn-actividad-titulo">Videos</div>  
-                </button>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad"> 
-                      <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-retos.svg" alt="">
-                      <div class="btn-actividad-titulo">Retos</div>  
-                </button>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad"> 
-                      <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-lecturas.svg" alt="">
-                      <div class="btn-actividad-titulo">Lecturas</div>  
-                </button>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad"> 
-                      <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-conocimiento.svg" alt="">
-                      <div class="btn-actividad-titulo">Reforzamiento </div>  
-                </button>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad"> 
-                      <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-videojuegos.svg" alt="">
-                      <div class="btn-actividad-titulo">Videojuegos</div>  
-                </button>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad"> 
-                      <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-libros.svg" alt="">
-                      <div class="btn-actividad-titulo">Libros de texto</div>  
-                </button>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12 col-md-12">
-                <button class="btn btn-actividad"> 
-                      <img class="img-responsive img-actividad-icon" src="/assets/images/btn/actividades/min/icono-activacion.svg" alt="">
-                      <div class="btn-actividad-titulo">Activación física</div>  
-                </button>
-              </div>
-            </div>
+            </div-->
           </div>
         </div>
       </div>
@@ -189,13 +117,16 @@
         <div class="panel panel-actividades">
             <div class="row">
               <div class="col-sm-12 col-md-12">
-                <h4 class="act-h4">Selecciona un grado: </h4>
+                <h4 class="act-h4">Selecciona tu grado: </h4>
               </div>
             </div>
             <div class="row"> <!-- Button pills -->
               <div class="col-sm-12 col-md-12">
                   <ul class="nav nav-pills" id="navigation-pills">
                     <!-- aqui val los botones generados por js-->
+                    <li id="opcion-todos" role="presentation" class="hidden active">
+                      <a href="#" >Todos</a>
+                    </li>
                   </ul>
               </div>
               <div class="margin-bottom"></div>
@@ -220,10 +151,9 @@
 <!--script src="https://framework-gb.cdn.gob.mx//assets/scripts/vendor/pace.min.js"></script-->
 <!--script> w3IncludeHTML(); </script-->
 <!--script src="https://code.jquery.com/jquery-3.5.0.slim.min.js"></script-->
-<script src="/assets/scripts/actividades/links.js"></script>
+<script src="/assets/scripts/actividades/links_.js"></script>
 <script src="/assets/scripts/despliegaActividades.js"></script>
 <script src="/assets/scripts/semana.js"></script>
-<script src="/assets/scripts/masonry/masonry.js"></script>
   <div class="margin-bottom">&nbsp;</div>
 </body>
 </html>

@@ -200,6 +200,13 @@ td.disabled {
     border-radius : 5px;
     /*display: none;*/
 }
+
+.grid-item-video {
+    width: 30%;
+    margin: 10px;
+    float: left;
+}
+
 .show {
     display : block;
 }

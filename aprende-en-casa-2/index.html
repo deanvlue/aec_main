@@ -33,6 +33,7 @@
         <link href="/assets/styles/aec.css" rel="stylesheet" type="text/css"/>
         <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
         <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet"/>
+        <script src="https://unpkg.com/vue"></script>
     </head>
     <!-- Para que funcione el js como un include en html -->
     <body>
@@ -90,8 +91,8 @@
                 <div class="col-md-offset-2 col-md-8" align="center">
                     <div class="col-md-12">
                         <!--a href="/assets/archivos/cartaalumnos.pdf" target="_blank">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <img class="img-responsive" src="/assets/images/btn/cartas/carta_alumnos@2x.svg" />
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </a-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <img class="img-responsive" src="/assets/images/btn/cartas/carta_alumnos@2x.svg" />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </a-->
 
                         <!--img class="img-responsive" src="/assets/images/video_v3.png" /-->
 
@@ -207,85 +208,18 @@
 
             <!-- Videos informativos -->
             <div class="row">
-                <div
-                    class="col-md-6" id="videoPlaceholder">
-                    <!--aquí va la card-->
-                    <div class="panel">
-                        <div class="panel-body"></div>
-                    </div>
-
-                </div>
-                <div
-                    class="col-md-6" id="videoPlaceholder">
-                    <!--aquí va la card-->
-                    <div class="panel">
-                        <div class="panel-body">
-                            <video width="100%" width="100%" src="https://www.aprendeencasa.mx/aprende-en-casa/videos/IXTZULsensibilizacion.mp4" controls></video>
-                            <h3>
-                                Un Millón de estrellas
-                            </h3>
-                            <p>
-                                Distingue distintas actitudes asertivas que se manifiestan en las actividades y juegos para  promover ambientes de colaboración y respeto.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-                <div
-                    class="col-md-6" id="videoPlaceholder">
-                    <!--aquí va la card-->
-                    <div class="panel">
-                        <div class="panel-body">
-                            <video width="266" height="99" src="https://www.aprendeencasa.mx/aprende-en-casa/videos/TEPORINGOSbusqueda_tesoro.mp4" controls></video>
-                            <h3>
-                                Búsqueda del tesoro
-                            </h3>
-                            <p>
-                                Propone distintas
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              respuestas morices y
-                                <br/>
-                                Reconoce las
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              formas de
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-                <div
-                    class="col-md-6" id="videoPlaceholder">
-                    <!--aquí va la card-->
-                    <div class="panel">
-                        <div class="panel-body">
-                            <div class="embedded-responsive embedded-responsive-16by9">
-                                <iframe class="video" src="https://www.youtube.com/embed/8KRZCgsw2E8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-md-offset-2 col-md-9">
+                    <div class="grid">
+                        <div class="grid-sizer" id="videosInformativos">
+                            <div class="grid-item-video" v-for="(video, index) in videoLinks" :key="video.id">
+                                <video width="100%" :src="video.url" controls></video>
+                                <div class="caption">
+                                    <h5>{{ video.titulo}}</h5>
+                                    <p>{{video.descripcion}}</p>
+                                </div>
                             </div>
-                            <h3>
-                                “La gran aventura Kokone”
-                            </h3>
-                            <p>
-                                Promover y contribuir en los alumnos el desarrollo físico, intelectual, social y afectivo en un marco familiar y de
-                            </p>
                         </div>
                     </div>
-
-                </div>
-                <div
-                    class=" col-md-2" id=" videoplaceholder">
-                    <!--aquí va la card-->
-                    <div class="panel">
-                        <div class="panel-body">
-                            <div class="embedded-responsive embedded-responsive-16by9">
-                                <iframe class="video" width="133" height="99" src="https://youtu.be/9wN2MuKu7hs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                            <h3>
-                                Tamandua
-                            </h3>
-                            <p>
-                                En la canción “Este es un juego para muy listos” Pueden participar todos los integrantes de la familia y así
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
             </div>
             <!-- Videos informativos FIN-->
@@ -300,7 +234,7 @@
         </div>
 
         <div class="margin-bottom">&nbsp;</div>
-
+        <script src="/assets/scripts/videos_inicio/videosDisplay.js"></script>
         <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
     </body>
 </html>

@@ -218,3 +218,8 @@ iframe {
   text-align: justify;
   text-justify: inter-word;
 }
+
+iframe.video{
+    width: 133px;
+    height: 99px;
+}

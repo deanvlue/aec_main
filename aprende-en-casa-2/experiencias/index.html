@@ -10,18 +10,26 @@
     </head>
     <body>
 
-        <div id="app">
-            <hello-world></hello-world>
-        </div>
+        <hello-world id="app" level="5" name="Carlos"></hello-world>
         <script>
 
             Vue.component('hello-world', {
-                template: `<div>
-                {{ msg }}
-                </div>`,
+                render(createElement) {
+                    return createElement(`h${
+                        this.level
+                    }`, {
+                        'class': 'text-center',
+                        on: {
+                            click(e) {
+                                alert('Clicked')
+                            }
+                        }
+                    }, this.msg + this.name)
+                },
                 data() {
-                    return {msg: 'Welcome'}
-                }
+                    return {msg: 'Welcome '}
+                },
+                props: ['name', 'level']
             })
 
             new Vue({el: '#app'});

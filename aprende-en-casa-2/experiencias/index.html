@@ -11,18 +11,20 @@
     <body>
 
         <div id="app">
-            <h1>
-                {{ welcome }}
-            </h1>
-
+            <hello-world></hello-world>
         </div>
         <script>
-            new Vue({
-                el: '#app',
+
+            Vue.component('hello-world', {
+                template: `<div>
+                {{ msg }}
+                </div>`,
                 data() {
-                    return {welcome: "Hola Mundo"}
+                    return {msg: 'Welcome'}
                 }
-            });
+            })
+
+            new Vue({el: '#app'});
         </script>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

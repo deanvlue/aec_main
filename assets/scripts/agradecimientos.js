@@ -80,6 +80,7 @@ textNext.innerText = "Next";
 next.appendChild(iconNext);
 next.appendChild(textNext);
 
+
 //carousel.appendChild(indicators)
 carousel.appendChild(inner);
 carousel.appendChild(prev);

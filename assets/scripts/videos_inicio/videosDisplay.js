@@ -10,12 +10,12 @@ new Vue({
         },
         {
           id:"2",
-          titulo: 'Cuerdas Divertidas',
+          titulo: 'Cuerdas divertidas',
           url: 'https://res.cloudinary.com/dd1cjovcw/video/upload/v1588561814/videos/2_danza_cuerda_huiz9g.mov'
         },
         {
           id:"3",
-          titulo: 'Un teatro de sombras',
+          titulo: 'Un teatro ¿de sombras?',
           url: 'https://res.cloudinary.com/dd1cjovcw/video/upload/v1588525806/videos/libertad_min_lvf2mo.mp4'
         },
         {

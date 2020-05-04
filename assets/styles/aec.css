@@ -186,7 +186,7 @@ td.disabled {
     padding-bottom : 100px;
 }
 
-/* clearfix */.grid : after {
+/* clearfix */.grid:after {
     content : '';
     display : block;
     clear : both;

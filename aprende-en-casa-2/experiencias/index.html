@@ -7,20 +7,116 @@
 
         <!--<script src="https://unpkg.com/vue"></script>-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="/assets/styles/aec.css" rel="stylesheet" />
+        <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet"> 
         <style>
+            body{background-color: #fefefe !important}
             .vc-title,.vc-weekday{color:rgba(179, 51, 127, 1.0) !important;}
             .vc-flex{color:#FFFFFF !important;background-color: #3182ce !important;border-radius: 50% !important;}
+            .tabs .is-active{border-bottom: 4px solid #3182ce}
+            .tabs .tab {padding-bottom: 5px}
+            .tabs-details{padding-top: 140px}
+            .grid{padding-bottom: 0px !important}
+            h5{color: #d53c88 !important;}
         </style>
     </head>
     <body>
-        <div id='app'>
-          <v-calendar 
-            :attributes='attrs'
-            title-position="left"></v-calendar>
-          <!--<v-date-picker :mode='mode' v-model='selectedDate' />-->
-        </div>
+        <div id="app" class="container">
 
-         <!-- 1. Link Vue Javascript -->
+            <nav class="navbar aec">
+                <div class="row">
+                  <div class="col-sm-9">
+                    <ol class="breadcrumb aec">
+                      <li><a href="https://www.gob.mx/aefcm"><span class="glyphicon glyphicon-home"></span></a></li>
+                      <li><a href="../../index.html">Inicio</a></li>
+                      <li><a href="../../index.html">Aprende en Casa</a></li>
+                      <li><a href="../../acceso.html">Acceso</a></li>
+                      <li><a href="/aprende-en-casa/niveles/index.html">Niveles</a></li>
+                      <li><a href="/aprende-en-casa/niveles/secundaria/index.html">Educación Primaria</a></li>
+                      <li class="active">Experiencias</li>
+                    </ol>
+                  </div>
+                  <div class="col-sm-3 visible-md visible-lg">
+                    <img class="img-responsive  navbar-logo" src="/assets/images/logo_aprende@2x.svg" alt="">
+                  </div>
+                </div>
+            </nav>
+
+            <h3 class="text-center"> Experiencias </h3>
+
+            <tabs>
+                <tab name="Primaria 1ro y 2do" :selected="true" img="/assets/images/experiencias/primbanner1y2.png">
+                    <div style="margin-bottom: 100px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 40px 100px 40px 100px">
+                        <span style="margin-top: 100px;font-weight: bold">Selecciona una fecha para revisar las actividades para tu carpeta.</span>
+
+                        <div style="padding:40px;background-color: #FFFFFF;margin-top: 40px;border-radius: 5px;-webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35); 
+box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);">
+                            <v-calendar 
+                                style="margin: 0 auto"
+                                :attributes='attrs'
+                                title-position="left"></v-calendar>
+
+                            <div style="margin-top:40px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 20px">
+                                <div class="" style="text-align: left">
+                                    <strong>Miércoles 22 de abril.</strong>
+                                    <h5>¿Qué vimos hoy?</h5>
+
+                                     <!-- Activities -->
+
+
+                                     <div class="row">
+                                         <div class="col-sm-12">
+                                            <div class="col-sm-4">
+                                                <a href="#matematicas" data-toggle="modal"><img src="/assets/images/experiencias/matematicas.png" width="380" height="105" class="img-responsive"></a>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <a href="#artes" data-toggle="modal"><img src="/assets/images/experiencias/artes.png" width="380" height="105" class="img-responsive"></a>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <a href="#lenguaje" data-toggle="modal"><img src="/assets/images/experiencias/lenguaje.png" width="380" height="105" class="img-responsive"></a>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                &nbsp;
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <a href="#medio" data-toggle="modal"><img src="/assets/images/experiencias/medio.png" width="380" height="105" class="img-responsive"></a>
+                                            </div>
+                                          </div>
+                                      </div>
+
+                                     <!-- End Activities -->
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </tab>
+                <tab name="Primaria 3ro y 4do" img="/assets/images/experiencias/primbanner3y4.png">
+                    <p>Primaria 3ro y 4do</p>
+                </tab>
+                <tab name="Primaria 5ro y 6do" img="/assets/images/experiencias/primbanner5y6.png">
+                  <p>Primaria 5ro y 6do</p>
+                </tab>
+            </tabs>
+
+            <!--<div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12">
+                    <h3 class="text-center"> Experiencias </h3>
+                    <div class="col-sm-4" align="center"> <a href="#secundaria1"><img src="/assets/images/experiencias/primbanner1y2.png" width="346" height="113" /></a>
+                    </div>
+                    <div class="col-sm-4" align="center"> <a href="#secundaria2"><img src="/assets/images/experiencias/primbanner3y4.png" width="346" height="113" /></a>
+                    </div>
+                    <div class="col-sm-4" align="center"> <a href="#secundaria3"><img src="/assets/images/experiencias/primbanner5y6.png" width="346" height="113" /></a>
+                    </div>
+                  </div>
+                </div>
+            </div> -->
+
+            
+        </div>              
+
+        <!-- 1. Link Vue Javascript -->
         <script src='https://unpkg.com/vue/dist/vue.js'></script>
 
         <!-- 2. Link VCalendar Javascript (Plugin automatically installed) -->
@@ -28,6 +124,76 @@
 
         <!--3. Create the Vue instance-->
         <script>
+
+          Vue.component("tabs", {
+              template: `
+                    <div>
+                        <div class="tabs">
+                          <div v-for="tab in tabs" :class="{ 'is-active': tab.isActive }" class="tab col-sm-4" align="center"> 
+                            <a :href="tab.href" @click="selectTab(tab)">
+                                <img :src="tab.img" width="346" height="113" :alt="tab.name" />
+                            </a>
+                          </div>
+                        </div>
+
+                        <!--<ul>
+                            <li v-for="tab in tabs" :class="{ 'is-active': tab.isActive }">
+                                <a :href="tab.href" @click="selectTab(tab)">{{ tab.name }}</a>
+                            </li>
+                        </ul>-->
+
+                        <div class="tabs-details">
+                            <slot></slot>
+                        </div>
+                    </div>
+                `,
+
+              data() {
+                return { tabs: [] };
+              },
+
+              created() {
+                this.tabs = this.$children;
+              },
+              methods: {
+                selectTab(selectedTab) {
+                  this.tabs.forEach((tab) => {
+                    tab.isActive = tab.name == selectedTab.name;
+                  });
+                }
+              }
+          });
+
+          Vue.component("tab", {
+              template: `
+
+                    <div v-show="isActive"><slot></slot></div>
+
+                `,
+
+              props: {
+                name: { required: true },
+                img: { required: true },
+                selected: { default: false }
+              },
+
+              data() {
+                return {
+                  isActive: false
+                };
+              },
+
+              computed: {
+                href() {
+                  return "#" + this.name.toLowerCase().replace(/ /g, "-");
+                }
+              },
+
+              mounted() {
+                this.isActive = this.selected;
+              }
+          });
+
           new Vue({
             el: '#app',
             data: {

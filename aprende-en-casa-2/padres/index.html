@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Padres de Familia</title>
+
+        <!--<script src="https://unpkg.com/vue"></script>-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="/assets/styles/aec.css" rel="stylesheet" />
+        <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet"> 
+        <style>
+            body{background-color: #fefefe !important}
+            .vc-title,.vc-weekday{color:rgba(179, 51, 127, 1.0) !important;}
+            .vc-flex{color:#FFFFFF !important;background-color: #3182ce !important;border-radius: 50% !important;}
+            .tabs .is-active{border-bottom: 4px solid #3182ce}
+            .tabs .tab {padding-bottom: 5px}
+            .tabs-details{padding-top: 140px}
+            .tabs-container{margin-bottom: 100px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 40px 100px 40px 100px}
+            .tabs-container .title{margin-top: 100px;font-weight: bold}
+            .tabs-container .sub{padding:40px;background-color: #FFFFFF;margin-top: 40px;border-radius: 5px;-webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35); 
+box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
+            .tabs-container .sub .menu{margin-top:40px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 20px}
+            .grid{padding-bottom: 0px !important}
+            h5{color: #d53c88 !important;}
+        </style>
+    </head>
+    <body>
+        <div id="app" class="container">
+
+            <nav class="navbar aec">
+                <div class="row">
+                  <div class="col-sm-9">
+                    <ol class="breadcrumb aec">
+                      <li><a href="https://www.gob.mx/aefcm"><span class="glyphicon glyphicon-home"></span></a></li>
+                      <li><a href="../../index.html">Inicio</a></li>
+                      <li><a href="../../index.html">Aprende en Casa</a></li>
+                      <li><a href="../../acceso.html">Acceso</a></li>
+                      <li class="active">Padres de familia</li>
+                    </ol>
+                  </div>
+                  <div class="col-sm-3 visible-md visible-lg">
+                    <img class="img-responsive  navbar-logo" src="/assets/images/logo_aprende@2x.svg" alt="">
+                  </div>
+                </div>
+            </nav>
+
+            <tabs>
+                <tab name="Alimentación" :selected="true" img="/assets/images/experiencias/primbanner1y2.png">
+                    <div class="tabs-container">
+                        <span class="title"></span>
+
+                        <div class="sub">
+
+                            
+                        </div>
+                    </div>
+                </tab>
+                <tab name="Salud" img="/assets/images/experiencias/primbanner3y4.png">
+                    <div class="tabs-container">
+                        <span class="title"></span>
+
+                        <div class="sub">
+
+                           
+                        </div>
+                    </div>
+                </tab>
+                <tab name="Socioemocional" img="/assets/images/experiencias/primbanner5y6.png">
+                    <div class="tabs-container">
+                        <span class="title"></span>
+
+                        <div class="sub">
+                           
+                        </div>
+                    </div>
+                </tab>
+                <tab name="Formación para padres" img="/assets/images/experiencias/primbanner5y6.png">
+                    <div class="tabs-container">
+                        <span class="title"></span>
+
+                        <div class="sub">
+                           
+                        </div>
+                    </div>
+                </tab>
+            </tabs>
+            
+        </div>              
+
+        <!-- 1. Link Vue Javascript -->
+        <script src='https://unpkg.com/vue/dist/vue.js'></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+
+        <!--3. Create the Vue instance-->
+        <script>
+
+          Vue.component("tabs", {
+              template: `
+                    <div>
+                        <div class="tabs">
+                          <div v-for="tab in tabs" :class="{ 'is-active': tab.isActive }" class="tab col-sm-4" align="center"> 
+                            <a :href="tab.href" @click="selectTab(tab)">
+                                <img :src="tab.img" width="346" height="113" :alt="tab.name" />
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="tabs-details">
+                            <slot></slot>
+                        </div>
+                    </div>
+                `,
+
+              data() {
+                return { tabs: [] };
+              },
+
+              created() {
+                this.tabs = this.$children;
+              },
+              methods: {
+                selectTab(selectedTab) {
+                  this.tabs.forEach((tab) => {
+                    tab.isActive = tab.name == selectedTab.name;
+                  });
+                }
+              }
+          });
+
+          Vue.component("tab", {
+              template: `
+
+                    <div v-show="isActive"><slot></slot></div>
+
+                `,
+
+              props: {
+                name: { required: true },
+                img: { required: true },
+                selected: { default: false }
+              },
+
+              data() {
+                return {
+                  isActive: false
+                };
+              },
+
+              computed: {
+                href() {
+                  return "#" + this.name.toLowerCase().replace(/ /g, "-");
+                }
+              },
+
+              mounted() {
+                this.isActive = this.selected;
+              }
+          });
+
+          new Vue({
+            el: '#app',
+            data: {
+
+            }
+          })
+        </script>
+    </body>
+</html>

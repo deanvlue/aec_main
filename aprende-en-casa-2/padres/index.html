@@ -103,7 +103,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
               template: `
                     <div>
                         <div class="tabs">
-                          <div v-for="tab in tabs" :class="{ 'is-active': tab.isActive }" class="tab col-sm-4" align="center"> 
+                          <div v-for="tab in tabs" :class="{ 'is-active': tab.isActive }" class="tab col-sm-3" align="center"> 
                             <a :href="tab.href" @click="selectTab(tab)">
                                 <img :src="tab.img" width="346" height="113" :alt="tab.name" />
                             </a>

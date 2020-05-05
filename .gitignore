@@ -17,3 +17,4 @@ assets/video/aprende-en-casa.mp4
 assets/video/*
 # Local Netlify folder
 .netlify
+.node_modules

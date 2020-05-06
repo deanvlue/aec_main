@@ -198,7 +198,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.1/moment-with-locales.min.js" integrity="sha256-tYxbRsX9g9rCkoqG99Bnze2SRAs2A14gAtMIsaz2SP8=" crossorigin="anonymous"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
         <!--3. Create the Vue instance-->
         <script>
 
@@ -295,7 +295,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
               }
           });
 
-          new Vue({
+          var app = new Vue({
             el: '#app',
             data: {
               experiences: [
@@ -513,9 +513,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -526,9 +523,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -538,9 +532,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                             ]
                         },{
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -551,9 +542,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -615,9 +603,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -628,9 +613,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Valores",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/valores.png",
                             refs: [
                                 {
@@ -647,9 +629,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -660,9 +639,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -673,9 +649,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -692,9 +665,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Deportes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/deportes.png",
                             refs: [
                                 {
@@ -705,9 +675,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -718,9 +685,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -731,9 +695,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -750,9 +711,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -763,9 +721,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -776,9 +731,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -789,9 +741,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -808,9 +757,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -821,9 +767,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -834,9 +777,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -847,9 +787,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -866,9 +803,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -879,9 +813,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -892,9 +823,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Deportes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/deportes.png",
                             refs: [
                                 {
@@ -905,9 +833,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -924,9 +849,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -937,9 +859,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -950,9 +869,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Deportes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/deportes.png",
                             refs: [
                                 {
@@ -963,9 +879,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -982,9 +895,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -995,9 +905,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1007,9 +914,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                             ]
                         },{
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -1020,9 +924,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1039,9 +940,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1052,9 +950,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1064,9 +959,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                             ]
                         },{
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -1077,9 +969,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -1096,9 +985,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -1109,9 +995,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1121,9 +1004,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                             ]
                         },{
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1134,9 +1014,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -1198,9 +1075,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1211,9 +1085,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Valores",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/valores.png",
                             refs: [
                                 {
@@ -1230,9 +1101,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1243,9 +1111,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -1256,9 +1121,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -1275,9 +1137,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Deportes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/deportes.png",
                             refs: [
                                 {
@@ -1288,9 +1147,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1301,9 +1157,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -1314,9 +1167,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1333,9 +1183,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1346,9 +1193,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -1359,9 +1203,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -1372,9 +1213,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1391,9 +1229,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1404,9 +1239,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1417,9 +1249,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1430,9 +1259,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -1449,9 +1275,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1462,9 +1285,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -1475,9 +1295,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Deportes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/deportes.png",
                             refs: [
                                 {
@@ -1488,9 +1305,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1507,9 +1321,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -1520,9 +1331,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1533,9 +1341,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Deportes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/deportes.png",
                             refs: [
                                 {
@@ -1546,9 +1351,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1565,9 +1367,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -1578,9 +1377,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1590,9 +1386,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                             ]
                         },{
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -1603,9 +1396,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1622,9 +1412,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1635,9 +1422,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1647,9 +1431,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                             ]
                         },{
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -1660,9 +1441,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -1679,9 +1457,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/lenguaje.png",
                             refs: [
                                 {
@@ -1692,9 +1467,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/matematicas.png",
                             refs: [
                                 {
@@ -1704,9 +1476,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                             ]
                         },{
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/medio.png",
                             refs: [
                                 {
@@ -1717,9 +1486,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
                             image: "/assets/images/experiencias/artes.png",
                             refs: [
                                 {
@@ -1736,18 +1502,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 {
                   key: 'today',
                   highlight: true,
-                  dates: [
-                    new Date(2020, 3, 20),
-                    new Date(2020, 3, 21),
-                    new Date(2020, 3, 22),
-                    new Date(2020, 3, 23),
-                    new Date(2020, 3, 24),
-                    new Date(2020, 3, 27),
-                    new Date(2020, 3, 28),
-                    new Date(2020, 3, 29),
-                    new Date(2020, 3, 30),
-                    new Date(2020, 4, 1),
-                  ],
+                  dates: []//_.map(this.experiences, _.property('date')),
                 },
               ],
               attrs2: [
@@ -1798,19 +1553,16 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     if(experience.length > 0){
                         var date = moment(experience[0].date).format('LLLL');
                         $("#date1").text(date);
-
-                        console.log(experience[0].date);
-
                         var topics = "";
 
                         $.each( experience[0].topics, function( key, topic ) {
-                            console.log("Slug: " + slug(topic.name));
                             var modal_content = typeof topic.modal_content === 'undefined' ? '' : topic.modal_content;
+                            var topicId = slug(topic.name) + key;
 
                             topics += '<div class="col-sm-12 col-md-6 col-lg-4">'+
-                                    '<a href="#'+ slug(topic.name) + key +'" data-toggle="modal"><img src="'+ topic.image +'" width="380" height="105" class="img-responsive"></a>'+
+                                    '<a href="#'+ topicId +'" data-toggle="modal"><img src="'+ topic.image +'" width="380" height="105" class="img-responsive"></a>'+
                                 '</div>'+
-                                '<div id="'+ slug(topic.name) + key +'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
+                                '<div id="'+ topicId +'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
                                     '<div class="modal-dialog modal-lg" style="margin-top: 76px;">'+
                                       '<div class="modal-content">'+
                                         '<div class="modal-header">'+

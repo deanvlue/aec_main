@@ -9,6 +9,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="/assets/styles/aec.css" rel="stylesheet" />
         <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
+
         <style>
             body{background-color: #fefefe !important}
             .vc-title,.vc-weekday{color:rgba(179, 51, 127, 1.0) !important;}
@@ -16,13 +20,13 @@
             .tabs .is-active{border-bottom: 4px solid #3182ce}
             .tabs .tab {padding-bottom: 5px}
             .tabs-details{padding-top: 140px}
-            .tabs-container{margin-bottom: 100px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 40px 100px 40px 100px}
-            .tabs-container .title{margin-top: 100px;font-weight: bold}
-            .tabs-container .sub{padding:40px;background-color: #FFFFFF;margin-top: 40px;border-radius: 5px;-webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35); 
-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
-            .tabs-container .sub .menu{margin-top:40px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 20px}
+            .tabs-container{margin-bottom: 100px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 40px}
             .grid{padding-bottom: 0px !important}
             h5{color: #d53c88 !important;}
+            .btn-primary{color: #FFFFFF;background-color: #BA186A;border-color: #BA186A;}
+            .btn-primary.active, .btn-primary:active, .btn-primary:hover{color: #FFFFFF;background-color: #9E1559;border-color: #9E1559};
+            .card {-webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);border:1px solid rgba(0,0,0,0) !important;}
+            .owl-carousel {width: 730px}
         </style>
     </head>
     <body>
@@ -45,37 +49,88 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 </div>
             </nav>
 
+            <!-- Set up your HTML -->
+            <div class="row">
+              <div class="col-sm-12" style="padding-left: 200px;padding-right: 300px;padding-top: 30px;">
+                <div class="owl-carousel">
+                  <img src="/assets/images/padres/image-slider.png" style="width:730px; height: 400px">
+                  <img src="https://placeimg.com/200/200/any?4" style="width:730px; height: 400px">
+                </div>
+              </div>
+            </div>
+
+            <h3 class="text-center"> Apoya la educación de tus hijo(a) </h3>
+
+            <div class="row">
+              <div class="col-sm-12" style="padding-left: 100px;padding-right: 100px;padding-bottom:50px;padding-top: 20px">
+                <div class="col-sm-4">
+                  <a href="#">
+                      <img src="/assets/images/padres/calendario.svg" width="276" height="123" alt="" />
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <a href="#">
+                      <img src="/assets/images/padres/agenda.svg" width="276" height="123" alt="" />
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <a href="#">
+                      <img src="/assets/images/padres/experiencias.svg" width="276" height="123" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <tabs>
-                <tab name="Alimentación" :selected="true" img="/assets/images/experiencias/primbanner1y2.png">
+                <tab name="Alimentación" :selected="true" img="/assets/images/padres/alimentacion.svg">
                     <div class="tabs-container">
-                        <span class="title"></span>
-
-                        <div class="sub">
-
-                            
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text" style="text-align: left;">A tu lado: ¿Como asegurar una buna alimentación para nuestros hijos e hijas.</p>
+                                <a href="#" class="btn btn-primary" style="float: left;">Visitar</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text" style="text-align: left;">A tu lado: Pautas de NUTRICIÓN para el confinamiento.</p>
+                                <a href="#" class="btn btn-primary" style="float: left;">Ver video</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text" style="text-align: left;">A tu lado: Pautas de NUTRICIÓN para el confinamiento.</p>
+                                <a href="#" class="btn btn-primary" style="float: left;">Ver video</a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </tab>
-                <tab name="Salud" img="/assets/images/experiencias/primbanner3y4.png">
+                <tab name="Salud" img="/assets/images/padres/salud.svg">
+                    <div class="tabs-container">
+                      
+
+                    </div>
+                </tab>
+                <tab name="Socioemocional" img="/assets/images/padres/socioemocional.svg">
                     <div class="tabs-container">
                         <span class="title"></span>
 
                         <div class="sub">
-
                            
                         </div>
                     </div>
                 </tab>
-                <tab name="Socioemocional" img="/assets/images/experiencias/primbanner5y6.png">
-                    <div class="tabs-container">
-                        <span class="title"></span>
-
-                        <div class="sub">
-                           
-                        </div>
-                    </div>
-                </tab>
-                <tab name="Formación para padres" img="/assets/images/experiencias/primbanner5y6.png">
+                <tab name="Formación para padres" img="/assets/images/padres/formacion.svg">
                     <div class="tabs-container">
                         <span class="title"></span>
 
@@ -94,10 +149,19 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        
 
+        <script src="/assets/scripts/owl.carousel.min.js"></script>
+      
         <!--3. Create the Vue instance-->
         <script>
+
+          $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                items: 1,
+                autoWidth:true,
+            })
+          });
 
           Vue.component("tabs", {
               template: `
@@ -105,7 +169,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         <div class="tabs">
                           <div v-for="tab in tabs" :class="{ 'is-active': tab.isActive }" class="tab col-sm-3" align="center"> 
                             <a :href="tab.href" @click="selectTab(tab)">
-                                <img :src="tab.img" width="346" height="113" :alt="tab.name" />
+                                <img :src="tab.img" width="255" height="103" :alt="tab.name" />
                             </a>
                           </div>
                         </div>

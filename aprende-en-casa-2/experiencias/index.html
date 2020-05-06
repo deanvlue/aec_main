@@ -6,9 +6,9 @@
         <title>Agenda de Experiencias</title>
 
         <!--<script src="https://unpkg.com/vue"></script>-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="/assets/styles/aec.css" rel="stylesheet" />
-        <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet"> 
+        <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+
         <style>
             body{background-color: #fefefe !important}
             .vc-title,.vc-weekday{color:rgba(179, 51, 127, 1.0) !important;}
@@ -22,7 +22,54 @@
 box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
             .tabs-container .sub .menu{margin-top:40px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 20px}
             .grid{padding-bottom: 0px !important}
+            .modal-title{color:#FFFFFF !important;}
+            .close{color:#FFFFFF;opacity: 0.5 !important;}
+            .close:hover{color:#ACADAD !important}
             h5{color: #d53c88 !important;}
+            .text-center{margin: 10px 0 20px 0;}
+            /* 
+              ##Device = Desktops
+              ##Screen = 1281px to higher resolution desktops
+            */
+            @media (min-width: 1281px) {              
+            }
+            /* 
+              ##Device = Laptops, Desktops
+              ##Screen = B/w 1025px to 1280px
+            */
+            @media (min-width: 1025px) and (max-width: 1280px) {              
+            }
+            /* 
+              ##Device = Tablets, Ipads (portrait)
+              ##Screen = B/w 768px to 1024px
+            */
+            @media (min-width: 768px) and (max-width: 1024px) {              
+            }
+            /* 
+              ##Device = Tablets, Ipads (landscape)
+              ##Screen = B/w 768px to 1024px
+            */
+            @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+                .text-center{margin: -15px 0 20px 0;}            
+            }
+            /* 
+              ##Device = Low Resolution Tablets, Mobiles (Landscape)
+              ##Screen = B/w 481px to 767px
+            */
+            @media (min-width: 481px) and (max-width: 767px) {              
+            }
+            /* 
+              ##Device = Most of the Smartphones Mobiles (Portrait)
+              ##Screen = B/w 320px to 479px
+            */
+            @media (min-width: 320px) and (max-width: 480px) {
+                .tabs-container{padding: 10px}
+                .tabs-container .sub{padding:20px}
+                .tabs-details {padding-top: 40px;} 
+                .tabs .tab {margin-bottom: 10px;}
+                #experiences .topics{padding-left: 0;padding-right: 0}
+                .text-center{margin: 15px 0 20px 0;}
+            }
         </style>
     </head>
     <body>
@@ -33,11 +80,11 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                   <div class="col-sm-9">
                     <ol class="breadcrumb aec">
                       <li><a href="https://www.gob.mx/aefcm"><span class="glyphicon glyphicon-home"></span></a></li>
-                      <li><a href="../../index.html">Inicio</a></li>
-                      <li><a href="../../index.html">Aprende en Casa</a></li>
-                      <li><a href="../../acceso.html">Acceso</a></li>
-                      <li><a href="/aprende-en-casa/niveles/index.html">Niveles</a></li>
-                      <li><a href="/aprende-en-casa/niveles/secundaria/index.html">Educación Primaria</a></li>
+                      <li><a href="/aprende-en-casa-2/index.html">Inicio</a></li>
+                      <li><a href="/aprende-en-casa-2/index.html">Aprende en Casa</a></li>
+                      <li><a href="/aprende-en-casa-2/acceso.html">Acceso</a></li>
+                      <li><a href="/aprende-en-casa-2/niveles/index.html">Niveles</a></li>
+                      <li><a href="/aprende-en-casa-2/niveles/primaria/index.html">Educación Primaria</a></li>
                       <li class="active">Experiencias</li>
                     </ol>
                   </div>
@@ -47,7 +94,11 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 </div>
             </nav>
 
-            <h3 class="text-center"> Experiencias </h3>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="text-center"> Experiencias </h3>
+                </div>
+            </div>
 
             <tabs>
                 <tab name="Primaria 1ro y 2do" :selected="true" img="/assets/images/experiencias/primbanner1y2.png">
@@ -56,8 +107,9 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
                         <div class="sub">
                             <v-calendar 
+                                locale="es"
                                 @dayClick="selectDay"
-                                :columns="$screens({ default: 1, lg: 2 })"
+                                :columns="$screens({ default: 1, lg: 1 })"
                                 style="margin: 0 auto"
                                 :attributes='attrs'
                                 title-position="left"></v-calendar>
@@ -68,7 +120,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                                     <h5>¿Qué vimos hoy?</h5>
 
                                      <!-- Experiences -->
-                                     <div id="experiences" class="container-fluid"></div>
+                                     <div id="experiences" class=""></div>
                                      <!-- End Experiences -->
                                 </div>
                                 
@@ -82,8 +134,9 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
                         <div class="sub">
                             <v-calendar 
+                                locale="es"
                                 @dayClick="selectDay2"
-                                :columns="$screens({ default: 1, lg: 2 })"
+                                :columns="$screens({ default: 1, lg: 1 })"
                                 style="margin: 0 auto"
                                 :attributes='attrs2'
                                 title-position="left"></v-calendar>
@@ -108,8 +161,9 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
                         <div class="sub">
                             <v-calendar 
+                                locale="es"
                                 @dayClick="selectDay3"
-                                :columns="$screens({ default: 1, lg: 2 })"
+                                :columns="$screens({ default: 1, lg: 1 })"
                                 style="margin: 0 auto"
                                 :attributes='attrs3'
                                 title-position="left"></v-calendar>
@@ -129,7 +183,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     </div>
                 </tab>
             </tabs>
-            
         </div>              
 
         <!-- 1. Link Vue Javascript -->
@@ -139,9 +192,11 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
         <script src='https://unpkg.com/v-calendar'></script>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        
+        <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.1/moment-with-locales.min.js" integrity="sha256-tYxbRsX9g9rCkoqG99Bnze2SRAs2A14gAtMIsaz2SP8=" crossorigin="anonymous"></script>
 
         <!--3. Create the Vue instance-->
@@ -159,13 +214,31 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
             }
           });
 
+          var slug = function(str) {
+              str = str.replace(/^\s+|\s+$/g, ''); // trim
+              str = str.toLowerCase();
+
+              // remove accents, swap ñ for n, etc
+              var from = "ãàáäâẽèéëêìíïîõòóöôùúüûñç·/_,:;";
+              var to   = "aaaaaeeeeeiiiiooooouuuunc------";
+              for (var i=0, l=from.length ; i<l ; i++) {
+                str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+              }
+
+              str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+                .replace(/\s+/g, '-') // collapse whitespace and replace by -
+                .replace(/-+/g, '-'); // collapse dashes
+
+              return str;
+          };
+
           Vue.component("tabs", {
               template: `
                     <div>
                         <div class="tabs">
                           <div v-for="tab in tabs" :class="{ 'is-active': tab.isActive }" class="tab col-sm-4" align="center"> 
                             <a :href="tab.href" @click="selectTab(tab)">
-                                <img :src="tab.img" width="346" height="113" :alt="tab.name" />
+                                <img :src="tab.img" width="100%" height="auto" :alt="tab.name" />
                             </a>
                           </div>
                         </div>
@@ -225,7 +298,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
           new Vue({
             el: '#app',
             data: {
-              date: "",
               experiences: [
                 {
                     level: 3,
@@ -234,7 +306,8 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Artes",
-                            description: `
+                            image: "/assets/images/experiencias/artes.png",
+                            modal_content: `
                                 <ul>
                                     <li>¿Qué te parecieron los videos? ¿Cuál de los dos te gustó más?</li>
                                     <li>¿Qué música te gusta más? Podrías decir a qué género pertenece.</li>
@@ -242,63 +315,25 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                                     <li>¿Cuáles de ellos ya conocías?</li>
                                     <li>Elige una, dos o tres piezas que te gusten y disfrútalo con quienes te acompañen. ¡A escuchar, cantar o bailar!</li>
                                 </ul>
+                                <p align="justify"><strong>Video 1.- Juego de ritmo. "Banquete de  ritmos"<br>
+                                    <a href="https://www.youtube.com/watch?v=0wuh7NPeB6Q" target="blank">https://www.youtube.com/watch?v=0wuh7NPeB6Q</a> </strong>
+                                </p>
+                                <p align="justify"><strong>Video 2.- Los Géneros musicales para niños<br>
+                                    <a href="https://www.youtube.com/watch?v=wmctXOcy3qk" target="blank">https://www.youtube.com/watch?v=wmctXOcy3qk</a></strong><a href="https://www.youtube.com/watch?v=wmctXOcy3qk" target="blank"></a><br>
+                                </p>
                             `,
-                            image: "/assets/images/experiencias/artes.png",
-                            refs: [
-                                {
-                                    name: "Video 1.- Juego de ritmo. 'Banquete de ritmos'",
-                                    link: "https://www.youtube.com/watch?v=0wuh7NPeB6Q"
-                                },
-                                {
-                                    name: "Video 2.- Los Géneros musicales para niños",
-                                    link: "https://www.youtube.com/watch?v=wmctXOcy3qk"
-                                }
-                            ]
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                <ul>
-                                    <li>¿Qué te pareció el video? ¿Te gustó?</li>
-                                    <li>¿Puedes anotar tres cosas que aprendiste con este video?</li>
-                                    <li>Busca un tangram o elabora uno con papel.</li>
-                                    <li>¡A jugar! Usa tu imaginación. Arma con tu tangram algunas figuras, y muéstraselas a quien te acompaña.</li>
-                                    <li>¿Qué nombres de figuras con cuatro lados o esquinas conoces? Anótalos.</li>
-                                </ul>
-                            `,
-                            image: "/assets/images/experiencias/lenguaje.png",
-                            refs: [
-                                {
-                                    name: "Video 1.-  Zapotecos.- CELCI Hidalgo.- Ventana a mi Comunidad",
-                                    link: "https://youtu.be/ljexJYTitVY"
-                                }
-                            ]
+                            image: "/assets/images/experiencias/lenguaje.png"
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/matematicas.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/matematicas.png"
                         },
                         {
                             name: "Valores",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/valores.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/valores.png"
                         }
                     ]
                 },{
@@ -308,42 +343,15 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/medio.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/medio.png"
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/lenguaje.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/lenguaje.png"
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/artes.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/artes.png"
                         }
                     ]
                 },{
@@ -353,55 +361,19 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Deportes",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/deportes.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/deportes.png"
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/medio.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/medio.png"
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/lenguaje.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/lenguaje.png"
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/matematicas.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/matematicas.png"
                         }
                     ]
                 },{
@@ -411,55 +383,19 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/matematicas.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/matematicas.png"
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/artes.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/artes.png"
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/lenguaje.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/lenguaje.png"
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/medio.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/medio.png"
                         }
                     ]
                 },{
@@ -469,55 +405,19 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/medio.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/medio.png"
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/medio.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/medio.png"
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/matematicas.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/matematicas.png"
                         },
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/lenguaje.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/lenguaje.png"
                         }
                     ]
                 },{
@@ -527,55 +427,19 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/matematicas.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/matematicas.png"
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/artes.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/artes.png"
                         },
                         {
                             name: "Deportes",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/deportes.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/deportes.png"
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/medio.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/medio.png"
                         }
                     ]
                 },{
@@ -585,55 +449,19 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/lenguaje.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/lenguaje.png"
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/medio.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/medio.png"
                         },
                         {
                             name: "Deportes",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/deportes.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/deportes.png"
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/matematicas.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/matematicas.png"
                         }
                     ]
                 },{
@@ -643,54 +471,18 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/lenguaje.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/lenguaje.png"
                         },
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/medio.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/medio.png"
                         },{
                             name: "Artes",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/artes.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/artes.png"
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/matematicas.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/matematicas.png"
                         }
                     ]
                 },{
@@ -700,54 +492,18 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     topics: [
                         {
                             name: "Conocimiento del medio",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/medio.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/medio.png"
                         },
                         {
                             name: "Matemáticas",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/matematicas.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/matematicas.png"
                         },{
                             name: "Lenguaje",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/lenguaje.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/lenguaje.png"
                         },
                         {
                             name: "Artes",
-                            description: `
-                                
-                            `,
-                            image: "/assets/images/experiencias/artes.png",
-                            refs: [
-                                {
-                                    name: "",
-                                    link: ""
-                                }
-                            ]
+                            image: "/assets/images/experiencias/artes.png"
                         }
                     ]
                 },{
@@ -2040,46 +1796,37 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     })
 
                     if(experience.length > 0){
-                        $("#date1").text(moment(experience[0].date).format('LLLL'));
+                        var date = moment(experience[0].date).format('LLLL');
+                        $("#date1").text(date);
 
                         console.log(experience[0].date);
 
                         var topics = "";
 
                         $.each( experience[0].topics, function( key, topic ) {
-                          console.log("Tema: " + topic.name);
+                            console.log("Slug: " + slug(topic.name));
+                            var modal_content = typeof topic.modal_content === 'undefined' ? '' : topic.modal_content;
 
-                            topics += '<div class="col-sm-12 col-md-4">'+
-                                    '<a href="#'+ topic.name +'" data-toggle="modal"><img src="'+ topic.image +'" width="380" height="105" class="img-responsive"></a>'+
-                                '</div>';/*+
-                                '<div id="'+ topic.name +'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
+                            topics += '<div class="col-sm-12 col-md-6 col-lg-4">'+
+                                    '<a href="#'+ slug(topic.name) + key +'" data-toggle="modal"><img src="'+ topic.image +'" width="380" height="105" class="img-responsive"></a>'+
+                                '</div>'+
+                                '<div id="'+ slug(topic.name) + key +'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
                                     '<div class="modal-dialog modal-lg" style="margin-top: 76px;">'+
                                       '<div class="modal-content">'+
                                         '<div class="modal-header">'+
                                           '<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>'+
-                                                '<h5 class="modal-title">Artes</h5>'+
+                                                '<h5 class="modal-title">'+ topic.name +'</h5>'+
                                             '</div> '+
                                             '<div class="modal-body">'+
-                                              '<h3>Lunes 20 de abril </h3>'+
-                                              '<ul>'+
-                                                '<li>¿Qué  te parecieron los videos? ¿Cuál de los dos te gustó más?</li>'+
-                                                '<li>¿Qué  música te gusta más? Podrías decir a qué género pertenece.</li>'+
-                                                '<li>¿Qué  géneros musicales de los que mencionó Claudio recuerdas? Anótalos</li>'+
-                                                '<li>¿Cuáles  de ellos ya conocías?</li>'+
-                                                '<li>Elige  una, dos o tres piezas que te gusten y disfrútalo con quienes te acompañen. ¡A  escuchar, cantar o bailar! </li>'+
-                                              '</ul>'+
-                                              '<p align="justify"><strong>Video 1.- Juego de ritmo. "Banquete de  ritmos"<br>'+
-                                              '<a href="https://www.youtube.com/watch?v=0wuh7NPeB6Q" target="blank">https://www.youtube.com/watch?v=0wuh7NPeB6Q</a> </strong></p>'+
-                                              '<p align="justify"><strong>Video 2.- Los Géneros musicales para niños<br>'+
-                                                '<a href="https://www.youtube.com/watch?v=wmctXOcy3qk" target="blank">https://www.youtube.com/watch?v=wmctXOcy3qk</a></strong><a href="https://www.youtube.com/watch?v=wmctXOcy3qk" target="blank"></a><br>'+
-                                              '</p>'+
+                                              '<h3>'+date+'</h3>'+
+                                              modal_content +
                                             '</div>'+
                                         '</div>'+
                                     '</div>'+
-                                '</div>';*/
+                                '</div>';
                         });
 
-                        $("#experiences").html('<div class="col-sm-12">'+ topics +'</div>');
+                        $("#experiences").html('<div class="row"><div class="col-sm-12 topics">'+ topics +'</div></div>');
 
                         $("#menu1").show();
                     
@@ -2104,7 +1851,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
                             topics2 += '<div class="col-sm-12 col-md-4">'+
                                     '<a href="#'+ topic.name +'" data-toggle="modal"><img src="'+ topic.image +'" width="380" height="105" class="img-responsive"></a>'+
-                                '</div>';/*+
+                                '</div>'+
                                 '<div id="'+ topic.name +'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
                                     '<div class="modal-dialog modal-lg" style="margin-top: 76px;">'+
                                       '<div class="modal-content">'+
@@ -2129,7 +1876,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                                             '</div>'+
                                         '</div>'+
                                     '</div>'+
-                                '</div>';*/
+                                '</div>';
                         });
 
                         $("#experiences2").html('<div class="col-sm-12">'+ topics2 +'</div>');
@@ -2157,7 +1904,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
                             topics3 += '<div class="col-sm-12 col-md-4">'+
                                     '<a href="#'+ topic.name +'" data-toggle="modal"><img src="'+ topic.image +'" width="380" height="105" class="img-responsive"></a>'+
-                                '</div>';/*+
+                                '</div>'+
                                 '<div id="'+ topic.name +'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
                                     '<div class="modal-dialog modal-lg" style="margin-top: 76px;">'+
                                       '<div class="modal-content">'+
@@ -2182,7 +1929,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                                             '</div>'+
                                         '</div>'+
                                     '</div>'+
-                                '</div>';*/
+                                '</div>';
                         });
 
                         $("#experiences3").html('<div class="col-sm-12">'+ topics3 +'</div>');

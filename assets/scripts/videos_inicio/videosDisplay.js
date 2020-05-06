@@ -39,4 +39,9 @@ const vLinks = [
   },
 ];
 
-new Vue({ el: "#videosInformativos", data: { videoLinks: vLinks } });
+new Vue({
+  el: "#videosInformativos",
+  data: {
+    videoLinks: vLinks,
+  },
+});

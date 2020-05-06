@@ -1,0 +1,2200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agenda de Experiencias</title>
+
+        <!--<script src="https://unpkg.com/vue"></script>-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="/assets/styles/aec.css" rel="stylesheet" />
+        <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet"> 
+        <style>
+            body{background-color: #fefefe !important}
+            .vc-title,.vc-weekday{color:rgba(179, 51, 127, 1.0) !important;}
+            .vc-flex{color:#FFFFFF !important;background-color: #3182ce !important;border-radius: 50% !important;}
+            .tabs .is-active{border-bottom: 4px solid #3182ce}
+            .tabs .tab {padding-bottom: 5px}
+            .tabs-details{padding-top: 140px}
+            .tabs-container{margin-bottom: 100px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 40px 100px 40px 100px}
+            .tabs-container .title{margin-top: 100px;font-weight: bold}
+            .tabs-container .sub{padding:40px;background-color: #FFFFFF;margin-top: 40px;border-radius: 5px;-webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35); 
+box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
+            .tabs-container .sub .menu{margin-top:40px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 20px}
+            .grid{padding-bottom: 0px !important}
+            h5{color: #d53c88 !important;}
+        </style>
+    </head>
+    <body>
+        <div id="app" class="container">
+
+            <nav class="navbar aec">
+                <div class="row">
+                  <div class="col-sm-9">
+                    <ol class="breadcrumb aec">
+                      <li><a href="https://www.gob.mx/aefcm"><span class="glyphicon glyphicon-home"></span></a></li>
+                      <li><a href="../../index.html">Inicio</a></li>
+                      <li><a href="../../index.html">Aprende en Casa</a></li>
+                      <li><a href="../../acceso.html">Acceso</a></li>
+                      <li><a href="/aprende-en-casa/niveles/index.html">Niveles</a></li>
+                      <li><a href="/aprende-en-casa/niveles/secundaria/index.html">Educación Primaria</a></li>
+                      <li class="active">Experiencias</li>
+                    </ol>
+                  </div>
+                  <div class="col-sm-3 visible-md visible-lg">
+                    <img class="img-responsive  navbar-logo" src="/assets/images/logo_aprende@2x.svg" alt="">
+                  </div>
+                </div>
+            </nav>
+
+            <h3 class="text-center"> Experiencias </h3>
+
+            <tabs>
+                <tab name="Primaria 1ro y 2do" :selected="true" img="/assets/images/experiencias/primbanner1y2.png">
+                    <div class="tabs-container">
+                        <span class="title">Selecciona una fecha para revisar las actividades para tu carpeta.</span>
+
+                        <div class="sub">
+                            <v-calendar 
+                                @dayClick="selectDay"
+                                :columns="$screens({ default: 1, lg: 2 })"
+                                style="margin: 0 auto"
+                                :attributes='attrs'
+                                title-position="left"></v-calendar>
+
+                            <div id="menu1" class="menu" style="display: none">
+                                <div class="" style="text-align: left">
+                                    <strong id="date1"></strong>
+                                    <h5>¿Qué vimos hoy?</h5>
+
+                                     <!-- Experiences -->
+                                     <div id="experiences" class="container-fluid"></div>
+                                     <!-- End Experiences -->
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </tab>
+                <tab name="Primaria 3ro y 4do" img="/assets/images/experiencias/primbanner3y4.png">
+                    <div class="tabs-container">
+                        <span class="title">Selecciona una fecha para revisar las actividades para tu carpeta.</span>
+
+                        <div class="sub">
+                            <v-calendar 
+                                @dayClick="selectDay2"
+                                :columns="$screens({ default: 1, lg: 2 })"
+                                style="margin: 0 auto"
+                                :attributes='attrs2'
+                                title-position="left"></v-calendar>
+
+                            <div id="menu2" class="menu" style="display: none">
+                                <div class="" style="text-align: left">
+                                    <strong id="date2"></strong>
+                                    <h5>¿Qué vimos hoy?</h5>
+
+                                     <!-- Experiences -->
+                                     <div id="experiences2" class="container-fluid"></div>
+                                     <!-- End Experiences -->
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </tab>
+                <tab name="Primaria 5ro y 6do" img="/assets/images/experiencias/primbanner5y6.png">
+                    <div class="tabs-container">
+                        <span class="title">Selecciona una fecha para revisar las actividades para tu carpeta.</span>
+
+                        <div class="sub">
+                            <v-calendar 
+                                @dayClick="selectDay3"
+                                :columns="$screens({ default: 1, lg: 2 })"
+                                style="margin: 0 auto"
+                                :attributes='attrs3'
+                                title-position="left"></v-calendar>
+
+                            <div id="menu3" class="menu" style="display: none">
+                                <div class="" style="text-align: left">
+                                    <strong id="date3"></strong>
+                                    <h5>¿Qué vimos hoy?</h5>
+
+                                     <!-- Experiences -->
+                                     <div id="experiences3" class="container-fluid"></div>
+                                     <!-- End Experiences -->
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </tab>
+            </tabs>
+            
+        </div>              
+
+        <!-- 1. Link Vue Javascript -->
+        <script src='https://unpkg.com/vue/dist/vue.js'></script>
+
+        <!-- 2. Link VCalendar Javascript (Plugin automatically installed) -->
+        <script src='https://unpkg.com/v-calendar'></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.1/moment-with-locales.min.js" integrity="sha256-tYxbRsX9g9rCkoqG99Bnze2SRAs2A14gAtMIsaz2SP8=" crossorigin="anonymous"></script>
+
+        <!--3. Create the Vue instance-->
+        <script>
+
+          moment.locale('es', {
+            weekdays : 'Domingo_Lunes_Martes_Miércoles_Jueves_Viernes_Sábado'.split('_'),
+            longDateFormat : {
+                LT : 'HH:mm',
+                LTS : 'HH:mm:ss',
+                L : 'DD/MM/YYYY',
+                LL : 'D MMMM YYYY',
+                LLL : 'D MMMM YYYY HH:mm',
+                LLLL : 'dddd, D [de] MMMM'
+            }
+          });
+
+          Vue.component("tabs", {
+              template: `
+                    <div>
+                        <div class="tabs">
+                          <div v-for="tab in tabs" :class="{ 'is-active': tab.isActive }" class="tab col-sm-4" align="center"> 
+                            <a :href="tab.href" @click="selectTab(tab)">
+                                <img :src="tab.img" width="346" height="113" :alt="tab.name" />
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="tabs-details">
+                            <slot></slot>
+                        </div>
+                    </div>
+                `,
+
+              data() {
+                return { tabs: [] };
+              },
+
+              created() {
+                this.tabs = this.$children;
+              },
+              methods: {
+                selectTab(selectedTab) {
+                  this.tabs.forEach((tab) => {
+                    tab.isActive = tab.name == selectedTab.name;
+                  });
+                }
+              }
+          });
+
+          Vue.component("tab", {
+              template: `
+
+                    <div v-show="isActive"><slot></slot></div>
+
+                `,
+
+              props: {
+                name: { required: true },
+                img: { required: true },
+                selected: { default: false }
+              },
+
+              data() {
+                return {
+                  isActive: false
+                };
+              },
+
+              computed: {
+                href() {
+                  return "#" + this.name.toLowerCase().replace(/ /g, "-");
+                }
+              },
+
+              mounted() {
+                this.isActive = this.selected;
+              }
+          });
+
+          new Vue({
+            el: '#app',
+            data: {
+              date: "",
+              experiences: [
+                {
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 20),
+                    topics: [
+                        {
+                            name: "Artes",
+                            description: `
+                                <ul>
+                                    <li>¿Qué te parecieron los videos? ¿Cuál de los dos te gustó más?</li>
+                                    <li>¿Qué música te gusta más? Podrías decir a qué género pertenece.</li>
+                                    <li>¿Qué géneros musicales de los que mencionó Claudio recuerdas? Anótalos</li>
+                                    <li>¿Cuáles de ellos ya conocías?</li>
+                                    <li>Elige una, dos o tres piezas que te gusten y disfrútalo con quienes te acompañen. ¡A escuchar, cantar o bailar!</li>
+                                </ul>
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "Video 1.- Juego de ritmo. 'Banquete de ritmos'",
+                                    link: "https://www.youtube.com/watch?v=0wuh7NPeB6Q"
+                                },
+                                {
+                                    name: "Video 2.- Los Géneros musicales para niños",
+                                    link: "https://www.youtube.com/watch?v=wmctXOcy3qk"
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                <ul>
+                                    <li>¿Qué te pareció el video? ¿Te gustó?</li>
+                                    <li>¿Puedes anotar tres cosas que aprendiste con este video?</li>
+                                    <li>Busca un tangram o elabora uno con papel.</li>
+                                    <li>¡A jugar! Usa tu imaginación. Arma con tu tangram algunas figuras, y muéstraselas a quien te acompaña.</li>
+                                    <li>¿Qué nombres de figuras con cuatro lados o esquinas conoces? Anótalos.</li>
+                                </ul>
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "Video 1.-  Zapotecos.- CELCI Hidalgo.- Ventana a mi Comunidad",
+                                    link: "https://youtu.be/ljexJYTitVY"
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Valores",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/valores.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 21),
+                    topics: [
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 22),
+                    topics: [
+                        {
+                            name: "Deportes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/deportes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 23),
+                    topics: [
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 24),
+                    topics: [
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 27),
+                    topics: [
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Deportes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/deportes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 28),
+                    topics: [
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Deportes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/deportes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 29),
+                    topics: [
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },{
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 30),
+                    topics: [
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },{
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 4, 1),
+                    topics: [
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },{
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+              ],
+              experiences2: [
+                {
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 20),
+                    topics: [
+                        {
+                            name: "Artes",
+                            description: `
+                                <ul>
+                                    <li>¿Qué te parecieron los videos? ¿Cuál de los dos te gustó más?</li>
+                                    <li>¿Qué música te gusta más? Podrías decir a qué género pertenece.</li>
+                                    <li>¿Qué géneros musicales de los que mencionó Claudio recuerdas? Anótalos</li>
+                                    <li>¿Cuáles de ellos ya conocías?</li>
+                                    <li>Elige una, dos o tres piezas que te gusten y disfrútalo con quienes te acompañen. ¡A escuchar, cantar o bailar!</li>
+                                </ul>
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "Video 1.- Juego de ritmo. 'Banquete de ritmos'",
+                                    link: "https://www.youtube.com/watch?v=0wuh7NPeB6Q"
+                                },
+                                {
+                                    name: "Video 2.- Los Géneros musicales para niños",
+                                    link: "https://www.youtube.com/watch?v=wmctXOcy3qk"
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                <ul>
+                                    <li>¿Qué te pareció el video? ¿Te gustó?</li>
+                                    <li>¿Puedes anotar tres cosas que aprendiste con este video?</li>
+                                    <li>Busca un tangram o elabora uno con papel.</li>
+                                    <li>¡A jugar! Usa tu imaginación. Arma con tu tangram algunas figuras, y muéstraselas a quien te acompaña.</li>
+                                    <li>¿Qué nombres de figuras con cuatro lados o esquinas conoces? Anótalos.</li>
+                                </ul>
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "Video 1.-  Zapotecos.- CELCI Hidalgo.- Ventana a mi Comunidad",
+                                    link: "https://youtu.be/ljexJYTitVY"
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Valores",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/valores.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 21),
+                    topics: [
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 22),
+                    topics: [
+                        {
+                            name: "Deportes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/deportes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 23),
+                    topics: [
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 24),
+                    topics: [
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 27),
+                    topics: [
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Deportes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/deportes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 28),
+                    topics: [
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Deportes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/deportes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 29),
+                    topics: [
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },{
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 30),
+                    topics: [
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },{
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 4, 1),
+                    topics: [
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },{
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+              ],
+              experiences3: [
+                {
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 20),
+                    topics: [
+                        {
+                            name: "Artes",
+                            description: `
+                                <ul>
+                                    <li>¿Qué te parecieron los videos? ¿Cuál de los dos te gustó más?</li>
+                                    <li>¿Qué música te gusta más? Podrías decir a qué género pertenece.</li>
+                                    <li>¿Qué géneros musicales de los que mencionó Claudio recuerdas? Anótalos</li>
+                                    <li>¿Cuáles de ellos ya conocías?</li>
+                                    <li>Elige una, dos o tres piezas que te gusten y disfrútalo con quienes te acompañen. ¡A escuchar, cantar o bailar!</li>
+                                </ul>
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "Video 1.- Juego de ritmo. 'Banquete de ritmos'",
+                                    link: "https://www.youtube.com/watch?v=0wuh7NPeB6Q"
+                                },
+                                {
+                                    name: "Video 2.- Los Géneros musicales para niños",
+                                    link: "https://www.youtube.com/watch?v=wmctXOcy3qk"
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                <ul>
+                                    <li>¿Qué te pareció el video? ¿Te gustó?</li>
+                                    <li>¿Puedes anotar tres cosas que aprendiste con este video?</li>
+                                    <li>Busca un tangram o elabora uno con papel.</li>
+                                    <li>¡A jugar! Usa tu imaginación. Arma con tu tangram algunas figuras, y muéstraselas a quien te acompaña.</li>
+                                    <li>¿Qué nombres de figuras con cuatro lados o esquinas conoces? Anótalos.</li>
+                                </ul>
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "Video 1.-  Zapotecos.- CELCI Hidalgo.- Ventana a mi Comunidad",
+                                    link: "https://youtu.be/ljexJYTitVY"
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Valores",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/valores.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 21),
+                    topics: [
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 22),
+                    topics: [
+                        {
+                            name: "Deportes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/deportes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 23),
+                    topics: [
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 24),
+                    topics: [
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 27),
+                    topics: [
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Deportes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/deportes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 28),
+                    topics: [
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Deportes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/deportes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 29),
+                    topics: [
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },{
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 3, 30),
+                    topics: [
+                        {
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },{
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                },{
+                    level: 3,
+                    grade: 1,
+                    date: new Date(2020, 4, 1),
+                    topics: [
+                        {
+                            name: "Lenguaje",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/lenguaje.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Matemáticas",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/matematicas.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },{
+                            name: "Conocimiento del medio",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/medio.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        },
+                        {
+                            name: "Artes",
+                            description: `
+                                
+                            `,
+                            image: "/assets/images/experiencias/artes.png",
+                            refs: [
+                                {
+                                    name: "",
+                                    link: ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+              ],
+              mode: 'single',
+              attrs: [
+                {
+                  key: 'today',
+                  highlight: true,
+                  dates: [
+                    new Date(2020, 3, 20),
+                    new Date(2020, 3, 21),
+                    new Date(2020, 3, 22),
+                    new Date(2020, 3, 23),
+                    new Date(2020, 3, 24),
+                    new Date(2020, 3, 27),
+                    new Date(2020, 3, 28),
+                    new Date(2020, 3, 29),
+                    new Date(2020, 3, 30),
+                    new Date(2020, 4, 1),
+                  ],
+                },
+              ],
+              attrs2: [
+                {
+                  key: 'today',
+                  highlight: true,
+                  dates: [
+                    new Date(2020, 3, 20),
+                    new Date(2020, 3, 21),
+                    new Date(2020, 3, 22),
+                    new Date(2020, 3, 23),
+                    new Date(2020, 3, 24),
+                    new Date(2020, 3, 27),
+                    new Date(2020, 3, 28),
+                    new Date(2020, 3, 29),
+                    new Date(2020, 3, 30),
+                    new Date(2020, 4, 1),               
+                  ]
+                },
+              ],
+              attrs3: [
+                {
+                  key: 'today',
+                  highlight: true,
+                  dates: [
+                    new Date(2020, 3, 20),
+                    new Date(2020, 3, 21),
+                    new Date(2020, 3, 22),
+                    new Date(2020, 3, 23),
+                    new Date(2020, 3, 24),
+                    new Date(2020, 3, 27),
+                    new Date(2020, 3, 28),
+                    new Date(2020, 3, 29),
+                    new Date(2020, 3, 30),
+                    new Date(2020, 4, 1),              
+                  ]
+                },
+              ],
+            },
+            methods: {
+                selectDay: function(calendar) {
+
+                    var experience = this.experiences.filter(function(experience){
+
+                        if(moment(experience.date).format("l") == moment(calendar.date).format("l")){return experience}
+                    })
+
+                    if(experience.length > 0){
+                        $("#date1").text(moment(experience[0].date).format('LLLL'));
+
+                        console.log(experience[0].date);
+
+                        var topics = "";
+
+                        $.each( experience[0].topics, function( key, topic ) {
+                          console.log("Tema: " + topic.name);
+
+                            topics += '<div class="col-sm-12 col-md-4">'+
+                                    '<a href="#'+ topic.name +'" data-toggle="modal"><img src="'+ topic.image +'" width="380" height="105" class="img-responsive"></a>'+
+                                '</div>';/*+
+                                '<div id="'+ topic.name +'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
+                                    '<div class="modal-dialog modal-lg" style="margin-top: 76px;">'+
+                                      '<div class="modal-content">'+
+                                        '<div class="modal-header">'+
+                                          '<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>'+
+                                                '<h5 class="modal-title">Artes</h5>'+
+                                            '</div> '+
+                                            '<div class="modal-body">'+
+                                              '<h3>Lunes 20 de abril </h3>'+
+                                              '<ul>'+
+                                                '<li>¿Qué  te parecieron los videos? ¿Cuál de los dos te gustó más?</li>'+
+                                                '<li>¿Qué  música te gusta más? Podrías decir a qué género pertenece.</li>'+
+                                                '<li>¿Qué  géneros musicales de los que mencionó Claudio recuerdas? Anótalos</li>'+
+                                                '<li>¿Cuáles  de ellos ya conocías?</li>'+
+                                                '<li>Elige  una, dos o tres piezas que te gusten y disfrútalo con quienes te acompañen. ¡A  escuchar, cantar o bailar! </li>'+
+                                              '</ul>'+
+                                              '<p align="justify"><strong>Video 1.- Juego de ritmo. "Banquete de  ritmos"<br>'+
+                                              '<a href="https://www.youtube.com/watch?v=0wuh7NPeB6Q" target="blank">https://www.youtube.com/watch?v=0wuh7NPeB6Q</a> </strong></p>'+
+                                              '<p align="justify"><strong>Video 2.- Los Géneros musicales para niños<br>'+
+                                                '<a href="https://www.youtube.com/watch?v=wmctXOcy3qk" target="blank">https://www.youtube.com/watch?v=wmctXOcy3qk</a></strong><a href="https://www.youtube.com/watch?v=wmctXOcy3qk" target="blank"></a><br>'+
+                                              '</p>'+
+                                            '</div>'+
+                                        '</div>'+
+                                    '</div>'+
+                                '</div>';*/
+                        });
+
+                        $("#experiences").html('<div class="col-sm-12">'+ topics +'</div>');
+
+                        $("#menu1").show();
+                    
+                    }else{
+                        $("#menu1").hide();
+                    }
+                },
+                selectDay2: function(calendar) {
+                    var experience2 = this.experiences2.filter(function(experience2){
+
+                        if(moment(experience2.date).format("l") == moment(calendar.date).format("l")){return experience2}
+                    })
+
+                    if(experience2.length > 0){
+                        $("#date2").text(moment(experience2[0].date).format('LLLL'));
+
+                        console.log(experience2[0].date);
+
+                        var topics2 = "";
+
+                        $.each( experience2[0].topics, function( key, topic ) {
+
+                            topics2 += '<div class="col-sm-12 col-md-4">'+
+                                    '<a href="#'+ topic.name +'" data-toggle="modal"><img src="'+ topic.image +'" width="380" height="105" class="img-responsive"></a>'+
+                                '</div>';/*+
+                                '<div id="'+ topic.name +'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
+                                    '<div class="modal-dialog modal-lg" style="margin-top: 76px;">'+
+                                      '<div class="modal-content">'+
+                                        '<div class="modal-header">'+
+                                          '<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>'+
+                                                '<h5 class="modal-title">Artes</h5>'+
+                                            '</div> '+
+                                            '<div class="modal-body">'+
+                                              '<h3>Lunes 20 de abril </h3>'+
+                                              '<ul>'+
+                                                '<li>¿Qué  te parecieron los videos? ¿Cuál de los dos te gustó más?</li>'+
+                                                '<li>¿Qué  música te gusta más? Podrías decir a qué género pertenece.</li>'+
+                                                '<li>¿Qué  géneros musicales de los que mencionó Claudio recuerdas? Anótalos</li>'+
+                                                '<li>¿Cuáles  de ellos ya conocías?</li>'+
+                                                '<li>Elige  una, dos o tres piezas que te gusten y disfrútalo con quienes te acompañen. ¡A  escuchar, cantar o bailar! </li>'+
+                                              '</ul>'+
+                                              '<p align="justify"><strong>Video 1.- Juego de ritmo. "Banquete de  ritmos"<br>'+
+                                              '<a href="https://www.youtube.com/watch?v=0wuh7NPeB6Q" target="blank">https://www.youtube.com/watch?v=0wuh7NPeB6Q</a> </strong></p>'+
+                                              '<p align="justify"><strong>Video 2.- Los Géneros musicales para niños<br>'+
+                                                '<a href="https://www.youtube.com/watch?v=wmctXOcy3qk" target="blank">https://www.youtube.com/watch?v=wmctXOcy3qk</a></strong><a href="https://www.youtube.com/watch?v=wmctXOcy3qk" target="blank"></a><br>'+
+                                              '</p>'+
+                                            '</div>'+
+                                        '</div>'+
+                                    '</div>'+
+                                '</div>';*/
+                        });
+
+                        $("#experiences2").html('<div class="col-sm-12">'+ topics2 +'</div>');
+
+                        $("#menu2").show();
+                    
+                    }else{
+                        $("#menu2").hide();
+                    }
+                },
+                selectDay3: function(calendar) {
+                    var experience3 = this.experiences3.filter(function(experience3){
+
+                        if(moment(experience3.date).format("l") == moment(calendar.date).format("l")){return experience3}
+                    })
+
+                    if(experience3.length > 0){
+                        $("#date3").text(moment(experience3[0].date).format('LLLL'));
+
+                        console.log(experience3[0].date);
+
+                        var topics3 = "";
+
+                        $.each( experience3[0].topics, function( key, topic ) {
+
+                            topics3 += '<div class="col-sm-12 col-md-4">'+
+                                    '<a href="#'+ topic.name +'" data-toggle="modal"><img src="'+ topic.image +'" width="380" height="105" class="img-responsive"></a>'+
+                                '</div>';/*+
+                                '<div id="'+ topic.name +'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
+                                    '<div class="modal-dialog modal-lg" style="margin-top: 76px;">'+
+                                      '<div class="modal-content">'+
+                                        '<div class="modal-header">'+
+                                          '<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>'+
+                                                '<h5 class="modal-title">Artes</h5>'+
+                                            '</div> '+
+                                            '<div class="modal-body">'+
+                                              '<h3>Lunes 20 de abril </h3>'+
+                                              '<ul>'+
+                                                '<li>¿Qué  te parecieron los videos? ¿Cuál de los dos te gustó más?</li>'+
+                                                '<li>¿Qué  música te gusta más? Podrías decir a qué género pertenece.</li>'+
+                                                '<li>¿Qué  géneros musicales de los que mencionó Claudio recuerdas? Anótalos</li>'+
+                                                '<li>¿Cuáles  de ellos ya conocías?</li>'+
+                                                '<li>Elige  una, dos o tres piezas que te gusten y disfrútalo con quienes te acompañen. ¡A  escuchar, cantar o bailar! </li>'+
+                                              '</ul>'+
+                                              '<p align="justify"><strong>Video 1.- Juego de ritmo. "Banquete de  ritmos"<br>'+
+                                              '<a href="https://www.youtube.com/watch?v=0wuh7NPeB6Q" target="blank">https://www.youtube.com/watch?v=0wuh7NPeB6Q</a> </strong></p>'+
+                                              '<p align="justify"><strong>Video 2.- Los Géneros musicales para niños<br>'+
+                                                '<a href="https://www.youtube.com/watch?v=wmctXOcy3qk" target="blank">https://www.youtube.com/watch?v=wmctXOcy3qk</a></strong><a href="https://www.youtube.com/watch?v=wmctXOcy3qk" target="blank"></a><br>'+
+                                              '</p>'+
+                                            '</div>'+
+                                        '</div>'+
+                                    '</div>'+
+                                '</div>';*/
+                        });
+
+                        $("#experiences3").html('<div class="col-sm-12">'+ topics3 +'</div>');
+
+                        $("#menu3").show();
+                    
+                    }else{
+                        $("#menu3").hide();
+                    }
+                }    
+            }
+          })
+        </script>
+    </body>
+</html>

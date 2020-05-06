@@ -88,9 +88,9 @@
             </div>
 
             <tabs>
-                <tab name="Alimentación" :selected="true" img="/assets/images/padres/alimentacion.svg">
+                <tab name="Alimentación" :selected="true" img="/assets/images/padres/alimentacion.svg" @click="alimentacion">
                     <div class="tabs-container">
-                        <div class="row">
+                        <div id="alimentacion" class="row">
                           <div class="col-sm-4">
                             <div class="card">
                               <div class="card-body">
@@ -238,10 +238,66 @@
               alimentacion: [
                 {
                   icon: "",
-                  content: "",
-                  link: ""
+                  title: "A tu lado: ¿Cómo asegurar una buena alimentación para nuestros hijos e hijas?",
+                  source: "Save the Children España",
+                  link: "https://www.savethechildren.es/sites/default/files/2020-03/4_coronavirus_proyectoa_tu_lado_guia_nutricion_savethechildren.pdf"
+                },{
+                  icon: "",
+                  title: "A tu lado: pautas de NUTRICIÓN para el confinamiento",
+                  source: "Save the Children España",
+                  link: "https://www.youtube.com/watch?v=E4wImMgoalU&feature=youtu.be"
+                },{
+                  icon: "",
+                  title: "#COVID2019: consejos para una alimentación saludable durante la cuarentena",
+                  source: "Cruz Roja Española",
+                  link: "https://www.youtube.com/watch?v=mwU4eHsBWiQ&feature=youtu.be"
+                },{
+                  icon: "",
+                  title: "7 consejos de alimentación saludable para enfrentar la crisis del COVID19",
+                  source: "FAO",
+                  link: "https://www.youtube.com/watch?v=QWciCvcOwS8&feature=youtu.be"
+                },{
+                  icon: "",
+                  title: "Alimentos que refuerzan tus defensas y combaten el coronavirus",
+                  source: "Diario correo",
+                  link: "https://www.youtube.com/watch?v=lxaPoLbOZk4&feature=youtu.be"
+                },{
+                  icon: "",
+                  title: "La guía del buen comer de Archibaldo",
+                  source: "Sesame Workshop",
+                  link: "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Cuento-La-gui%CC%81a-del-buen-comer.pdf"
+                },{
+                  icon: "",
+                  title: "Receta: Ensalada de pollo",
+                  source: "Revista del consumidor -PROFECO TV",
+                  link: "https://www.youtube.com/watch?v=m41JiM5OVCI&list=PL83034254E8CEA917"
+                },{
+                  icon: "",
+                  title: "Receta: Estofado de pollo",
+                  source: "Revista del consumidor -PROFECO TV",
+                  link: "https://www.youtube.com/watch?v=j9AZ5VU5G00&list=PL83034254E8CEA917&index=12"
+                },{
+                  icon: "",
+                  title: "Receta: Ensalada primavera",
+                  source: "Revista del consumidor -PROFECO TV",
+                  link: "https://www.youtube.com/watch?v=gMwK97_yJAQ&list=PL83034254E8CEA917&index=30"
+                },{
+                  icon: "",
+                  title: "Receta: Albóndigas con chícharos",
+                  source: "Revista del consumidor -PROFECO TV",
+                  link: "https://www.youtube.com/watch?v=5HsXDy6BCtg&list=PL83034254E8CEA917&index=38"
+                },{
+                  icon: "",
+                  title: "Receta: Croquetas de atún con pico de gallo",
+                  source: "Revista del consumidor -PROFECO TV",
+                  link: "https://www.youtube.com/watch?v=PiBGanrD3Bg&list=PL83034254E8CEA917&index=55"
                 }
               ]
+            },
+            methods: {
+              alimentacion: function(){
+                alert("alimentacion");
+              }
             }
           })
         </script>

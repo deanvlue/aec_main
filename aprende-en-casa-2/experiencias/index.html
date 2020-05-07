@@ -421,6 +421,22 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     deportes: {
                         name: "Deportes",
                         image: "/assets/images/experiencias/deportes.png"
+                    },
+                    la_entidad_donde_vivo: {
+                        name: "La entidad donde vivo",
+                        image: "/assets/images/experiencias/la_entidad_donde_vivo.jpeg"
+                    },
+                    geografia: {
+                        name: "Geografía",
+                        image: "/assets/images/experiencias/geografia.png"
+                    },
+                    ciencias_naturales: {
+                        name: "Ciencias naturales",
+                        image: "/assets/images/experiencias/ciencias_naturales.png"
+                    },
+                    fisica: {
+                        name: "Física",
+                        image: "/assets/images/experiencias/fisica.png"
                     }
                 },
                 experiencias_primaria_1_2: [],
@@ -582,6 +598,8 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         if(moment(experiences.date).format('DD-MM-YYYY') == moment(calendar.date).format('DD-MM-YYYY')){return experiences}
                     })
 
+                    //console.log(experiences);
+
                     if(experiences.length > 0){
                         var date = moment(experiences[0].date).format('LLLL');
                         $("#" + dateEl).text(date);
@@ -600,9 +618,9 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                                         //console.log("image: " + _self.topics[item.topic].image);
 
                                         items = '<div class="col-sm-12 col-md-6 col-lg-4">'+
-                                            '<a href="#M-'+item.id+'_'+_self.level+'" data-toggle="modal"><img src="'+_self.topics[item.topic].image+'" width="380" height="105" class="img-responsive"></a>'+
+                                            '<a href="#M-'+item.id+'-'+slug(_self.tabName2)+'" data-toggle="modal"><img src="'+_self.topics[item.topic].image+'" width="380" height="105" class="img-responsive"></a>'+
                                         '</div>'+
-                                        '<div id="M-'+item.id+'_'+_self.level+'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
+                                        '<div id="M-'+item.id+'-'+slug(_self.tabName2)+'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
                                             '<div class="modal-dialog modal-lg" style="margin-top: 76px;">'+
                                             '<div class="modal-content">'+
                                                 '<div class="modal-header">'+
@@ -646,6 +664,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 selectDay2: function(calendar) {
 
                     if(this.level == "primaria"){
+                        console.log(this.experiencias_primaria_3_4);
                         this.showTopics("experiences2", "date2", "menu2", calendar, this.experiencias_primaria_3_4);
                     }
 

@@ -27,7 +27,7 @@
             .btn-primary{color: #FFFFFF;background-color: #BA186A;border-color: #BA186A;}
             .btn-primary.active, .btn-primary:active, .btn-primary:hover{color: #FFFFFF;background-color: #9E1559;border-color: #9E1559};
             /*.card {-webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);border:1px solid rgba(0,0,0,0) !important;}*/
-            .owl-carousel {width: 730px}
+            .owl-carousel {width: 730px !important}
 
             .card {
               width: 288px;
@@ -89,6 +89,10 @@
                 flex-direction: column;
                 color: white;
             }
+            .text-center {
+                color: #b3337f !important;
+                margin-top: 0;
+            }
         </style>
     </head>
     <body>
@@ -126,7 +130,7 @@
               </div>
             </div>
 
-            <h3 class="text-center" v-on:click="alert(3)"> Apoya la educación de tu hijo(a) </h3>
+            <h3 class="text-center">Apoya la educación de tu hijo(a) </h3>
 
             <div class="row">
               <div class="col-sm-12" style="padding-left: 100px;padding-right: 100px;padding-bottom:50px;padding-top: 20px">
@@ -156,43 +160,19 @@
                 </tab>
                 <tab name="Salud" img="/assets/images/padres/salud.svg">
                     <div class="tabs-container">
-                      <div id="salud" style="display: flex;margin-right: 0px;margin-left: 0px;position: relative;">
-
-                        <div class="card">
-                          <div class="card-image">
-                            <img src="/assets/images/padres/icon-site.svg" alt="Sitio web">
-                          </div>
-                          <div class="card-text">
-                              <p>A tu lado: ¿Cómo asegurar una buena alimentación para nuestros hijos e hijas?</p>
-                          </div>
-                          <div class="card-tools">
-                              <div class="tool">
-                                  <div >
-                                    <a href="https://www.savethechildren.es/sites/default/files/2020-03/4_coronavirus_proyectoa_tu_lado_guia_nutricion_savethechildren.pdf" target="_blank" class="btn btn-primary">Visitar</a>
-                                  </div>
-                              </div>
-                          </div>
-                        </div>
-
-                      </div>
+                      <div id="salud-container" class="row" style="margin-left: 15px;"></div>
+                      <h3 class="text-left" style="margin-left: 40px;">Activación física:</h3>
+                      <div id="salud-activacion-fisica" class="row" style="margin-left: 15px;"></div>
                     </div>
                 </tab>
                 <tab name="Socioemocional" img="/assets/images/padres/socioemocional.svg">
                     <div class="tabs-container">
-                        <span class="title"></span>
-
-                        <div class="sub">
-                           
-                        </div>
+                      <div id="socioemocional-container" class="row" style="margin-left: 15px;"></div>
                     </div>
                 </tab>
                 <tab name="Formación para padres" img="/assets/images/padres/formacion.svg">
                     <div class="tabs-container">
-                        <span class="title"></span>
-
-                        <div class="sub">
-                           
-                        </div>
+                      <div id="formacion-container" class="row" style="margin-left: 15px;"></div>
                     </div>
                 </tab>
             </tabs>
@@ -214,8 +194,7 @@
           $(document).ready(function(){
             $('.owl-carousel').owlCarousel({
                 loop:true,
-                items: 1,
-                autoWidth:true,
+                items: 1
             })
           });
 
@@ -451,7 +430,7 @@
                   source: "Canal bienestar.com",
                   link: "https://www.youtube.com/watch?v=nNbRQX8yJWs"
                 }
-              ]
+              ],
               socioemocional: [
                 {
                   id: 1,
@@ -536,13 +515,15 @@
             },
             created() {
               this.getAlimentacion();
+              this.getSalud();
+              this.getSocioemocional();
             },
             methods: {
-              getAlimentacion(){
+              createCards(el, items){
                 var cards = "";
                 var _self = this;
 
-                $.each( this.alimentacion, function( key, item ) {
+                $.each( items, function( key, item ) {
 
                   cards += '<div class="card">'+
                               '<div class="card-image">'+
@@ -561,17 +542,20 @@
                             '</div>';
                 });
 
-                $("#alimentacion").html(cards);
-
+                $("#"+el).html(cards);
+              },
+              getAlimentacion(){  
+                  this.createCards("alimentacion", this.alimentacion)
               },
               getSalud(){
-                alert("alimentacion");
+                  this.createCards("salud-container", this.salud);
+                  this.createCards("salud-activacion-fisica", this.salud_activacion_fisica);     
               },
               getSocioemocional(){
-                alert("alimentacion");
+                  this.createCards("socioemocional-container", this.socioemocional);                  
               },
               getFormacion(){
-                alert("alimentacion");
+                
               }
             }
           })

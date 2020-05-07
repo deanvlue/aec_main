@@ -3,9 +3,10 @@ gbmx
 tareas
 WEB-INF
 aprende-en-casa-2/assets/video/aprende-en-casa.mp4
-assets/video/aprende-en-casa.mp4
-assets/video/*
 # Local Netlify folder
 .netlify
 .node_modules
-assests/videos/*
+assets/videos/*
+**/.DS_store
+package*
+tomcat*

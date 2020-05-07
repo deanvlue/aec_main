@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="277" height="124" viewBox="0 0 277 124">
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0 1) translate(21)">
+            <rect width="255" height="99" fill="#FFF" stroke="#E4E9F2" rx="4"/>
+            <g font-size="16">
+                <text fill="#222B45" font-family="Montserrat-Medium, Montserrat" font-weight="400" transform="translate(61 10)">
+                    <tspan x=".324" y="41">Actividades escolares</tspan>
+                </text>
+                <text fill="#B3337F" font-family="Montserrat-Bold, Montserrat" font-weight="bold" transform="translate(61 10)">
+                    <tspan x="54.724" y="15">Agenda</tspan>
+                </text>
+            </g>
+            <g transform="translate(51 75)">
+                <rect width="191" height="48" fill="#6E79E0" rx="24"/>
+                <g fill="#FFF">
+                    <text font-family="Montserrat-Medium, Montserrat" font-size="18" font-weight="400" transform="translate(55 16)">
+                        <tspan x="0" y="17">Revisar</tspan>
+                    </text>
+                    <path fill-rule="nonzero" d="M90.5 13c-.256 0-.512-.098-.707-.293-.391-.391-.391-1.023 0-1.414l3.305-3.305-3.18-3.293c-.383-.398-.372-1.031.025-1.414.398-.383 1.03-.372 1.414.024l3.862 4c.379.393.374 1.016-.012 1.402l-4 4c-.195.195-.451.293-.707.293" transform="translate(55 16)"/>
+                </g>
+            </g>
+        </g>
+        <g transform="translate(0 1) translate(0 22)">
+            <path fill="#E4E9F2" fill-rule="nonzero" d="M0 17.51h56.422V44.75c0 4.298-3.484 7.782-7.782 7.782H3.891C1.742 52.531 0 50.79 0 48.64V17.51z"/>
+            <path fill="#6E79E0" d="M52.531 5.837H3.891C1.742 5.837 0 7.579 0 9.728v7.782h56.422V9.728c0-2.15-1.742-3.891-3.89-3.891z"/>
+            <path fill="#FFB233" d="M43.776 11.674c1.612 0 2.918-1.307 2.918-2.919V2.918C46.694 1.307 45.388 0 43.776 0s-2.918 1.307-2.918 2.918v5.837c0 1.612 1.306 2.919 2.918 2.919zM28.211 11.674c1.612 0 2.919-1.307 2.919-2.919V2.918C31.13 1.307 29.823 0 28.21 0s-2.918 1.307-2.918 2.918v5.837c0 1.612 1.306 2.919 2.918 2.919zM12.646 11.674c1.612 0 2.919-1.307 2.919-2.919V2.918C15.565 1.307 14.258 0 12.646 0c-1.611 0-2.918 1.307-2.918 2.918v5.837c0 1.612 1.307 2.919 2.918 2.919z"/>
+            <g fill="#333E53" fill-rule="nonzero" transform="translate(7.782 24.32)">
+                <rect width="5.837" height="4.864" x="11.674" rx=".973"/>
+                <rect width="5.837" height="4.864" rx=".973"/>
+                <rect width="5.837" height="4.864" x="35.021" rx=".973"/>
+                <rect width="5.837" height="4.864" x="11.674" y="8.755" rx=".973"/>
+                <rect width="5.837" height="4.864" y="8.755" rx=".973"/>
+                <rect width="5.837" height="4.864" x="11.674" y="17.51" rx=".973"/>
+                <rect width="5.837" height="4.864" x="23.347" rx=".973"/>
+                <rect width="5.837" height="4.864" x="23.347" y="8.755" rx=".973"/>
+                <rect width="5.837" height="4.864" y="17.51" rx=".973"/>
+            </g>
+            <circle cx="44.749" cy="44.749" r="11.674" fill="#95C11F"/>
+            <path fill="#F1F2F2" fill-rule="nonzero" d="M50.37 40.67l-7.567 7.567-3.439-3.44c-.381-.368-.988-.363-1.363.012-.376.376-.38.982-.012 1.364l4.126 4.128c.38.38.996.38 1.376 0l8.254-8.255c.369-.381.364-.988-.012-1.363-.375-.376-.982-.38-1.363-.012z"/>
+        </g>
+    </g>
+</svg>

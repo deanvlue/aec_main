@@ -1,3 +1,4 @@
+
 [
     {
         "date": "2020-04-20",
@@ -5,17 +6,235 @@
             {
                 "id": "202004201",
                 "topic": "artes",
-                "modal_url": "/assets/scripts/experiencias/secundaria_1/202004201_artes.html" 
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_20_1_artes.html" 
+            },{
+                "id": "202004202",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_20_2_lenguaje.html" 
+            },{
+                "id": "202004203",
+                "topic": "civismo",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_20_3_civismo.html" 
             }
         ]
     },{
         "date": "2020-04-21",
         "topics": [
             {
-                "id": "202004213",
+                "id": "202004211",
                 "topic": "matematicas",
-                "modal_url": "/assets/scripts/experiencias/secundaria_1/202004201_artes.html" 
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_21_1_matematicas.html" 
+            },
+            {
+                "id": "202004212",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_21_2_geografia.html" 
+            },
+            {
+                "id": "202004213",
+                "topic": "biologia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_21_3_biologia.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-22",
+        "topics": [
+            {
+                "id": "202004221",
+                "topic": "historia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_22_1_historia.html" 
+            },
+            {
+                "id": "202004222",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_22_2_lenguaje.html" 
+            },
+            {
+                "id": "202004223",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_22_3_matematicas.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-23",
+        "topics": [
+            {
+                "id": "202004231",
+                "topic": "biologia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_23_1_biologia.html" 
+            },
+            {
+                "id": "202004232",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_23_2_geografia.html" 
+            },
+            {
+                "id": "202004233",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_23_3_matematicas.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-24",
+        "topics": [
+            {
+                "id": "202004241",
+                "topic": "tecnologia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_24_1_tecnologia.html" 
+            },
+            {
+                "id": "202004242",
+                "topic": "biologia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_24_2_biologia.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-27",
+        "topics": [
+            {
+                "id": "202004271",
+                "topic": "civismo",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_27_1_civismo.html" 
+            },{
+                "id": "202004272",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_27_2_artes.html" 
+            },{
+                "id": "202004273",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_27_3_lenguaje.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-28",
+        "topics": [
+            {
+                "id": "202004281",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_28_1_matematicas.html" 
+            },
+            {
+                "id": "202004282",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_28_2_geografia.html" 
+            },
+            {
+                "id": "202004283",
+                "topic": "biologia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_28_3_biologia.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-29",
+        "topics": [
+            {
+                "id": "202004291",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_29_1_lenguaje.html" 
+            },
+            {
+                "id": "202004292",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_29_2_matematicas.html" 
+            },
+            {
+                "id": "202004293",
+                "topic": "historia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_29_3_historia.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-30",
+        "topics": [
+            {
+                "id": "202004301",
+                "topic": "biologia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_30_1_biologia.html" 
+            },
+            {
+                "id": "202004302",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_30_2_geografia.html" 
+            },
+            {
+                "id": "202004303",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_04_30_3_matematicas.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-01",
+        "topics": [
+            {
+                "id": "202005011",
+                "topic": "tecnologia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_01_1_tecnologia.html" 
+            },{
+                "id": "202005012",
+                "topic": "biologia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_01_2_biologia.html" 
+            },{
+                "id": "202005013",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_01_3_lenguaje.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-04",
+        "topics": [
+            {
+                "id": "202005041",
+                "topic": "civismo",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_04_1_civismo.html" 
+            },
+            {
+                "id": "202005042",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_04_2_artes.html" 
+            },
+            {
+                "id": "202005043",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_04_3_lenguaje.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-05",
+        "topics": [
+            {
+                "id": "202005051",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_05_1_matematicas.html" 
+            },
+            {
+                "id": "202005052",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_05_2_geografia.html" 
+            },
+            {
+                "id": "202005053",
+                "topic": "biologia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_05_3_biologia.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-06",
+        "topics": [
+            {
+                "id": "202005061",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_06_1_lenguaje.html" 
+            },
+            {
+                "id": "202005062",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_06_2_artes.html" 
+            },
+            {
+                "id": "202005063",
+                "topic": "historia",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_06_3_historia.html" 
             }
         ]
     }
-  ]
+]

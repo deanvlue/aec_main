@@ -26,8 +26,69 @@
             h5{color: #d53c88 !important;}
             .btn-primary{color: #FFFFFF;background-color: #BA186A;border-color: #BA186A;}
             .btn-primary.active, .btn-primary:active, .btn-primary:hover{color: #FFFFFF;background-color: #9E1559;border-color: #9E1559};
-            .card {-webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);border:1px solid rgba(0,0,0,0) !important;}
+            /*.card {-webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);border:1px solid rgba(0,0,0,0) !important;}*/
             .owl-carousel {width: 730px}
+
+            .card {
+              width: 288px;
+              display: grid;
+              grid-template-columns: 288px;
+              grid-template-rows: 80px auto 80px;
+              grid-template-areas: "image" "text" "tools";
+
+              border-radius: 10px;
+              background: white;
+              -webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);
+              box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);
+              text-align: left;
+
+              transition: 0.5s ease;
+              cursor: pointer;
+              margin: 22px;
+              padding: 0 !important;
+              border: none;
+            }
+            .card-image {
+                grid-area: image;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .card-image img{
+                width: 47px;
+                height: auto;
+            }
+            .card-text {
+                grid-area: text;
+                margin: 25px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                line-height: 1.3em;
+            }
+            .card-text .title {
+                color: rgb(255, 7, 110);
+                font-size:13px;
+            }
+            .card-text p {
+              font-size: 15px;
+              font-weight: 500;
+            }
+            .card-tools {
+                grid-area: tools;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+            .card-tools .tool {
+                padding:0px 26px 10px 26px;
+                display: flex;
+                align-items: left;
+                justify-content: center;
+                flex-direction: column;
+                color: white;
+            }
         </style>
     </head>
     <body>
@@ -38,9 +99,9 @@
                   <div class="col-sm-9">
                     <ol class="breadcrumb aec">
                       <li><a href="https://www.gob.mx/aefcm"><span class="glyphicon glyphicon-home"></span></a></li>
-                      <li><a href="../../index.html">Inicio</a></li>
-                      <li><a href="../../index.html">Aprende en Casa</a></li>
-                      <li><a href="../../acceso.html">Acceso</a></li>
+                      <li><a href="/aprende-en-casa-2/index.html">Inicio</a></li>
+                      <li><a href="/aprende-en-casa-2/index.html">Aprende en Casa</a></li>
+                      <li><a href="/aprende-en-casa-2/acceso.html">Acceso</a></li>
                       <li class="active">Padres de familia</li>
                     </ol>
                   </div>
@@ -65,7 +126,7 @@
               </div>
             </div>
 
-            <h3 class="text-center"> Apoya la educación de tu hijo(a) </h3>
+            <h3 class="text-center" v-on:click="alert(3)"> Apoya la educación de tu hijo(a) </h3>
 
             <div class="row">
               <div class="col-sm-12" style="padding-left: 100px;padding-right: 100px;padding-bottom:50px;padding-top: 20px">
@@ -88,43 +149,32 @@
             </div>
 
             <tabs>
-                <tab name="Alimentación" :selected="true" img="/assets/images/padres/alimentacion.svg" @click="alimentacion">
+                <tab name="Alimentación" :selected="true" img="/assets/images/padres/alimentacion.svg">
                     <div class="tabs-container">
-                        <div id="alimentacion" class="row">
-                          <div class="col-sm-4">
-                            <div class="card">
-                              <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text" style="text-align: left;">A tu lado: ¿Como asegurar una buna alimentación para nuestros hijos e hijas.</p>
-                                <a href="#" class="btn btn-primary" style="float: left;">Visitar</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-4">
-                            <div class="card">
-                              <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text" style="text-align: left;">A tu lado: Pautas de NUTRICIÓN para el confinamiento.</p>
-                                <a href="#" class="btn btn-primary" style="float: left;">Ver video</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-4">
-                            <div class="card">
-                              <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text" style="text-align: left;">A tu lado: Pautas de NUTRICIÓN para el confinamiento.</p>
-                                <a href="#" class="btn btn-primary" style="float: left;">Ver video</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                        <div id="alimentacion" class="row" style="margin-left: 15px;"></div>
                     </div>
                 </tab>
                 <tab name="Salud" img="/assets/images/padres/salud.svg">
                     <div class="tabs-container">
-                      
+                      <div id="salud" style="display: flex;margin-right: 0px;margin-left: 0px;position: relative;">
 
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="/assets/images/padres/icon-site.svg" alt="Sitio web">
+                          </div>
+                          <div class="card-text">
+                              <p>A tu lado: ¿Cómo asegurar una buena alimentación para nuestros hijos e hijas?</p>
+                          </div>
+                          <div class="card-tools">
+                              <div class="tool">
+                                  <div >
+                                    <a href="https://www.savethechildren.es/sites/default/files/2020-03/4_coronavirus_proyectoa_tu_lado_guia_nutricion_savethechildren.pdf" target="_blank" class="btn btn-primary">Visitar</a>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+
+                      </div>
                     </div>
                 </tab>
                 <tab name="Socioemocional" img="/assets/images/padres/socioemocional.svg">
@@ -232,70 +282,119 @@
               }
           });
 
-          new Vue({
+          var app = new Vue({
             el: '#app',
             data: {
+              types: {
+                video: {
+                  image: "/assets/images/padres/icon-video.svg",
+                  btn_text: "Ver video"
+                },
+                site: {
+                  image: "/assets/images/padres/icon-site.svg",
+                  btn_text: "Visitar"
+                },
+                recipe: {
+                  image: "/assets/images/padres/icon-recipe.svg",
+                  btn_text: "Visitar"
+                }
+              },
               alimentacion: [
                 {
-                  icon: "",
-                  title: "A tu lado: ¿Cómo asegurar una buena alimentación para nuestros hijos e hijas?",
+                  type: "site",
+                  text: "A tu lado: ¿Cómo asegurar una buena alimentación para nuestros hijos e hijas?",
                   source: "Save the Children España",
-                  link: "https://www.savethechildren.es/sites/default/files/2020-03/4_coronavirus_proyectoa_tu_lado_guia_nutricion_savethechildren.pdf"
+                  link: "https://www.savethechildren.es/sites/default/files/2020-03/4_coronavirus_proyectoa_tu_lado_guia_nutricion_savethechildren.pdf",
                 },{
-                  icon: "",
-                  title: "A tu lado: pautas de NUTRICIÓN para el confinamiento",
+                  type: "video",
+                  text: "",
                   source: "Save the Children España",
                   link: "https://www.youtube.com/watch?v=E4wImMgoalU&feature=youtu.be"
                 },{
-                  icon: "",
-                  title: "#COVID2019: consejos para una alimentación saludable durante la cuarentena",
+                  type: "video",
+                  text: "#COVID2019: consejos para una alimentación saludable durante la cuarentena",
                   source: "Cruz Roja Española",
                   link: "https://www.youtube.com/watch?v=mwU4eHsBWiQ&feature=youtu.be"
                 },{
-                  icon: "",
-                  title: "7 consejos de alimentación saludable para enfrentar la crisis del COVID19",
+                  type: "video",
+                  text: "7 consejos de alimentación saludable para enfrentar la crisis del COVID19",
                   source: "FAO",
                   link: "https://www.youtube.com/watch?v=QWciCvcOwS8&feature=youtu.be"
                 },{
-                  icon: "",
-                  title: "Alimentos que refuerzan tus defensas y combaten el coronavirus",
+                  type: "video",
+                  text: "Alimentos que refuerzan tus defensas y combaten el coronavirus",
                   source: "Diario correo",
                   link: "https://www.youtube.com/watch?v=lxaPoLbOZk4&feature=youtu.be"
                 },{
-                  icon: "",
-                  title: "La guía del buen comer de Archibaldo",
+                  type: "site",
+                  text: "La guía del buen comer de Archibaldo",
                   source: "Sesame Workshop",
                   link: "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Cuento-La-gui%CC%81a-del-buen-comer.pdf"
                 },{
-                  icon: "",
-                  title: "Receta: Ensalada de pollo",
+                  type: "recipe",
+                  text: "Receta: Ensalada de pollo",
                   source: "Revista del consumidor -PROFECO TV",
                   link: "https://www.youtube.com/watch?v=m41JiM5OVCI&list=PL83034254E8CEA917"
                 },{
-                  icon: "",
-                  title: "Receta: Estofado de pollo",
+                  type: "recipe",
+                  text: "Receta: Estofado de pollo",
                   source: "Revista del consumidor -PROFECO TV",
                   link: "https://www.youtube.com/watch?v=j9AZ5VU5G00&list=PL83034254E8CEA917&index=12"
                 },{
-                  icon: "",
-                  title: "Receta: Ensalada primavera",
+                  type: "recipe",
+                  text: "Receta: Ensalada primavera",
                   source: "Revista del consumidor -PROFECO TV",
                   link: "https://www.youtube.com/watch?v=gMwK97_yJAQ&list=PL83034254E8CEA917&index=30"
                 },{
-                  icon: "",
-                  title: "Receta: Albóndigas con chícharos",
+                  type: "recipe",
+                  text: "Receta: Albóndigas con chícharos",
                   source: "Revista del consumidor -PROFECO TV",
                   link: "https://www.youtube.com/watch?v=5HsXDy6BCtg&list=PL83034254E8CEA917&index=38"
                 },{
-                  icon: "",
-                  title: "Receta: Croquetas de atún con pico de gallo",
+                  type: "recipe",
+                  text: "Receta: Croquetas de atún con pico de gallo",
                   source: "Revista del consumidor -PROFECO TV",
                   link: "https://www.youtube.com/watch?v=PiBGanrD3Bg&list=PL83034254E8CEA917&index=55"
                 }
               ]
             },
+            created() {
+              this.getAlimentacion();
+            },
             methods: {
-              alimentacion: function(){
+              getAlimentacion(){
+                var cards = "";
+                var _self = this;
+
+                $.each( this.alimentacion, function( key, item ) {
+
+                  cards += '<div class="card">'+
+                              '<div class="card-image">'+
+                                '<img src="'+_self.types[item.type].image+'" alt="Sitio web">'+
+                              '</div>'+
+                              '<div class="card-text">'+
+                                '<p>'+item.text+'</p>'+
+                              '</div>'+
+                              '<div class="card-tools">'+
+                                '<div class="tool">'+
+                                  '<div >'+
+                                    '<a href="'+item.link+'" target="_blank" class="btn btn-primary">'+_self.types[item.type].btn_text+'</a>'+
+                                  '</div>'+
+                                '</div>'+
+                              '</div>'+
+                            '</div>';
+                });
+
+                $("#alimentacion").html(cards);
+
+              },
+              getSalud(){
+                alert("alimentacion");
+              },
+              getSocioemocional(){
+                alert("alimentacion");
+              },
+              getFormacion(){
                 alert("alimentacion");
               }
             }

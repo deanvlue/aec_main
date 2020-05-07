@@ -1,0 +1,36 @@
+[
+    {
+        "date": "2020-04-20",
+        "topics": [
+            {
+                "id": "202004201",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/202004201_artes.html" 
+            },
+            {
+                "id": "202004202",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/202004201_artes.html" 
+            },
+            {
+                "id": "202004203",
+                "topic": "matematicas",
+                "modal_url": "" 
+            },
+            {
+                "id": "202004204",
+                "topic": "valores",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/202004201_artes.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-21",
+        "topics": [
+            {
+                "id": "202004213",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/202004201_artes.html" 
+            }
+        ]
+    }
+  ]

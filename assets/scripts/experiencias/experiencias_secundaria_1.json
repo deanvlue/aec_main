@@ -1,0 +1,21 @@
+[
+    {
+        "date": "2020-04-20",
+        "topics": [
+            {
+                "id": "202004201",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/202004201_artes.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-21",
+        "topics": [
+            {
+                "id": "202004213",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/secundaria_1/202004201_artes.html" 
+            }
+        ]
+    }
+  ]

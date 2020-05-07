@@ -21,3 +21,29 @@ ls
 ls aprende-en-casa
 cp -r aprende-en-casa-2/* aprende-en-casa
 exit
+ls
+cd aprende-en-casa/
+ls
+mkdir videos
+ls
+cd ..
+cp assets/videos/IXTZULsensibilizacion.mp4 aprende-en-casa/videos/
+cp assets/videos/TEPORINGOSbusqueda_tesoro_min.mp4 aprende-en-casa/videos/
+cd 
+ls
+cd assets/
+ls
+cd videos/
+ls
+cd
+ls
+git add . -A
+git commit -m "Cambios en servidor"
+git config --global user.email "munoz.josecarlos@gmail.com"
+git config --global user.name "carlos munoz"
+git commit -m "Cambios en servidor"
+vim .gitignore 
+git add . -A
+git commit -m "Added main aprende-en-casa"
+git push origin master
+exit

@@ -453,6 +453,10 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     tecnologia: {
                         name: "Tecnología",
                         image: "/assets/images/experiencias/tecnologia.jpeg"
+                    },
+                    quimica: {
+                        name: "Química",
+                        image: "/assets/images/experiencias/quimica.png"
                     }
                 },
                 experiencias_primaria_1_2: [],
@@ -535,10 +539,10 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 //if(typeof param !== 'undefined') {
                     this.level = param;
 
-                    console.log("Param level exists. [" + param + "]");
+                    console.log("Level: [" + param + "]");
 
                     if(param == "primaria"){
-                        console.log("show primaria");
+                        //console.log("show primaria");
                         this.breadcrumbText = "Educación Primaria";
                         this.breadcrumbUrl = "/aprende-en-casa-2/niveles/primaria/index.html";
 
@@ -568,7 +572,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                             })
                     }
                     if(param == "secundaria"){
-                        console.log("show secundaria");
+                        //console.log("show secundaria");
                         this.breadcrumbText = "Educación Secundaria";
                         this.breadcrumbUrl = "/aprende-en-casa-2/niveles/secundaria/index.html";
 
@@ -602,7 +606,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 }*/
             },
             methods: {
-                showTopics: function(el, dateEl, menuEl, calendar, experiences)
+                showTopics: function(el, dateEl, menuEl, calendar, experiences, tabName)
                 {
                     if(typeof experiences === 'undefined'){return};
 
@@ -634,9 +638,9 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                                         //console.log("image: " + _self.topics[item.topic].image);
 
                                         items = '<div class="col-sm-12 col-md-6 col-lg-4">'+
-                                            '<a href="#M-'+item.id+'-'+slug(_self.tabName2)+'" data-toggle="modal"><img src="'+_self.topics[item.topic].image+'" width="380" height="105" class="img-responsive"></a>'+
+                                            '<a href="#M-'+item.id+'-'+slug(tabName)+'" data-toggle="modal"><img src="'+_self.topics[item.topic].image+'" width="380" height="105" class="img-responsive"></a>'+
                                         '</div>'+
-                                        '<div id="M-'+item.id+'-'+slug(_self.tabName2)+'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
+                                        '<div id="M-'+item.id+'-'+slug(tabName)+'" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true" style="display: none;" wfd-invisible="true">'+
                                             '<div class="modal-dialog modal-lg" style="margin-top: 76px;">'+
                                             '<div class="modal-content">'+
                                                 '<div class="modal-header">'+
@@ -669,11 +673,11 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 selectDay: function(calendar) {
 
                     if(this.level == "primaria"){
-                        this.showTopics("experiences", "date1", "menu1", calendar, this.experiencias_primaria_1_2);
+                        this.showTopics("experiences", "date1", "menu1", calendar, this.experiencias_primaria_1_2, this.tabName1);
                     }
 
                     if(this.level == "secundaria"){
-                        this.showTopics("experiences", "date1", "menu1", calendar, this.experiencias_secundaria_1);
+                        this.showTopics("experiences", "date1", "menu1", calendar, this.experiencias_secundaria_1, this.tabName1);
                     }
 
                 },
@@ -681,21 +685,21 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
                     if(this.level == "primaria"){
                         console.log(this.experiencias_primaria_3_4);
-                        this.showTopics("experiences2", "date2", "menu2", calendar, this.experiencias_primaria_3_4);
+                        this.showTopics("experiences2", "date2", "menu2", calendar, this.experiencias_primaria_3_4, this.tabName2);
                     }
 
                     if(this.level == "secundaria"){
-                        this.showTopics("experiences2", "date2", "menu2", calendar, this.experiencias_secundaria_2);
+                        this.showTopics("experiences2", "date2", "menu2", calendar, this.experiencias_secundaria_2, this.tabName2);
                     }
                 },
                 selectDay3: function(calendar) {
 
                     if(this.level == "primaria"){
-                        this.showTopics("experiences3", "date3", "menu3", calendar, this.experiencias_primaria_5_6);
+                        this.showTopics("experiences3", "date3", "menu3", calendar, this.experiencias_primaria_5_6, this.tabName3);
                     }
 
                     if(this.level == "secundaria"){
-                        this.showTopics("experiences3", "date3", "menu3", calendar, this.experiencias_secundaria_3);
+                        this.showTopics("experiences3", "date3", "menu3", calendar, this.experiencias_secundaria_3, this.tabName3);
                     }
                 }    
             }

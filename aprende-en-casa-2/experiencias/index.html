@@ -141,11 +141,41 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
             <div class="row">
                 <div class="col-sm-12">
-                    <h3 class="text-center"> Experiencias </h3>
+                    <h3 class="text-center">Experiencias</h3>
                 </div>
             </div>
 
-            <tabs>
+            <div v-if="level === 'preescolar'">
+                <div class="tabs-container">
+                    <span class="title">Selecciona una fecha para revisar las actividades para tu carpeta.</span>
+
+                    <div class="sub">
+                        <v-calendar 
+                            locale="es"
+                            @dayClick="selectDay"
+                            :columns="$screens({ default: 1, lg: 1 })"
+                            style="margin: 0 auto"
+                            :attributes='attrs'
+                            title-position="left"></v-calendar>
+
+                        <div id="menu1" class="menu" style="display: none">
+                            <div class="" style="text-align: left">
+                                <strong id="date1"></strong>
+                                <h5>¿Qué vimos hoy?</h5>
+
+                                 <!-- Experiences -->
+                                 <div>
+                                    <div class="row"><div class="col-sm-12 topics" id="experiences"></div></div>
+                                 </div>
+                                 <!-- End Experiences -->
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <tabs v-if="level != 'preescolar'">
                 <tab :name="tabName1" :selected="true" :img="tabImage1">
 
                     <div class="tabs-container">
@@ -284,7 +314,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
           };
 
           var slug = function(str) {
-              str = str.replace(/^\s+|\s+$/g, ''); // trim
+              str = str.replace(/^\s+|\s+$/g, '');
               str = str.toLowerCase();
 
               // remove accents, swap ñ for n, etc
@@ -294,9 +324,9 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
               }
 
-              str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
-                .replace(/\s+/g, '-') // collapse whitespace and replace by -
-                .replace(/-+/g, '-'); // collapse dashes
+              str = str.replace(/[^a-z0-9 -]/g, '')
+                .replace(/\s+/g, '-')
+                .replace(/-+/g, '-');
 
               return str;
           };
@@ -377,21 +407,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 breadcrumbText: "",
                 url: window.location.origin,
                 params: getParams(window.location.href),
-                dates: [
-                    new Date(2020, 3, 20),
-                    new Date(2020, 3, 21),
-                    new Date(2020, 3, 22),
-                    new Date(2020, 3, 23),
-                    new Date(2020, 3, 24),
-                    new Date(2020, 3, 27),
-                    new Date(2020, 3, 28),
-                    new Date(2020, 3, 29),
-                    new Date(2020, 3, 30),
-                    new Date(2020, 4, 1),
-                    new Date(2020, 4, 4),
-                    new Date(2020, 4, 5),
-                    new Date(2020, 4, 6), 
-                ],
                 level: "",
                 topics: {
                     artes: {
@@ -457,6 +472,10 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     quimica: {
                         name: "Química",
                         image: "/assets/images/experiencias/quimica.png"
+                    },
+                    mundo_natural_y_social: {
+                        name: "Mundo natural y social",
+                        image: "/assets/images/experiencias/mundo_natural_y_social.png"
                     }
                 },
                 experiencias_primaria_1_2: [],
@@ -465,6 +484,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 experiencias_secundaria_1: [],
                 experiencias_secundaria_2: [],
                 experiencias_secundaria_3: [],
+                experiencias_preescolar: [],
                 mode: 'single',
                 attrs: [
                 {
@@ -540,6 +560,17 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     this.level = param;
 
                     console.log("Level: [" + param + "]");
+
+                    if(param == "preescolar") {
+                        this.breadcrumbText = "Educación Preescolar";
+                        this.breadcrumbUrl = "/aprende-en-casa-2/niveles/preescolar/index.html";
+                        
+                        fetch(this.url + '/assets/scripts/experiencias/experiencias_preescolar.json')
+                            .then(response => response.json())
+                            .then(json => {
+                                this.experiencias_preescolar = json;
+                            })
+                    }
 
                     if(param == "primaria"){
                         //console.log("show primaria");
@@ -671,6 +702,10 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
                 },
                 selectDay: function(calendar) {
+
+                    if(this.level == "preescolar"){
+                        this.showTopics("experiences", "date1", "menu1", calendar, this.experiencias_preescolar, this.tabName1);
+                    }
 
                     if(this.level == "primaria"){
                         this.showTopics("experiences", "date1", "menu1", calendar, this.experiencias_primaria_1_2, this.tabName1);

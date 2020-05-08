@@ -1,0 +1,300 @@
+[
+    {
+        "date": "2020-04-20",
+        "topics": [
+            {
+                "id": "202004201",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_20_1_artes.html" 
+            },
+            {
+                "id": "202004202",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_20_2_artes.html" 
+            },
+            {
+                "id": "202004203",
+                "topic": "valores",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_20_3_valores.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-21",
+        "topics": [
+            {
+                "id": "202004211",
+                "topic": "la_entidad_donde_vivo",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_21_1_entidad.html" 
+            },
+            {
+                "id": "202004212",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_21_2_lenguaje.html" 
+            },
+            {
+                "id": "202004214",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_21_3_geografia.html" 
+            },
+            {
+                "id": "202004214",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_21_4_geografia.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-22",
+        "topics": [
+            {
+                "id": "202004221",
+                "topic": "deportes",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_22_1_deportes.html" 
+            },
+            {
+                "id": "202004222",
+                "topic": "la_entidad_donde_vivo",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_22_2_la_entidad_donde_vivo.html" 
+            },
+            {
+                "id": "202004223",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_22_3_geografia.html" 
+            },
+            {
+                "id": "202004224",
+                "topic": "ciencias_naturales",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_22_4_ciencias_naturales.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-23",
+        "topics": [
+            {
+                "id": "202004231",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_23_1_lenguaje.html" 
+            },
+            {
+                "id": "202004232",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_23_2_matematicas.html" 
+            },
+            {
+                "id": "202004233",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_23_3_lenguaje.html" 
+            },
+            {
+                "id": "202004234",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_23_4_geografia.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-24",
+        "topics": [
+            {
+                "id": "202004241",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_24_1_geografia.html" 
+            },
+            {
+                "id": "202004242",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_24_2_artes.html" 
+            },
+            {
+                "id": "202004243",
+                "topic": "deportes",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_24_3_deportes.html" 
+            },
+            {
+                "id": "202004244",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_24_4_lenguaje.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-27",
+        "topics": [
+            {
+                "id": "202004271",
+                "topic": "ciencias_naturales",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_27_1_ciencias_naturales.html" 
+            },
+            {
+                "id": "202004272",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_27_2_artes.html" 
+            },
+            {
+                "id": "202004273",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_27_3_matematicas.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-28",
+        "topics": [
+            {
+                "id": "202004281",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_28_1_geografia.html" 
+            },
+            {
+                "id": "202004282",
+                "topic": "ciencias_naturales",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_28_2_ciencias_naturales.html" 
+            },
+            {
+                "id": "202004283",
+                "topic": "fisica",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_28_3_fisica.html" 
+            },
+            {
+                "id": "202004284",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_28_4_artes.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-29",
+        "topics": [
+            {
+                "id": "202004291",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_29_1_lenguaje.html" 
+            },
+            {
+                "id": "202004292",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_29_2_matematicas.html" 
+            },
+            {
+                "id": "202004293",
+                "topic": "valores",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_29_3_valores.html" 
+            },
+            {
+                "id": "202004294",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_29_4_geografia.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-30",
+        "topics": [
+            {
+                "id": "202004301",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_30_1_matematicas.html" 
+            },
+            {
+                "id": "202004302",
+                "topic": "ciencias_naturales",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_30_2_ciencias_naturales.html" 
+            },
+            {
+                "id": "202004303",
+                "topic": "valores",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_30_3_valores.html" 
+            },
+            {
+                "id": "202004304",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_30_4_lenguaje.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-01",
+        "topics": [
+            {
+                "id": "202005011",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_01_1_matematicas.html" 
+            },
+            {
+                "id": "202005012",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_01_2_lenguaje.html" 
+            },
+            {
+                "id": "202005013",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_01_3_artes.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-04",
+        "topics": [
+            {
+                "id": "202005041",
+                "topic": "ciencias_naturales",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_04_1_ciencias_naturales.html" 
+            },
+            {
+                "id": "202005042",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_04_2_artes.html" 
+            },
+            {
+                "id": "202005043",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_04_3_matematicas.html" 
+            },
+            {
+                "id": "202005044",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_04_4_geografia.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-05",
+        "topics": [
+            {
+                "id": "202005051",
+                "topic": "deportes",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_05_1_deportes.html" 
+            },
+            {
+                "id": "202005052",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_05_2_artes.html" 
+            },
+            {
+                "id": "202005053",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_05_3_lenguaje.html" 
+            },
+            {
+                "id": "202005054",
+                "topic": "ciencias_naturales",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_05_4_ciencias_naturales.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-06",
+        "topics": [
+            {
+                "id": "202005061",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_06_1_lenguaje.html" 
+            },
+            {
+                "id": "202005062",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_06_2_matematicaso.html" 
+            },
+            {
+                "id": "202005063",
+                "topic": "valores",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_06_3_valores.html" 
+            },
+            {
+                "id": "202005064",
+                "topic": "geografia",
+                "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_06_4_geografia.html" 
+            }
+        ]
+    }
+]

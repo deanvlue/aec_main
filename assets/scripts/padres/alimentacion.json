@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "type": "site",
+      "text": "A tu lado: ¿Cómo asegurar una buena alimentación para nuestros hijos e hijas?",
+      "source": "Save the Children España",
+      "link": "https://www.savethechildren.es/sites/default/files/2020-03/4_coronavirus_proyectoa_tu_lado_guia_nutricion_savethechildren.pdf"
+    },{
+      "id": 2,
+      "type": "video",
+      "text": "A tu lado: pautas de NUTRICIÓN para el confinamiento",
+      "source": "Save the Children España",
+      "link": "https://www.youtube.com/watch?v=E4wImMgoalU&feature=youtu.be"
+    },{
+      "id": 3,
+      "type": "video",
+      "text": "#COVID2019: consejos para una alimentación saludable durante la cuarentena",
+      "source": "Cruz Roja Española",
+      "link": "https://www.youtube.com/watch?v=mwU4eHsBWiQ&feature=youtu.be"
+    },{
+      "id": 4,
+      "type": "video",
+      "text": "7 consejos de alimentación saludable para enfrentar la crisis del COVID19",
+      "source": "FAO",
+      "link": "https://www.youtube.com/watch?v=QWciCvcOwS8&feature=youtu.be"
+    },{
+      "id": 5,
+      "type": "video",
+      "text": "Alimentos que refuerzan tus defensas y combaten el coronavirus",
+      "source": "Diario correo",
+      "link": "https://www.youtube.com/watch?v=lxaPoLbOZk4&feature=youtu.be"
+    },{
+      "id": 6,
+      "type": "site",
+      "text": "La guía del buen comer de Archibaldo",
+      "source": "Sesame Workshop",
+      "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Cuento-La-gui%CC%81a-del-buen-comer.pdf"
+    },{
+      "id": 7,
+      "type": "recipe",
+      "text": "Receta: Ensalada de pollo",
+      "source": "Revista del consumidor -PROFECO TV",
+      "link": "https://www.youtube.com/watch?v=m41JiM5OVCI&list=PL83034254E8CEA917"
+    },{
+      "id": 8,
+      "type": "recipe",
+      "text": "Receta: Estofado de pollo",
+      "source": "Revista del consumidor -PROFECO TV",
+      "link": "https://www.youtube.com/watch?v=j9AZ5VU5G00&list=PL83034254E8CEA917&index=12"
+    },{
+      "id": 9,
+      "type": "recipe",
+      "text": "Receta: Ensalada primavera",
+      "source": "Revista del consumidor -PROFECO TV",
+      "link": "https://www.youtube.com/watch?v=gMwK97_yJAQ&list=PL83034254E8CEA917&index=30"
+    },{
+      "id": 10,
+      "type": "recipe",
+      "text": "Receta: Albóndigas con chícharos",
+      "source": "Revista del consumidor -PROFECO TV",
+      "link": "https://www.youtube.com/watch?v=5HsXDy6BCtg&list=PL83034254E8CEA917&index=38"
+    },{
+      "id": 11,
+      "type": "recipe",
+      "text": "Receta: Croquetas de atún con pico de gallo",
+      "source": "Revista del consumidor -PROFECO TV",
+      "link": "https://www.youtube.com/watch?v=PiBGanrD3Bg&list=PL83034254E8CEA917&index=55"
+    }
+  ]

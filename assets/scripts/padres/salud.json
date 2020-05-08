@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "type": "video",
+      "text": "A tu lado: gestión del OCIO durante el confinamiento",
+      "source": "Save the Children España",
+      "link": "https://www.youtube.com/watch?v=4Bp_APXLEwI&feature=youtu.be"
+    },{
+      "id": 2,
+      "type": "site",
+      "text": "A tu lado: ¿Cómo promover la participación de nuestros hijos e hijas?",
+      "source": "Save the Children España",
+      "link": "file:///C:/Users/alberto/Downloads/5_coronavirus_proyectoa_tu_lado_guia_participacion_infantil%20(1).pdf"
+    },{
+      "id": 3,
+      "type": "video",
+      "text": "Save the Children España",
+      "source": "A tu lado: pautas de PARTICIPACIÓN por el confinamiento",
+      "link": "https://www.youtube.com/watch?v=oghHdSYhYUU&feature=youtu.be"
+    },{
+      "id": 4,
+      "type": "pdf",
+      "text": "Coronavirus (COVID-19), lo que madres, padres, educadores deben saber: cómo proteger a hijas, hijos y alumnos",
+      "source": "UNICEF",
+      "link": "file:///C:/Users/alberto/Downloads/Publicacio%CC%81n%20_%20Coronavirus%20(COVID-19)%20.pdf"
+    },{
+      "id": 5,
+      "type": "pdf",
+      "text": "Hablando sobre el CORONAVIRUS-19, con los niños y niñas más pequeños",
+      "source": "UNICEF",
+      "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Hablando_sobre_el_coronavirus_con_los_mas_pequenos.pdf"
+    },{
+      "id": 6,
+      "type": "video",
+      "text": "¿Qué es el COVID-19? Once Niñas y Niños",
+      "source": "Once niños",
+      "link": "https://www.youtube.com/watch?v=PlpVBvFvlnU"
+    },{
+      "id": 7,
+      "type": "pdf",
+      "text": "Hábitos saludables para la vida",
+      "source": "SesameWorksshop.org",
+      "link": "file:///C:/Users/alberto/Downloads/Healthy%20Habits%20for%20Life%20Guide_Spanish.pdf"
+    },{
+      "id": 8,
+      "type": "video",
+      "text": "Lavado correcto de manos. Once Niñas y Niños",
+      "source": "Once niños",
+      "link": "https://www.youtube.com/watch?v=gEjnX86yeis"
+    },{
+      "id": 9,
+      "type": "site",
+      "text": "9 tips para cuidar la salud de niños y adolescentes durante la cuarentena",
+      "source": "Fundación Carlos Slim",
+      "link": "https://www.clikisalud.net/9-tips-para-cuidar-la-salud-de-ninos-y-adolescentes-durante-la-cuarentena/"
+    }
+  ]

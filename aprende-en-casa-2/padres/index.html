@@ -23,12 +23,8 @@
             .tabs-details{padding-top: 150px}
             .tabs-container{margin-bottom: 100px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 40px}
             .grid{padding-bottom: 0px !important}
-            h5{color: #d53c88 !important;}
             .btn-primary{color: #FFFFFF;background-color: #BA186A;border-color: #BA186A;}
-            .btn-primary.active, .btn-primary:active, .btn-primary:hover{color: #FFFFFF;background-color: #9E1559;border-color: #9E1559};
-            /*.card {-webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);border:1px solid rgba(0,0,0,0) !important;}*/
-            .owl-carousel {width: 730px !important}
-
+            .btn-primary.active, .btn-primary:active, .btn-primary:hover{color: #FFFFFF;background-color: #9E1559;border-color: #9E1559}
             .card {
               width: 288px;
               display: grid;
@@ -91,12 +87,117 @@
             }
             .text-center {
                 color: #b3337f !important;
-                margin-top: 0;
+                margin-top: 0px;
+            }
+            .cards-container{
+              margin-left: 15px;
+            }
+            .sub-nav{
+              padding: 20px 100px 50px 100px;
+            }
+            /* 
+              ##Device = Desktops
+              ##Screen = 1281px to higher resolution desktops
+            */
+            @media (min-width: 1281px) {              
+            }
+            /* 
+              ##Device = Laptops, Desktops
+              ##Screen = B/w 1025px to 1280px
+            */
+            @media (min-width: 1025px) and (max-width: 1280px) {              
+            }
+            /* 
+              ##Device = Tablets, Ipads (portrait)
+              ##Screen = B/w 768px to 1024px
+            */
+            @media (min-width: 768px) and (max-width: 1024px) {    
+              .tabs-container{padding: 10px 0}
+            }
+            /* 
+              ##Device = Tablets, Ipads (landscape)
+              ##Screen = B/w 768px to 1024px
+            */
+            @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+              .tabs-container{padding: 10px 0}
+              .card{margin: 6px;}
+                          
+            }
+            /* 
+              ##Device = Low Resolution Tablets, Mobiles (Landscape)
+              ##Screen = B/w 481px to 767px
+            */
+            @media (min-width: 481px) and (max-width: 767px) {              
+            }
+            /* 
+              ##Device = Most of the Smartphones Mobiles (Portrait)
+              ##Screen = B/w 320px to 479px
+            */
+            @media (min-width: 320px) and (max-width: 480px) {
+              .tabs-container{padding: 10px}
+              .cards-container{
+                margin-left: -2px;
+              }
+              .tabs-details {
+                  padding-top: 30px;
+              }
+              .sub-nav{
+                padding: 21px 35px 50px;
+              }
+              .sub-nav div{
+                margin-top: 20px;
+              }
             }
         </style>
     </head>
     <body>
-        <div id="app" class="container">
+
+        <header>
+          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+              <!--<div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarMainCollapse">
+                  <span class="sr-only">Interruptor de Navegación</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.gob.mx/">
+                  <img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" width="128" height="48" alt="Página de inicio, Gobierno de México">
+                </a>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarMainCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://www.gob.mx/tramites">Trámites</a></li>
+                  <li><a href="https://www.gob.mx/gobierno">Gobierno</a></li>
+                  <li><a href="https://www.gob.mx/busqueda"><span class="sr-only">Búsqueda</span><i class="icon-search"></i></a>
+                  </li>
+                </ul>
+              </div>-->
+            </div>
+          </nav>
+        </header>
+        
+        <nav class="navbar navbar-inverse sub-navbar navbar-fixed-top"> 
+            <div class="container">
+                <div class="navbar-header">
+                    <!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces"-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces" aria-expanded="false">
+                        <span class="sr-only">Interruptor de Navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="/"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="subenlaces">
+                    <!--div id="subenlaces"-->
+                    <ul class="nav navbar-nav navbar-right"></ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="app" class="container" style="margin-top: 75px;">
 
             <nav class="navbar aec">
                 <div class="row">
@@ -121,32 +222,33 @@
               </div>
           </div>
 
-            <div class="row">
-              <div class="col-sm-12" style="padding-left: 200px;padding-right: 300px;padding-top: 30px;">
+            <div class="row" style="margin-top: 20px;">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-8">
                 <div class="owl-carousel">
-                  <img src="/assets/images/padres/image-slider.png" style="width:730px; height: 400px">
-                  <img src="https://placeimg.com/200/200/any?4" style="width:730px; height: 400px">
+                  <img src="/assets/images/padres/image-slider.png" style="width:100%; height: auto">
                 </div>
               </div>
+              <div class="col-sm-2"></div>
             </div>
 
-            <h3 class="text-center">Apoya la educación de tu hijo(a) </h3>
+            <h3 class="text-center" style="margin-top: 20px;">Apoya la educación de tu hijo(a) </h3>
 
             <div class="row">
-              <div class="col-sm-12" style="padding-left: 100px;padding-right: 100px;padding-bottom:50px;padding-top: 20px">
-                <div class="col-sm-4">
+              <div class="col-sm-12 sub-nav">
+                <div class="col-sm-4 ">
                   <a href="#">
-                      <img src="/assets/images/padres/calendario.svg" width="276" height="123" alt="" />
+                      <img src="/assets/images/padres/calendario.svg" width="100%" height="auto" alt="" />
                   </a>
                 </div>
                 <div class="col-sm-4">
                   <a href="#">
-                      <img src="/assets/images/padres/agenda.svg" width="276" height="123" alt="" />
+                      <img src="/assets/images/padres/agenda.svg" width="100%" height="auto" alt="" />
                   </a>
                 </div>
                 <div class="col-sm-4">
                   <a href="#">
-                      <img src="/assets/images/padres/experiencias.svg" width="276" height="123" alt="" />
+                      <img src="/assets/images/padres/experiencias.svg" width="100%" height="auto" alt="" />
                   </a>
                 </div>
               </div>
@@ -155,31 +257,32 @@
             <tabs>
                 <tab name="Alimentación" :selected="true" img="/assets/images/padres/alimentacion.svg">
                     <div class="tabs-container">
-                        <div id="alimentacion" class="row" style="margin-left: 15px;"></div>
+                        <div id="alimentacion" class="row cards-container"></div>
                     </div>
                 </tab>
                 <tab name="Salud" img="/assets/images/padres/salud.svg">
                     <div class="tabs-container">
-                      <div id="salud-container" class="row" style="margin-left: 15px;"></div>
+                      <div id="salud-container" class="row cards-container"></div>
                       <h3 class="text-left" style="margin-left: 40px;">Activación física:</h3>
-                      <div id="salud-activacion-fisica" class="row" style="margin-left: 15px;"></div>
+                      <div id="salud-activacion-fisica" class="row cards-container"></div>
                     </div>
                 </tab>
                 <tab name="Socioemocional" img="/assets/images/padres/socioemocional.svg">
                     <div class="tabs-container">
-                      <div id="socioemocional-container" class="row" style="margin-left: 15px;"></div>
+                      <div id="socioemocional-container" class="row cards-container"></div>
                     </div>
                 </tab>
                 <tab name="Formación para padres" img="/assets/images/padres/formacion.svg">
                     <div class="tabs-container">
-                      <div id="formacion-container" class="row" style="margin-left: 15px;"></div>
+                      <div id="formacion-container" class="row cards-container"></div>
                     </div>
                 </tab>
             </tabs>
             
-        </div>              
+        </div>
 
-        <!-- 1. Link Vue Javascript -->
+        <footer class="main-footer"><div class="list-info"><div class="container"><div class="row"><div class="col-sm-3"><img data-v-9e928f9a="" src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" href="/" alt="logo gobierno de méxico" class="logo_footer" style="max-width: 90%;"></div><div class="col-sm-3"><h5>Enlaces</h5><ul><li><a href="https://participa.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Participa</a></li><li><a href="https://www.gob.mx/publicaciones" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Publicaciones Oficiales</a></li><li><a href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Marco Jurídico</a></li><li><a href="https://consultapublicamx.inai.org.mx/vut-web/" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Plataforma Nacional de Transparencia</a></li></ul></div><div class="col-sm-3"><h5>¿Qué es gob.mx?</h5><p>Es el portal único de trámites, información y participación ciudadana. <a href="https://www.gob.mx/que-es-gobmx">Leer más</a></p><ul><li><a href="https://datos.gob.mx">Portal de datos abiertos</a></li><li><a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a></li><li><a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a></li><li><a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a></li><li><a href="https://www.gob.mx/terminos">Términos y Condiciones</a></li><li><a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a></li><li><a href="https://www.gob.mx/sitemap">Mapa de sitio</a></li></ul></div><div class="col-sm-3"><h5><a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia contra servidores públicos</a></h5><h5>Síguenos en</h5><ul class="list-inline"><li><a class="social-icon facebook" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://www.facebook.com/gobmexico" aria-label="Facebook de presidencia"></a></li><li><a class="social-icon twitter" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://twitter.com/GobiernoMX" aria-label="Twitter de presidencia"></a></li></ul></div></div></div></div><div class="container-fluid footer-pleca"><div class="row"><div class="col"><br><br></div></div></div></footer>
+
         <script src='https://unpkg.com/vue/dist/vue.js'></script>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -188,12 +291,10 @@
 
         <script src="/assets/scripts/owl.carousel.min.js"></script>
       
-        <!--3. Create the Vue instance-->
         <script>
-
           $(document).ready(function(){
             $('.owl-carousel').owlCarousel({
-                loop:true,
+                loop:false,
                 items: 1
             })
           });
@@ -204,7 +305,7 @@
                         <div class="tabs">
                           <div v-for="tab in tabs" :class="{ 'is-active': tab.isActive }" class="tab col-sm-3" align="center"> 
                             <a :href="tab.href" @click="selectTab(tab)">
-                                <img :src="tab.img" width="255" height="103" :alt="tab.name" />
+                                <img :src="tab.img" width="100%" height="auto" :alt="tab.name" />
                             </a>
                           </div>
                         </div>
@@ -264,10 +365,15 @@
           var app = new Vue({
             el: '#app',
             data: {
+              url: window.location.origin,
               types: {
                 video: {
                   image: "/assets/images/padres/icon-video.svg",
                   btn_text: "Ver video"
+                },
+                pdf: {
+                  image: "/assets/images/padres/icon-pdf.svg",
+                  btn_text: "Descargar"
                 },
                 site: {
                   image: "/assets/images/padres/icon-site.svg",
@@ -278,245 +384,39 @@
                   btn_text: "Visitar"
                 }
               },
-              alimentacion: [
-                {
-                  id: 1,
-                  type: "site",
-                  text: "A tu lado: ¿Cómo asegurar una buena alimentación para nuestros hijos e hijas?",
-                  source: "Save the Children España",
-                  link: "https://www.savethechildren.es/sites/default/files/2020-03/4_coronavirus_proyectoa_tu_lado_guia_nutricion_savethechildren.pdf",
-                },{
-                  id: 2,
-                  type: "video",
-                  text: "A tu lado: pautas de NUTRICIÓN para el confinamiento",
-                  source: "Save the Children España",
-                  link: "https://www.youtube.com/watch?v=E4wImMgoalU&feature=youtu.be"
-                },{
-                  id: 3,
-                  type: "video",
-                  text: "#COVID2019: consejos para una alimentación saludable durante la cuarentena",
-                  source: "Cruz Roja Española",
-                  link: "https://www.youtube.com/watch?v=mwU4eHsBWiQ&feature=youtu.be"
-                },{
-                  id: 4,
-                  type: "video",
-                  text: "7 consejos de alimentación saludable para enfrentar la crisis del COVID19",
-                  source: "FAO",
-                  link: "https://www.youtube.com/watch?v=QWciCvcOwS8&feature=youtu.be"
-                },{
-                  id: 5,
-                  type: "video",
-                  text: "Alimentos que refuerzan tus defensas y combaten el coronavirus",
-                  source: "Diario correo",
-                  link: "https://www.youtube.com/watch?v=lxaPoLbOZk4&feature=youtu.be"
-                },{
-                  id: 6,
-                  type: "site",
-                  text: "La guía del buen comer de Archibaldo",
-                  source: "Sesame Workshop",
-                  link: "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Cuento-La-gui%CC%81a-del-buen-comer.pdf"
-                },{
-                  id: 7,
-                  type: "recipe",
-                  text: "Receta: Ensalada de pollo",
-                  source: "Revista del consumidor -PROFECO TV",
-                  link: "https://www.youtube.com/watch?v=m41JiM5OVCI&list=PL83034254E8CEA917"
-                },{
-                  id: 8,
-                  type: "recipe",
-                  text: "Receta: Estofado de pollo",
-                  source: "Revista del consumidor -PROFECO TV",
-                  link: "https://www.youtube.com/watch?v=j9AZ5VU5G00&list=PL83034254E8CEA917&index=12"
-                },{
-                  id: 9,
-                  type: "recipe",
-                  text: "Receta: Ensalada primavera",
-                  source: "Revista del consumidor -PROFECO TV",
-                  link: "https://www.youtube.com/watch?v=gMwK97_yJAQ&list=PL83034254E8CEA917&index=30"
-                },{
-                  id: 10,
-                  type: "recipe",
-                  text: "Receta: Albóndigas con chícharos",
-                  source: "Revista del consumidor -PROFECO TV",
-                  link: "https://www.youtube.com/watch?v=5HsXDy6BCtg&list=PL83034254E8CEA917&index=38"
-                },{
-                  id: 11,
-                  type: "recipe",
-                  text: "Receta: Croquetas de atún con pico de gallo",
-                  source: "Revista del consumidor -PROFECO TV",
-                  link: "https://www.youtube.com/watch?v=PiBGanrD3Bg&list=PL83034254E8CEA917&index=55"
-                }
-              ],
-              salud: [
-                {
-                  id: 1,
-                  type: "video",
-                  text: "A tu lado: gestión del OCIO durante el confinamiento",
-                  source: "Save the Children España",
-                  link: "https://www.youtube.com/watch?v=4Bp_APXLEwI&feature=youtu.be",
-                },{
-                  id: 2,
-                  type: "site",
-                  text: "A tu lado: ¿Cómo promover la participación de nuestros hijos e hijas?",
-                  source: "Save the Children España",
-                  link: "file:///C:/Users/alberto/Downloads/5_coronavirus_proyectoa_tu_lado_guia_participacion_infantil%20(1).pdf",
-                },{
-                  id: 3,
-                  type: "video",
-                  text: "Save the Children España",
-                  source: "A tu lado: pautas de PARTICIPACIÓN por el confinamiento",
-                  link: "https://www.youtube.com/watch?v=oghHdSYhYUU&feature=youtu.be",
-                },{
-                  id: 4,
-                  type: "site",
-                  text: "Coronavirus (COVID-19), lo que madres, padres, educadores deben saber: cómo proteger a hijas, hijos y alumnos",
-                  source: "UNICEF",
-                  link: "file:///C:/Users/alberto/Downloads/Publicacio%CC%81n%20_%20Coronavirus%20(COVID-19)%20.pdf",
-                },{
-                  id: 5,
-                  type: "site",
-                  text: "Hablando sobre el CORONAVIRUS-19, con los niños y niñas más pequeños",
-                  source: "UNICEF",
-                  link: "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Hablando_sobre_el_coronavirus_con_los_mas_pequenos.pdf",
-                },{
-                  id: 6,
-                  type: "video",
-                  text: "¿Qué es el COVID-19? Once Niñas y Niños",
-                  source: "Once niños",
-                  link: "https://www.youtube.com/watch?v=PlpVBvFvlnU",
-                },{
-                  id: 7,
-                  type: "site",
-                  text: "Hábitos saludables para la vida",
-                  source: "SesameWorksshop.org",
-                  link: "file:///C:/Users/alberto/Downloads/Healthy%20Habits%20for%20Life%20Guide_Spanish.pdf",
-                },{
-                  id: 8,
-                  type: "video",
-                  text: "Lavado correcto de manos. Once Niñas y Niños",
-                  source: "Once niños",
-                  link: "https://www.youtube.com/watch?v=gEjnX86yeis",
-                },{
-                  id: 9,
-                  type: "site",
-                  text: "9 tips para cuidar la salud de niños y adolescentes durante la cuarentena",
-                  source: "Fundación Carlos Slim",
-                  link: "https://www.clikisalud.net/9-tips-para-cuidar-la-salud-de-ninos-y-adolescentes-durante-la-cuarentena/",
-                }
-              ],
-              salud_activacion_fisica: [
-                {
-                  id: 10,
-                  type: "video",
-                  text: "Ejercicios para hacer en casa",
-                  source: "Recomendaciones de la OMS",
-                  link: "https://www.youtube.com/watch?v=4Tn9jMey0RY"
-                },{
-                  id: 11,
-                  type: "video",
-                  text: "Ejercitarse- Once Niñas y Niños",
-                  source: "Once niños",
-                  link: "https://www.youtube.com/watch?v=hecg2ShyeaM&feature=youtu.be"
-                },{
-                  id: 12,
-                  type: "site",
-                  text: "Fitness en casa: cómo mantenerse activo en cuarentena, según la OMS",
-                  source: "Infobae, recomendaciones de la OMS",
-                  link: "https://www.infobae.com/salud/2020/05/01/fitness-en-casa-como-mantenerse-activo-en-cuarentena-segun-la-oms/"
-                },{
-                  id: 13,
-                  type: "video",
-                  text: "Yoga Niños - Para jugar y estudiar mejor",
-                  source: "Canal bienestar.com",
-                  link: "https://www.youtube.com/watch?v=nNbRQX8yJWs"
-                }
-              ],
-              socioemocional: [
-                {
-                  id: 1,
-                  type: "video",
-                  text: "A tu lado: Consejos para madres y padres en tiempos de coronavirus",
-                  source: "Save the Children España",
-                  link: "https://youtu.be/7nY8PwgrBDI",
-                },{
-                  id: 2,
-                  type: "site",
-                  text: "A tu lado: ¿Cómo ayudar a nuestros hijos e hijas con sus emociones?",
-                  source: "Save the Children España",
-                  link: "file:///C:/Users/alberto/Downloads/coronavirus_proyectoa_tu_lado_guia_emociones.pdf",
-                },{
-                  id: 3,
-                  type: "video",
-                  text: "A tu lado: gestión de EMOCIONES por el confinamiento",
-                  source: "Save the Children España",
-                  link: "https://www.youtube.com/watch?v=RyU_FpHhofY&feature=youtu.be",
-                },{
-                  id: 4,
-                  type: "site",
-                  text: "A tu lado: ¿Cómo garantizar un lugar seguro para nuestros hijos e hijas?",
-                  source: "Save the Children España",
-                  link: "file:///C:/Users/alberto/Downloads/2_coronavirus_proyectoa_tu_lado_guia_proteccion_savethechildren.pdf",
-                },{
-                  id: 5,
-                  type: "site",
-                  text: "CONSEJOS PARA PAPÁ y MAMÁ: apoyo emocional para niños y niñas ante el Covid-19",
-                  source: "UNICEF",
-                  link: "file:///C:/Users/alberto/Downloads/Consejos%20de%20salud%20mental%20para%20nin%CC%83as%20y%20nin%CC%83os.pdf"
-                },{
-                  id: 6,
-                  type: "video",
-                  text: "Salud emocional de niñas y niños durante la crisis por COVID19",
-                  source: "UNICEF",
-                  link: "https://www.youtube.com/watch?v=zhZPzK49e0o&feature=youtu.be",
-                },{
-                  id: 7,
-                  type: "video",
-                  text: "Consejos madres y padres sobre el COVID-19",
-                  source: "UNICEF",
-                  link: "https://www.youtube.com/watch?v=mdPkek2PAEc&feature=youtu.be",
-                },{
-                  id: 8,
-                  type: "site",
-                  text: "Manejo de emociones",
-                  source: "Sesame Workshop",
-                  link: "https://sesamo.com/articles/manejo-de-emociones/",
-                },{
-                  id: 9,
-                  type: "video",
-                  text: "Tips para papás con sus hijos en casa",
-                  source: "Grupo REFORMA",
-                  link: "https://www.youtube.com/watch?v=2gYeI2m8yGo",
-                },{
-                  id: 10,
-                  type: "site",
-                  text: "Respira, Piensa, Actúa",
-                  source: "Sesame Workshop",
-                  link: "https://sesamo.com/articles/respira-piensa-actua/",
-                },{
-                  id: 11,
-                  type: "video",
-                  text: "Salud mental en adolescentes durante el COVID19",
-                  source: "UNICEF",
-                  link: "https://www.youtube.com/watch?v=EJ48mIG8ksA",
-                },{
-                  id: 12,
-                  type: "video",
-                  text: "Recomendaciones para adolescentes",
-                  source: "Ministerio de Salud de la Nación",
-                  link: "https://www.youtube.com/watch?v=bxF8C4FDdek",
-                },{
-                  id: 13,
-                  type: "site",
-                  text: "Covid-19: No estás solo, estas universidades brindan asesoría psicológica por teléfono",
-                  source: "El Sol de México",
-                  link: "https://www.elsoldemexico.com.mx/mexico/sociedad/covid-19-no-estas-solo-estas-universidades-brindan-asesoria-psicologica-por-telefono-depresion-desesperacion-ansiedad-5035022.html",
-                }
-              ]
+              alimentacion: [],
+              salud: [],
+              salud_activacion_fisica: [],
+              socioemocional: []
             },
             created() {
-              this.getAlimentacion();
-              this.getSalud();
-              this.getSocioemocional();
+              fetch(this.url + '/assets/scripts/padres/alimentacion.json')
+                    .then(response => response.json())
+                    .then(json => {
+                        this.alimentacion= json;
+                        this.getAlimentacion();
+                    })
+
+              fetch(this.url + '/assets/scripts/padres/salud.json')
+                    .then(response => response.json())
+                    .then(json => {
+                        this.salud= json;
+                        this.getSalud();
+                    })
+
+              fetch(this.url + '/assets/scripts/padres/salud_activacion_fisica.json')
+                    .then(response => response.json())
+                    .then(json => {
+                        this.salud_activacion_fisica= json;
+                        this.getSaludActivacionFisica();
+                    })
+
+              fetch(this.url + '/assets/scripts/padres/socioemocional.json')
+                    .then(response => response.json())
+                    .then(json => {
+                        this.socioemocional= json;
+                        this.getSocioemocional();
+                    })
             },
             methods: {
               createCards(el, items){
@@ -527,7 +427,7 @@
 
                   cards += '<div class="card">'+
                               '<div class="card-image">'+
-                                '<img src="'+_self.types[item.type].image+'" alt="Sitio web">'+
+                                '<img src="'+_self.types[item.type].image+'" alt="'+_self.types[item.type].type+'">'+
                               '</div>'+
                               '<div class="card-text">'+
                                 '<p>'+item.text+'</p>'+
@@ -549,6 +449,8 @@
               },
               getSalud(){
                   this.createCards("salud-container", this.salud);
+              },
+              getSaludActivacionFisica(){
                   this.createCards("salud-activacion-fisica", this.salud_activacion_fisica);     
               },
               getSocioemocional(){

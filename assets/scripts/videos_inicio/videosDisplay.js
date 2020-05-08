@@ -27,10 +27,6 @@ const vLinks = [
         id: "6",
         titulo: "Danza, juega y gana",
         url: "https://www.aprendeencasa.mx/assets/videos/1_danza_ritmo.mp4"
-    }, {
-        id: "7",
-        titulo: "Cuerdas divertidas",
-        url: "https://www.aprendeencasa.mx/assets/videos/2_danza_cuerda.mp4"
     },
 ];
 

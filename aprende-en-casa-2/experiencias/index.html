@@ -228,7 +228,7 @@
                     <div class="sub">
                         <v-calendar locale="es" @dayclick="selectDay" :columns="$screens({ default: 1, lg: 1 })" style="margin: 0 auto" :attributes='attrs' title-position="left"></v-calendar>
 
-                        <div id="menu1" class="menu" style="display: none">
+                        <div id="menu" class="menu" style="display: none">
                             <div class="" style="text-align: left">
                                 <strong id="date1"></strong>
                                 <h5>¿Qué vimos hoy?</h5>
@@ -247,7 +247,7 @@
                 </div>
             </div>
 
-            <tabs v-if="level != 'preescolar'">
+            <tabs v-else>
                 <tab :name="tabName1" :selected="true" :img="tabImage1">
 
                     <div class="tabs-container">
@@ -256,7 +256,7 @@
                         <div class="sub">
                             <v-calendar locale="es" @dayclick="selectDay" :columns="$screens({ default: 1, lg: 1 })" style="margin: 0 auto" :attributes='attrs' title-position="left"></v-calendar>
 
-                            <div id="menu1" class="menu" style="display: none">
+                            <div id="menu" class="menu" style="display: none">
                                 <div class="" style="text-align: left">
                                     <strong id="date1"></strong>
                                     <h5>¿Qué vimos hoy?</h5>
@@ -381,22 +381,18 @@
             </div>
         </footer>
 
-        <!-- 1. Link Vue Javascript -->
-        <script src='https://unpkg.com/vue/dist/vue.js'></script>
+        <script src='/assets/scripts/vendor/vue@2.6.11/vue.js'></script>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
-        <!-- 2. Link VCalendar Javascript (Plugin automatically installed) -->
         <script src='https://unpkg.com/v-calendar'></script>
-
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.1/moment-with-locales.min.js" integrity="sha256-tYxbRsX9g9rCkoqG99Bnze2SRAs2A14gAtMIsaz2SP8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
-        <!--3. Create the Vue instance-->
+        
         <script>
 
             Date.prototype.addDays = function(days) {
@@ -774,16 +770,17 @@
                             $("#" + menuEl).hide();
                         }
 
-                    },
-                    selectDay: function (calendar) {
+                    if(this.level == "preescolar"){
+                        this.showTopics("experiences", "date1", "menu", calendar, this.experiencias_preescolar, this.tabName1);
+                    }
 
-                        if (this.level == "preescolar") {
-                            this.showTopics("experiences", "date1", "menu1", calendar, this.experiencias_preescolar, this.tabName1);
-                        }
+                    if(this.level == "primaria"){
+                        this.showTopics("experiences", "date1", "menu", calendar, this.experiencias_primaria_1_2, this.tabName1);
+                    }
 
-                        if (this.level == "primaria") {
-                            this.showTopics("experiences", "date1", "menu1", calendar, this.experiencias_primaria_1_2, this.tabName1);
-                        }
+                    if(this.level == "secundaria"){
+                        this.showTopics("experiences", "date1", "menu", calendar, this.experiencias_secundaria_1, this.tabName1);
+                    }
 
                         if (this.level == "secundaria") {
                             this.showTopics("experiences", "date1", "menu1", calendar, this.experiencias_secundaria_1, this.tabName1);

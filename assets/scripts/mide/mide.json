@@ -1,0 +1,185 @@
+[
+    {
+        "name": "Primaria",
+        "level_url": "/aprende-en-casa-2/niveles/primaria/",
+        "grades": []
+    },
+    {
+        "name": "Secundaria",
+        "level_url": "/aprende-en-casa-2/niveles/secundaria/",
+        "grades": [
+            {
+                "name": "Primero de secundaria",
+                "image": "/assets/images/mide/primero_de_secundaria.svg",
+                "is_active": true,
+                "activities": [
+                    {
+                        "title": "A la segura con tus seguros",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: los tipos de seguro y su utilidad.",
+                        "subjects": "Español, Formación Cívica y Ética"
+                    },{
+                        "title": "Áreas verdes ",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: desarrollo sustentable.",
+                        "subjects": "Ciencias y Tecnología, Biología, Geografía, Español, Formación Cívica y Ética"
+                    },{
+                        "title": "Así se mide la inflación",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: la inflación y cómo calcularla. ",
+                        "subjects": "Matemáticas, Formación Cívica y Ética"
+                    },{
+                        "title": "Cómo se mide el desarrollo",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: desarrollo humano.",
+                        "subjects": "Geografía"
+                    },{
+                        "title": "Familias del mundo",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: bienestar.",
+                        "subjects": "Geografía y Español"
+                    },{
+                        "title": "Foro de cambio climático 1",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: cambio climático.",
+                        "subjects": "Español, Formación Cívica y Ética, Geografía"
+                    },{
+                        "title": "Foro de cambio climático 2",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: cambio climático.",
+                        "subjects": "Español, Formación Cívica y Ética, Geografía"
+                    },{
+                        "title": "La equidad también forma parte del desarrollo climático",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: Desigualdad en los ingresos, en los niveles de desarrollo y en la distribución de los recursos.",
+                        "subjects": "Matemáticas, Geografía"
+                    },{
+                        "title": "La producción",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: Producción de bienes, recursos y servicios.",
+                        "subjects": "Geografía y Español"
+                    },{
+                        "title": "Los ciclos biogeoquímicos",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: ciclos biogeoquímicos.",
+                        "subjects": "Ciencias y Tecnología, Biología, Geografía"
+                    },{
+                        "title": "Pongámonos de acuerdo",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: recursos naturales.",
+                        "subjects": "Ciencias y Tecnología, Biología, Geografía"
+                    }
+                ]
+            },
+            {
+                "name": "Segundo de secundaria",
+                "image": "/assets/images/mide/segundo_de_secundaria.svg",
+                "is_active": false,
+                "activities": [
+                    {
+                        "title": "A tomar decisiones",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: toma de decisiones.",
+                        "subjects": "Formación Cívica y Ética"
+                    },{
+                        "title": "Accesorias ",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: actividades económicas.",
+                        "subjects": "Formación Cívica y ëtica, Historia"
+                    },{
+                        "title": "De aquí a allá",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: exportación e importación.",
+                        "subjects": "Matemáticas, Español, Formación Cívica y Ética"
+                    },{
+                        "title": "De dónde obtiene dinero el gobierno",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: ingresos públicos.",
+                        "subjects": "Formación Cívica y Ética"
+                    },{
+                        "title": "El ABC de la banca",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: intermediación financiera.",
+                        "subjects": "Español, Formación Cívica y Ética"
+                    },{
+                        "title": "Foro de cambio climático 1",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: cambio climático.",
+                        "subjects": "Español, Formación Cívica y Ética, Geografía"
+                    },{
+                        "title": "Foro de cambio climático 2",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: cambio climático.",
+                        "subjects": "Español, Formación Cívica y Ética, Geografía"
+                    },{
+                        "title": "Y en México, ¿cómo estamos?",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: desarrollo humano. ",
+                        "subjects": "Historia, Español, Formación Cívica y Ética"
+                    },{
+                        "title": "Fábrica de billetes",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: dinero.",
+                        "subjects": "Historia, Español "
+                    },{
+                        "title": "Foro de pensamiento económico",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: historia del pensamiento económico.",
+                        "subjects": "Historia, Español"
+                    },{
+                        "title": "Necesidades y deseos",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: necesidades y deseos.",
+                        "subjects": "Formación Cívica y Ética, Español"
+                    },{
+                        "title": "Podemos hacerlo mejor. La historia de las cosas",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: alternativas de producción. Producción lineal y circular. ",
+                        "subjects": "Ética, Español, Ciencia y Tecnología, Física"
+                    },{
+                        "title": "Una ciudad sustentable",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: necesidades y deseos.",
+                        "subjects": "Ciencia y Tecnología, Física, Español, Formación Cívica y Ética"
+                    }
+                ]
+            },
+            {
+                "name": "Tercero de secundaria",
+                "image": "/assets/images/mide/tercero_de_secundaria.svg",
+                "is_active": false,
+                "activities": [
+                    {
+                        "title": "A tomar decisiones",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: toma de decisiones.",
+                        "subjects": "Español, Formación Cívica y Ética"
+                    },{
+                        "title": "Ahorro para el retiro",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: ahorro para el retiro.",
+                        "subjects": "Matemáticas, Español, Formación Cívica y Ética"
+                    },{
+                        "title": "Ahorro y presupuesto",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: ahorro y presupuesto.",
+                        "subjects": "Formación Cívica y Ética, Español"
+                    },{
+                        "title": "Arma el presupuesto de la Nación",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: gasto público. ",
+                        "subjects": "Formación Cívica y Ética, Español"
+                    },{
+                        "title": "De dónde obtiene el dinero el gobierno",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: ingresos públicos. ",
+                        "subjects": "Formación Cívica y Ética, Español"
+                    },{
+                        "title": "El Banco de México: tres finalidades, un objetivo",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: Banco de México. ",
+                        "subjects": "Formación Cívica y Ética, Español, Historia"
+                    },{
+                        "title": "Fábrica de billetes",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: dinero. ",
+                        "subjects": "Formación Cívica y Ética, Español, Química"
+                    },{
+                        "title": "La huella de las cosas",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: huella ecológica. ",
+                        "subjects": "Formación Cívica y Ética, Español, Química"
+                    },{
+                        "title": "La producción",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: producción. ",
+                        "subjects": "Química"
+                    },{
+                        "title": "Los intermediarios y sus servicios",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: Intermediación financiera. ",
+                        "subjects": "Formación Cívica y Ética, Español"
+                    },{
+                        "title": "Pongámonos de acuerdo",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: Recursos Naturales.",
+                        "subjects": "Química, Formación Cívica y Ética"
+                    },{
+                        "title": "Tu huella de carbono",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: huella de carbono. ",
+                        "subjects": "Química, Formación Cívica y Ética"
+                    },{
+                        "title": "Y en México, ¿cómo estamos?",
+                        "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: desarrollo humano.  ",
+                        "subjects": "Español, Formación Cívica y Ética"
+                    }
+                ]
+            }
+        ]
+    }
+]

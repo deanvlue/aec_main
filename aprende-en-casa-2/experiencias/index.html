@@ -399,6 +399,34 @@
         <!--3. Create the Vue instance-->
         <script>
 
+            Date.prototype.addDays = function(days) {
+                var date = new Date(this.valueOf());
+                date.setDate(date.getDate() + days);
+                return date;
+            }
+
+            let fechasDisponibles = function (){
+                let fechasCalendario = [];
+                let hoy = new Date();
+                hoy.setHours(0,0,0,0);
+                const inicio = new Date("2020-03-20 00:00:00");
+
+                //fechasCalendario.push(hoy);
+                //fechasCalendario.push(inicio);
+                let cFecha = inicio;
+                while (cFecha <= hoy ){
+                    if(cFecha.getDay() !== 0 && cFecha.getDay() !== 6){
+                        fechasCalendario.push(cFecha);
+                    }
+                    cFecha = cFecha.addDays(1);
+                }
+
+                return fechasCalendario;
+            }
+
+            //console.log(fechasDisponibles());
+            const fechasD = fechasDisponibles();
+
             moment.locale('es', {
                 weekdays: 'Domingo_Lunes_Martes_Miércoles_Jueves_Viernes_Sábado'.split('_'),
                 longDateFormat: {
@@ -603,63 +631,21 @@
                         {
                             key: 'today',
                             highlight: true,
-                            dates: [
-                                new Date(2020, 3, 20),
-                                new Date(2020, 3, 21),
-                                new Date(2020, 3, 22),
-                                new Date(2020, 3, 23),
-                                new Date(2020, 3, 24),
-                                new Date(2020, 3, 27),
-                                new Date(2020, 3, 28),
-                                new Date(2020, 3, 29),
-                                new Date(2020, 3, 30),
-                                new Date(2020, 4, 1),
-                                new Date(2020, 4, 4),
-                                new Date(2020, 4, 5),
-                                new Date(2020, 4, 6),
-                            ]
+                            dates: fechasD
                         },
                     ],
                     attrs2: [
                         {
                             key: 'today',
                             highlight: true,
-                            dates: [
-                                new Date(2020, 3, 20),
-                                new Date(2020, 3, 21),
-                                new Date(2020, 3, 22),
-                                new Date(2020, 3, 23),
-                                new Date(2020, 3, 24),
-                                new Date(2020, 3, 27),
-                                new Date(2020, 3, 28),
-                                new Date(2020, 3, 29),
-                                new Date(2020, 3, 30),
-                                new Date(2020, 4, 1),
-                                new Date(2020, 4, 4),
-                                new Date(2020, 4, 5),
-                                new Date(2020, 4, 6),
-                            ]
+                            dates: fechasD,
                         },
                     ],
                     attrs3: [
                         {
                             key: 'today',
                             highlight: true,
-                            dates: [
-                                new Date(2020, 3, 20),
-                                new Date(2020, 3, 21),
-                                new Date(2020, 3, 22),
-                                new Date(2020, 3, 23),
-                                new Date(2020, 3, 24),
-                                new Date(2020, 3, 27),
-                                new Date(2020, 3, 28),
-                                new Date(2020, 3, 29),
-                                new Date(2020, 3, 30),
-                                new Date(2020, 4, 1),
-                                new Date(2020, 4, 4),
-                                new Date(2020, 4, 5),
-                                new Date(2020, 4, 6),
-                            ]
+                            dates: fechasD,
                         },
                     ]
                 },

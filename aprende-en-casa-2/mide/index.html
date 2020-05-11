@@ -295,13 +295,16 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
               ##Screen = B/w 320px to 479px
             */
             @media (min-width: 320px) and (max-width: 480px) {
-                .tabs-container{padding: 10px}
+                .tabs-container{padding: 10px;margin-top: -25px !important;}
                 .tabs-container .sub{padding:20px}
                 .tabs-details {padding-top: 0px;padding-right: 25px;} 
                 .tabs .tab {margin-bottom: 10px;}
                 #experiences .topics{padding-left: 0;padding-right: 0}
                 .text-center{margin: 15px 0 20px 0;}
-                .card{width:100%;grid-template-columns:100%;grid-template-rows: auto auto 80px;}
+                .card3{width:100%;grid-template-columns:100%;grid-template-rows: 60px 100px 200px 170px 80px;width:310px;grid-template-columns: 310px;}
+                .title-img{display: none;}
+                h3{font-size: 25px;}
+                .card3-grade span {font-size: 15px !important};
             }
         </style>
     </head>
@@ -374,8 +377,8 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
             <div class="row">
                 <div class="col-sm-12" style="margin-top: 20px;margin-bottom: 35px;">
-                    <h3 v-if="level == 'secundaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;"><img src="/assets/images/mide/secundaria/icono-pdf.svg" width="88" height="99" style="margin-right: 20px;">Actividades para maestros con alumnos</h3>
-                    <h3 v-if="level == 'primaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;"><img src="/assets/images/mide/secundaria/icono-pdf.svg" width="88" height="99" style="margin-right: 20px;">Actividades para alumnos con familiares</h3>
+                    <h3 v-if="level == 'secundaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;"><img class="title-img" src="/assets/images/mide/secundaria/icono-pdf.svg" width="88" height="99" style="margin-right: 20px;">Actividades para maestros con alumnos</h3>
+                    <h3 v-if="level == 'primaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;"><img class="title-img" src="/assets/images/mide/secundaria/icono-pdf.svg" width="88" height="99" style="margin-right: 20px;">Actividades para alumnos con familiares</h3>
                 </div>
             </div>
 

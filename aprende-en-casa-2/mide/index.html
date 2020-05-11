@@ -10,7 +10,7 @@
         <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
 
         <style>
-            body{background-color: #fefefe !important}
+            body{background-color: #fefefe !important;font-family: 'Nunito', sans-serif;}
             .vc-title,.vc-weekday{color:rgba(179, 51, 127, 1.0) !important;}
             .vc-flex{color:#FFFFFF !important;background-color: #3182ce !important;border-radius: 50% !important;}
             .tabs .is-active{border: 1px solid #01a2aa !important;}
@@ -363,6 +363,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                       <li><a href="/aprende-en-casa-2/acceso.html">Acceso</a></li>
                       <li><a href="/aprende-en-casa-2/niveles/index.html">Niveles</a></li>
                       <li><a :href="mide[0].level_url">Educación {{ mide[0].name }}</a></li>
+                      <li><a :href="mide[0].level_url + '/actividades-ludicas'">Actividades Lúdicas</a></li>
                       <li class="active">MIDE</li>
                     </ol>
                   </div>
@@ -374,8 +375,8 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
             <div class="row">
                 <div class="col-sm-12" style="margin-top: 20px;margin-bottom: 35px;">
-                    <h3 v-if="level == 'secundaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;">Actividades para maestros con alumnos</h3>
-                    <h3 v-if="level == 'primaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;">Actividades para alumnos con familiares</h3>
+                    <h3 v-if="level == 'secundaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;"><img src="/assets/images/mide/secundaria/icono-pdf.svg" width="88" height="99" style="margin-right: 20px;">Actividades para maestros con alumnos</h3>
+                    <h3 v-if="level == 'primaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;"><img src="/assets/images/mide/secundaria/icono-pdf.svg" width="88" height="99" style="margin-right: 20px;">Actividades para alumnos con familiares</h3>
                 </div>
             </div>
 

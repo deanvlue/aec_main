@@ -172,5 +172,15 @@
                 "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_06_2_ciencias_naturales.html" 
             }
         ]
+    },
+    {
+        "date":"2020-05-07",
+        "topics":[
+            {
+                "id":"2020050701",
+                "topic":"ciencias_naturales",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_07_01_ciencias_naturales.html"
+            }
+        ]
     }
 ]

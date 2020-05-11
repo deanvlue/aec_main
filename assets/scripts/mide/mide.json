@@ -2,7 +2,54 @@
     {
         "name": "Primaria",
         "level_url": "/aprende-en-casa-2/niveles/primaria/",
-        "grades": []
+        "activities": [
+            {
+                "title": "¿Cómo llego esto aquí? ",
+                "content": "El alumno reflexionará sobre los procesos que intervienen en la producción de las cosas que hay en su entorno y aprenderá sobre el consumo responsable de esos productos.",
+                "grades": "4º a 6º grado ",
+                "image": "/assets/images/mide/primaria/todos-somos-parte-de-la-economia@2x.jpg"
+            },{
+                "title": "Cuarentena del ahorro",
+                "content": "El alumno reflexionará sobre la importancia del ahorro y aprenderá a llevar a cabo acciones que contribuyan con el ahorro familiar.",
+                "grades": "1º a  6º grado",
+                "image": "/assets/images/mide/primaria/cuarentena-del-ahorro@2x.jpg"
+            },{
+                "title": "El agua que te comes todos los días",
+                "content": "El alumno reflexionará acerca del consumo de agua que requiere la producción de los alimentos que consume.",
+                "grades": "2º a  6º grado",
+                "image": "/assets/images/mide/primaria/el-agua-que-te-tomas-todos-los-dias@2x.jpg"
+            },{
+                "title": "Familias sembrando bienestar",
+                "content": "Se proporciona un pequeño manual para la creación de un huerto en casa, a partir de los vegetales que se consumen principalmente por la familia.",
+                "grades": "1º a  6º grado",
+                "image": "/assets/images/mide/primaria/familias-sembrando-bienestar@2x.jpg"
+            },{
+                "title": "La vuelta al mundo en veinte etiquetas",
+                "content": "El alumno analizará, a partir de sus propias prensas de ropa, los países que intervienen en su producción.",
+                "grades": "4º a  6º grado",
+                "image": "/assets/images/mide/primaria/la-vuelta-al-mundo-en-veinte-etiquetas@2x.jpg"
+            },{
+                "title": "Para repartir y cumplir en familia",
+                "content": "Se proporcionan ideas para establecer horarios de actividades para contribuir en las responsabilidades de la casa, así como tomar conciencia de los gastos familiares.",
+                "grades": "1º a  6º grado",
+                "image": "/assets/images/mide/primaria/para-repartir-y-cumplir-en-familia@2x.jpg"
+            },{
+                "title": "Semáforo del bienestar",
+                "content": "El alumno o reconoce el trabajo colaborativo, al identificar que cada persona de su comunidad contribuye en su vida cotidiana.",
+                "grades": "1º a  6º grado",
+                "image": "/assets/images/mide/primaria/semaforo-del-bienestar@2x.jpg"
+            },{
+                "title": "Todos necesitamos de todos",
+                "content": "El alumno o reconoce el trabajo colaborativo, al identificar que cada persona de su comunidad contribuye en su vida cotidiana..",
+                "grades": "1º a  6º grado",
+                "image": "/assets/images/mide/primaria/todos-necesitamos-de-todos@2x.jpg"
+            },{
+                "title": "Todos somos parte de la economía",
+                "content": "El alumno identificará las instituciones que se encuentran cerca de su casa y reflexionará la importancia que tienen para su desarrollo y bienestar familiar.",
+                "grades": "3º a  6º grado",
+                "image": "/assets/images/mide/primaria/todos-somos-parte-de-la-economia@2x.jpg"
+            }
+        ]
     },
     {
         "name": "Secundaria",

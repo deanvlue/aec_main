@@ -103,6 +103,103 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
             .sub-nav{
               padding: 20px 100px 50px 100px;
             }
+            /*Cards primaria*/
+            .card3 {
+              float: left;
+              width: 358px;
+              display: grid;
+              grid-template-columns: 358px;
+              grid-template-rows: 60px 100px 200px 170px 80px;
+              grid-template-areas: "grade" "title" "image" "text" "tools";
+
+              border-radius: 10px;
+              background: white;
+              -webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);
+              box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);
+              text-align: left;
+
+              transition: 0.5s ease;
+              cursor: pointer;
+              margin: 11px;
+              padding: 0 !important;
+              border: none;
+            }
+            .card3-grade {
+                grid-area: grade;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 0 0 64%;
+            }
+            .card3-grade span {
+                width: auto;
+                height: 40px;
+                background-color: #01a2aa;
+                font-size: 16px;
+                font-weight: bold;
+                color: #fafdfe;
+                padding: 10px;
+            }
+            .card3-title {
+                grid-area: title;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+                font-weight: bold;
+                color: #2c374b;
+            }
+            .card3-image {
+                grid-area: image;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 63px;
+            }
+            .card3-image img{
+                width: 100%;
+                height: auto;
+            }
+            .card3-text {
+                grid-area: text;
+                margin: 25px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                line-height: 1.3em;
+            }
+            .card3-text .title {
+                color: rgb(255, 7, 110);
+                font-size:13px;
+            }
+            .card3-text p {
+              font-size: 16px;
+              font-weight: 500;
+              font-weight: normal;
+              color: #2c374b;
+            }
+            .card3-tools {
+                grid-area: tools;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+            .card3-tools .tool {
+                padding: 0px 26px 10px 26px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                color: white;
+            }
+            .text3-center {
+                color: #b3337f !important;
+                margin-top: 0px;
+            }
+            .cards3-container{
+              margin-left: 0;
+            }
             /* 
               ##Device = Desktops
               ##Screen = 1281px to higher resolution desktops
@@ -275,13 +372,14 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
             <div class="row">
                 <div class="col-sm-12" style="margin-top: 20px;margin-bottom: 35px;">
-                    <h3 class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;">Actividades para maestros con alumnos</h3>
+                    <h3 v-if="level == 'secundaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;">Actividades para maestros con alumnos</h3>
+                    <h3 v-if="level == 'primaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;">Actividades para alumnos con familiares</h3>
                 </div>
             </div>
 
             <tabs>
 
-                <tab v-for="item in mide[0].grades" :name="item.name" :selected="item.is_active" :img="item.image">
+                <tab v-if="level == 'secundaria'" v-for="item in mide[0].grades" :name="item.name" :selected="item.is_active" :img="item.image">
                     <div class="tabs-container">
                         <div class="card" v-for="activity in item.activities">
                             <div class="card-title">
@@ -300,14 +398,31 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                             </div>
                         </div>
                     </div>
-
-                    <!--<div class="row">
-                        <div class="col-sm-12" style="text-align: center;padding: 40px 0;">
-                            <v-paginator :resource_url="item.activities" @update="updateResource"></v-paginator>
-                        </div>
-                    </div>-->
-
                 </tab>
+
+                <div v-if="level == 'primaria'" class="tabs-container" style="margin-top: -100px;">
+                    <div class="card3" v-for="activity in mide[0].activities">
+                        <div class="card3-grade">
+                            <span>{{ activity.grades }}</span>
+                        </div>
+                        <div class="card3-title">
+                            {{ activity.title }}
+                        </div>
+                        <div class="card3-image">
+                            <img :src="activity.image" alt="">
+                        </div>
+                        <div class="card3-text">
+                            <p>{{ activity.content }}</p>
+                        </div>
+                        <div class="card3-tools">
+                            <div class="tool">
+                            <div>
+                                <a href="" target="_blank" class="btn btn-primary">Descargar PDF</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </tabs>
 

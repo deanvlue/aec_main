@@ -129,7 +129,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin: 0 0 0 64%;
+                margin: 0 0 0 67%;
             }
             .card3-grade span {
                 width: auto;
@@ -274,6 +274,8 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
             @media (min-width: 768px) and (max-width: 1024px) {
                 .card{width: 330px;grid-template-columns: 330px;grid-template-rows: 150px 200px 80px;}
                 .tabs-details {padding-top: 80px;}     
+                .card3{width: 338px;grid-template-columns: 338px;}
+                .card3-grade span {font-size: 15px !important};
             }
             /* 
               ##Device = Tablets, Ipads (landscape)
@@ -283,6 +285,8 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 .text-center{margin: -15px 0 20px 0;}
                 .card{width: 457px;grid-template-columns: 457px;}
                 .tabs-details {padding-top: 100px;}
+                .card3{margin: 22px 56px;}
+                .card3-grade span {font-size: 15px !important};
             }
             /* 
               ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -304,7 +308,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 .card3{width:100%;grid-template-columns:100%;grid-template-rows: 60px 100px 200px 170px 80px;width:310px;grid-template-columns: 310px;}
                 .title-img{display: none;}
                 h3{font-size: 25px;}
-                .card3-grade span {font-size: 15px !important};
+                .card3-grade span {font-size: 13px !important};
             }
         </style>
     </head>
@@ -397,7 +401,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                             <div class="card-tools">
                               <div class="tool">
                                 <div >
-                                  <a :href="activity.link" target="_blank" class="btn btn-primary">Consultar PDF</a>
+                                  <a :href="activity.link ? activity.link : '#'" :target="activity.link ? '_blank' : ''" class="btn btn-primary">Consultar PDF</a>
                                 </div>
                               </div>
                             </div>
@@ -422,7 +426,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         <div class="card3-tools">
                             <div class="tool">
                             <div>
-                                <a :href="activity.link" target="_blank" class="btn btn-primary">Consultar PDF</a>
+                                <a :href="activity.link ? activity.link : '#'" :target="activity.link ? '_blank' : ''" class="btn btn-primary">Consultar PDF</a>
                             </div>
                             </div>
                         </div>

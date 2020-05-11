@@ -1,16 +1,20 @@
-const urlPath= '/assets/images/btn/agradecimiento/brands/';
+const urlPath = '/assets/images/btn/agradecimiento/brands/';
 
-const brands= [
-  'facebook.png',
-  'fundacion.png',
-  'fundacion_aprende.png',
-  'gobierno.png',
-  'google.png',
-  'ine.png',
+const brands = [
+    'facebook.png',
+    'fundacion.png',
+    'gobierno.png',
+    'google.png',
+    'ine.png',
   'microsoft.png',
+  'mide.png',
   'Movistar.png',
+  'papalote.png',
+  'radio.png',
   'televisa.png',
-  'uam.png',
+    'unicef.png',
+    'uam.png',
+    'fundacion_aprende.png',
 ];
 
 
@@ -21,32 +25,62 @@ carousel.setAttribute("id", "carousel-agradecimientos");
 carousel.setAttribute("data-ride", "carousel");
 carousel.classList.add("carousel");
 carousel.classList.add("slide");
-//let indicators = document.createElement("ol");
-//indicators.classList.add("carousel-indicators");
+// let indicators = document.createElement("ol");
+// indicators.classList.add("carousel-indicators");
 let inner = document.createElement("div");
 inner.classList.add("carousel-inner");
 inner.setAttribute("role", "listbox");
 
-brands.forEach((b,index) => {
+
+// Muestra las imagenes 1 x 1
+/*brands.forEach((b,index) => {
   //let linkItem = document.createElement('li');
-  let item = document.createElement('div');
-  let imgItem = document.createElement('img');
 
   //linkItem.setAttribute("data-target", "#carousel-agradecimientos");
   //linkItem.setAttribute('data-slide-to', index);
   //indicators.appendChild(linkItem);
 
-  if (index === 0) {
-    item.classList.add('active');
-  }
 
-  item.classList.add('item');
   imgItem.src = urlPath + b;
   imgItem.alt = b;
-  item.appendChild(imgItem);
-  inner.appendChild(item);
 
-});
+  a.push(b)
+  if (a.length === 3) {
+    console.log(a);
+    a=[]
+  }
+
+
+
+
+});*/
+
+// muestra las imágenes por chunks
+let chunk = 3;
+let tempA = [];
+for (let i = 0, j = brands.length; i < j; i += chunk) {
+    tempA = brands.slice(i, i + chunk);
+    let item = document.createElement('div');
+  item.classList.add('item');
+  item.classList.add('text-center');
+    if (i === 0) {
+        item.classList.add('active');
+    }
+
+    tempA.forEach((b) => {
+        let imgItem = document.createElement('img');
+        imgItem.src = urlPath + b;
+        imgItem.alt = b;
+        imgItem.classList.add('img-fluid');
+        imgItem.classList.add('agradecimientos');
+        item.appendChild(imgItem);
+    });
+
+    inner.appendChild(item);
+
+    // console.log(tempA);
+}
+
 
 let prev = document.createElement("a");
 prev.classList.add('left');
@@ -81,7 +115,7 @@ next.appendChild(iconNext);
 next.appendChild(textNext);
 
 
-//carousel.appendChild(indicators)
+// carousel.appendChild(indicators)
 carousel.appendChild(inner);
 carousel.appendChild(prev);
 carousel.appendChild(next);

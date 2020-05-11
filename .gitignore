@@ -6,6 +6,7 @@ aprende-en-casa-2/assets/video/aprende-en-casa.mp4
 # Local Netlify folder
 .netlify
 .node_modules
+node_modules
 assets/videos/*
 **/.DS_store*
 package*

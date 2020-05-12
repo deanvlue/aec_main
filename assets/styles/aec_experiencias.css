@@ -1,0 +1,217 @@
+body {
+  background-color: #fefefe !important
+}
+
+.vc-title,
+.vc-weekday {
+  color: rgba(179, 51, 127, 1.0) !important;
+}
+
+.vc-flex {
+  color: #FFFFFF !important;
+  background-color: #3182ce !important;
+  border-radius: 50% !important;
+}
+
+.tabs .is-active {
+  border-bottom: 6px solid #00b0ed;
+}
+
+.tabs .tab {
+  padding-bottom: 5px
+}
+
+.tabs-details {
+  padding-top: 140px
+}
+
+.tabs-container {
+  margin-bottom: 100px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 100px
+}
+
+.tabs-container .title {
+  margin-top: 100px;
+  font-weight: bold
+}
+
+.tabs-container .sub {
+  padding: 40px;
+  background-color: #FFFFFF;
+  margin-top: 40px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 2px 21px -10px rgba(0, 0, 0, 0.35);
+  box-shadow: 1px 2px 21px -10px rgba(0, 0, 0, 0.35);
+}
+
+.tabs-container .sub .menu {
+  margin-top: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px
+}
+
+.grid {
+  padding-bottom: 0 !important
+}
+
+.modal-title {
+  color: #FFFFFF !important;
+}
+
+.close {
+  color: #FFFFFF;
+  opacity: 0.5 !important;
+}
+
+.close:hover {
+  color: #ACADAD !important
+}
+
+.tabs-container h5 {
+  color: #d53c88;
+}
+
+.text-center {
+  margin: 10px 0 20px;
+}
+.content{
+  width: 100%;
+}
+.menu  a{
+  display: block;
+  float: left;
+}
+/* 
+              ##Device = Desktops
+              ##Screen = 1281px to higher resolution desktops
+            */
+@media(min-width: 1281px) {}
+
+/* 
+              ##Device = Laptops, Desktops
+              ##Screen = B/w 1025px to 1280px
+            */
+@media(min-width: 1025px) and (max-width: 1280px) {}
+
+/* 
+              ##Device = Tablets, Ipads (portrait)
+              ##Screen = B/w 768px to 1024px
+            */
+@media(min-width: 768px) and (max-width: 1024px) {}
+
+/* 
+              ##Device = Tablets, Ipads (landscape)
+              ##Screen = B/w 768px to 1024px
+            */
+@media(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .text-center {
+    margin: -15px 0 20px;
+  }
+}
+
+/* 
+              ##Device = Low Resolution Tablets, Mobiles (Landscape)
+              ##Screen = B/w 481px to 767px
+            */
+@media(min-width: 481px) and (max-width: 767px) {}
+
+/* 
+              ##Device = Most of the Smartphones Mobiles (Portrait)
+              ##Screen = B/w 320px to 479px
+            */
+@media(min-width: 320px) and (max-width: 480px) {
+  .tabs-container {
+    padding: 3px;
+  }
+
+  .tabs-container .sub {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .tabs-details {
+    padding-top: 40px;
+  }
+
+  .tabs .tab {
+    margin-bottom: 10px;
+  }
+
+  #experiences .topics {
+    padding-left: 0;
+    padding-right: 0
+  }
+
+  .text-center {
+    margin: 15px 0 20px;
+  }
+}
+
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: table;
+  transition: opacity 0.3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  transition: all 0.3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+  margin-top: 0;
+  color: #42b983;
+}
+
+.modal-body {
+  margin: 20px 0;
+}
+
+.modal-default-button {
+  float: right;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}

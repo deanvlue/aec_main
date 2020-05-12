@@ -12,9 +12,11 @@ const brands = [
   'papalote.png',
   'radio.png',
   'televisa.png',
+  'plazasesamo.png',
     'unicef.png',
     'uam.png',
     'fundacion_aprende.png',
+  'stc.png',
 ];
 
 

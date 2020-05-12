@@ -1,0 +1,1381 @@
+[
+    {
+        "name": "PDF",
+        "image": "pdf.svg",
+        "is_active": false,
+        "has_filters": true,
+        "externalLink": ""
+    },{
+        "name": "Lecturas Unicef",
+        "image": "lecturas_unicef.png",
+        "is_active": true,
+        "has_filters": true,
+        "externalLink": "",
+        "books": {
+            "Cuentos con valores": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/la-mentira-de-maria",
+                    "name": "La mentira de María",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-baile-san-valentin",
+                    "name": "El baile de San Valentín",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-mariposita-rosita",
+                    "name": "La mariposita Rosita",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/navidad-ciudad",
+                    "name": "Navidad en la ciudad",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "5",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-navidad-buzon-navidad",
+                    "name": "El buzón de la Navidad",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "6",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-jacobo-nino-cabeza-zanahoria",
+                    "name": "Jacobo el niño cabeza de zanahoria",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "7",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/los-dos-ratoncitos",
+                    "name": "Los dos ratoncitos",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "8",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/el-raton-tranquilo",
+                    "name": "El ratón tranquilo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "9",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/tosco-abejas",
+                    "name": "Tosco y las abejas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "10",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/tifon-ballena",
+                    "name": "Tifón y la ballena",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "11",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/rundo-y-el-colibri",
+                    "name": "Rundo y el colibrí",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "12",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/el-lomo-de-tamba",
+                    "name": "El lomo de Tamba",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "13",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/felix-tortuga-valiente",
+                    "name": "Félix, la tortuga valiente",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "14",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-sirenas-taryn-ballenas-fondo-mar",
+                    "name": "Cuento de sirenas: Taryn y las ballenas del fondo del mar",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "15",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-pequeno-elefantito-blanco",
+                    "name": "El pequeño elefantito blanco",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "16",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-nueces-bosque-magico",
+                    "name": "Las nueces del Bosque Mágico",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "17",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/increible-historia-dos-pinguinos-polo-norte",
+                    "name": "La increíble historia de dos pingüinos del Polo Norte",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "18",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-puas-amistad",
+                    "name": "Las púas de la amistad",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "19",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-valores-mejor-rana-mundo",
+                    "name": "La mejor rana del mundo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "20",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-amistad-salva-vidas",
+                    "name": "La amistad que salva vidas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "21",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-peso-dona-turtle",
+                    "name": "El peso de Doña Turtle",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "22",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-valores-brillo-luciernaga",
+                    "name": "El brillo de la luciérnaga",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "23",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-valores-puesto-castanas",
+                    "name": "El puesto de castañas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "24",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-olimpiadas-patito",
+                    "name": "Las olimpiadas de Patito",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "25",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-valores-goloso-pulpi",
+                    "name": "El Goloso Pulpi",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "26",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-grillo-afonico",
+                    "name": "El grillo afónico",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "27",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-valores-ciervo-caprichoso",
+                    "name": "El ciervo caprichoso",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "28",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-raton-cosia-botones",
+                    "name": "El ratón que cosía botones",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "29",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-muelles-saltamontes",
+                    "name": "Los muelles del saltamontes",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "30",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-valores-familia-topo",
+                    "name": " La familia topo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "31",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-canguro-no-sabia-saltar",
+                    "name": "El canguro que no sabía saltar",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "32",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/perro-cometa-magica",
+                    "name": "El perro y la cometa mágica",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "33",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-foca-lectora",
+                    "name": "La foca lectora",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "34",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-amante-pajaros",
+                    "name": "El amante de los pájaros",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "35",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-animales-linda-perrita-desobediente",
+                    "name": "Linda, la perrita desobediente",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "36",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-poder-ingenio",
+                    "name": "El poder del ingenio",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "37",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-infantil-tiempo-todo-cura",
+                    "name": "El tiempo todo lo cura",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "38",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-apariencias-enganan",
+                    "name": "Las apariencias engañan",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "39",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuentos-ayuda-demas",
+                    "name": "La ayuda de los demás",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "40",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-gato-cansado",
+                    "name": "El gato cansado",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos de princesas y príncipes": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-princesas/no-me-quiero-casar",
+                    "name": "No me quiero casar",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-princesas/consejera-real",
+                    "name": "La consejera real",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-princesas/viaje-princesa",
+                    "name": "El viaje de la princesa",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-princesas/princesa-poderosa",
+                    "name": "La princesa poderosa",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos de animales": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-jacobo-nino-cabeza-zanahoria",
+                    "name": "Jacobo el niño cabeza de zanahoria",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-animales/nito-y-leo",
+                    "name": "Nito y Leo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/los-dos-ratoncitos",
+                    "name": "Los dos ratoncitos",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/el-raton-tranquilo",
+                    "name": "El ratón tranquilo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "5",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-raton-cosia-botones",
+                    "name": "El ratón que cosía botones",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "6",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-muelles-saltamontes",
+                    "name": "Los muelles del saltamontes",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "7",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-valores-familia-topo",
+                    "name": " La familia topo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "8",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-canguro-no-sabia-saltar",
+                    "name": "El canguro que no sabía saltar",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "9",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/perro-cometa-magica",
+                    "name": "El perro y la cometa mágica",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "10",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-foca-lectora",
+                    "name": "La foca lectora",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "11",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-animales-linda-perrita-desobediente",
+                    "name": "Linda, la perrita desobediente",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "12",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-gato-cansado",
+                    "name": "El gato cansado",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos infantiles clásicos para niños": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-tradicional-hansel-grettel",
+                    "name": "Hansel y Grette",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-clasico-los-dos-hermanos",
+                    "name": "Los dos hermanos",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-tradicional-el-leon-que-se-creia-cordero",
+                    "name": "El león que se creía cordero",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-alicia-en-el-pais-de-las-maravillas",
+                    "name": "Alicia en el país de las maravillas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "5",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-clasico-arturo-y-la-espada-de-excalibur",
+                    "name": "Arturo y la espada de Excalibur",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "6",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-tradicional-20000-leguas-de-viaje-submarino",
+                    "name": "20000 leguas de viaje submarino",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "7",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-clasico-juan-sin-miedo",
+                    "name": "Juan sin miedo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "8",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-clasico-el-jorobado-de-notre-dame",
+                    "name": "El Jorobado de Notre Dame",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "9",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-clasico-el-soldadito-de-plomo",
+                    "name": "El Soldadito de Plomo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "10",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-popular-el-flautista-de-hamelin",
+                    "name": "El Flautista de Hamelin",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "11",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-tradicional-el-traje-nuevo-del-emperador",
+                    "name": "El traje nuevo del Emperador",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "12",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-tradicional-el-gigante-egoista",
+                    "name": "El Gigante Egoísta",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "13",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-clasico-rapunzel",
+                    "name": "Rapunzel",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "14",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-infantil-dumbo",
+                    "name": "Dumbo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "15",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-infantil-la-bella-durmiente",
+                    "name": "La Bella Durmiente",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "16",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-para-ninos-cenicienta",
+                    "name": "Cenicienta",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "17",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-infantil-clasico-el-gato-con-botas",
+                    "name": "El Gato con Botas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "18",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-infantil-tradicional-bambi",
+                    "name": "Bambi",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "19",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-clasico-tradicional-caperucita-roja",
+                    "name": "Caperucita Roja",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "20",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-infantil-clasico-pinocho",
+                    "name": "Pinocho",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "21",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-clasico-infantil-los-tres-cerditos",
+                    "name": "Los tres cerditos",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "22",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-popular-aladino",
+                    "name": "Aladino",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "23",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-tradicional-la-bella-y-la-bestia",
+                    "name": "La Bella y la Bestia",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "24",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-clasico-peter-pan",
+                    "name": "Peter Pan",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "25",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-clasico-blancanieves-y-los-siete-enanitos",
+                    "name": "Blancanieves y los siete enanitos",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "26",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-clasicos-populares/cuento-clasico-el-patito-feo",
+                    "name": "El Patito Feo",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos sobre tolerancia y bullying": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-tolerancia/leo-amigo-invisible",
+                    "name": "Leo, el amigo invisible",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-jacobo-nino-cabeza-zanahoria",
+                    "name": "Jacobo el niño cabeza de zanahoria",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/rundo-y-el-colibri",
+                    "name": "Rundo y el colibrí",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/felix-tortuga-valiente",
+                    "name": "Félix, la tortuga valiente",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "5",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-valores-mejor-rana-mundo",
+                    "name": "La mejor rana del mundo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "6",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-valores-brillo-luciernaga",
+                    "name": "El brillo de la luciérnaga",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "7",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-infantil-tiempo-todo-cura",
+                    "name": "El tiempo todo lo cura",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "8",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuentos-ayuda-demas",
+                    "name": "La ayuda de los demás",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos infantiles de amistad": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-amistad/un-buen-amigo",
+                    "name": "Un buen amigo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-amistad/juntos-o-separados",
+                    "name": "Juntos o separados",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-amistad/arbol-magico",
+                    "name": "El árbol mágico",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-amistad/caballito-triste",
+                    "name": "El caballito triste",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos infantiles de dinosaurios": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-dinosaurios/anky-dinosaurio-armadura",
+                    "name": "Anky, el dinosaurio con armadura",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-dinosaurios/el-espinosaurio",
+                    "name": "El Espinosaurio",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-dinosaurios/elasmosaurio-gusta-nadar",
+                    "name": "Al Elasmosaurio le gusta nadar",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-dinosaurios/rexy-el-t-rex",
+                    "name": "Rexy el T–Rex",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos inventados por niños y otras colaboraciones": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-la-nina-que-no-creia-en-la-navidad",
+                    "name": "La niña que no creía en la Navidad",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-bosque-golosinas",
+                    "name": "El bosque de las golosinas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-perro-sin-aullido",
+                    "name": "El perro sin aullido",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-nasha-dragoncito",
+                    "name": "Nasha y el dragoncito",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "5",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-carmela-ninos-clase",
+                    "name": "Carmela y los niños de clase",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "6",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-nina-princesa",
+                    "name": "La niña y la princesa",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "7",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-valores-mejor-decision",
+                    "name": "La mejor decisión",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "8",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-princesa-sonrisa-magica",
+                    "name": "La princesa y su sonrisa mágica",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "9",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-valores-sacapuntas",
+                    "name": "El Sacapuntas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "10",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-anabel-plantita",
+                    "name": "Anabel y su plantita",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "11",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-valores-andy-sabelotodo",
+                    "name": "Andy el sabelotodo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "12",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-flor-mas-bonita-mundo",
+                    "name": " La flor más bonita del mundo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "13",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-infantil-el-dragon-salvador",
+                    "name": "El Dragón Salvador",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "14",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/ya-no-llores-princesa",
+                    "name": "Ya no llores princesa",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "15",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-de-ninos-un-pequeno-pececito",
+                    "name": "Un pequeño pececito",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "16",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/el-viaje-de-las-cinco-vocales",
+                    "name": "El viaje de las cinco vocales",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "17",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-infantil-el-caracol-triste",
+                    "name": "El caracol triste",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "18",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-navideno-descubriendo-la-navidad",
+                    "name": "Descubriendo la Navidad",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "19",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-infantil-la-nina-de-la-playa",
+                    "name": "La niña de la playa",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "20",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-de-brujas-llum-y-foc",
+                    "name": "Cuento de Brujas : Llum y Foc",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "21",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-infantil-el-nino-y-la-estrella",
+                    "name": "El niño y la estrella",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "22",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-infantil-de-hadas-el-bosque-magico",
+                    "name": "Cuento de hadas: El Bosque Mágico",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "23",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-infantil-sueno-de-princesas",
+                    "name": "Sueño de princesas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "24",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-la-princesa-del-jardin",
+                    "name": "La princesa del jardín",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "25",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-el-coco",
+                    "name": "El Coco",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "26",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-el-secreto-del-abuelo",
+                    "name": "El secreto del abuelo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "27",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-el-nino-y-la-luna",
+                    "name": "El niño y la luna",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "28",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-inventados-ninos/cuento-el-mago-de-los-suenos",
+                    "name": "El mago de los sueños",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos de piratas para niños": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-piratas/barco-lleno-piratas",
+                    "name": "Un barco lleno de piratas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-piratas/quiero-ser-un-pirata",
+                    "name": "Quiero ser un pirata",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-piratas/paula-la-pirata",
+                    "name": "Paula la pirata",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-piratas/joe-temible-kraken",
+                    "name": "Joe y el temible Kraken",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos infantiles de amor y San Valentín": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-amor/rufus-mejor-amigo",
+                    "name": "Rufus, el mejor amigo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-amor/mi-maestra-rosa",
+                    "name": "Mi maestra Rosa",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-amor/abuelos-pedrito",
+                    "name": "Los abuelos de Pedrito",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-baile-san-valentin",
+                    "name": "El baile de San Valentín",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos de sirenas para niños": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-sirenas/princesa-sirena",
+                    "name": "La princesa sirena",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-sirenas/triton-y-sirena",
+                    "name": "El tritón y la sirena",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-sirenas/sirena-queria-perrito",
+                    "name": "La sirena que queria un perrito",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-sirenas/sirena-que-no-comprendia-humanos",
+                    "name": "La sirena que no comprendía a los humanos",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos de colaboraciones": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/el-valor-de-las-cosas",
+                    "name": "El valor de las cosas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/una-sabana-en-la-ventana",
+                    "name": "Una sábana en la ventana",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/los-abrazos-perdidos",
+                    "name": "Los abrazos perdidos",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/se-alargan-los-veranos",
+                    "name": "Se alargan los veranos",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "5",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/la-h-no-quiere-ser-muda",
+                    "name": "La “H” no quiere ser muda",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "6",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-quiero-jugar-futbol",
+                    "name": "¡Quiero jugar al fútbol!",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "7",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-tortuga-artura",
+                    "name": "La tortuga Artura",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "8",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-estrella-mas-hermosa",
+                    "name": "La estrella más hermosa",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "9",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-angel-llamado-maria",
+                    "name": "Un ángel llamado María",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "10",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-farolillo-papel",
+                    "name": "El farolillo de papel",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "11",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-aventuras-aguila-martina-julia-golondrina",
+                    "name": "Las aventuras del águila Martina y Julia la golondrina",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "12",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/poema-infantil-sana-sana",
+                    "name": "Sana, sana",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "13",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-planeta-basura",
+                    "name": "El planeta basura",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "14",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-lista-cosas-hace-bien-melisa",
+                    "name": "La lista de las cosas que hace bien Melisa",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "15",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-un-ser-muy-especial",
+                    "name": "Un ser muy especial",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "16",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-eso-tiene-solucion",
+                    "name": "Eso tiene solución",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "17",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-unidas-deseo",
+                    "name": "Unidas por un deseo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "18",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/poema-esta-noche-he-visto-monstruo",
+                    "name": "Esta noche he visto un monstruo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "19",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-fiesta-super",
+                    "name": "Una fiesta en el Super",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "20",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/poema-princesas",
+                    "name": "Poema de princesas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "21",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-unicornio-real",
+                    "name": "Mi unicornio es real",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "22",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-la-moneda-magica",
+                    "name": "La moneda mágica",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "23",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-infantil-pitin-petirrojo",
+                    "name": "Pitín, el petirrojo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "24",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-mama-no-apagues-luz",
+                    "name": "Mamá, no apagues la luz",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "25",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-robin-aprende-volar",
+                    "name": "Robin aprende a volar",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "26",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-otono-hadas",
+                    "name": "El otoño de las hadas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "27",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-larva-mariposa",
+                    "name": "De larva a mariposa",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "28",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/magica-fuente-existencial-vida",
+                    "name": "La Mágica Fuente Existencial De La Vida",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "29",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-rosana-mar",
+                    "name": "Rosana y el Mar",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "30",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-hormiguita-blanca",
+                    "name": "La hormiguita blanca",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "31",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-ratoncito-perez-visita-daniela",
+                    "name": "El ratoncito Pérez visita a Daniela",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "32",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-alice-pequena-sirena",
+                    "name": "Alice, la pequeña sirena",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "33",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/fabula-lunar-mariquita-rita",
+                    "name": "El lunar de la mariquita Rita",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "34",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-hechicera-bosque",
+                    "name": "La hechicera del bosque",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "35",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-el-guapo-joaquin",
+                    "name": "El guapo Joaquín",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "36",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-abuelo-daniel",
+                    "name": "El abuelo de Daniel",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "37",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-sauce-lloron",
+                    "name": "El Sauce Llorón",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "38",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-alex-planeta-rojo",
+                    "name": "Álex en el planeta rojo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "39",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-diego-canario-amarillo",
+                    "name": "Diego y su canario amarillo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "40",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/fabula-juanito-ay-juanito",
+                    "name": "Juanito ¡Ay Juanito!",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "41",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-sara-heroe-peludo",
+                    "name": "Sara y el héroe peludo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "42",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/alfredo-verduras",
+                    "name": "Alfredo y las verduras",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "43",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-pequena-oruga-verde",
+                    "name": "La pequeña oruga verde",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "44",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-infantil-animales-ben-amigos",
+                    "name": "Ben y sus amigos",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "45",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-el-rosal-mas-hermoso",
+                    "name": "El rosal más hermoso",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "46",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/poema-en-el-desvan",
+                    "name": "En el Desván",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "47",
+                    "link": "https://www.bosquedefantasias.com/recursos/colaboraciones/cuento-las-habas-magicas",
+                    "name": "Las habas mágicas",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos de Navidad para niños": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-navidad/una-navidad-para-todos",
+                    "name": "Una Navidad para todos",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-navidad/el-ayudante-de-papa-noel",
+                    "name": "El ayudante de Papá Noel",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/navidad-ciudad",
+                    "name": "Navidad en la ciudad",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/cuento-navidad-buzon-navidad",
+                    "name": "Cuento de Navidad: El buzón de la Navidad",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos de brujas para niños": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-brujas/cuento-las-dos-brujitas",
+                    "name": "Las dos brujitas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-brujas/pelea-de-hermanas",
+                    "name": "Pelea de hermanas",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-brujas/el-conjuro-de-la-bruja",
+                    "name": "El conjuro de la bruja",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-brujas/la-bruja-y-la-estrella",
+                    "name": "La bruja y la estrella",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos de miedo para niños": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-miedo-halloween/la-casa-del-terror",
+                    "name": "La casa del terror",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-miedo-halloween/el-vampiro-tom",
+                    "name": "El vampiro Tom",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-miedo-halloween/cuento-halloween-misterio-luna-llena-parte-uno",
+                    "name": "El misterio de Luna Llena (parte 1)",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-miedo-halloween/cuento-halloween-misterio-luna-llena-parte-dos",
+                    "name": "El misterio de Luna Llena (parte 2)",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos para dormir": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-para-dormir/aventuras-en-la-granja",
+                    "name": "Aventuras en la granja",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-para-dormir/cuento-george-el-leon",
+                    "name": "George el león",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-para-dormir/las-manzanas-de-caramelo",
+                    "name": "Las manzanas de caramelo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-para-dormir/el-nino-de-la-luna",
+                    "name": "El niño de la Luna",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos de dragones para niños": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-dragones/el-dragon-misterioso",
+                    "name": "El dragón misterioso",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-dragones/un-dragon-lleno-de-amor",
+                    "name": "Un dragón lleno de amor",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-dragones/cuento-laura-nuevo-amigo",
+                    "name": "Laura y su nuevo amigo",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-dragones/cuento-el-dragon-amigable",
+                    "name": "El dragón amigable",
+                    "level": "Preescolar"
+                }
+            ],
+            "Cuentos de hadas para niños": [
+                {
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-hadas/el-reino-de-karule",
+                    "name": "El reino de Karulé",
+                    "level": "Preescolar"
+                },
+                {
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-hadas/el-invierno-de-las-hadas",
+                    "name": "El invierno de las hadas",
+                    "level": "Preescolar"
+                },
+                {
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-hadas/la-bruja-y-las-hadas",
+                    "name": "La bruja y las hadas",
+                    "level": "Preescolar"
+                },
+                {
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-hadas/las-alas-de-deneb",
+                    "name": "Las alas de Deneb",
+                    "level": "Preescolar"
+                }
+            ],
+            "Microcuentos infantiles": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/microcuentos-infantiles/microcuento-infantil-el-nino-manuel",
+                    "name": "El Niño Manuel",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "2",
+                    "link": "https://www.bosquedefantasias.com/recursos/microcuentos-infantiles/microcuento-infantil-el-mago-de-los-deseos",
+                    "name": " El Mago de los Deseos",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "3",
+                    "link": "https://www.bosquedefantasias.com/recursos/microcuentos-infantiles/microcuento-el-acebo-y-el-gorrion",
+                    "name": "El acebo y el gorrión",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "4",
+                    "link": "https://www.bosquedefantasias.com/recursos/microcuentos-infantiles/microcuento-el-viento",
+                    "name": "El viento",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "5",
+                    "link": "https://www.bosquedefantasias.com/recursos/microcuentos-infantiles/microcuento-navideno",
+                    "name": "Microcuento navideño",
+                    "level": "Preescolar"
+                },
+                {
+                    "id": "6",
+                    "link": "https://www.bosquedefantasias.com/recursos/microcuentos-infantiles/microcuento-la-soberbia",
+                    "name": "La soberbia",
+                    "level": "Preescolar"
+                }
+            ]
+        }
+    },{
+        "name": "Audiolibros",
+        "image": "audiolibros.svg",
+        "is_active": false,
+        "has_filters": false,
+        "audiobooks": [
+            {
+                "name": "Audiolibro Habi, de Guillermo Samperio",
+                "image": "/assets/images/lecturas/audiolibros/audiolibro1.jpg",
+                "link": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            },{
+                "name": "Audiolibro La Conquista, de Miguel León Portilla",
+                "image": "/assets/images/lecturas/audiolibros/audiolibro2.jpg",
+                "link": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            },{
+                "name": "Audiolibro La vendedora de nubes, de Elena Poniatowska",
+                "image": "/assets/images/lecturas/audiolibros/audiolibro3.jpg",
+                "link": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            },{
+                "name": "Audiolibro Mi vida con la Ola, de Octavio Paz<",
+                "image": "/assets/images/lecturas/audiolibros/audiolibro4.jpg",
+                "link": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            },{
+                "name": "Audiolibro Yáotl en la tierra de los muertos, de Eduardo Matos",
+                "image": "/assets/images/lecturas/audiolibros/audiolibro5.jpg",
+                "link": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            }
+        ]
+    },{
+        "name": "Audiolibros Amazon",
+        "image": "audiolibros_amazon.svg",
+        "is_active": false,
+        "has_filters": false,
+        "externalLink": "https://stories.audible.com/discovery/enterprise-discovery-21122525011?ref=adbl_ent_anon_ds_ds_pl_2&page=2"
+    },{
+        "name": "Cuentacuentos INE",
+        "image": "cuentacuentos_ine.svg",
+        "is_active": false,
+        "has_filters": false,
+        "externalLink": "https://www.ine.mx/cuentacuentos-talleres/"
+    }
+]

@@ -4,7 +4,16 @@
         "image": "pdf.svg",
         "is_active": false,
         "has_filters": true,
-        "externalLink": ""
+        "externalLink": "",
+        "books": {
+            "Primer grado": [
+                {
+                    "id": "1",
+                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/la-mentira-de-maria",
+                    "name": "la ardilla Frody"
+                }
+            ]
+        }
     },{
         "name": "Lecturas Unicef",
         "image": "lecturas_unicef.png",

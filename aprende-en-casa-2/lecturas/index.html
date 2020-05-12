@@ -796,6 +796,39 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         this.categoryTitle = category;
 
                     },
+                    searchBooks (search) {
+
+                        findedBooks = [];
+                        searchedBooks = [];
+
+                        $.each(this.allbooks, function(index, category){
+                            //console.log(category.name);
+
+                            findedBooks = category.books.filter(book => {
+                                return book.name.toLowerCase().includes(search.toLowerCase());
+                            })
+
+                            if(findedBooks.length == ""){
+                                
+                            }else{
+                                searchedBooks.push(findedBooks);
+                            }
+
+                            //console.log(searchedBooks);
+                        });
+
+                        $.each(searchedBooks, function(index, books){
+                            console.log(books);
+                        })
+                        
+
+                        console.log(searchedBooks);
+                        /*var searchBooks = this.books.filter(book => {
+                            return book.name.toLowerCase().includes(search.toLowerCase());
+                        })*/
+
+                        //console.log("search books:" + searchBooks);
+                    },
                     getBooks () {
 
                             fetch(this.url + '/assets/scripts/lecturas/lecturas_'+slug(this.level)+'.json')
@@ -815,24 +848,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                                     this.allbooks = this.books;
 
                                     this.categories = _.pluck(this.books, "name");
-                                    //this.allbooks = _
-
-                                    $.each(this.books, function(index, category){
-                                        //console.log(category.name);
-                                        var newBook = {};
-
-                                        newBook.push({"category": category.name});
-
-                                        console.log(newBook)
-                                    })
-
-                                    //this.books = _.pluck(categories, 'books');
-
-                                    //$.each(this.books, function(index, book){
-                                    //    $.each(book, function(index2, book2){
-                                    //        _self.addBook(book2);
-                                    //    })
-                                    //})
                                 })
 
                     },

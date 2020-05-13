@@ -227,7 +227,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 font-size: 20px;
                 font-weight: 600;
             }
-            .category-title{font-size: 24px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.33;letter-spacing: normal;color: #2c374b !important;margin-top: 15px;padding-bottom: 15px;border-bottom: 1px solid #01a2aa;}
+            .category-title{font-size: 24px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.33;letter-spacing: normal;color: #2c374b !important;margin-top: 15px;padding-bottom: 15px;border-bottom: 1px solid #01a2aa;}
 
             /* Filters */
             #filters input[type="checkbox"] {
@@ -236,7 +236,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
             #filters span {
                 display: inline-block;
-                padding: 10px;
+                padding: 15px;
                 border: 1px solid #ecebed;
                 border-radius: 4px;
                 color: #2c374b;
@@ -319,10 +319,21 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
             @media (min-width: 320px) and (max-width: 480px) {
                 .tabs-container{padding: 10px}
                 .tabs-container .sub{padding:20px}
-                .tabs-details {padding-top: 40px;} 
-                .tabs .tab {margin-bottom: 10px;}
+                .tabs-details {padding-top: 22px;} 
+                .tabs .tab {margin-bottom: 10px;padding-right: 0;}
                 #experiences .topics{padding-left: 0;padding-right: 0}
                 .text-center{margin: 15px 0 20px 0;}
+                .category-title {text-align: left;margin-left: 20px;}
+                .form{margin-bottom: 30px;}
+                .form .filter-btn{text-align: center !important;}
+                .header-text{padding: 0 15px;}
+                .text-left{padding-left: 15px;}
+                .card2 {width: 320px;grid-template-columns: 320px;}
+                .card {width: 163px;grid-template-columns: 163px;grid-template-rows: 90px 139px 80px}
+                #filters span {width: 100%}
+                #filters label {margin-bottom:10px;margin-right:0;width: 100%;}
+                .filters-container {padding-left: 30px;padding-right: 15px;}
+                .search-container{padding-left: 30px !important;padding-right: 15px;}
             }
             @media (min-width: 768px){
                 .col-sm-2 {
@@ -408,9 +419,9 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     <img src="/assets/images/lecturas/banner.png" style="max-width: 1400px;width: 100%;height: auto;" alt="Banner">
                 </div>
             </div>
-            <div class="row">
+            <div class="row header-text">
                 <div class="col-sm-12">
-                    <h1 class="text-left" style="">Lecturas</h1>
+                    <h1 class="text-left">Lecturas</h1>
                     <p style="font-size: 16px;">Se sugiere que realices una lectura diaria, que podrás seleccionar entre el catálogo de lecturas disponibles en esta sección. Después de leer, es importante que con el apoyo de tus papás elaboren al menos 3 preguntas generales de lo que leíste y las contestes. Esta actividad te permitirá mejorar tu comprensión lectora.</p>
                 </div>
             </div>
@@ -423,22 +434,22 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
             <tabs>
 
                 <tab  v-for="section in sections" :name="section.name" :selected="section.is_active" :external-link="section.externalLink" :img="path_images+section.image"><!---->
-                    <div class="row" v-if="section.has_filters">
-                        <div class="col-sm-6" style="padding-left: 0;">
+                    <div class="row form" v-if="section.has_filters">
+                        <div class="col-sm-6 search-container" style="padding-left: 0;">
                             <div class="form-group has-search">
                                 <span class="fa fa-search form-control-feedback"></span>
                                 <input type="text" v-model="search" class="form-control" placeholder="Buscar libros">
                             </div>
                         </div>
                         <div class="col-sm-3"></div>
-                        <div class="col-sm-3" style="text-align: right;padding-right: 0;">
+                        <div class="col-sm-3 filter-btn" style="text-align: right;padding-right: 0;">
                             <button class="btn btn-lg btn-default" @click="showFilters = !showFilters">
                                 <img src="/assets/images/lecturas/icon-filter.svg"> Filtrar categorías
                             </button>
                         </div>
                     </div>
 
-                    <div class="row" v-show="showFilters">
+                    <div class="row filters-container" v-show="showFilters">
                         <div class="col-sm-12" style="margin-bottom: 0px;border: 1px solid #ecebed;border-radius: 4px;text-align: center;padding: 20px;">
                             <p id="filters">
                                 <label v-for="category in categories"><input type="checkbox" @change="setOptions" name="filter" :value="category" v-model="checkedCategories"><span>{{ category }}</span></label>
@@ -447,6 +458,32 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                               <div style="float: right;position: relative;">
                                 <button class="btn btn-primary" @click="showFilters = false">Cerrar</button>
                               </div>
+                        </div>
+                    </div>
+
+                    <div v-if="section.name == 'PDF'">
+                        <div v-for="pdf in pdfs">
+                            <p class="category-title">{{ pdf.name }}</p>
+
+                            <div class="tabs-container" style="margin-bottom: 0;">
+                                <div class="row cards-container">
+                                    <div v-for="book in pdf.books" :class="'card '">
+                                        <div class="card-image">
+                                            <img :src="path_images+level+'/'+slug(book.name,'_')+'.png'" :alt="book.name">
+                                        </div>
+                                        <div class="card-text">
+                                            <p>{{ book.name }}</p>
+                                        </div>
+                                        <div class="card-tools">
+                                            <div class="tool">
+                                            <div>
+                                                <a :href="book.link ? book.link : '#'" :target="book.link ? '_blank' : ''" class="btn btn-primary">Leer</a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -750,6 +787,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     audiobooks: [],
                     categories: [],
                     allbooks: [],
+                    pdfs: [],
                 },
                 methods: {
                     slug: function(str, separetor = '-'){
@@ -838,9 +876,14 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                                     //this.books = this.sections[1].books;
                                     var _self = this;
 
-                                    var lecturaUnicef = _.findWhere(this.sections, {name: 'Lecturas Unicef'}).books;
                                     this.audiobooks = _.findWhere(this.sections, {name: 'Audiolibros'}).audiobooks;
+                                    
+                                    var lecturasPDF = _.findWhere(this.sections, {name: 'PDF'}).books;
+                                    this.pdfs = _.map(lecturasPDF, function(books, key){
+                                        return { name : key, books : books };
+                                    });
 
+                                    var lecturaUnicef = _.findWhere(this.sections, {name: 'Lecturas Unicef'}).books;
                                     this.books = _.map(lecturaUnicef, function(value, key){
                                         return { name : key, books : value };
                                     });

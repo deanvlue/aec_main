@@ -3,14 +3,172 @@
         "name": "PDF",
         "image": "pdf.svg",
         "is_active": false,
-        "has_filters": true,
+        "has_filters": false,
         "externalLink": "",
         "books": {
             "Primer grado": [
                 {
                     "id": "1",
-                    "link": "https://www.bosquedefantasias.com/recursos/cuentos-valores/la-mentira-de-maria",
-                    "name": "la ardilla Frody"
+                    "link": "https://centroderecursos.educarchile.cl/bitstream/handle/20.500.12246/53360/La-ardilla-Frody..pdf?sequence=1&isAllowed=y",
+                    "name": "La ardilla Frody"
+                },{
+                    "id": "2",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/1gradoAprendiendo-a-compartir..pdf",
+                    "name": "Aprendiendo a compartir"
+                },{
+                    "id": "3",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/1gradoArco-iris..pdf",
+                    "name": "Arco iris"
+                },{
+                    "id": "4",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/1gradoEl-sol..pdf",
+                    "name": "El sol"
+                },{
+                    "id": "5",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/1gradoprimer-dia.pdf",
+                    "name": "El primer día de jardín de Martín"
+                },{
+                    "id": "6",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/El-diente-de-leche.pdf",
+                    "name": "El diente de leche"
+                },{
+                    "id": "7",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Preescolar_Primero_Macaquino.pdf",
+                    "name": "Macaquiño"
+                },{
+                    "id": "8",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Primero_Los%20colores_Lectura.pdf",
+                    "name": "Los colores"
+                },{
+                    "id": "9",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Primero_Pinocho_Lectura.pdf",
+                    "name": "Pinocho"
+                },{
+                    "id": "10",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Primero_Unliodecordones_Lectura.pdf",
+                    "name": "Un lío de cordones"
+                },{
+                    "id": "11",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Primero_Vayaapetitotieneelzorrito_Lectura.pdf",
+                    "name": "¡Vaya apetito tiene el zorro!"
+                }
+            ],
+            "Segundo grado": [
+                {
+                    "id": "1",
+                    "link": "http://bibliotecadigital.ilce.edu.mx/Colecciones/CuentosMas/Picapedrero.pdf",
+                    "name": "El picapedrero"
+                },{
+                    "id": "2",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/2gradoDom-Dom-el-osito-que-queria-volar..pdf",
+                    "name": "Dom Dom, el osito que quería volar"
+                },{
+                    "id": "3",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/2gradoEl-baul-del-tesoro..pdf",
+                    "name": "El baúl del tesoro"
+                },{
+                    "id": "4",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/2gradoLa-estrellita-sin-luz..pdf",
+                    "name": "La estrellita sin luz"
+                },{
+                    "id": "5",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/2gradoLa-nina-y-el-rayo-de-sol..pdf",
+                    "name": "La niña y el rayo de sol"
+                },{
+                    "id": "6",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/2gradoMiu-Miu-pierde-su-cola..pdf",
+                    "name": "Miumiu pierde su cola"
+                },{
+                    "id": "7",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/2gradoprincipe-ambrosio.pdf",
+                    "name": "El príncipe Ambrosio"
+                },{
+                    "id": "8",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/2gradoUn-corazon-magico..pdf",
+                    "name": "Un corazón mágico"
+                },{
+                    "id": "9",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Segundo_Cromanon_Lectura.pdf",
+                    "name": "Cromañon"
+                },{
+                    "id": "10",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Segundo_Elibrodeoscar_Lectura.pdf",
+                    "name": "El libro de Oscar"
+                },{
+                    "id": "11",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Segundo_Habiaunavez_Lectura.pdf",
+                    "name": "Había una vez una"
+                },{
+                    "id": "12",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Segundo_La%20bocachimuela_Lectura.pdf",
+                    "name": "La boca chímuela"
+                },{
+                    "id": "13",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Segundo_Un%20punado%20de%20besos_Lectura.pdf",
+                    "name": "Un puñado de besos"
+                }
+            ],
+            "Tercer grado": [
+                {
+                    "id": "1",
+                    "link": "http://bibliotecadigital.ilce.edu.mx/Colecciones/CuentosMas/Cohete.pdf",
+                    "name": "El famoso cohete"
+                },{
+                    "id": "2",
+                    "link": "http://bibliotecadigital.ilce.edu.mx/Colecciones/CuentosMas/Camisa.pdf",
+                    "name": "La camisa del hombre feliz"
+                },{
+                    "id": "3",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/3gradoEl-senor-de-la-pata-de-palo..pdf",
+                    "name": "El señor de la pata de palo"
+                },{
+                    "id": "4",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/3gradoLa-fiesta-de-las-verduras..pdf",
+                    "name": "La fiesta de las verduras"
+                },{
+                    "id": "5",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/3gradoLos-ojos-del-monstruo..pdf",
+                    "name": "Los ojos del monstruo"
+                },{
+                    "id": "6",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/3gradoLos-zapatitos-bailarines..pdf",
+                    "name": "Los zapatitos bailarines"
+                },{
+                    "id": "7",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/3gradoMarina-y-las-preguntas..pdf",
+                    "name": "Marina y las preguntas"
+                },{
+                    "id": "8",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/3gradoMi-diente-vive..pdf",
+                    "name": "¡Mi diente vive!"
+                },{
+                    "id": "9",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/3gradoNo-me-comere-esas-verduras..pdf",
+                    "name": "No me comeré esas verduras"
+                },{
+                    "id": "10",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/3gradoUna-palabra..pdf",
+                    "name": "Una palabra"
+                },{
+                    "id": "11",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Tercero_CaperucitaRoja-como%20se%20la%20contaron%20a%20Jorge_Lectura.pdf",
+                    "name": "Caperucita Roja (tal como se lo contaron a Jorge)"
+                },{
+                    "id": "12",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Tercero_Elgrancircomunidaldelasemociones_Lectura.pdf",
+                    "name": "Gran Circo Mundial de las Emociones"
+                },{
+                    "id": "13",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Tercero_ElSapoSapito_Lectura.pdf",
+                    "name": "El sapo Sapito"
+                },{
+                    "id": "14",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Tercero_Elsenorcuadradoysusamigos_Lectura.pdf",
+                    "name": "El señor Cuadrado y sus amigos"
+                },{
+                    "id": "15",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/archivos-preescolar/Tercero_LaaranitaAmalia_Lectura.pdf",
+                    "name": "La arañita Amalia"
                 }
             ]
         }

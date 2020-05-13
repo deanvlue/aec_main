@@ -57,8 +57,8 @@
                 <div class="col-sm-12">
 
                     <div class="tabs">
-                        <div class="tab col-sm-4" v-bind:class="[index === 0 ? activeClass : '']" v-for="(tab,index) in tabs[nivel]" :key="index">
-                            <a href="#">
+                        <div class="tab col-sm-4" v-bind:class="[(index === currentTab)? activeClass : '']" v-for="(tab,index) in tabs[nivel]" :key="index">
+                            <a href="#" @click.prevent="seleccionaGrado(index)">
                                 <img class="img-responsive" :src="'/assets/images/experiencias/'+tab+'.png'" alt="">
                             </a>
                         </div>
@@ -81,7 +81,7 @@
                                 <div class="" style="text-align: left">
                                     <strong id="date1"></strong>
                                     <h5>¿Qué vimos hoy?</h5>
-
+                                    {{ experienciasDisplay }}
                                     <!-- Experiences -->
                                     <div>
                                         <div class="row">
@@ -99,7 +99,7 @@
                                 <h5>¿Qué vimos hoy?</h5>
                                 <div class="row">
                                     <div v-if="experienciasDisplay !== undefined">
-                                        <a href="#" @click.prevent="openModal(exp.modal_url)" id="show-modal" v-for="exp in experienciasDisplay.topics" :key="exp.index" data-toggle="modal">
+                                        <a href="#" @click.prevent="openModal(exp)" id="show-modal" v-for="exp in experienciasDisplay.topics" :key="exp.index" data-toggle="modal">
 
                                         <img width="380" height="105" :src="'/assets/images/experiencias/'+exp.topic+'.png'" class="img-responsive" alt="">
                                     </a>
@@ -118,7 +118,9 @@
        <modal v-if="showModal" @close="showModal = false">
        <!-- you can use custom content here to overwrite
                 default content  -->
-        <h3 slot="header">custom header</h3>
+        <h3 slot="header">{{materias[modalData.modalHeader]}}</h3>
+        <div slot="body" v-html="modalData.modalContent">
+        </div>
       </modal>
 
     </div>
@@ -145,8 +147,7 @@
 
               <div class="modal-footer">
                 <slot name="footer">
-                  default footer
-                  <button class="modal-default-button" @click="$emit('close')">
+                  <button class="btn btn-primary modal-default-button" @click="$emit('close')">
                     OK
                   </button>
                 </slot>
@@ -167,6 +168,17 @@
             mode: 'history',
             routes: []
         })
+        //console.log(document.URL);
+
+        let mainURL="";
+
+        if(document.URL.indexOf('aprendeencasa.mx') === -1){
+            // ambiente de desarrollo
+            mainURL="http://localhost:8100";
+        }else{
+            mainURL="https://aprendeencasa.mx";
+        }
+
 
 
         var app = new Vue({
@@ -174,6 +186,7 @@
             el: '#app',
             data: {
                 showModal: false,
+                currentTab: 0,
                 calendarAttrs:{
                     mode: 'single',
                     selectedDate: null,
@@ -208,30 +221,66 @@
                         "secundaria3",
                     ]
                 },
+                modalData:{
+                    modalHeader: "",
+                    modalContent:"",
+                },
+                materias:{
+                    artes:"Artes",
+                    lenguaje:"Lenguaje",
+                    matematicas:"Matemáticas",
+                    valores:"Valores",
+                    conocimiento_del_medio:"Conocimiento del medio",
+                    deportes: "Deportes",
+                    la_entidad_donde_vivo: "La entidad donde vivo",
+                        geografia: "Geografía",
+                        ciencias_naturales: "Ciencias naturales",
+                        fisica: "Física",
+                        civismo: "Civismo",
+                        biologia: "Biología",
+                        historia: "Historia",
+                        tecnologia: "Tecnología",
+                        quimica: "Química",
+                        mundo_natural_y_social: "Mundo natural y social",
+                }
             },
             mounted: function(){
                 parameters = this.$route.query;
                 this.nivel = parameters.nivel;
-                experienciasURL="http://localhost:8100/assets/scripts/experiencias/experiencias_"+this.nivel+"_1.json"
+                experienciasURL= mainURL + "/assets/scripts/experiencias/"+this.nivel+".json"
                 //experienciasURL = "https://www.aprendeencasa.mx/assets/scripts/experiencias/experiencias_"+this.nivel+"_1.json"
                 axios
                 .get(experienciasURL)
                 .then(response => {
                     this.experiencias = response.data
-                    this.experienciasDisplay= this.experiencias
+                    this.experienciasDisplay= this.experiencias[this.currentTab];
                 })
             },
             methods: {
                 filtra: function(fecha){
-                    this.experienciasDisplay = _.findWhere(this.experiencias,{date: fecha})
+                    this.experienciasDisplay = _.findWhere(this.experiencias[this.currentTab],{date: fecha})
                 },
                 selectDay: function(e){
                     this.filtra(e.id);
                 },
                 openModal: function(e){
-                    console.log(e);
-                    this.showModal = true;
+                    console.log( "Abriendo ",mainURL , e.modal_url);
+                    let modalURL = mainURL+e.modal_url;
+                    axios
+                    .get(modalURL)
+                    .then(r =>{
+                        this.modalData.modalContent = r.data;
+                        this.modalData.modalHeader = e.topic;
+                        this.showModal = true;
+                    })
+                },
+                seleccionaGrado: function(index){
+                    //console.log(this.experienciasDisplay);
+                    this.currentTab = index;
+                    this.experienciasDisplay="";
                 }
+
+
             },
             computed:{
                 breadcrumbText: function(){

@@ -11,6 +11,7 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+        <script src="/assets/scripts/includehtml.js"></script>
 
         <style>
             body{background-color: #fefefe !important;font-family: 'Nunito', sans-serif;}
@@ -97,7 +98,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
               text-align: left;
 
               transition: 0.5s ease;
-              cursor: pointer;
               margin: 11px;
               padding: 0 !important;
               border: none;
@@ -170,7 +170,6 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
               text-align: left;
 
               transition: 0.5s ease;
-              cursor: pointer;
               margin: 25px;
               padding: 0 !important;
               border: none;
@@ -243,6 +242,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                 font-size: 18px;
                 font-weight: 600;
                 background-color: #fcfcfc;
+                cursor: pointer;
             }
 
             #filters input[type="checkbox"]:checked + span {
@@ -348,6 +348,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
         </style>
     </head>
     <body>
+        <div w3-include-html="header.html"></div>
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -427,13 +428,13 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
             </div>
             <div class="row" style="margin-bottom: 23px;">
                 <div class="col-sm-12">
-                    <h3 class="text-left" style="font-size: 24px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.33;letter-spacing: normal;color: #01a2aa !important;">Selecciona una opción</h3>
+                    <h3 class="text-left" style="font-size: 24px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.33;letter-spacing: normal;color: #01a2aa !important;">Selecciona una opción</h3 >
                 </div>
             </div>
 
             <tabs>
 
-                <tab  v-for="section in sections" :name="section.name" :selected="section.is_active" :external-link="section.externalLink" :img="path_images+section.image"><!---->
+                <tab v-for="section in sections" :name="section.name" :selected="section.is_active" :external-link="section.externalLink" :img="path_images+section.image"><!---->
                     <div class="row form" v-if="section.has_filters">
                         <div class="col-sm-6 search-container" style="padding-left: 0;">
                             <div class="form-group has-search">
@@ -452,6 +453,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                     <div class="row filters-container" v-show="showFilters">
                         <div class="col-sm-12" style="margin-bottom: 0px;border: 1px solid #ecebed;border-radius: 4px;text-align: center;padding: 20px;">
                             <p id="filters">
+                                <label><input type="checkbox" @change="setOptions" name="filter" value="Todos" v-model="checkedCategories"><span>Todos</span></label>
                                 <label v-for="category in categories"><input type="checkbox" @change="setOptions" name="filter" :value="category" v-model="checkedCategories"><span>{{ category }}</span></label>
                               </p>
                               <!--<p>{{ checkedCategories }}</p>-->
@@ -551,11 +553,11 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         </div>
 
                         <!--     Loop through the pages array to display each page number       -->
-                        <div class="clearfix btn-group col-md-2 offset-md-5">
+                        <!--<div class="clearfix btn-group col-md-2 offset-md-5">
                             <button type="button" class="btn btn-sm btn-outline-secondary" v-if="page != 1" @click="page--"> << </button>
                             <button type="button" class="btn btn-sm btn-outline-secondary" v-for="pageNumber in pages.slice(page-1, page+5)" @click="page = pageNumber"> {{pageNumber}} </button>
                             <button type="button" @click="page++" v-if="page < pages.length" class="btn btn-sm btn-outline-secondary"> >> </button>
-                        </div>
+                        </div>-->
 
                     </div>
 
@@ -699,7 +701,7 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
               template: `
                     <div>
                         <div class="tabs">
-                          <div v-for="tab in tabs" class="tab col-sm-2" align="center"> 
+                          <div v-for="tab in tabs" class="tab col-sm-2" align="center" @click="hideFilters"> 
                             <a :href="tab.href" :target="tab.externalLink ? '_blank' : ''" @click="selectTab(tab)">
                                 <img :src="tab.img" :class="{ 'is-active': tab.isActive }" width="100%" height="100px" :alt="tab.name" />
                             </a>
@@ -724,6 +726,9 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                   this.tabs.forEach((tab) => {
                     tab.isActive = tab.name == selectedTab.name;
                   });
+                },
+                hideFilters() {
+                    this.$parent.showFilters = false;
                 }
               }
           });
@@ -818,20 +823,22 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
 
                         this.checkedCategories = [e.target.value];
 
-                        this.filterbooksBy(e.target.value);
+                        this.filterbooksBy(e);
 
                     },
                     filterbooksBy (category) {
 
-                        var filteredBooks = _.find(this.allbooks, function(book){ return book.name == category ; });
+                        if(category.target.value === "Todos" || category.target.checked === false){ this.showAllBooks(); this.categoryTitle == "Libros"; return; }
 
-                        console.log("Category: " + category);
+                        var filteredBooks = _.find(this.allbooks, function(book){ return book.name == category.target.value ; });
+
+                        console.log("Category: " + category.target.value);
                         console.log([filteredBooks]);
 
                         if (typeof filteredBooks === 'undefined'){return}
 
                         this.books = [filteredBooks];
-                        this.categoryTitle = category;
+                        this.categoryTitle = category.target.value;
 
                     },
                     searchBooks (search) {
@@ -866,6 +873,9 @@ box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
                         })*/
 
                         //console.log("search books:" + searchBooks);
+                    },
+                    showAllBooks() {
+                        this.books = this.allbooks;
                     },
                     getBooks () {
 

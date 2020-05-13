@@ -1,0 +1,139 @@
+[
+    {
+        "name": "PDF",
+        "image": "pdf.svg",
+        "is_active": true,
+        "has_filters": false,
+        "books": {
+            "SEBA": [
+                {
+                    "id": "1",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/SEBA_Laboral_Carreradezapatillas_Lectura.pdf",
+                    "name": "Carrera de zapatillas: cuento infantil sobre la amistad"
+                },{
+                    "id": "2",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/SEBA_Laboral_Cuentoinfantilsobrelacompasion_Lectura.pdf",
+                    "name": "Cuento infantil sobre la compasión"
+                },{
+                    "id": "3",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/SEBA_Laboral_Cuentosobrelaamabilidadparaninos_Lectura.pdf",
+                    "name": "Cuento sobre la amabilidad para niños"
+                },{
+                    "id": "4",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/SEBA_Laboral_Santilin_Lectura.pdf",
+                    "name": "Santilín. Cuentos infantiles con valores"
+                },{
+                    "id": "5",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/SEBA_LaboralL_Cuentosobrelosberrinchesdelosninos_Lectura.pdf",
+                    "name": "Cuento sobre los berrinches de los niños"
+                }
+            ],
+            "Primaria": [
+                {
+                    "id": "1",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Primaria_Elaguilayelcuervo_Lectura.pdf",
+                    "name": "El águila y el cuervo"
+                },{
+                    "id": "2",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Primaria_Elcojoyelcielo_Lectura.pdf",
+                    "name": "El cojo y el ciego"
+                },{
+                    "id": "3",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Primaria_Elleonylaliebre_Lectura.pdf",
+                    "name": "El león y la liebre"
+                },{
+                    "id": "4",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Primaria_Lahistoriadelcarpintero_Lectura.pdf",
+                    "name": "La historia del carpintero"
+                },{
+                    "id": "5",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Primaria_Lostresregalosdelhada_Lectura.pdf",
+                    "name": "Los tres regalos del hada"
+                }
+            ],
+            "Secundaria Inicial": [
+                {
+                    "id": "1",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Secundaria_Inicial_Alfonsina_Lectura.pdf",
+                    "name": "Alfonsina"
+                },{
+                    "id": "2",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Secundaria_Inicial_Elcuentista_Lectura.pdf",
+                    "name": "El cuentista"
+                },{
+                    "id": "3",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Secundaria_Inicial_Elgiganteegoista_Lectura.pdf",
+                    "name": "El gigante egoísta"
+                },{
+                    "id": "4",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Secundaria_Inicial_Sobreencontrarsealachicaperfecta_Lectura.pdf",
+                    "name": "Sobre encontrarse a la chica 100% perfecta una bella mañana de abril"
+                }
+            ],
+            "Secundaria Avanzada": [
+                {
+                    "id": "1",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Secundaria_%20Avanzada_Dilesquenomematen_Lectura.pdf",
+                    "name": "¡Diles que no me maten!"
+                },{
+                    "id": "2",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Secundaria_Avanzada_%20Aladeriva_Lectura.pdf",
+                    "name": "A la deriva"
+                },{
+                    "id": "3",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Secundaria_Avanzada_%20Dosnumeromenos_Lectura.pdf",
+                    "name": "Dos números menos"
+                },{
+                    "id": "4",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Secundaria_Avanzada_Laduquesayeljoyero_Lectura.pdf",
+                    "name": "La duquesa y el joyero"
+                },{
+                    "id": "5",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Secundaria_Avanzada_Vendranlluviassuaves_Lectura.pdf",
+                    "name": "Vendrán lluvias suaves"
+                }
+            ],
+            "Tercero": [
+                {
+                    "id": "1",
+                    "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-seba/lecturas/archivos-seba/Tercero_Biodiversitas_Lectura.pdf",
+                    "name": "Biodiversitas"
+                }
+            ]
+        }
+    },{
+        "name": "Audiolibros",
+        "image": "audiolibros.svg",
+        "is_active": false,
+        "has_filters": false,
+        "audiobooks": [
+            {
+                "name": "Audiolibro Habi, de Guillermo Samperio",
+                "image": "/assets/images/lecturas/audiolibros/audiolibro1.jpg",
+                "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/audio-libros/Audiolibro%20Habi,%20de%20Guillermo%20Samperio%20.mp3"
+            },{
+                "name": "Audiolibro La Conquista, de Miguel León Portilla",
+                "image": "/assets/images/lecturas/audiolibros/audiolibro2.jpg",
+                "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/audio-libros/Audiolibro%20La%20Conquista,%20de%20Miguel%20Leon%20Portilla.mp3"
+            },{
+                "name": "Audiolibro La vendedora de nubes, de Elena Poniatowska",
+                "image": "/assets/images/lecturas/audiolibros/audiolibro3.jpg",
+                "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/audio-libros/Audiolibro%20La%20vendedora%20de%20nubes,%20de%20Elena%20Poniatowska.mp3"
+            },{
+                "name": "Audiolibro Mi vida con la Ola, de Octavio Paz",
+                "image": "/assets/images/lecturas/audiolibros/audiolibro4.jpg",
+                "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/audio-libros/Audiolibro%20Mi%20vida%20con%20la%20Ola,%20de%20Octavio%20Paz.mp3"
+            },{
+                "name": "Audiolibro Yáotl en la tierra de los muertos, de Eduardo Matos",
+                "image": "/assets/images/lecturas/audiolibros/audiolibro5.jpg",
+                "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/audio-libros/Audiolibro%20Yaotl%20en%20la%20tierra%20de%20los%20muertos,%20de%20Eduardo%20Matos.mp3"
+            }
+        ]
+    },{
+        "name": "Audiolibros Amazon",
+        "image": "audiolibros_amazon.svg",
+        "is_active": false,
+        "has_filters": false,
+        "externalLink": "https://stories.audible.com/discovery/enterprise-discovery-21122525011?ref=adbl_ent_anon_ds_ds_pl_2&page=2"
+    }
+]

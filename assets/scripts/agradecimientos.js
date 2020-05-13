@@ -1,22 +1,23 @@
 const urlPath = '/assets/images/btn/agradecimiento/brands/';
 
 const brands = [
-    'facebook.png',
-    'fundacion.png',
     'gobierno.png',
+    'fundacion.png',
     'google.png',
-    'ine.png',
   'microsoft.png',
-  'mide.png',
-  'Movistar.png',
-  'papalote.png',
-  'radio.png',
-  'televisa.png',
-  'plazasesamo.png',
+    'facebook.png',
     'unicef.png',
+  'televisa.png',
+  'Movistar.png',
+    'ine.png',
+  'radio.png',
+  'mide.png',
+  'papalote.png',
+  'plazasesamo.png',
+  'blank.png',
+  'stc.png',
     'uam.png',
     'fundacion_aprende.png',
-  'stc.png',
 ];
 
 

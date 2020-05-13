@@ -1,0 +1,27 @@
+[
+    {
+      "id": 10,
+      "type": "video",
+      "text": "Ejercicios para hacer en casa",
+      "source": "Recomendaciones de la OMS",
+      "link": "https://www.youtube.com/watch?v=4Tn9jMey0RY"
+    },{
+      "id": 11,
+      "type": "video",
+      "text": "Ejercitarse- Once Niñas y Niños",
+      "source": "Once niños",
+      "link": "https://www.youtube.com/watch?v=hecg2ShyeaM&feature=youtu.be"
+    },{
+      "id": 12,
+      "type": "site",
+      "text": "Fitness en casa: cómo mantenerse activo en cuarentena, según la OMS",
+      "source": "Infobae, recomendaciones de la OMS",
+      "link": "https://www.infobae.com/salud/2020/05/01/fitness-en-casa-como-mantenerse-activo-en-cuarentena-segun-la-oms/"
+    },{
+      "id": 13,
+      "type": "video",
+      "text": "Yoga Niños - Para jugar y estudiar mejor",
+      "source": "Canal bienestar.com",
+      "link": "https://www.youtube.com/watch?v=nNbRQX8yJWs"
+    }
+  ]

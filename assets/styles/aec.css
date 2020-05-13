@@ -38,7 +38,8 @@
 }
 
 h3,
-h4 {
+h4,
+h6 {
     color : #d53c88 !important;
 }
 h3 {
@@ -52,7 +53,8 @@ h3 {
     color : #fff !important;
 
 }
-button.btn-agenda : hover {
+
+button.btn-agenda:hover {
     background-color : rgb(184, 96, 149)!important;
 }
 .card {
@@ -87,7 +89,7 @@ button.btn-agenda : hover {
 .margin-bottom {
     margin-bottom : 80px;
 }
-.btn-agenda.btn-primary : hover {
+.btn-agenda.btn-primary:hover {
     color : #000 !important;
     background-color : rgba(179, 51, 127, 0.1)!important;
     border-color : #b3337f !important;
@@ -139,24 +141,24 @@ hr.agenda {
     text-align : center;
     color : #000000;
 }
-.btn-disabled : hover {
+.btn-disabled:hover {
     color : #293344;
     background-color : #e4e9f2;
 }
 td.disabled {
     background-color : #e4e9f2;
 }
-.nav-pills > li > a {
+.nav-pills>li>a {
     text-decoration : none;
     border-radius : 30px;
     background-color : #e4e9f2;
     color : #333e53;
     margin-right : 15px;
 }
-.nav-pills > li {
+.nav-pills>li {
     margin-right : 0.5em;
 }
-.nav-pills > li > a.active {
+.nav-pills>li>a.active {
     background-color : #006dd0;
     color : #fff;
 }
@@ -169,7 +171,7 @@ td.disabled {
     padding : 5px 5px !important;
     width : 100%;
 }
-.btn-tarea : hover {
+.btn-tarea:hover {
     white-space : normal !important;
     background-color : rgba(179, 51, 127, 0.6)!important;
 }
@@ -184,7 +186,7 @@ td.disabled {
     padding-bottom : 100px;
 }
 
-/* clearfix */.grid : after {
+/* clearfix */.grid:after {
     content : '';
     display : block;
     clear : both;
@@ -200,6 +202,15 @@ td.disabled {
     border-radius : 5px;
     /*display: none;*/
 }
+
+.grid-item-video {
+    width: 30%;
+    margin: 10px;
+    float: left;
+    min-height:250px;
+
+}
+
 .show {
     display : block;
 }
@@ -211,4 +222,40 @@ td.disabled {
 iframe {
     width : 100%;
     height : 800px;
+}
+
+.panel-body>p{
+    font-size: 0.6em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+iframe.video{
+    height: 100%;
+    width: 100%;
+}
+
+img.agradecimientos{
+    margin: 5px;
+}
+
+
+.carousel-inner >.item > img{
+    display: inline !important;
+}
+
+.carousel-control {
+    color : #b3337f !important;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+
+}
+
+.carousel-control.right {
+    background-image: none !important;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%); */
+}
+.carousel-control.left {
+    background-image: none !important;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%); */
 }

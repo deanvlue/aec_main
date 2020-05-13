@@ -1,0 +1,186 @@
+[
+    {
+        "date": "2020-04-20",
+        "topics": [
+            {
+                "id": "202004201",
+                "topic": "mundo_natural_y_social",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_20_1_mundo_natural_y_social.html" 
+            },{
+                "id": "202004202",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_20_2_artes.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-21",
+        "topics": [
+            {
+                "id": "202004211",
+                "topic": "valores",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_21_1_valores.html" 
+            },
+            {
+                "id": "202004212",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_21_2_matematicas.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-22",
+        "topics": [
+            {
+                "id": "202004221",
+                "topic": "valores",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_22_1_valores.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-23",
+        "topics": [
+            {
+                "id": "202004231",
+                "topic": "mundo_natural_y_social",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_23_1_mundo_natural_y_social.html" 
+            },
+            {
+                "id": "202004232",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_23_2_artes.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-24",
+        "topics": [
+            {
+                "id": "202004241",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_24_1_lenguaje.html" 
+            },{
+                "id": "202004242",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_24_2_lenguaje.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-27",
+        "topics": [
+            {
+                "id": "202004271",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_27_1_matematicas.html" 
+            },{
+                "id": "202004272",
+                "topic": "valores",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_27_2_valores.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-28",
+        "topics": [
+            {
+                "id": "202004281",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_28_1_lenguaje.html" 
+            },
+            {
+                "id": "202004282",
+                "topic": "valores",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_28_2_valores.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-29",
+        "topics": [
+            {
+                "id": "202004291",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_29_1_artes.html" 
+            },
+            {
+                "id": "202004292",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_29_2_lenguaje.html" 
+            }
+        ]
+    },{
+        "date": "2020-04-30",
+        "topics": [
+            {
+                "id": "202004301",
+                "topic": "deportes",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_30_1_deportes.html" 
+            },
+            {
+                "id": "202004302",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_04_30_2_artes.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-01",
+        "topics": [
+            {
+                "id": "202005011",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_01_1_lenguaje.html" 
+            },{
+                "id": "202005012",
+                "topic": "valores",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_01_2_valores.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-04",
+        "topics": [
+            {
+                "id": "202005041",
+                "topic": "matematicas",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_04_1_matamaticas.html" 
+            },
+            {
+                "id": "202005042",
+                "topic": "valores",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_04_2_valores.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-05",
+        "topics": [
+            {
+                "id": "202005051",
+                "topic": "ciencias_naturales",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_05_1_ciencias_naturales.html" 
+            },
+            {
+                "id": "202005052",
+                "topic": "lenguaje",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_05_2_lenguaje.html" 
+            }
+        ]
+    },{
+        "date": "2020-05-06",
+        "topics": [
+            {
+                "id": "202005061",
+                "topic": "artes",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_06_1_artes.html" 
+            },
+            {
+                "id": "202005062",
+                "topic": "ciencias_naturales",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_06_2_ciencias_naturales.html" 
+            }
+        ]
+    },
+    {
+        "date":"2020-05-07",
+        "topics":[
+            {
+                "id":"2020050701",
+                "topic":"ciencias_naturales",
+                "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_07_01_ciencias_naturales.html"
+            }
+        ]
+    }
+]

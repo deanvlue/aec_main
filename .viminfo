@@ -1,0 +1,46 @@
+# Vim 7.4 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wq
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Registros:
+""1	LINE	0
+	aprende-en-casa
+	aprende-en-casa/pa*
+	aprende-en-casa/do*
+	aprende-en-casa/al*
+	aprende-en-casa/ac*
+	aprende-en-casa/archivos
+	aprende-en-casa/avisos
+	aprende-en-casa/base_de_datos
+	aprende-en-casa/ej*
+	aprende-en-casa/enc*
+	aprende-en-casa/\*
+
+# Marcas en el archivo:
+'0  1  0  ~/.gitignore
+
+# Lista de saltos (el más reciente va primero):
+-'  1  0  ~/.gitignore
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/.gitignore
+	"	1	0
+	.	1	0
+	+	1	0

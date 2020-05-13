@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Padres de Familia</title>
+
+        <!--<script src="https://unpkg.com/vue"></script>-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="/assets/styles/aec.css" rel="stylesheet" />
+        <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet"> 
+
+        <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css">
+
+        <style>
+            body{background-color: #fefefe !important}
+            .vc-title,.vc-weekday{color:rgba(179, 51, 127, 1.0) !important;}
+            .vc-flex{color:#FFFFFF !important;background-color: #3182ce !important;border-radius: 50% !important;}
+            .tabs .is-active{border-bottom:6px solid #00b0ed;}
+            .tabs .tab {padding-bottom: 10px}
+            .tabs .tab img{border: 1px solid #DADEE4;-webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);border-radius: 4px;}
+            .tabs-details{padding-top: 150px}
+            .tabs-container{margin-bottom: 100px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 40px}
+            .grid{padding-bottom: 0px !important}
+            .btn-primary{color: #FFFFFF;background-color: #BA186A;border-color: #BA186A;}
+            .btn-primary.active, .btn-primary:active, .btn-primary:hover{color: #FFFFFF;background-color: #9E1559;border-color: #9E1559}
+            .card {
+              width: 288px;
+              display: grid;
+              grid-template-columns: 288px;
+              grid-template-rows: 80px auto 80px;
+              grid-template-areas: "image" "text" "tools";
+
+              border-radius: 10px;
+              background: white;
+              -webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);
+              box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);
+              text-align: left;
+
+              transition: 0.5s ease;
+              cursor: pointer;
+              margin: 22px;
+              padding: 0 !important;
+              border: none;
+            }
+            .card-image {
+                grid-area: image;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .card-image img{
+                width: 47px;
+                height: auto;
+            }
+            .card-text {
+                grid-area: text;
+                margin: 25px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                line-height: 1.3em;
+            }
+            .card-text .title {
+                color: rgb(255, 7, 110);
+                font-size:13px;
+            }
+            .card-text p {
+              font-size: 15px;
+              font-weight: 500;
+            }
+            .card-tools {
+                grid-area: tools;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+            .card-tools .tool {
+                padding:0px 26px 10px 26px;
+                display: flex;
+                align-items: left;
+                justify-content: center;
+                flex-direction: column;
+                color: white;
+            }
+            .text-center {
+                color: #b3337f !important;
+                margin-top: 0px;
+            }
+            .cards-container{
+              margin-left: 15px;
+            }
+            .sub-nav{
+              padding: 20px 100px 50px 100px;
+            }
+            /* 
+              ##Device = Desktops
+              ##Screen = 1281px to higher resolution desktops
+            */
+            @media (min-width: 1281px) {              
+            }
+            /* 
+              ##Device = Laptops, Desktops
+              ##Screen = B/w 1025px to 1280px
+            */
+            @media (min-width: 1025px) and (max-width: 1280px) {              
+            }
+            /* 
+              ##Device = Tablets, Ipads (portrait)
+              ##Screen = B/w 768px to 1024px
+            */
+            @media (min-width: 768px) and (max-width: 1024px) {    
+              .tabs-container{padding: 10px 0}
+            }
+            /* 
+              ##Device = Tablets, Ipads (landscape)
+              ##Screen = B/w 768px to 1024px
+            */
+            @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+              .tabs-container{padding: 10px 0}
+              .card{margin: 6px;}
+                          
+            }
+            /* 
+              ##Device = Low Resolution Tablets, Mobiles (Landscape)
+              ##Screen = B/w 481px to 767px
+            */
+            @media (min-width: 481px) and (max-width: 767px) {              
+            }
+            /* 
+              ##Device = Most of the Smartphones Mobiles (Portrait)
+              ##Screen = B/w 320px to 479px
+            */
+            @media (min-width: 320px) and (max-width: 480px) {
+              .tabs-container{padding: 10px}
+              .cards-container{
+                margin-left: -2px;
+              }
+              .tabs-details {
+                  padding-top: 30px;
+              }
+              .sub-nav{
+                padding: 21px 35px 50px;
+              }
+              .sub-nav div{
+                margin-top: 20px;
+              }
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+              <!--<div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarMainCollapse">
+                  <span class="sr-only">Interruptor de Navegación</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.gob.mx/">
+                  <img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" width="128" height="48" alt="Página de inicio, Gobierno de México">
+                </a>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarMainCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://www.gob.mx/tramites">Trámites</a></li>
+                  <li><a href="https://www.gob.mx/gobierno">Gobierno</a></li>
+                  <li><a href="https://www.gob.mx/busqueda"><span class="sr-only">Búsqueda</span><i class="icon-search"></i></a>
+                  </li>
+                </ul>
+              </div>-->
+            </div>
+          </nav>
+        </header>
+        
+        <nav class="navbar navbar-inverse sub-navbar navbar-fixed-top"> 
+            <div class="container">
+                <div class="navbar-header">
+                    <!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces"-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces" aria-expanded="false">
+                        <span class="sr-only">Interruptor de Navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="/"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="subenlaces">
+                    <!--div id="subenlaces"-->
+                    <ul class="nav navbar-nav navbar-right"></ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="app" class="container" style="margin-top: 75px;">
+
+            <nav class="navbar aec">
+                <div class="row">
+                  <div class="col-sm-9">
+                    <ol class="breadcrumb aec">
+                      <li><a href="https://www.gob.mx/aefcm"><span class="glyphicon glyphicon-home"></span></a></li>
+                      <li><a href="/aprende-en-casa-2/index.html">Inicio</a></li>
+                      <li><a href="/aprende-en-casa-2/index.html">Aprende en Casa</a></li>
+                      <li><a href="/aprende-en-casa-2/acceso.html">Acceso</a></li>
+                      <li class="active">Padres de familia</li>
+                    </ol>
+                  </div>
+                  <div class="col-sm-3 visible-md visible-lg">
+                    <img class="img-responsive  navbar-logo" src="/assets/images/logo_aprende@2x.svg" alt="">
+                  </div>
+                </div>
+            </nav>
+
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                  <a href="#"><img src="/assets/images/padres/maestro-linea.svg" alt="Maestro en línea"></a>
+              </div>
+          </div>
+
+            <div class="row" style="margin-top: 20px;">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+                <div class="owl-carousel">
+                  <img src="/assets/images/padres/image-slider.png" style="width:100%; height: auto">
+                </div>
+              </div>
+              <div class="col-sm-2"></div>
+            </div>
+
+            <h3 class="text-center" style="margin-top: 20px;">Apoya la educación de tu hijo(a) </h3>
+
+            <div class="row">
+              <div class="col-sm-12 sub-nav">
+                <div class="col-sm-4 ">
+                  <a href="#">
+                      <img src="/assets/images/padres/calendario.svg" width="100%" height="auto" alt="" />
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <a href="#">
+                      <img src="/assets/images/padres/agenda.svg" width="100%" height="auto" alt="" />
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <a href="#">
+                      <img src="/assets/images/padres/experiencias.svg" width="100%" height="auto" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <tabs>
+                <tab name="Alimentación" :selected="true" img="/assets/images/padres/alimentacion.svg">
+                    <div class="tabs-container">
+                        <div id="alimentacion" class="row cards-container"></div>
+                    </div>
+                </tab>
+                <tab name="Salud" img="/assets/images/padres/salud.svg">
+                    <div class="tabs-container">
+                      <div id="salud-container" class="row cards-container"></div>
+                      <h3 class="text-left" style="margin-left: 40px;">Activación física:</h3>
+                      <div id="salud-activacion-fisica" class="row cards-container"></div>
+                    </div>
+                </tab>
+                <tab name="Socioemocional" img="/assets/images/padres/socioemocional.svg">
+                    <div class="tabs-container">
+                      <div id="socioemocional-container" class="row cards-container"></div>
+                    </div>
+                </tab>
+                <tab name="Formación para padres" img="/assets/images/padres/formacion.svg">
+                    <div class="tabs-container">
+                      <div id="formacion-container" class="row cards-container"></div>
+                    </div>
+                </tab>
+            </tabs>
+            
+        </div>
+
+        <footer class="main-footer"><div class="list-info"><div class="container"><div class="row"><div class="col-sm-3"><img data-v-9e928f9a="" src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" href="/" alt="logo gobierno de méxico" class="logo_footer" style="max-width: 90%;"></div><div class="col-sm-3"><h5>Enlaces</h5><ul><li><a href="https://participa.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Participa</a></li><li><a href="https://www.gob.mx/publicaciones" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Publicaciones Oficiales</a></li><li><a href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Marco Jurídico</a></li><li><a href="https://consultapublicamx.inai.org.mx/vut-web/" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Plataforma Nacional de Transparencia</a></li></ul></div><div class="col-sm-3"><h5>¿Qué es gob.mx?</h5><p>Es el portal único de trámites, información y participación ciudadana. <a href="https://www.gob.mx/que-es-gobmx">Leer más</a></p><ul><li><a href="https://datos.gob.mx">Portal de datos abiertos</a></li><li><a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a></li><li><a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a></li><li><a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a></li><li><a href="https://www.gob.mx/terminos">Términos y Condiciones</a></li><li><a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a></li><li><a href="https://www.gob.mx/sitemap">Mapa de sitio</a></li></ul></div><div class="col-sm-3"><h5><a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia contra servidores públicos</a></h5><h5>Síguenos en</h5><ul class="list-inline"><li><a class="social-icon facebook" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://www.facebook.com/gobmexico" aria-label="Facebook de presidencia"></a></li><li><a class="social-icon twitter" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://twitter.com/GobiernoMX" aria-label="Twitter de presidencia"></a></li></ul></div></div></div></div><div class="container-fluid footer-pleca"><div class="row"><div class="col"><br><br></div></div></div></footer>
+
+        <script src='https://unpkg.com/vue/dist/vue.js'></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <script src="/assets/scripts/owl.carousel.min.js"></script>
+      
+        <script>
+          $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:false,
+                items: 1
+            })
+          });
+
+          Vue.component("tabs", {
+              template: `
+                    <div>
+                        <div class="tabs">
+                          <div v-for="tab in tabs" :class="{ 'is-active': tab.isActive }" class="tab col-sm-3" align="center"> 
+                            <a :href="tab.href" @click="selectTab(tab)">
+                                <img :src="tab.img" width="100%" height="auto" :alt="tab.name" />
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="tabs-details">
+                            <slot></slot>
+                        </div>
+                    </div>
+                `,
+
+              data() {
+                return { tabs: [] };
+              },
+
+              created() {
+                this.tabs = this.$children;
+              },
+              methods: {
+                selectTab(selectedTab) {
+                  this.tabs.forEach((tab) => {
+                    tab.isActive = tab.name == selectedTab.name;
+                  });
+                }
+              }
+          });
+
+          Vue.component("tab", {
+              template: `
+
+                    <div v-show="isActive"><slot></slot></div>
+
+                `,
+
+              props: {
+                name: { required: true },
+                img: { required: true },
+                selected: { default: false }
+              },
+
+              data() {
+                return {
+                  isActive: false
+                };
+              },
+
+              computed: {
+                href() {
+                  return "#" + this.name.toLowerCase().replace(/ /g, "-");
+                }
+              },
+
+              mounted() {
+                this.isActive = this.selected;
+              }
+          });
+
+          var app = new Vue({
+            el: '#app',
+            data: {
+              url: window.location.origin,
+              types: {
+                video: {
+                  image: "/assets/images/padres/icon-video.svg",
+                  btn_text: "Ver video"
+                },
+                pdf: {
+                  image: "/assets/images/padres/icon-pdf.svg",
+                  btn_text: "Descargar"
+                },
+                site: {
+                  image: "/assets/images/padres/icon-site.svg",
+                  btn_text: "Visitar"
+                },
+                recipe: {
+                  image: "/assets/images/padres/icon-recipe.svg",
+                  btn_text: "Visitar"
+                }
+              },
+              alimentacion: [],
+              salud: [],
+              salud_activacion_fisica: [],
+              socioemocional: []
+            },
+            created() {
+              fetch(this.url + '/assets/scripts/padres/alimentacion.json')
+                    .then(response => response.json())
+                    .then(json => {
+                        this.alimentacion= json;
+                        this.getAlimentacion();
+                    })
+
+              fetch(this.url + '/assets/scripts/padres/salud.json')
+                    .then(response => response.json())
+                    .then(json => {
+                        this.salud= json;
+                        this.getSalud();
+                    })
+
+              fetch(this.url + '/assets/scripts/padres/salud_activacion_fisica.json')
+                    .then(response => response.json())
+                    .then(json => {
+                        this.salud_activacion_fisica= json;
+                        this.getSaludActivacionFisica();
+                    })
+
+              fetch(this.url + '/assets/scripts/padres/socioemocional.json')
+                    .then(response => response.json())
+                    .then(json => {
+                        this.socioemocional= json;
+                        this.getSocioemocional();
+                    })
+            },
+            methods: {
+              createCards(el, items){
+                var cards = "";
+                var _self = this;
+
+                $.each( items, function( key, item ) {
+
+                  cards += '<div class="card">'+
+                              '<div class="card-image">'+
+                                '<img src="'+_self.types[item.type].image+'" alt="'+_self.types[item.type].type+'">'+
+                              '</div>'+
+                              '<div class="card-text">'+
+                                '<p>'+item.text+'</p>'+
+                              '</div>'+
+                              '<div class="card-tools">'+
+                                '<div class="tool">'+
+                                  '<div >'+
+                                    '<a href="'+item.link+'" target="_blank" class="btn btn-primary">'+_self.types[item.type].btn_text+'</a>'+
+                                  '</div>'+
+                                '</div>'+
+                              '</div>'+
+                            '</div>';
+                });
+
+                $("#"+el).html(cards);
+              },
+              getAlimentacion(){  
+                  this.createCards("alimentacion", this.alimentacion)
+              },
+              getSalud(){
+                  this.createCards("salud-container", this.salud);
+              },
+              getSaludActivacionFisica(){
+                  this.createCards("salud-activacion-fisica", this.salud_activacion_fisica);     
+              },
+              getSocioemocional(){
+                  this.createCards("socioemocional-container", this.socioemocional);                  
+              },
+              getFormacion(){
+                
+              }
+            }
+          })
+        </script>
+    </body>
+</html>

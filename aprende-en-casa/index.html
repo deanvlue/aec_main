@@ -25,7 +25,7 @@
             gtag("config", "UA-162114925-1");
         </script>
         <!--script async src="https://www.googletagmanager.com/gtag/js?id=UA-162114925-1"></script-->
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
+        <!--script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script-->
         <!--script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script-->
         <!--script src="assets/scripts/plugins.js"></script-->
         <!--script type="text/javascript" src="../aprende-en-casa/assets/scripts/vendor/modernizr.js"></script-->
@@ -35,31 +35,14 @@
         <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet"/>
         <!--script src="https://unpkg.com/vue"></script-->
         <script src="/assets/scripts/vue.min.js"></script>
+        <script src="/assets/scripts/includehtml.js"></script>
     </head>
     <!-- Para que funcione el js como un include en html -->
     <body>
         <!-- Es el submenú y estilos adicionales -->
         <!--div w3-include-html="https://www.aprendeencasa.mx/aprende-en-casa/header/header_gbmx.html"></div-->
         <!--Inicia Submenú-->
-            <nav class="navbar navbar-inverse sub-navbar navbar-fixed-top"> <div class="container">
-                <div
-                    class="navbar-header">
-                    <!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces"-->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces" aria-expanded="false">
-                        <span class="sr-only">Interruptor de Navegación</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand logo" href="/"></a>
-                </div>
-                <div
-                    class="collapse navbar-collapse" id="subenlaces">
-                    <!--div id="subenlaces"-->
-                    <ul class="nav navbar-nav navbar-right"></ul>
-                </div>
-            </div>
-        </nav>
+        <div w3-include-html="/assets/componentes/header.html"></div>
         <br/>
         <div>&nbsp;</div>
         <div>&nbsp;</div>
@@ -216,8 +199,10 @@
         </div>
 
         <div class="margin-bottom">&nbsp;</div>
+        <div w3-include-html="/assets/componentes/footer.html"></div>
         <script src="/assets/scripts/videos_inicio/videosDisplay.js"></script>
         <script src="/assets/scripts/agradecimientos.js"></script>
-        <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+        <!--script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script-->
+         <script>includeHTML();</script>
     </body>
 </html>

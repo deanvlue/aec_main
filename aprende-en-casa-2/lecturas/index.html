@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Lecturas</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+
+        <!-- Favicons
+        ================================================== -->
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!--- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+
+        <!-- CSS
+        ================================================== -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+        <link href="/assets/styles/aec.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="assets/css/aec_lecturas.css">
+
+        <script src="/assets/scripts/includehtml.js"></script>
+
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div w3-include-html="header.html"></div>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+            <!--<div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarMainCollapse">
+                <span class="sr-only">Interruptor de Navegación</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.gob.mx/">
+                <img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" width="128" height="48" alt="Página de inicio, Gobierno de México">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarMainCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.gob.mx/tramites">Trámites</a></li>
+                <li><a href="https://www.gob.mx/gobierno">Gobierno</a></li>
+                <li><a href="https://www.gob.mx/busqueda"><span class="sr-only">Búsqueda</span><i class="icon-search"></i></a>
+                </li>
+                </ul>
+            </div>-->
+            </div>
+        </nav>
+        </header>
+          
+        <nav class="navbar navbar-inverse sub-navbar navbar-fixed-top"> 
+            <div class="container">
+                <div class="navbar-header">
+                    <!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces"-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces" aria-expanded="false">
+                        <span class="sr-only">Interruptor de Navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="/"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="subenlaces">
+                    <!--div id="subenlaces"-->
+                    <ul class="nav navbar-nav navbar-right"></ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="app" class="container" style="margin-top: 75px;padding-left: 0;padding-right: 0;">
+
+            <nav class="navbar aec" style="margin-top: -1px;">
+                <div class="row">
+                  <div class="col-sm-9">
+                    <ol class="breadcrumb aec">
+                      <li><a href="https://www.gob.mx/aefcm"><span class="glyphicon glyphicon-home"></span></a></li>
+                      <li><a href="/aprende-en-casa-2/index.html">Inicio</a></li>
+                      <li><a href="/aprende-en-casa-2/index.html">Aprende en Casa</a></li>
+                      <li><a href="/aprende-en-casa-2/acceso.html">Acceso</a></li>
+                      <li><a href="/aprende-en-casa-2/niveles/index.html">Niveles</a></li>
+                      <li class="active">Lecturas</li>
+                    </ol>
+                  </div>
+                  <div class="col-sm-3 visible-md visible-lg">
+                    <img class="img-responsive  navbar-logo" src="/assets/images/logo_aprende@2x.svg" alt="">
+                  </div>
+                </div>
+            </nav>
+
+
+            <div class="row">
+                <div class="col-sm-12" style="margin-top: -12px;">
+                    <img src="/assets/images/lecturas/banner.png" style="max-width: 1400px;width: 100%;height: auto;" alt="Banner">
+                </div>
+            </div>
+            <div class="row header-text">
+                <div class="col-sm-12">
+                    <h1 class="text-left">Lecturas</h1>
+                    <p style="font-size: 16px;">Se sugiere que realices una lectura diaria, que podrás seleccionar entre el catálogo de lecturas disponibles en esta sección. Después de leer, es importante que con el apoyo de tus papás elaboren al menos 3 preguntas generales de lo que leíste y las contestes. Esta actividad te permitirá mejorar tu comprensión lectora.</p>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 23px;">
+                <div class="col-sm-12">
+                    <h3 class="text-left" style="font-size: 24px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.33;letter-spacing: normal;color: #01a2aa !important;">Selecciona una opción</h3 >
+                </div>
+            </div>
+
+            <tabs>
+
+                <tab v-for="section in sections" :name="section.name" :selected="section.is_active" :external-link="section.externalLink" :img="path_images+section.image"><!---->
+                    <div class="row form" v-if="section.has_filters">
+                        <div class="col-sm-6 search-container" style="padding-left: 0;">
+                            <div class="form-group has-search">
+                                <span class="fa fa-search form-control-feedback"></span>
+                                <input type="text" v-model="search" class="form-control" placeholder="Buscar libros">
+                            </div>
+                        </div>
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-3 filter-btn" style="text-align: right;padding-right: 0;">
+                            <button class="btn btn-lg btn-default" @click="showFilters = !showFilters">
+                                <img src="/assets/images/lecturas/icon-filter.svg"> Filtrar categorías
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row filters-container" v-show="showFilters">
+                        <div class="col-sm-12" style="margin-bottom: 0px;border: 1px solid #ecebed;border-radius: 4px;text-align: center;padding: 20px;">
+                            <p id="filters">
+                                <label><input type="checkbox" @change="setOptions" name="filter" value="Todos" v-model="checkedCategories"><span>Todos</span></label>
+                                <label v-for="category in categories"><input type="checkbox" @change="setOptions" name="filter" :value="category" v-model="checkedCategories"><span>{{ category }}</span></label>
+                              </p>
+                              <!--<p>{{ checkedCategories }}</p>-->
+                              <div style="float: right;position: relative;">
+                                <button class="btn btn-primary" @click="showFilters = false">Cerrar</button>
+                              </div>
+                        </div>
+                    </div>
+
+                    <div v-if="section.name == 'PDF'">
+                        <div v-for="pdf in pdfs">
+                            <p class="category-title">{{ pdf.name }}</p>
+
+                            <div class="tabs-container" style="margin-bottom: 0;">
+                                <div class="row cards-container">
+                                    <div v-for="book in pdf.books" :class="'card '">
+                                        <div class="card-image">
+                                            <img :src="path_images+level+'/'+slug(book.name,'_')+'.png'" :alt="book.name">
+                                        </div>
+                                        <div class="card-text">
+                                            <p>{{ book.name }}</p>
+                                        </div>
+                                        <div class="card-tools">
+                                            <div class="tool">
+                                            <div>
+                                                <a :href="book.link ? book.link : '#'" :target="book.link ? '_blank' : ''" class="btn btn-primary">Leer</a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div v-if="section.name == 'Lecturas Unicef'">
+                        <p class="category-title">{{ categoryTitle }}</p>
+                    
+                        <div class="tabs-container">
+                            <div class="row cards-container">
+
+                                <!--<paginate
+                                name="books"
+                                :list="books"
+                                :per="1"
+                                >
+                                <div v-for="category in paginated('books')">
+                                    
+                                    {{ category.name }}
+
+                                    <div v-for="book in category.books" :class="'card ' + slug(category.name,'-')">
+                                        <div class="card-image">
+                                            <img :src="path_images+slug(category.name,'_')+'/'+slug(book.name,'_')+'.png'" :alt="book.name">
+                                        </div>
+                                        <div class="card-text">
+                                            <p>{{ book.name }}</p>
+                                        </div>
+                                        <div class="card-tools">
+                                            <div class="tool">
+                                            <div>
+                                                <a :href="book.link ? book.link : '#'" :target="book.link ? '_blank' : ''" class="btn btn-primary">Leer</a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    </div>
+                                </paginate>
+
+                                <paginate-links for="books"></paginate-links>
+                                <paginate-links for="books" :show-step-links="true"></paginate-links>
+                                <paginate-links for="books" :limit="2" :show-step-links="true"></paginate-links>
+                                <paginate-links for="books" :simple="{
+                                        next: 'Next »',
+                                        prev: '« Back'
+                                    }"></paginate-links>-->
+
+                                <div v-for="category in books">
+                                    <div v-for="book in category.books" :class="'card ' + slug(category.name,'-')">
+                                        <div class="card-image">
+                                            <img :src="path_images+slug(category.name,'_')+'/'+slug(book.name,'_')+'.png'" :alt="book.name">
+                                        </div>
+                                        <div class="card-text">
+                                            <p>{{ book.name }}</p>
+                                        </div>
+                                        <div class="card-tools">
+                                            <div class="tool">
+                                            <div>
+                                                <a :href="book.link ? book.link : '#'" :target="book.link ? '_blank' : ''" class="btn btn-primary">Leer</a>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--     Loop through the pages array to display each page number       -->
+                        <!--<div class="clearfix btn-group col-md-2 offset-md-5">
+                            <button type="button" class="btn btn-sm btn-outline-secondary" v-if="page != 1" @click="page--"> << </button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" v-for="pageNumber in pages.slice(page-1, page+5)" @click="page = pageNumber"> {{pageNumber}} </button>
+                            <button type="button" @click="page++" v-if="page < pages.length" class="btn btn-sm btn-outline-secondary"> >> </button>
+                        </div>-->
+
+                    </div>
+
+                    <div v-if="section.name == 'Audiolibros'">
+
+                        <p class="category-title">Audiolibros</p>
+                                        
+                        <div class="tabs-container">
+                            <div id="audiolibros-container" class="row cards-container">
+
+                                <div v-for="audiobook in audiobooks" class="card2">
+                                    <div class="card2-text">
+                                        <p>{{ audiobook.name }}</p>
+                                    </div>
+                                    <div class="card2-image">
+                                        <img :src="audiobook.image" alt="">
+                                    </div>
+                                    <div class="card2-audio">
+                                        <div class="audio">
+                                        <div>
+                                            <audio controls>
+                                                <source :src="audiobook.link" type="audio/mpeg">                                       
+                                                Tu navegador no es compatible con el elemento de audio.
+                                            </audio>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </tab>
+            
+            </tabs>
+
+            <!--<paginate
+            name="books"
+            :list="books"
+            :per="1"
+            >
+            <div v-for="category in paginated('books')">
+                
+                {{ category.name }}
+
+                <div v-for="book in category.books" :class="'card ' + slug(category.name,'-')">
+                    <div class="card-image">
+                        <img :src="path_images+slug(category.name,'_')+'/'+slug(book.name,'_')+'.png'" :alt="book.name">
+                    </div>
+                    <div class="card-text">
+                        <p>{{ book.name }}</p>
+                    </div>
+                    <div class="card-tools">
+                        <div class="tool">
+                        <div>
+                            <a :href="book.link ? book.link : '#'" :target="book.link ? '_blank' : ''" class="btn btn-primary">Leer</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </paginate>-->
+
+            <!--<paginate-links for="books"></paginate-links>
+            <paginate-links for="books" :show-step-links="true"></paginate-links>
+            <paginate-links for="books" :limit="2" :show-step-links="true"></paginate-links>
+            <paginate-links for="books" :simple="{
+                    next: 'Next »',
+                    prev: '« Back'
+                }"></paginate-links>-->
+
+        </div>          
+        
+        <footer class="main-footer"><div class="list-info"><div class="container"><div class="row"><div class="col-sm-3"><img data-v-9e928f9a="" src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" href="/" alt="logo gobierno de méxico" class="logo_footer" style="max-width: 90%;"></div><div class="col-sm-3"><h5>Enlaces</h5><ul><li><a href="https://participa.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Participa</a></li><li><a href="https://www.gob.mx/publicaciones" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Publicaciones Oficiales</a></li><li><a href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Marco Jurídico</a></li><li><a href="https://consultapublicamx.inai.org.mx/vut-web/" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Plataforma Nacional de Transparencia</a></li></ul></div><div class="col-sm-3"><h5>¿Qué es gob.mx?</h5><p>Es el portal único de trámites, información y participación ciudadana. <a href="https://www.gob.mx/que-es-gobmx">Leer más</a></p><ul><li><a href="https://datos.gob.mx">Portal de datos abiertos</a></li><li><a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a></li><li><a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a></li><li><a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a></li><li><a href="https://www.gob.mx/terminos">Términos y Condiciones</a></li><li><a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a></li><li><a href="https://www.gob.mx/sitemap">Mapa de sitio</a></li></ul></div><div class="col-sm-3"><h5><a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia contra servidores públicos</a></h5><h5>Síguenos en</h5><ul class="list-inline"><li><a class="social-icon facebook" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://www.facebook.com/gobmexico" aria-label="Facebook de presidencia"></a></li><li><a class="social-icon twitter" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://twitter.com/GobiernoMX" aria-label="Twitter de presidencia"></a></li></ul></div></div></div></div><div class="container-fluid footer-pleca"><div class="row"><div class="col"><br><br></div></div></div></footer>
+
+        <!--<script src='/assets/scripts/vendor/vue@2.6.11/vue.js'></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>-->
+
+        <script src="https://unpkg.com/vue"></script>
+        <!--<script src="/node_modules/vue/dist/vue.js"></script>-->
+        <!--<script src="/node_modules/axios/dist/axios.min.js"></script>
+        <script src="/node_modules/vuejs-uib-pagination/dist/vuejs-uib-pagination.js"></script>-->
+        <script src="/node_modules/vue-paginate/dist/vue-paginate.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.1/moment-with-locales.min.js" integrity="sha256-tYxbRsX9g9rCkoqG99Bnze2SRAs2A14gAtMIsaz2SP8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
+        
+        <!--<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>-->
+
+        <script>
+          moment.locale('es', {
+            weekdays : 'Domingo_Lunes_Martes_Miércoles_Jueves_Viernes_Sábado'.split('_'),
+            longDateFormat : {
+                LT : 'HH:mm',
+                LTS : 'HH:mm:ss',
+                L : 'DD/MM/YYYY',
+                LL : 'D MMMM YYYY',
+                LLL : 'D MMMM YYYY HH:mm',
+                LLLL : 'dddd, D [de] MMMM'
+            }
+          });
+
+          var getParams = function (url) {
+            var params = {}
+            var parser = document.createElement('a');
+            parser.href = url;
+            var query = parser.search.substring(1);
+            var vars = query.split('&');
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split('=');
+                params[pair[0]] = decodeURIComponent(pair[1]);
+            }
+            return params;
+          };
+
+          var slug = function(str, separetor = '-') {
+              str = str.replace(/^\s+|\s+$/g, '');
+              str = str.toLowerCase();
+
+              // remove accents, swap ñ for n, etc
+              var from = "ãàáäâẽèéëêìíïîõòóöôùúüûñç·/_,:;";
+              var to   = "aaaaaeeeeeiiiiooooouuuunc------";
+              for (var i=0, l=from.length ; i<l ; i++) {
+                str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+              }
+
+              str = str.replace(/[^a-z0-9 -]/g, '')
+                .replace(/\s+/g, separetor)
+                .replace(/-+/g, separetor)
+                .replace("__", "_")
+                .replace("___", "_");
+
+              return str;
+          };
+
+          Vue.component("tabs", {
+              template: `
+                    <div>
+                        <div class="tabs">
+                          <div v-for="tab in tabs" class="tab col-sm-2" align="center" @click="hideFilters"> 
+                            <a :href="tab.href" :target="tab.externalLink ? '_blank' : ''" @click="selectTab(tab)">
+                                <img :src="tab.img" :class="{ 'is-active': tab.isActive }" width="100%" height="100px" :alt="tab.name" />
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="tabs-details">
+                            <slot></slot>
+                        </div>
+                    </div>
+                `,
+
+              data() {
+                return { tabs: [] };
+              },
+
+              created() {
+                this.tabs = this.$children;
+              },
+              methods: {
+                selectTab(selectedTab) {
+                  this.tabs.forEach((tab) => {
+                    tab.isActive = tab.name == selectedTab.name;
+                  });
+                },
+                hideFilters() {
+                    this.$parent.showFilters = false;
+                }
+              }
+          });
+
+          Vue.component("tab", {
+              template: `
+
+                    <div v-show="isActive"><slot></slot></div>
+
+                `,
+
+              props: {
+                name: { required: true },
+                img: { required: true },
+                selected: { default: false },
+                externalLink: { default: '' }
+              },
+
+              data() {
+                return {
+                  isActive: false
+                };
+              },
+
+              computed: {
+                href() {
+                    if(this.externalLink != "") {
+                        return this.externalLink;
+                    } else {
+                        return "#" + this.name.toLowerCase().replace(/ /g, "-");
+                    }
+                }
+              },
+
+              mounted() {
+                this.isActive = this.selected;
+              }
+          });
+
+            var app = new Vue({
+                    el: '#app',
+                    data: {
+                    search: '',
+                    filter: '',
+                    url: window.location.origin,
+                    params: getParams(window.location.href),
+                    level: "",
+                    path_images: "/assets/images/lecturas/",
+                    sections: [],
+                    filteredBooks: [],
+                    categoryTitle: "Libros",
+                    showFilters: false,
+                    checkedCategories: [],
+                    books: [],
+                    baseUrl: 'https://jsonplaceholder.typicode.com/',
+                    page: 1,
+                    perPage: 2,
+                    pages: [],
+                    langs: ['JavaScript', 'PHP', 'HTML', 'CSS', 'Ruby', 'Python', 'Erlang'],
+                    paginate: ['books'],
+                    audiobooks: [],
+                    categories: [],
+                    allbooks: [],
+                    pdfs: [],
+                },
+                methods: {
+                    slug: function(str, separetor = '-'){
+                        str = str.replace(/^\s+|\s+$/g, '');
+                        str = str.toLowerCase();
+
+                        // remove accents, swap ñ for n, etc
+                        var from = "ãàáäâẽèéëêìíïîõòóöôùúüûñç·/_,:;";
+                        var to   = "aaaaaeeeeeiiiiooooouuuunc------";
+                        for (var i=0, l=from.length ; i<l ; i++) {
+                            str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+                        }
+
+                        str = str.replace(/[^a-z0-9 -]/g, '')
+                            .replace(/\s+/g, separetor)
+                            .replace(/-+/g, separetor)
+                            .replace("__", "_")
+                            .replace("___", "_");
+
+                        return str;
+                    },
+                    addBook(book){
+                        if(typeof book === 'undefined') {return};
+
+                        this.filteredBooks.push(book);
+                    },
+                    setOptions (e) {
+
+                        this.checkedCategories = [e.target.value];
+
+                        this.filterbooksBy(e);
+
+                    },
+                    filterbooksBy (category) {
+
+                        if(category.target.value === "Todos" || category.target.checked === false){ this.showAllBooks(); this.categoryTitle == "Libros"; return; }
+
+                        var filteredBooks = _.find(this.allbooks, function(book){ return book.name == category.target.value ; });
+
+                        console.log("Category: " + category.target.value);
+                        console.log([filteredBooks]);
+
+                        if (typeof filteredBooks === 'undefined'){return}
+
+                        this.books = [filteredBooks];
+                        this.categoryTitle = category.target.value;
+
+                    },
+                    searchBooks (search) {
+
+                        findedBooks = [];
+                        searchedBooks = [];
+
+                        $.each(this.allbooks, function(index, category){
+                            //console.log(category.name);
+
+                            findedBooks = category.books.filter(book => {
+                                return book.name.toLowerCase().includes(search.toLowerCase());
+                            })
+
+                            if(findedBooks.length == ""){
+                                
+                            }else{
+                                searchedBooks.push(findedBooks);
+                            }
+
+                            //console.log(searchedBooks);
+                        });
+
+                        $.each(searchedBooks, function(index, books){
+                            console.log(books);
+                        })
+                        
+
+                        console.log(searchedBooks);
+                        /*var searchBooks = this.books.filter(book => {
+                            return book.name.toLowerCase().includes(search.toLowerCase());
+                        })*/
+
+                        //console.log("search books:" + searchBooks);
+                    },
+                    showAllBooks() {
+                        this.books = this.allbooks;
+                    },
+                    getBooks () {
+
+                            fetch(this.url + '/assets/scripts/lecturas/lecturas_'+slug(this.level)+'.json')
+                                .then(response => response.json())
+                                .then(json => {
+                                    this.sections = json;
+                                    //this.books = this.sections[1].books;
+                                    var _self = this;
+
+                                    this.audiobooks = _.findWhere(this.sections, {name: 'Audiolibros'}).audiobooks;
+                                    
+                                    var lecturasPDF = _.findWhere(this.sections, {name: 'PDF'}).books;
+                                    this.pdfs = _.map(lecturasPDF, function(books, key){
+                                        return { name : key, books : books };
+                                    });
+
+                                    var lecturaUnicef = _.findWhere(this.sections, {name: 'Lecturas Unicef'}).books;
+                                    this.books = _.map(lecturaUnicef, function(value, key){
+                                        return { name : key, books : value };
+                                    });
+
+                                    this.allbooks = this.books;
+
+                                    this.categories = _.pluck(this.books, "name");
+                                })
+
+                    },
+                    setBooks () {
+                        let numberOfPages = Math.ceil(this.books.length / this.perPage);
+                        for (let index = 1; index <= numberOfPages; index++) {
+                            this.pages.push(index);
+                        }
+                    },
+                    paginate (books) {
+                        let page = this.page;
+                        let perPage = this.perPage;
+                        let from = (page * perPage) - perPage;
+                        let to = (page * perPage);
+                        return  books.slice(from, to);
+                    }
+                },
+                created() {
+                    
+                    var param = this.params.nivel;
+
+                    if(typeof param === 'undefined' || param == "") {$("#app").html("");return}
+
+                    this.level = param;
+
+                    this.getBooks();
+
+                },
+                watch: {
+                    books () {
+                        //this.setPages();
+                    }
+                },
+                computed: {
+                    searchBooks() {
+                        /*return this.books.filter(book => {
+                            //if(filter == "title"){
+                                return book.name.toLowerCase().includes(this.search.toLowerCase());
+                            //}
+                            //if(filter == "category"){
+                            //    return book.category.toLowerCase().includes(this.search.toLowerCase());
+                            //}
+                        })*/
+                    },
+                    displayedBooks () {
+                        return this.paginate(this.books);
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>

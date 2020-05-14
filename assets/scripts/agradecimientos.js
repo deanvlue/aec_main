@@ -1,23 +1,23 @@
 const urlPath = '/assets/images/btn/agradecimiento/brands/';
 
 const brands = [
-    'gobierno.png',
-    'fundacion.png',
-    'google.png',
+  'gobierno.png',
+  'fundacion.png',
+  'google.png',
   'microsoft.png',
-    'facebook.png',
-    'unicef.png',
+  'facebook.png',
+  'unicef.png',
   'televisa.png',
   'Movistar.png',
-    'ine.png',
+  'ine.png',
   'radio.png',
   'mide.png',
   'papalote.png',
   'plazasesamo.png',
-  'blank.png',
+  'science_bits.png',
   'stc.png',
-    'uam.png',
-    'fundacion_aprende.png',
+  'uam.png',
+  'fundacion_aprende.png',
 ];
 
 
@@ -62,26 +62,26 @@ inner.setAttribute("role", "listbox");
 let chunk = 3;
 let tempA = [];
 for (let i = 0, j = brands.length; i < j; i += chunk) {
-    tempA = brands.slice(i, i + chunk);
-    let item = document.createElement('div');
+  tempA = brands.slice(i, i + chunk);
+  let item = document.createElement('div');
   item.classList.add('item');
   item.classList.add('text-center');
-    if (i === 0) {
-        item.classList.add('active');
-    }
+  if (i === 0) {
+    item.classList.add('active');
+  }
 
-    tempA.forEach((b) => {
-        let imgItem = document.createElement('img');
-        imgItem.src = urlPath + b;
-        imgItem.alt = b;
-        imgItem.classList.add('img-fluid');
-        imgItem.classList.add('agradecimientos');
-        item.appendChild(imgItem);
-    });
+  tempA.forEach((b) => {
+    let imgItem = document.createElement('img');
+    imgItem.src = urlPath + b;
+    imgItem.alt = b;
+    imgItem.classList.add('img-fluid');
+    imgItem.classList.add('agradecimientos');
+    item.appendChild(imgItem);
+  });
 
-    inner.appendChild(item);
+  inner.appendChild(item);
 
-    // console.log(tempA);
+  // console.log(tempA);
 }
 
 

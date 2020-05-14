@@ -1,0 +1,59 @@
+{
+  "btnLinks": {
+    "google": "https://edu.google.com",
+    "microsoft": "https://teams.microsoft.com"
+  },
+  "videos": {
+    "google": [
+      {
+        "titulo": "Curso completo de Google Classroom 2020",
+        "poster": "https://placeimg.com/600/300/architecture",
+        "src": "https://www.youtube.com/embed/playlist?list=PLclJ8nSI2c7KrzlQ3kkHARAvyWgFe9g1v"
+      },
+      {
+        "titulo": "Introducción a mi cuenta G Suite para la Educación - CDMX",
+        "poster": "",
+        "src": "https://www.youtube.com/embed/mFnjGYGL_zg"
+      },
+      {
+        "id": 5,
+        "img": "https: //placeimg.com/350/200/any",
+        "titulo": "Tutorial Google Meet para docentes",
+        "src": "https: //www.youtube.com/embed/9vpxVSh9tiI"
+      }
+    ],
+    "microsoft": [
+      {
+        "id": 1,
+        "titulo": "Curso completo de Microsoft Teams",
+        "poster": "https://placeimg.com/600/300/architecture",
+        "src": "https://www.youtube.com/embed/u29ZrNRi3GU"
+      },
+      {
+        "id": 2,
+        "img": "https: //placeimg.com/350/200/any",
+        "titulo": "Primeros pasos con Microsoft Teams.",
+        "src": "https: //www.youtube.com/embed/XcIiVZ84_LI"
+      }
+    ]
+  },
+  "links": {
+    "google": [
+      {
+        "nombre": "Aprende la plataforma",
+        "URL": "https://edu.google.com"
+      },
+      {
+        "nombre": "Curso completo",
+        "URL": "https://www.youtube.com/playlist?list=PLclJ8nSI2c7KrzlQ3kkHARAvyWgFe9g1v"
+      }
+    ],
+    "microsoft": [
+      {
+        "nombre": "Turotial básico Microsoft Teams",
+        "URL": "https://blog.aitana.es/2019/01/08/tutorial-basico-microsoft-teams/"
+      }
+    ]
+  },
+  "descripcion": "Esta es una descripcion genérica"
+}

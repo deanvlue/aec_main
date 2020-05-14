@@ -1,0 +1,47 @@
+[
+  {
+    "periodo": "Mayo-Junio",
+    "actividades": [
+      {
+        "actividad": "Estrategias de evaluación para el aprendizaje a distancia",
+        "poblacionBeneficiada": "Figuras Educativas",
+        "fecha": "Mayo-06"
+      },
+      {
+        "actividad": "¿Cómo involucrar a los padres de familila en el aprendizaje a distancia?",
+        "poblacionBeneficiada": "Figuras Educativas y padres de familia",
+        "fecha": "Mayo-13"
+      },
+      {
+        "actividad": "Enriquece el aprendizaje con YouTube",
+        "poblacionBeneficiada": "Figuras Educativas",
+        "fecha": "Mayo-20"
+      },
+      {
+        "actividad": "1a Asesoría y apoyo: sesión de preguntas y respuestas",
+        "poblacionBeneficiada": "Figuras Educativas",
+        "fecha": "Mayo-27"
+      },
+      {
+        "actividad": "Aprendizaje a distancia para los más pequeños",
+        "poblacionBeneficiada": "Figuras Educativas",
+        "fecha": "Junio-03"
+      },
+      {
+        "actividad": "Organización de actividades y administración del tiempo",
+        "poblacionBeneficiada": "Figuras Educativas",
+        "fecha": "Junio-10"
+      },
+      {
+        "actividad": "EduTubers: sé parte de la era digital",
+        "poblacionBeneficiada": "Figuras Educativas y estudiantes",
+        "fecha": "Junio-17"
+      },
+      {
+        "actividad": "Sé Genial en Internet: uso seguro y responsable de Internet",
+        "poblacionBeneficiada": "Padres de familia, estudiantes y docentes",
+        "fecha": "Junio-24"
+      }
+    ]
+  }
+]

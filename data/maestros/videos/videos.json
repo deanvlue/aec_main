@@ -1,0 +1,20 @@
+     [
+      {
+              "id": 1,
+              "img":"https: //www.mide.org.mx/wp-content/uploads/2019/02/Laboratorio-de-emprendedores.png",
+              "descripcion": "Laboratorio de emprendedores. Actividades, juegos y recursos para el aula. (Primaria alta, 4° a 6°, y secundaria. Manual para el maestro)",
+              "src": "https://www.mide.org.mx/wp-content/uploads/2019/02/Laboratorio-de-emprendedores-final.pdf"
+      },
+      {
+              "id": 2,
+              "img":"https: //www.mide.org.mx/wp-content/uploads/2020/01/Captura-de-Pantalla-2020-01-07-a-las-10.54.22.png",
+              "descripcion": "Con timón, brújula y mapa descubre dónde está la plata. (Primaria. Manual para el maestro)",
+              "src": "https://www.mide.org.mx/wp-content/uploads/2019/02/La-liga-fantástica.pdf"
+      },
+      {
+              "id": 3,
+              "img":"https: //www.mide.org.mx/wp-content/uploads/2019/02/El-superpoder-del-trabajo.png",
+              "descripcion": "Superhéroes de las finanzas. La liga fantástica. (Secundaria. Manual para el maestro)",
+              "src": "https://www.mide.org.mx/wp-content/uploads/2019/02/Con-timón-y-brújula-y-mapa.pdf"
+      }
+    ]

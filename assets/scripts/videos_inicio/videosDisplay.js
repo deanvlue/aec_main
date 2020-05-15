@@ -1,5 +1,4 @@
-const vLinks = [
-    {
+const vLinks = [{
         id: "1",
         titulo: "Un millón de estrellas",
         url: "https://www.aprendeencasa.mx/assets/videos/IXTZULsensibilizacion.mp4"

@@ -219,11 +219,11 @@ input[type="text"]::placeholder {
 .category-title{font-size: 24px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.33;letter-spacing: normal;color: #2c374b !important;margin-top: 15px;padding-bottom: 15px;border-bottom: 1px solid #01a2aa;}
 
 /* Filters */
-#filters input[type="checkbox"] {
+.filters input[type="checkbox"] {
     display: none;
 }
 
-#filters span {
+.filters span {
     display: inline-block;
     padding: 15px;
     border: 1px solid #ecebed;
@@ -235,12 +235,12 @@ input[type="text"]::placeholder {
     cursor: pointer;
 }
 
-#filters input[type="checkbox"]:checked + span {
+.filters input[type="checkbox"]:checked + span {
     background-color: #01a2aa;
     color: #fafdfe;
 }
 
-#filters label {
+.filters label {
     margin-bottom: 20px;
     margin-right: 20px;
 }
@@ -325,7 +325,6 @@ input[type="text"]::placeholder {
     .tabs-container .sub{padding:20px}
     .tabs-details {padding-top: 22px;} 
     .tabs .tab {margin-bottom: 10px;padding-right: 0;}
-    #experiences .topics{padding-left: 0;padding-right: 0}
     .text-center{margin: 15px 0 20px 0;}
     .category-title {text-align: left;margin-left: 20px;}
     .form{margin-bottom: 30px;}

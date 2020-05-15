@@ -1,23 +1,30 @@
-     [
-      {
-              "id": 1,
-              "img":"https: //www.mide.org.mx/wp-content/uploads/2019/02/Laboratorio-de-emprendedores.png",
-              "titulo": "Laboratorio de emprendedores. Actividades, juegos y recursos para el aula. (Primaria alta, 4° a 6°, y secundaria. Manual para el maestro)",
-              "resumen": "Ayuda al alumno en la identificación de sus actitudes, aptitudes, cualidades y habilidades, con la finalidad de que se reconozca como un ser útil en la sociedad. Lo orienta en la resolución de problemas y lo guía para realizar planes de acción de alguna meta que se proponga",
-              "fuente": "https://www.mide.org.mx/wp-content/uploads/2019/02/Laboratorio-de-emprendedores-final.pdf"
-      },
-      {
-              "id": 2,
-              "img":"https: //www.mide.org.mx/wp-content/uploads/2020/01/Captura-de-Pantalla-2020-01-07-a-las-10.54.22.png",
-              "titulo": "Con timón, brújula y mapa descubre dónde está la plata. (Primaria. Manual para el maestro)",
-              "resumen": "Comprender la importancia de establecer prioridades para tomar decisiones que les permitan obtener el mayor beneficio de sus recursos...",
-              "fuente": "https://www.mide.org.mx/wp-content/uploads/2019/02/La-liga-fantástica.pdf"
-      },
-      {
-              "id": 3,
-              "img":"https: //www.mide.org.mx/wp-content/uploads/2019/02/El-superpoder-del-trabajo.png",
-              "titulo": "Superhéroes de las finanzas. La liga fantástica. (Secundaria. Manual para el maestro)",
-              "resumen": "Reconocer algunas características individuales que pueden apoyar la obtención de ingresos.",
-              "fuente": "https://www.mide.org.mx/wp-content/uploads/2019/02/Con-timón-y-brújula-y-mapa.pdf"
-      }
-    ]
+[
+        {
+                "id": 1,
+                "img": "https://www.mide.org.mx/wp-content/uploads/2019/02/Laboratorio-de-emprendedores.png",
+                "titulo": "Laboratorio de emprendedores. Actividades, juegos y recursos para el aula. (Primaria alta, 4° a 6°, y secundaria. Manual para el maestro)",
+                "resumen": "Ayuda al alumno en la identificación de sus actitudes, aptitudes, cualidades y habilidades, con la finalidad de que se reconozca como un ser útil en la sociedad. Lo orienta en la resolución de problemas y lo guía para realizar planes de acción de alguna meta que se proponga",
+                "fuente": "https://www.mide.org.mx/wp-content/uploads/2019/02/Laboratorio-de-emprendedores-final.pdf"
+        },
+        {
+                "id": 2,
+                "img": "https://www.mide.org.mx/wp-content/uploads/2020/01/Captura-de-Pantalla-2020-01-07-a-las-10.54.22.png",
+                "titulo": "Con timón, brújula y mapa descubre dónde está la plata. (Primaria. Manual para el maestro)",
+                "resumen": "Comprender la importancia de establecer prioridades para tomar decisiones que les permitan obtener el mayor beneficio de sus recursos...",
+                "fuente": "https://www.mide.org.mx/wp-content/uploads/2019/02/La-liga-fantástica.pdf"
+        },
+        {
+                "id": 3,
+                "img": "https://www.mide.org.mx/wp-content/uploads/2019/02/El-superpoder-del-trabajo.png",
+                "titulo": "Superhéroes de las finanzas. La liga fantástica. (Secundaria. Manual para el maestro)",
+                "resumen": "Reconocer algunas características individuales que pueden apoyar la obtención de ingresos.",
+                "fuente": "https://www.mide.org.mx/wp-content/uploads/2019/02/Con-timón-y-brújula-y-mapa.pdf"
+        },
+        {
+                "id": 4,
+                "img": "https://www.aprendeencasa.mx/assets/images/maestros/lecturas/anual_google_classroom.png",
+                "titulo": "Google Classroom en la enseñanza Manual sobre las funciones básicas y mejores prácticas de uso",
+                "resumen": "Manual sobre las funciones básicas y mejores prácticas de uso",
+                "fuente": "https://www.academia.edu/32669719/Google_Classroom_en_la_ense%C3%B1anza_Manual_sobre_las_funciones_b%C3%A1sicas_y_mejores_pr%C3%A1cticas_de_uso"
+        }
+]

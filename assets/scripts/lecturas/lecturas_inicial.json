@@ -2,27 +2,26 @@
     {
         "name": "Audiolibros",
         "image": "audiolibros.svg",
-        "is_active": true,
-        "has_filters": false,
+        "active": true,
         "audiobooks": [
             {
-                "name": "Audiolibro Habi, de Guillermo Samperio",
+                "title": "Audiolibro Habi, de Guillermo Samperio",
                 "image": "/assets/images/lecturas/audiolibros/audiolibro1.jpg",
                 "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/audio-libros/Audiolibro%20Habi,%20de%20Guillermo%20Samperio%20.mp3"
             },{
-                "name": "Audiolibro La Conquista, de Miguel León Portilla",
+                "title": "Audiolibro La Conquista, de Miguel León Portilla",
                 "image": "/assets/images/lecturas/audiolibros/audiolibro2.jpg",
                 "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/audio-libros/Audiolibro%20La%20Conquista,%20de%20Miguel%20Leon%20Portilla.mp3"
             },{
-                "name": "Audiolibro La vendedora de nubes, de Elena Poniatowska",
+                "title": "Audiolibro La vendedora de nubes, de Elena Poniatowska",
                 "image": "/assets/images/lecturas/audiolibros/audiolibro3.jpg",
                 "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/audio-libros/Audiolibro%20La%20vendedora%20de%20nubes,%20de%20Elena%20Poniatowska.mp3"
             },{
-                "name": "Audiolibro Mi vida con la Ola, de Octavio Paz",
+                "title": "Audiolibro Mi vida con la Ola, de Octavio Paz",
                 "image": "/assets/images/lecturas/audiolibros/audiolibro4.jpg",
                 "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/audio-libros/Audiolibro%20Mi%20vida%20con%20la%20Ola,%20de%20Octavio%20Paz.mp3"
             },{
-                "name": "Audiolibro Yáotl en la tierra de los muertos, de Eduardo Matos",
+                "title": "Audiolibro Yáotl en la tierra de los muertos, de Eduardo Matos",
                 "image": "/assets/images/lecturas/audiolibros/audiolibro5.jpg",
                 "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-preescolar/lecturas/audio-libros/Audiolibro%20Yaotl%20en%20la%20tierra%20de%20los%20muertos,%20de%20Eduardo%20Matos.mp3"
             }
@@ -30,8 +29,7 @@
     },{
         "name": "Audiolibros Amazon",
         "image": "audiolibros_amazon.svg",
-        "is_active": false,
-        "has_filters": false,
+        "active": false,
         "externalLink": "https://stories.audible.com/discovery/enterprise-discovery-21122525011?ref=adbl_ent_anon_ds_ds_pl_2&page=2"
     }
 ]

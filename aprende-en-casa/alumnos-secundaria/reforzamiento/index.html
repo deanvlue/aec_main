@@ -1,119 +1,209 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
- <!-- Para que funcione el js como un include en html -->
+<!-- Para que funcione el js como un include en html -->
 <script src="https://www.aprendeencasa.mx/gbmx/function/includehtml.js"></script>
 <!--Antes de la etiqueta head de cada html -->
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maxinum-scale=1.0, minimum-scale=1.0">
-<meta name="description" content="La SEP a través de la Autoridad Educativa en la Ciudad de México tiene algunos materiales educativos que te servirán como apoyo durante estos días y junto con tu familia y maestr@s te invitamos a revisar la plataforma Aprende en Casa">
-<meta name="keywords" content="AEFCM, Aprende en Casa, Aprende, Casa, Tareas, Aprende en Linea">
-<title>Aprende en Casa</title>
-<link href='https://framework-gb.cdn.gob.mx/favicon.ico' rel='shortcut icon'><meta name="title" content="Aprende en Casa"/>
-<meta name="keywords" content="Aprende en Casa"/>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162114925-1"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
-<script src="/assets/scripts/vendor/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-<script src="/assets/scripts/plugins.js"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-162114925-1');
-</script>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maxinum-scale=1.0, minimum-scale=1.0">
+  <meta name="description"
+    content="La SEP a través de la Autoridad Educativa en la Ciudad de México tiene algunos materiales educativos que te servirán como apoyo durante estos días y junto con tu familia y maestr@s te invitamos a revisar la plataforma Aprende en Casa">
+  <meta name="keywords" content="AEFCM, Aprende en Casa, Aprende, Casa, Tareas, Aprende en Linea">
+  <title>Aprende en Casa</title>
+  <link href='https://framework-gb.cdn.gob.mx/favicon.ico' rel='shortcut icon'>
+  <meta name="title" content="Aprende en Casa" />
+  <meta name="keywords" content="Aprende en Casa" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162114925-1"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
+  <script src="/assets/scripts/vendor/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script src="/assets/scripts/plugins.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-162114925-1');
+  </script>
   <script type="text/javascript" src="../../assets/scripts/vendor/modernizr.js"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700&amp;subset=latin" media="all">	
-	<link href="/assets/styles/aec.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700&amp;subset=latin"
+    media="all">
+  <link href="/assets/styles/aec.css" rel="stylesheet" />
   <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
-  <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">  
+  <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+
 </head>
+
 <body>
-<!-- Es el submenú y estilos adicionales -->
-<div w3-include-html="https://www.aprendeencasa.mx/aprende-en-casa/header/header_gbmx.html"></div> 
-<div class="container">
+  <!-- Es el submenú y estilos adicionales -->
+  <div w3-include-html="https://www.aprendeencasa.mx/aprende-en-casa/header/header_gbmx.html"></div>
+  <div class="container">
     <!-- barra de navegación-->
-      <nav class="navbar aec">
-        <div class="row">
-          <div class="col-sm-9">
-            <ol class="breadcrumb aec">
-              <li><a href="https://www.gob.mx/aefcm"><span class="glyphicon glyphicon-home"></span></a></li>
-              <li><a href="../../index.html">Inicio</a></li>
-              <li><a href="../../index.html">Aprende en Casa</a></li>
-              <li><a href="../../acceso.html">Acceso</a></li>
-              <li><a href="../../niveles/index.html">Niveles</a></li>
-              <li><a href="../../niveles/secundaria/index.html">Educación Secundaria</a></li>
-              <li class="active">Reforzamiento<span id="nivel"></span></li>
-            </ol>
-          </div>
-          <div class="col-sm-3 visible-md visible-lg">
-            <img class="img-responsive  navbar-logo" src="/assets/images/logo_aprende@2x.svg" alt="">
-          </div>
+    <nav class="navbar aec">
+      <div class="row">
+        <div class="col-sm-9">
+          <ol class="breadcrumb aec">
+            <li><a href="https://www.gob.mx/aefcm"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../../index.html">Aprende en Casa</a></li>
+            <li><a href="../../acceso.html">Acceso</a></li>
+            <li><a href="../../niveles/index.html">Niveles</a></li>
+            <li><a href="../../niveles/secundaria/index.html">Educación Secundaria</a></li>
+            <li class="active">Reforzamiento<span id="nivel"></span></li>
+          </ol>
         </div>
-      </nav>
-    
-   <!-- barra de navegación-->
-  <div class="container-fluid">
-    <div class="row">
-      <div>&nbsp;</div>
-      <div class="col-sm-12 col-md-12">
-        <h3 class="text-center"> Reforzamiento del conocimiento<span id="nivel"></span> </h3>
+        <div class="col-sm-3 visible-md visible-lg">
+          <img class="img-responsive  navbar-logo" src="/assets/images/logo_aprende@2x.svg" alt="">
+        </div>
+      </div>
+    </nav>
+
+    <!-- barra de navegación-->
+    <div class="container-fluid">
+      <div class="row">
+        <div>&nbsp;</div>
+        <div class="col-sm-12 col-md-12">
+          <h3 class="text-center"> Reforzamiento del conocimiento<span id="nivel"></span> </h3>
+        </div>
       </div>
     </div>
-  </div>
-<p>&nbsp;</p>    
+    <p>&nbsp;</p>
 
-<div class="row">
+    <div class="row">
       <div class="col-sm-12">
         <hr />
-      	<div class="col-sm-4" align="center"><a href="#ingles" data-toggle="modal"><img src="images/btn-ingles.png" width="202" height="230"/></a></div>
-        <div class="col-sm-4" align="center"><a href="https://pruebat.org/" target="_blank" ><img src="images/btn-pruebat.png" alt="a" width="203" height="230" border="0" /></a></div>
-        <div class="col-sm-4" align="center"><a href="video.html"><img src="images/btm-socrates.png" alt="a" width="203" height="230" border="0" /></a></div>  
-        </div>
-        
-        <div class="col-sm-6" align="center">
-		<a href="https://www.science-bits.com/site/studentlogup.php?lang=es" target="_blank" style="color: rgb(179,51,127); text-decoration:none;">
-			<img src="/assets/images/btn/actividades/reforzamiento/btn-sciencebits.png" alt="a" width="203" height="230" border="0" />
-		<p style="color: rgb(179,51,127);">Utiliza el código:<br/> b41292s3418g5CBEE6</p>
-		</a>
-	
+        <div class="col-sm-4" align="center"><a href="#ingles" data-toggle="modal"><img src="images/btn-ingles.png"
+              width="202" height="230" /></a></div>
+        <div class="col-sm-4" align="center"><a href="https://pruebat.org/" target="_blank"><img
+              src="images/btn-pruebat.png" alt="a" width="203" height="230" border="0" /></a></div>
+        <div class="col-sm-4" align="center"><a href="video.html"><img src="images/btm-socrates.png" alt="a" width="203"
+              height="230" border="0" /></a></div>
+      </div>
 
-	</div>     
-        <div class="col-sm-6" align="center">
-		<a href="steam.html">
-			<img src="images/btm-steam-secundaria.png" alt="a" width="203" height="230" border="0" />
-		</a>
-	</div>     
-        </p>
-        <hr>       
+      <div class="col-sm-6" align="center">
+        <!--a href="https://www.science-bits.com/site/studentlogup.php?lang=es" target="_blank"
+          style="color: rgb(179,51,127); text-decoration:none;"-->
+        <a href="#science-bits" data-toggle="modal">
+          <img src="/assets/images/btn/actividades/reforzamiento/btn-sciencebits.png" alt="a" width="203" height="230"
+            border="0" />
+        </a>
+        </a>
       </div>
+      <div class="col-sm-6" align="center">
+        <a href="steam.html">
+          <img src="images/btm-steam-secundaria.png" alt="a" width="203" height="230" border="0" />
+        </a>
       </div>
-      <div><br />
-    </div></div>
-    <p>&nbsp;</p>    
-    <div id="ingles" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+      </p>
+      <hr>
+    </div>
+  </div>
+  <div><br />
+  </div>
+  </div>
+  <p>&nbsp;</p>
+  <div id="ingles" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
     <div class="modal-dialog modal-md">
       <div class="modal-content">
         <div class="modal-header">
-			
-		  <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h5 class="modal-title">Inglés</h5>
-		</div> 
-			<!-- Contenido de la ventana -->
-
-			<div class="modal-body">
-            <p><a href="archivos/Bloque2_Ciclo4_Secundaria.pdf" target="_blank">Bloque 2 Ciclo 4 SECUNDARIA</a></p>
-<p>&nbsp;</p>
+          <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h5 class="modal-title">Inglés</h5>
         </div>
-	  </div> 
-	</div>
-</div>    
-    
-<script src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/pace.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script> w3IncludeHTML(); </script>
+        <!-- Contenido de la ventana -->
+
+        <div class="modal-body">
+          <p><a href="archivos/Bloque2_Ciclo4_Secundaria.pdf" target="_blank">Bloque 2 Ciclo 4 SECUNDARIA</a></p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--modal bits-->
+  <div id="science-bits" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4>¿Cómo registrase?</h4>
+        </div>
+        <!-- Contenido de la ventana -->
+
+        <div class="modal-body">
+          <ol>
+            <li> Visite el sitio: <a
+                href="https://www.science-bits.com/site/studentlogup.php?lang=es">https://www.science-bits.com/site/studentlogup.php?lang=es
+              </a> o da clic en el botón de abajo. </li>
+
+            <li> Ingrese un correo electrónico válido. </li>
+            <li>
+              Utilice el código de alta siguiente: <br>
+              <div class="row">
+                <p id=" codigo" class="text-succes text-center" style="font-size: 1.5em;">b41292s3418g5CBEE6</p>
+              </div>
+              <p class="text-danger">
+                *El código puede ser reutilizable, no dude en crear una cuenta para cada niño en su hogar.
+              </p>
+            </li>
+
+            <li>Declare que es mayor de edad o que esta debidamente acompañado por un adulto al realizar el registro
+            </li>
+
+            <li>
+              Acepte estar de acuerdo con las Condiciones de uso y Política de privacidad.
+            </li>
+            <li>
+
+              Complete los campos de nombre, apellido y genere una contraseña.
+            </li>
+
+            <li>
+
+              Una vez confirmada la cuenta en su correo electrónico; ya podrás acceder a Science Bits con tu usuario (tu
+              email) la contraseña que has creado.
+            </li>
+            <li>
+
+              ¡Listo! Su cuenta estará activada y podrá ingresar a Science Bits.
+            </li>
+
+          </ol>
+
+          <div class="text-center">
+            <a class="btn btn-aec btn-primary" href="https://www.science-bits.com/site/studentlogup.php?lang=es"
+              target="_blank">¡Registrate Aquí!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/pace.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    w3IncludeHTML();
+
+    function copia() {
+      var codigo = document.getElementById("codigo")
+      var el = document.createElement('textarea');
+      el.value = codigo.innerText;
+      el.setAttribute('readonly', '');
+      el.style.position = 'absolute';
+      el.style.left = '-9999px';
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+    }
+  </script>
 </body>
+
 </html>

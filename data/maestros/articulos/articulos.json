@@ -1,26 +1,26 @@
- [
+[
       {
-            "id":  1,
+            "id": 1,
             "img": "https: //i0.wp.com/www.totemguard.com/aulatotem/wp-content/uploads/2020/03/Plataformas-videoconferencia-gratuitas_opt.png?w=700&ssl=1",
-            "titulo": "Las mejores plataformas gratuitas de videoconferencia y emisión en directo para dar clases",            
+            "titulo": "Las mejores plataformas gratuitas de videoconferencia y emisión en directo para dar clases",
             "resumen": "Muchos docentes, instituciones educativas, además de profesionales de muchos sectores...",
-            "publish_date":  "",
+            "publish_date": "",
             "fuente": "https://www.totemguard.com/aulatotem/2020/03/plataformas-gratuitas-videoconferencia-emision-en-directo-clases/"
       },
       {
-            "id":  2,
+            "id": 2,
             "img": "http: //eduteka.icesi.edu.co/imgbd/22/22-25/blogDoc.jpg",
-            "titulo": "Uso educativo de los Blogs",
-            "resumen": "Indiscutiblemente los Blogs son uno de los fenómenos más exitosos de Internet; lo que poco se resalta es la diversidad de posibilidades que ofrecen para enriquecer...",
-            "publish_date":  "",
+            "titulo": "Uso educativo de los blogs",
+            "resumen": "Indiscutiblemente los blogs son uno de los fenómenos más exitosos de Internet; lo que poco se resalta es la diversidad de posibilidades que ofrecen para enriquecer...",
+            "publish_date": "",
             "fuente": "https://eduteka.icesi.edu.co/articulos/BlogsEducacion"
       },
       {
-            "id":  3,
+            "id": 3,
             "img": "https: //placeimg.com/150/150/architecture",
             "titulo": "La educación a distancia",
             "resumen": "\[PDF\] La educación a distancia…",
-            "publish_date":  "",
+            "publish_date": "",
             "fuente": "https://dialnet.unirioja.es/descarga/articulo/5057022.pdf"
       }
- ]
+]

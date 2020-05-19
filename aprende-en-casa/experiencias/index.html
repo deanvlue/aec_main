@@ -10,12 +10,12 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src='https://unpkg.com/v-calendar'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
-   <!-- Latest compiled and minified CSS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-       integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-        <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
-    <link href="/assets/styles/aec_experiencias.css" rel="stylesheet"/>
-    <link href="/assets/styles/aec.css" rel="stylesheet"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+    <link href="/assets/styles/aec_experiencias.css" rel="stylesheet" />
+    <link href="/assets/styles/aec.css" rel="stylesheet" />
     <script src="/assets/scripts/includehtml.js"></script>
 </head>
 
@@ -59,7 +59,8 @@
                 <div class="col-sm-12">
 
                     <div class="tabs">
-                        <div class="tab col-sm-4" v-bind:class="[(index === currentTab)? activeClass : '']" v-for="(tab,index) in tabs[nivel]" :key="index">
+                        <div class="tab col-sm-4" v-bind:class="[(index === currentTab)? activeClass : '']"
+                            v-for="(tab,index) in tabs[nivel]" :key="index">
                             <a href="#" @click.prevent="seleccionaGrado(index)">
                                 <img class="img-responsive" :src="'/assets/images/experiencias/'+tab+'.png'" alt="">
                             </a>
@@ -72,39 +73,40 @@
                                 Selecciona una fecha para revisar las actividades para tu carpeta.
                             </span>
                             <div class="sub text-center">
-                            <v-calendar :max-date="new Date()" is-expanded
-                                locale="es"
-                                :columns="$screens({ default:1})"
-                                @dayclick="selectDay"
-                                :attributes='calendarAttrs'
-                            ></v-calendar>
+                                <v-calendar :max-date="new Date()" is-expanded locale="es"
+                                    :columns="$screens({ default:1})" @dayclick="selectDay" :attributes='calendarAttrs'>
+                                </v-calendar>
 
-                            <div id="menu" class="menu" style="display: none">
-                                <div class="" style="text-align: left">
-                                    <strong id="date1"></strong>
-                                    <h5>¿Qué vimos hoy?</h5>
-                                    {{ experienciasDisplay }}
-                                    <!-- Experiences -->
-                                    <div>
-                                        <div class="row">
-                                            <div class="col-sm-12 topics" id="experiences">
+                                <div id="menu" class="menu" style="display: none">
+                                    <div class="" style="text-align: left">
+                                        <strong id="date1"></strong>
+                                        <h5>¿Qué vimos hoy?</h5>
+                                        {{ experienciasDisplay }}
+                                        <!-- Experiences -->
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-sm-12 topics" id="experiences">
 
+                                                </div>
                                             </div>
                                         </div>
+                                        <!-- End Experiences -->
                                     </div>
-                                    <!-- End Experiences -->
-                                </div>
 
+                                </div>
                             </div>
-                        </div>
                             <div class="menu" id="menu">
                                 <h5>¿Qué vimos hoy?</h5>
                                 <div class="row">
                                     <div v-if="experienciasDisplay !== undefined">
-                                        <a href="#" @click.prevent="openModal(exp)" id="show-modal" v-for="exp in experienciasDisplay.topics" :key="exp.index" data-toggle="modal">
+                                        <a href="#" @click.prevent="openModal(exp)" id="show-modal"
+                                            v-for="exp in experienciasDisplay.topics" :key="exp.index"
+                                            data-toggle="modal">
 
-                                        <img width="380" height="105" :src="'/assets/images/experiencias/'+exp.topic+'.png'" class="img-responsive" alt="">
-                                    </a>
+                                            <img width="380" height="105"
+                                                :src="'/assets/images/experiencias/'+exp.topic+'.png'"
+                                                class="img-responsive" alt="">
+                                        </a>
                                     </div>
                                     <div v-else>
                                         <h3>Estamos preparando contenido para tí</h3>
@@ -115,15 +117,15 @@
                     </div>
                 </div>
             </div>
-        </div> 
-
-       <modal v-if="showModal" @close="showModal = false">
-       <!-- you can use custom content here to overwrite
-                default content  -->
-        <h3 slot="header">{{materias[modalData.modalHeader]}}</h3>
-        <div slot="body" v-html="modalData.modalContent">
         </div>
-      </modal>
+
+        <modal v-if="showModal" @close="showModal = false">
+            <!-- you can use custom content here to overwrite
+                default content  -->
+            <h3 slot="header">{{materias[modalData.modalHeader]}}</h3>
+            <div slot="body" v-html="modalData.modalContent">
+            </div>
+        </modal>
 
     </div>
 
@@ -172,13 +174,13 @@
         })
         //console.log(document.URL);
 
-        let mainURL="";
+        let mainURL = "";
 
-        if(document.URL.indexOf('aprendeencasa.mx') === -1){
+        if (document.URL.indexOf('aprendeencasa.mx') === -1) {
             // ambiente de desarrollo
-            mainURL="http://localhost:8100";
-        }else{
-            mainURL="https://www.aprendeencasa.mx";
+            mainURL = "http://localhost:8100";
+        } else {
+            mainURL = "https://www.aprendeencasa.mx";
         }
 
 
@@ -189,107 +191,107 @@
             data: {
                 showModal: false,
                 currentTab: 0,
-                calendarAttrs:{
+                calendarAttrs: {
                     mode: 'single',
                     selectedDate: null,
-                    dates:{
-                        start: new Date(2020,4,1),
-                        end: new Date(2020,4,12),
-                        weekdays:[2,3,4,5,6],
-                        highlight:true,
-                        key:'today',
+                    dates: {
+                        start: new Date(2020, 4, 1),
+                        end: new Date(2020, 4, 12),
+                        weekdays: [2, 3, 4, 5, 6],
+                        highlight: true,
+                        key: 'today',
                     }
                 },
                 message: 'Hello Vue!',
-                experiencias:[],
-                experienciasDisplay:[],
-                nivel:"",
-                info:"",
-                activeClass:"is-active",
-                mode:'single',
+                experiencias: [],
+                experienciasDisplay: [],
+                nivel: "",
+                info: "",
+                activeClass: "is-active",
+                mode: 'single',
                 selectedDate: null,
-                tabs:{
-                    preescolar:[
+                tabs: {
+                    preescolar: [
                         "preescolar"
                     ],
-                    primaria:[
+                    primaria: [
                         "primaria1",
                         "primaria2",
                         "primaria3",
                     ],
-                    secundaria:[
+                    secundaria: [
                         "secundaria1",
                         "secundaria2",
                         "secundaria3",
                     ]
                 },
-                modalData:{
+                modalData: {
                     modalHeader: "",
-                    modalContent:"",
+                    modalContent: "",
                 },
-                materias:{
-                    artes:"Artes",
-                    lenguaje:"Lenguaje",
-                    matematicas:"Matemáticas",
-                    valores:"Valores",
-                    conocimiento_del_medio:"Conocimiento del medio",
+                materias: {
+                    artes: "Artes",
+                    lenguaje: "Lenguaje",
+                    matematicas: "Matemáticas",
+                    valores: "Valores",
+                    conocimiento_del_medio: "Conocimiento del medio",
                     deportes: "Deportes",
                     la_entidad_donde_vivo: "La entidad donde vivo",
-                        geografia: "Geografía",
-                        ciencias_naturales: "Ciencias naturales",
-                        fisica: "Física",
-                        civismo: "Civismo",
-                        biologia: "Biología",
-                        historia: "Historia",
-                        tecnologia: "Tecnología",
-                        quimica: "Química",
-                        mundo_natural_y_social: "Mundo natural y social",
+                    geografia: "Geografía",
+                    ciencias_naturales: "Ciencias naturales",
+                    fisica: "Física",
+                    civismo: "Civismo",
+                    biologia: "Biología",
+                    historia: "Historia",
+                    tecnologia: "Tecnología",
+                    quimica: "Química",
+                    mundo_natural_y_social: "Mundo natural y social",
                 }
             },
-            mounted: function(){
+            mounted: function () {
                 parameters = this.$route.query;
                 this.nivel = parameters.nivel;
-                experienciasURL= mainURL + "/assets/scripts/experiencias/"+this.nivel+".json"
-                //experienciasURL = "https://www.aprendeencasa.mx/assets/scripts/experiencias/experiencias_"+this.nivel+"_1.json"
+                //experienciasURL= mainURL + "/assets/scripts/experiencias/"+this.nivel+".json"
+                experienciasURL = "https://www.aprendeencasa.mx/assets/scripts/experiencias/" + this.nivel + ".json"
                 axios
-                .get(experienciasURL)
-                .then(response => {
-                    this.experiencias = response.data
-                    this.experienciasDisplay= this.experiencias[this.currentTab];
-                })
+                    .get(experienciasURL)
+                    .then(response => {
+                        this.experiencias = response.data
+                        this.experienciasDisplay = this.experiencias[this.currentTab];
+                    })
             },
             methods: {
-                filtra: function(fecha){
-                    this.experienciasDisplay = _.findWhere(this.experiencias[this.currentTab],{date: fecha})
+                filtra: function (fecha) {
+                    this.experienciasDisplay = _.findWhere(this.experiencias[this.currentTab], { date: fecha })
                 },
-                selectDay: function(e){
+                selectDay: function (e) {
                     this.filtra(e.id);
                 },
-                openModal: function(e){
-                    console.log( "Abriendo ",mainURL , e.modal_url);
-                    let modalURL = mainURL+e.modal_url;
+                openModal: function (e) {
+                    console.log("Abriendo ", mainURL, e.modal_url);
+                    let modalURL = mainURL + e.modal_url;
                     axios
-                    .get(modalURL)
-                    .then(r =>{
-                        this.modalData.modalContent = r.data;
-                        this.modalData.modalHeader = e.topic;
-                        this.showModal = true;
-                    })
+                        .get(modalURL)
+                        .then(r => {
+                            this.modalData.modalContent = r.data;
+                            this.modalData.modalHeader = e.topic;
+                            this.showModal = true;
+                        })
                 },
-                seleccionaGrado: function(index){
+                seleccionaGrado: function (index) {
                     //console.log(this.experienciasDisplay);
                     this.currentTab = index;
-                    this.experienciasDisplay="";
+                    this.experienciasDisplay = "";
                 }
 
 
             },
-            computed:{
-                breadcrumbText: function(){
-                    return "Educación "+ this.nivel;
+            computed: {
+                breadcrumbText: function () {
+                    return "Educación " + this.nivel;
                 },
-                breadcrumbUrl: function(){
-                    return "../niveles/"+this.nivel;
+                breadcrumbUrl: function () {
+                    return "../niveles/" + this.nivel;
                 }
             }
         })

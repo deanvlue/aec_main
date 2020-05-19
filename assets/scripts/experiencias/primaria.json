@@ -781,7 +781,7 @@
                 {
                     "id": "202005062",
                     "topic": "matematicas",
-                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_06_2_matematicaso.html"
+                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_06_2_matematicas.html"
                 },
                 {
                     "id": "202005063",
@@ -1322,22 +1322,22 @@
             "topics": [
                 {
                     "id": "202005111",
-                    "topic": "valores",
+                    "topic": "ciencias_naturales",
                     "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_11_1_ciencias_naturales.html"
                 },
                 {
                     "id": "202005112",
-                    "topic": "artes",
+                    "topic": "valores",
                     "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_11_2_valores.html"
                 },
                 {
                     "id": "202005113",
-                    "topic": "lenguaje",
+                    "topic": "deportes",
                     "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_11_3_deportes.html"
                 },
                 {
                     "id": "202005114",
-                    "topic": "matematicas",
+                    "topic": "lenguaje",
                     "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_11_4_lenguaje.html"
                 }
             ]

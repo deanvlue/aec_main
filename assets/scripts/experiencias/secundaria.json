@@ -266,9 +266,12 @@
             "id": "202005072",
             "topic": "geografia",
             "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_07_2_geografia.html"
-          },
-          {
+          },{
             "id": "202005073",
+            "topic": "matematicas",
+            "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_07_3_matematicas.html"
+          },{
+            "id": "202005074",
             "topic": "civismo",
             "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_07_4_civismo.html"
           }

@@ -1,106 +1,103 @@
 [
     {
-        "name": "PDF",
+        "name": "Lecturas PDF",
         "image": "pdf.svg",
-        "is_active": true,
-        "has_filters": false,
-        "externalLink": "",
+        "active": true,
         "books": {
             "Primero": [
                 {
                     "id": "1",
                     "link": "http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/RetratoOval.pdf",
-                    "name": "El retrato oval"
+                    "title": "El retrato oval"
                 },{
                     "id": "2",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Primero_Elavaroyeloro_Lectura.pdf",
-                    "name": "El avaro y el oro"
+                    "title": "El avaro y el oro"
                 },{
                     "id": "3",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Primero_ElfantasmadeMarley_Lectura.pdf",
-                    "name": "El fantasma de Marley (fragmento)"
+                    "title": "El fantasma de Marley (fragmento)"
                 },{
                     "id": "4",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Primero_Elhombrequeaprendioaladrar_Lectura.pdf",
-                    "name": "El hombre que aprendió a ladrar"
+                    "title": "El hombre que aprendió a ladrar"
                 },{
                     "id": "5",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Primero_Elnacimientodelatierra_Lectura.pdf",
-                    "name": "El nacimineto de la tierra"
+                    "title": "El nacimineto de la tierra"
                 },{
                     "id": "6",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Primero_Operacionjaguar_Lectura.pdf",
-                    "name": "Operación jaguar: la carrera por proteger a los felinos de México"
+                    "title": "Operación jaguar: la carrera por proteger a los felinos de México"
                 }
             ],
             "Segundo": [
                 {
                     "id": "1",
                     "link": "http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/Miedo.pdf",
-                    "name": "El miedo"
+                    "title": "El miedo"
                 },{
                     "id": "2",
                     "link": "http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/Anillo.pdf",
-                    "name": "El anillo"
+                    "title": "El anillo"
                 },{
                     "id": "3",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Segundo_Delrigorenlaciencia_Lectura.pdf",
-                    "name": "Del rigor en la ciencia"
+                    "title": "Del rigor en la ciencia"
                 },{
                     "id": "4",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Segundo_Elleonyelmosquitoluchador_Lectura.pdf",
-                    "name": "El león y el mosquito luchador"
+                    "title": "El león y el mosquito luchador"
                 },{
                     "id": "5",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Segundo_Fragmentosdeunalargahistoria_Lectura.pdf",
-                    "name": "Fragmentos de una larga historia"
+                    "title": "Fragmentos de una larga historia"
                 },{
                     "id": "6",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Segundo_Losmotivosdellobo_Lectura.pdf",
-                    "name": "Los motivos del lobo"
+                    "title": "Los motivos del lobo"
                 },{
                     "id": "7",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Segundo_Veintepoemasdeamoryunacanciondesesperada_Lectura.pdf",
-                    "name": "Veinte poemas de amor y una canción desesperada"
+                    "title": "Veinte poemas de amor y una canción desesperada"
                 }
             ],
             "Tercero": [
                 {
                     "id": "1",
                     "link": "http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/OrigenMal.pdf",
-                    "name": "El origen del mal"
+                    "title": "El origen del mal"
                 },{
                     "id": "2",
                     "link": "http://bibliotecadigital.ilce.edu.mx/Colecciones/ObrasClasicas/_docs/Un-expreso-del-futuro_%20Verne_%20ILCE.pdf",
-                    "name": "Un expreso del futuro"
+                    "title": "Un expreso del futuro"
                 },{
                     "id": "3",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Tercero_Enverdadosdigo_Lectura.pdf",
-                    "name": "En verdad os digo"
+                    "title": "En verdad os digo"
                 },{
                     "id": "4",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Tercero_Laleyendadeandromeda_Lectura.pdf",
-                    "name": "La leyenda de Andromeda"
+                    "title": "La leyenda de Andromeda"
                 },{
                     "id": "5",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Tercero_NelsonMandela_Lectura.pdf",
-                    "name": "Nelson Mandela"
+                    "title": "Nelson Mandela"
                 },{
                     "id": "6",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Tercero_Semblazaautobiografica_Lectura.pdf",
-                    "name": "Semblanza autobiográfica"
+                    "title": "Semblanza autobiográfica"
                 },{
                     "id": "7",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/lecturas/archivos-secundaria/Tercero_Tragamonedas_Lectura.pdf",
-                    "name": "Tragamonedas"
+                    "title": "Tragamonedas"
                 }
             ]
         }
     },{
         "name": "Audiolibros",
         "image": "audiolibros.svg",
-        "is_active": false,
-        "has_filters": false,
+        "active": false,
         "audiobooks": [
             {
                 "name": "Audiolibro Habi, de Guillermo Samperio",
@@ -127,8 +124,7 @@
     },{
         "name": "Audiolibros Amazon",
         "image": "audiolibros_amazon.svg",
-        "is_active": false,
-        "has_filters": false,
+        "active": false,
         "externalLink": "https://stories.audible.com/discovery/enterprise-discovery-21122525011?ref=adbl_ent_anon_ds_ds_pl_2&page=2"
     }
 ]

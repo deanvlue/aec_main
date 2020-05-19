@@ -1,7 +1,7 @@
 [
     {
         "name": "Primaria",
-        "level_url": "/aprende-en-casa-2/niveles/primaria/",
+        "level_url": "/aprende-en-casa/niveles/primaria/",
         "activities": [
             {
                 "title": "¿Cómo llego esto aquí? ",
@@ -9,50 +9,57 @@
                 "grades": "4º a 6º grado ",
                 "image": "/assets/images/mide/primaria/todos-somos-parte-de-la-economia@2x.jpg",
                 "link": "https://midedigital.museum/librillos/como-llego-esto-aqui/"
-            },{
+            },
+            {
                 "title": "Cuarentena del ahorro",
                 "content": "El alumno reflexionará sobre la importancia del ahorro y aprenderá a llevar a cabo acciones que contribuyan con el ahorro familiar.",
                 "grades": "1º a 6º grado",
                 "image": "/assets/images/mide/primaria/cuarentena-del-ahorro@2x.jpg",
                 "link": "https://midedigital.museum/librillos/cuarentena-del-ahorro/"
-
-            },{
+            },
+            {
                 "title": "El agua que te comes todos los días",
                 "content": "El alumno reflexionará acerca del consumo de agua que requiere la producción de los alimentos que consume.",
                 "grades": "2º a 6º grado",
                 "image": "/assets/images/mide/primaria/el-agua-que-te-tomas-todos-los-dias@2x.jpg",
                 "link": "https://midedigital.museum/librillos/el-agua-que-te-comes-todos-los-dias/"
-            },{
+            },
+            {
                 "title": "Familias sembrando bienestar",
                 "content": "Se proporciona un pequeño manual para la creación de un huerto en casa, a partir de los vegetales que se consumen principalmente por la familia.",
                 "grades": "1º a 6º grado",
                 "image": "/assets/images/mide/primaria/familias-sembrando-bienestar@2x.jpg",
                 "link": "https://midedigital.museum/librillos/familias-sembrando-bienestar/"
-            },{
+            },
+            {
                 "title": "La vuelta al mundo en veinte etiquetas",
                 "content": "El alumno analizará, a partir de sus propias prensas de ropa, los países que intervienen en su producción.",
                 "grades": "4º a 6º grado",
                 "image": "/assets/images/mide/primaria/la-vuelta-al-mundo-en-veinte-etiquetas@2x.jpg",
                 "link": "https://midedigital.museum/librillos/la-vuelta-al-mundo-en-veinte-etiquetas/"
-            },{
+            },
+            {
                 "title": "Para repartir y cumplir en familia",
                 "content": "Se proporcionan ideas para establecer horarios de actividades para contribuir en las responsabilidades de la casa, así como tomar conciencia de los gastos familiares.",
                 "grades": "1º a 6º grado",
                 "image": "/assets/images/mide/primaria/para-repartir-y-cumplir-en-familia@2x.jpg",
                 "link": "https://midedigital.museum/librillos/para-repartir-y-cumplir-en-familia/"
-            },{
+            },
+            {
                 "title": "Semáforo del bienestar",
                 "content": "El alumno reflexionará sobre las actividades que lo hacen sentirse feliz y priorizará aquellas con mayor importancia que puede realizar durante la contingencia.",
                 "grades": "1º a 6º grado",
                 "image": "/assets/images/mide/primaria/semaforo-del-bienestar@2x.jpg",
                 "link": "https://midedigital.museum/librillos/semaforo-del-bienestar/"
-            },{
+            },
+            {
                 "title": "Todos necesitamos de todos",
                 "content": "El alumno o reconoce el trabajo colaborativo, al identificar que cada persona de su comunidad contribuye en su vida cotidiana.",
                 "grades": "1º a 6º grado",
                 "image": "/assets/images/mide/primaria/todos-necesitamos-de-todos@2x.jpg",
                 "link": "https://midedigital.museum/librillos/todos-necesitamos-de-todos/"
-            },{
+            },
+            {
                 "title": "Todos somos parte de la economía",
                 "content": "El alumno identificará las instituciones que se encuentran cerca de su casa y reflexionará la importancia que tienen para su desarrollo y bienestar familiar.",
                 "grades": "3º a 6º grado",
@@ -63,7 +70,7 @@
     },
     {
         "name": "Secundaria",
-        "level_url": "/aprende-en-casa-2/niveles/secundaria/",
+        "level_url": "/aprende-en-casa/niveles/secundaria/",
         "grades": [
             {
                 "name": "Primero de secundaria",
@@ -75,52 +82,62 @@
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: los tipos de seguro y su utilidad.",
                         "subjects": "Español, Formación Cívica y Ética",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAC4oC4ziw_4QS-TK3VziKqka/1%C2%B0%20Secundaria/A%20la%20segura%20con%20tus%20seguros?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Áreas verdes ",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: desarrollo sustentable.",
                         "subjects": "Ciencias y Tecnología, Biología, Geografía, Español, Formación Cívica y Ética",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AADkxch7w1ILulzqs3V13Hnla/1%C2%B0%20Secundaria/%C3%81reas%20verdes?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Así se mide la inflación",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: la inflación y cómo calcularla. ",
                         "subjects": "Matemáticas, Formación Cívica y Ética",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAB1dYvqeMjJUNe0c0jeShQ6a/1%C2%B0%20Secundaria/As%C3%AD%20se%20mide%20la%20inflaci%C3%B3n?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Cómo se mide el desarrollo",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: desarrollo humano.",
                         "subjects": "Geografía",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAC0lVIFBE8gy1z7tYVk-aiDa/1%C2%B0%20Secundaria/C%C3%B3mo%20se%20mide%20el%20desarrollo?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Familias del mundo",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: bienestar.",
                         "subjects": "Geografía y Español",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AADnXYbaJm8WnxtpLfBC4Ossa/1%C2%B0%20Secundaria/Familias%20del%20mundo?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Foro de cambio climático 1",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: cambio climático.",
                         "subjects": "Español, Formación Cívica y Ética, Geografía",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAAXqWfx1OuhYMx_GAbuSH6Ga/1%C2%B0%20Secundaria/Foro%20de%20Cambio%20Clim%C3%A1tico%201?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Foro de cambio climático 2",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: cambio climático.",
                         "subjects": "Español, Formación Cívica y Ética, Geografía",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AACN30Q7uNIzGmxwrxR-Wkata/1%C2%B0%20Secundaria/Foro%20de%20Cambio%20Clim%C3%A1tico%202?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "La equidad también forma parte del desarrollo climático",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: Desigualdad en los ingresos, en los niveles de desarrollo y en la distribución de los recursos.",
                         "subjects": "Matemáticas, Geografía",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAC6asJXgwWHpKdgTc7eT2Jda/1%C2%B0%20Secundaria/La%20equidad%20tambi%C3%A9n%20forma%20parte?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "La producción",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: Producción de bienes, recursos y servicios.",
                         "subjects": "Geografía y Español",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AACEztjmU6nF2PtzKfg82fila/1%C2%B0%20Secundaria/La%20producci%C3%B3n?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Los ciclos biogeoquímicos",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: ciclos biogeoquímicos.",
                         "subjects": "Ciencias y Tecnología, Biología, Geografía",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AACnTW7TVwarFZUwGj1Wo44Ga/1%C2%B0%20Secundaria/Los%20ciclos%20biogeoqu%C3%ADmicos?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Pongámonos de acuerdo",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: recursos naturales.",
                         "subjects": "Ciencias y Tecnología, Biología, Geografía",
@@ -138,62 +155,74 @@
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: toma de decisiones.",
                         "subjects": "Formación Cívica y Ética",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AACgC2D2XBl5luwA89V9gEcVa/2%C2%B0%20Secundaria/A%20tomar%20decisiones?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Accesorias ",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: actividades económicas.",
                         "subjects": "Formación Cívica y ëtica, Historia",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AADPCeFRgS5bEQVDYET5aZJ-a/2%C2%B0%20Secundaria/Accesorias?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "De aquí a allá",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: exportación e importación.",
                         "subjects": "Matemáticas, Español, Formación Cívica y Ética",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAARMkfXRzYrvMeyLYkZdydRa/2%C2%B0%20Secundaria/De%20aqu%C3%AD%20y%20de%20all%C3%A1?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "De dónde obtiene dinero el gobierno",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: ingresos públicos.",
                         "subjects": "Formación Cívica y Ética",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AABTyB66ysxZP-pHcYFUWZjea/2%C2%B0%20Secundaria/De%20d%C3%B3nde%20obtiene%20dinero%20el%20gobierno?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "El ABC de la banca",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: intermediación financiera.",
                         "subjects": "Español, Formación Cívica y Ética",
                         "link": ""
-                    },{
+                    },
+                    {
                         "title": "Foro de cambio climático 1",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: cambio climático.",
                         "subjects": "Español, Formación Cívica y Ética, Geografía",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AABDA-YqTMBuj0jhkb6aZP1Ea/2%C2%B0%20Secundaria/El%20ABC%20de%20la%20banca?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Foro de cambio climático 2",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: cambio climático.",
                         "subjects": "Español, Formación Cívica y Ética, Geografía",
                         "link": ""
-                    },{
+                    },
+                    {
                         "title": "Y en México, ¿cómo estamos?",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: desarrollo humano. ",
                         "subjects": "Historia, Español, Formación Cívica y Ética",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AABmXqiRcok18uGIbNNl8dG3a/2%C2%B0%20Secundaria/En%20M%C3%A9xico%20c%C3%B3mo%20estamos?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Fábrica de billetes",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: dinero.",
                         "subjects": "Historia, Español ",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AABjoFsqmaJmN4DlgInowMmDa/2%C2%B0%20Secundaria/F%C3%A1brica%20de%20billetes?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Foro de pensamiento económico",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: historia del pensamiento económico.",
                         "subjects": "Historia, Español",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAA8hS3AVUUvFRmvPrJeLEVqa/2%C2%B0%20Secundaria/Foro%20de%20pensamiento%20econ%C3%B3mico?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Necesidades y deseos",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: necesidades y deseos.",
                         "subjects": "Formación Cívica y Ética, Español",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAD3X83nl4y7IsYwl59zaFwZa/2%C2%B0%20Secundaria/Necesidades%20y%20deseos?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Podemos hacerlo mejor. La historia de las cosas",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: alternativas de producción. Producción lineal y circular. ",
                         "subjects": "Ética, Español, Ciencia y Tecnología, Física",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAD_ix9PkeoFnvQ6DnL64OhSa/2%C2%B0%20Secundaria/Podemos%20hacerlo%20mejor?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Una ciudad sustentable",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: necesidades y deseos.",
                         "subjects": "Ciencia y Tecnología, Física, Español, Formación Cívica y Ética",
@@ -211,62 +240,74 @@
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: toma de decisiones.",
                         "subjects": "Español, Formación Cívica y Ética",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AACAd37vtciOepIn3NPJi4Gja/3%C2%B0%20Secundaria/A%20tomar%20decisiones?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Ahorro para el retiro",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: ahorro para el retiro.",
                         "subjects": "Matemáticas, Español, Formación Cívica y Ética",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AADLjX9ncbruZeyxVPxbRyaUa/3%C2%B0%20Secundaria/Ahorro%20para%20el%20retiro?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Ahorro y presupuesto",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: ahorro y presupuesto.",
                         "subjects": "Formación Cívica y Ética, Español",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AACfhgOW1a1nWX6DUS50jp5oa/3%C2%B0%20Secundaria/Ahorro%20y%20presupuesto?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Arma el presupuesto de la Nación",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: gasto público. ",
                         "subjects": "Formación Cívica y Ética, Español",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAAjYDuveWxvXaf85rGAAOwWa/3%C2%B0%20Secundaria/Arma%20el%20presupuesto%20de%20la%20naci%C3%B3n?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "De dónde obtiene el dinero el gobierno",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: ingresos públicos. ",
                         "subjects": "Formación Cívica y Ética, Español",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AABipTRW0_52b8NKPzlwDpuIa/3%C2%B0%20Secundaria/De%20d%C3%B3nde%20obtiene%20dinero%20el%20gobierno?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "El Banco de México: tres finalidades, un objetivo",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: Banco de México. ",
                         "subjects": "Formación Cívica y Ética, Español, Historia",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AABipTRW0_52b8NKPzlwDpuIa/3%C2%B0%20Secundaria/De%20d%C3%B3nde%20obtiene%20dinero%20el%20gobierno?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Fábrica de billetes",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: dinero. ",
                         "subjects": "Formación Cívica y Ética, Español, Química",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAAublOcvWKjuYcRZhMsYE-ma/3%C2%B0%20Secundaria/F%C3%A1brica%20de%20billetes?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "La huella de las cosas",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: huella ecológica. ",
                         "subjects": "Formación Cívica y Ética, Español, Química",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAAFbQyy4PYqeOUW9QtNoWlfa/3%C2%B0%20Secundaria/La%20huella%20de%20las%20cosas?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "La producción",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: producción. ",
                         "subjects": "Química",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AACHp6Vxeggau4fuVmfuphYCa/3%C2%B0%20Secundaria/La%20producci%C3%B3n?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Los intermediarios y sus servicios",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: Intermediación financiera. ",
                         "subjects": "Formación Cívica y Ética, Español",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAC6X3R74Mu6ugmizNTQxqZna/3%C2%B0%20Secundaria/Los%20intermediarios%20y%20sus%20servicios?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Pongámonos de acuerdo",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: Recursos Naturales.",
                         "subjects": "Química, Formación Cívica y Ética",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AAB9SKGXNheyJsRq1iXXqD8ka/3%C2%B0%20Secundaria/Pong%C3%A1monos%20de%20acuerdo?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Tu huella de carbono",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: huella de carbono. ",
                         "subjects": "Química, Formación Cívica y Ética",
                         "link": "https://www.dropbox.com/sh/fyp0yiqvu1zwii5/AACrKJVuVI1pdRTp3ha7v6k9a/3%C2%B0%20Secundaria/Tu%20huella%20de%20carbono?dl=0&subfolder_nav_tracking=1"
-                    },{
+                    },
+                    {
                         "title": "Y en México, ¿cómo estamos?",
                         "content": "Manual y glosario para profesores con lectura y actividad para los alumnos. Tema central: desarrollo humano.  ",
                         "subjects": "Español, Formación Cívica y Ética",

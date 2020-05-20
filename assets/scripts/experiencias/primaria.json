@@ -541,6 +541,39 @@
                     "date": "2020-05-19"
                 }
             ]
+        },
+        {
+        	aprenderepo/ROOT/assets/scripts/experiencias/primaria_1_2/2020_05_20_1_lengua_indigena.html
+/aprenderepo/ROOT/assets/scripts/experiencias/primaria_1_2/2020_05_20_2_matematicas.html
+/aprenderepo/ROOT/assets/scripts/experiencias/primaria_1_2/2020_05_20_3_deportes.html
+/aprenderepo/ROOT/assets/scripts/experiencias/primaria_1_2/2020_05_20_4_artes.html
+            "date": "2020-05-20",
+            "topics": [
+                {
+                    "id": "202005201",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_20_1_lengua_indigena.html",
+                    "date": "2020-05-20"
+                },
+                {
+                    "id": "202005202",
+                    "topic": "matematicas",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_20_2_matematicas.html",
+                    "date": "2020-05-20"
+                },
+                {
+                    "id": "202005203",
+                    "topic": "deportes",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_20_3_deportes.html",
+                    "date": "2020-05-20"
+                },
+                {
+                    "id": "202005204",
+                    "topic": "artes",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_20_4_artes.html",
+                    "date": "2020-05-20"
+                }
+            ]
         }
     ],
     [
@@ -553,7 +586,7 @@
                     "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_20_1_artes.html"
                 },
                 {
-                    "id"		: "202004202",
+                    "id": "202004202",
                     "topic": "artes",
                     "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_20_2_artes.html"
                 },
@@ -1047,7 +1080,8 @@
                     "date": "2020-05-18"
                 }
             ]
-        },{
+        },
+        {
             "date": "2020-05-19",
             "topics": [
                 {
@@ -1073,6 +1107,35 @@
                     "topic": "geografia",
                     "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_19_4_geografia.html",
                     "date": "2020-05-19"
+                }
+            ]
+        },
+        {
+            "date": "2020-05-20",
+            "topics": [
+                {
+                    "id": "202005201",
+                    "topic": "ciencias_naturales",
+                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_20_1_ciencias_naturales.html",
+                    "date": "2020-05-20"
+                },
+                {
+                    "id": "202005202",
+                    "topic": "artes",
+                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_20_2_artes.html",
+                    "date": "2020-05-20"
+                },
+                {
+                    "id": "202005203",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_20_3_lengua_indigena.html",
+                    "date": "2020-05-20"
+                },
+                {
+                    "id": "202005204",
+                    "topic": "matematicas",
+                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_20_4_matematicas.html",
+                    "date": "2020-05-20"
                 }
             ]
         }
@@ -1567,7 +1630,8 @@
                     "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_15_4_matematicas.html"
                 }
             ]
-        },{
+        },
+        {
             "date": "2020-05-18",
             "topics": [
                 {
@@ -1589,7 +1653,8 @@
                     "date": "2020-05-18"
                 }
             ]
-        },{
+        },
+        {
             "date": "2020-05-19",
             "topics": [
                 {
@@ -1615,6 +1680,35 @@
                     "topic": "lenguaje",
                     "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_19_4_lenguaje_indigena.html",
                     "date": "2020-05-19"
+                }
+            ]
+        },
+        {
+            "date": "2020-05-20",
+            "topics": [
+                {
+                    "id": "202005201",
+                    "topic": "ciencias_naturales",
+                    "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_20_1_ciencias_naturales.html",
+                    "date": "2020-05-20"
+                },
+                {
+                    "id": "202005202",
+                    "topic": "matematicas",
+                    "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_20_2_matematicas.html",
+                    "date": "2020-05-20"
+                },
+                {
+                    "id": "202005203",
+                    "topic": "artes",
+                    "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_20_3_artes.html",
+                    "date": "2020-05-20"
+                },
+                {
+                    "id": "202005204",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_20_4_lengua_indigena.html",
+                    "date": "2020-05-20"
                 }
             ]
         }

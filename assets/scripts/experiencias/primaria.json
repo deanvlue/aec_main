@@ -512,6 +512,35 @@
                     "date": "2020-05-18"
                 }
             ]
+        },
+        {
+            "date": "2020-05-19",
+            "topics": [
+                {
+                    "id": "202005191",
+                    "topic": "matematicas",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_19_1_matematicas.html",
+                    "date": "2020-05-19"
+                },
+                {
+                    "id": "202005192",
+                    "topic": "conocimiento_del_medio",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_19_2_conocimiento_del_medio.html",
+                    "date": "2020-05-19"
+                },
+                {
+                    "id": "202005193",
+                    "topic": "valores",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_19_3_valores.html",
+                    "date": "2020-05-19"
+                },
+                {
+                    "id": "202005194",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_19_4_lengua_indigena.html",
+                    "date": "2020-05-19"
+                }
+            ]
         }
     ],
     [
@@ -524,7 +553,7 @@
                     "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_20_1_artes.html"
                 },
                 {
-                    "id": "202004202",
+                    "id"		: "202004202",
                     "topic": "artes",
                     "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_04_20_2_artes.html"
                 },
@@ -1016,6 +1045,34 @@
                     "topic": "lenguaje",
                     "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_18_4_lenguaje.html",
                     "date": "2020-05-18"
+                }
+            ]
+        },{
+            "date": "2020-05-19",
+            "topics": [
+                {
+                    "id": "202005191",
+                    "topic": "valores",
+                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_19_1_valores.html",
+                    "date": "2020-05-19"
+                },
+                {
+                    "id": "202005192",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_19_2_lenguaje_indigena.html",
+                    "date": "2020-05-19"
+                },
+                {
+                    "id": "202005193",
+                    "topic": "matematicas",
+                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_19_3_matematicas.html",
+                    "date": "2020-05-19"
+                },
+                {
+                    "id": "202005194",
+                    "topic": "geografia",
+                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_19_4_geografia.html",
+                    "date": "2020-05-19"
                 }
             ]
         }
@@ -1510,8 +1567,7 @@
                     "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_15_4_matematicas.html"
                 }
             ]
-        },
-        {
+        },{
             "date": "2020-05-18",
             "topics": [
                 {
@@ -1531,6 +1587,34 @@
                     "topic": "deportes",
                     "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_18_3_deportes.html",
                     "date": "2020-05-18"
+                }
+            ]
+        },{
+            "date": "2020-05-19",
+            "topics": [
+                {
+                    "id": "202005191",
+                    "topic": "matematicas",
+                    "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_19_1_matematicas.html",
+                    "date": "2020-05-19"
+                },
+                {
+                    "id": "202005192",
+                    "topic": "geografia",
+                    "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_19_2_geografia.html",
+                    "date": "2020-05-19"
+                },
+                {
+                    "id": "202005193",
+                    "topic": "ciencias_naturales",
+                    "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_19_3_ciencias_naturales.html",
+                    "date": "2020-05-19"
+                },
+                {
+                    "id": "202005194",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_19_4_lenguaje_indigena.html",
+                    "date": "2020-05-19"
                 }
             ]
         }

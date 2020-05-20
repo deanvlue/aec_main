@@ -427,6 +427,29 @@
           "date": "2020-05-18"
         }
       ]
+    },
+    {
+      "date": "2020-05-19",
+      "topics": [
+        {
+          "id": "202005191",
+          "topic": "matematicas",
+          "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_19_1_matematicas.html",
+          "date": "2020-05-19"
+        },
+        {
+          "id": "202005192",
+          "topic": "geografia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_19_2_geografia.html",
+          "date": "2020-05-19"
+        },
+        {
+          "id": "202005193",
+          "topic": "biologia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_19_3_biologia.html",
+          "date": "2020-05-19"
+        }
+      ]
     }
   ],
   [
@@ -862,6 +885,29 @@
           "date": "2020-05-18"
         }
       ]
+    },
+    {
+      "date": "2020-05-19",
+      "topics": [
+        {
+          "id": "202005191",
+          "topic": "matematicas",
+          "modal_url": "/assets/scripts/experiencias/secundaria_2/2020_05_19_1_matematicas.html",
+          "date": "2020-05-19"
+        },
+        {
+          "id": "202005192",
+          "topic": "historia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_2/2020_05_19_2_historia.html",
+          "date": "2020-05-19"
+        },
+        {
+          "id": "202005193",
+          "topic": "fisica",
+          "modal_url": "/assets/scripts/experiencias/secundaria_2/2020_05_19_3_fisica.html",
+          "date": "2020-05-19"
+        }
+      ]
     }
   ],
   [
@@ -1282,6 +1328,26 @@
           "id": "202005183",
           "topic": "artes",
           "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_18_3_artes.html"
+        }
+      ]
+    },
+    {
+      "date": "2020-05-19",
+      "topics": [
+        {
+          "id": "202005191",
+          "topic": "matematicas",
+          "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_19_1_matematicas.html"
+        },
+        {
+          "id": "202005192",
+          "topic": "historia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_19_2_historia.html"
+        },
+        {
+          "id": "202005193",
+          "topic": "quimica",
+          "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_19_3_quimica.html"
         }
       ]
     }

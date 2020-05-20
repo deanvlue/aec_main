@@ -85,6 +85,10 @@
       {
         "nombre": "Invitar a alumnos ",
         "URL": "https://support.google.com/edu/classroom/answer/6020282?hl=es&ref_topic=9049977"
+      },
+      {
+        "nombre": "Capacitación para maestros sobre todas las herramientas de Google para la educación",
+        "URL": "https://teachercenter.withgoogle.com/training"
       }
     ],
     "microsoft": [
@@ -115,7 +119,7 @@
       {
         "nombre": "Enseñanza y aprendizaje remotos en Office 365 Educación ",
         "URL": "https://support.office.com/es-es/article/ense%c3%b1anza-y-aprendizaje-remotos-en-office-365-educaci%c3%b3n-f651ccae-7b65-478b-8366-51bb884025c4?ui=es-ES&rs=es-ES&ad=ES"
-      }
+      },
       {
         "nombre": "Cursos de Educator / Todos los cursos gratuitos de Microsoft",
         "URL": "https://education.microsoft.com/es-es/courses"

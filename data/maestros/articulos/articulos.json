@@ -22,5 +22,21 @@
             "resumen": "[PDF] La educación a distancia…",
             "publish_date": "",
             "fuente": "https://dialnet.unirioja.es/descarga/articulo/5057022.pdf"
+      },
+      {
+            "id": 4,
+            "img": "https://www.aprendeencasa.mx/assets/images/maestros/articulos/002.png",
+            "titulo": "Plataformas libres para la educación mediada por las TIC",
+            "resumen": "[PDF] Plataformas libres para la educación mediada por las TIC",
+            "publish_date": "",
+            "fuente": "https://seminarioplataformas.cuaed.unam.mx/sites/default/files/plataformas.libres.para.la.educacion.mediada.por.las.TIC.pdf"
+      },
+      {
+            "id": 5,
+            "img": "https://www.aprendeencasa.mx/assets/images/maestros/articulos/003.png",
+            "titulo": "Educación y retos de la Educación Virtual. Construyendo el e-learning del siglo XXI",
+            "resumen": "[PDF] Educación y retos de la Educación Virtual. Construyendo el e-learning del siglo XXI",
+            "publish_date": "",
+            "fuente": "http://openaccess.uoc.edu/webapps/o2/bitstream/10609/9781/1/TRIPA__e-learning_castellano.pdf"
       }
 ]

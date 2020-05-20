@@ -258,6 +258,7 @@
                     .then(response => {
                         this.experiencias = response.data
                         this.experienciasDisplay = this.experiencias[this.currentTab];
+                        console.log(response.data)
                     })
             },
             methods: {

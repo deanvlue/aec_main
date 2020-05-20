@@ -307,6 +307,22 @@
                     "date": "2020-05-19"
                 }
             ]
+        },
+        {
+            "date": "2020-05-20",
+            "topics": [
+                {
+                    "id": "202005201",
+                    "topic": "valores",
+                    "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_20_1_valores.html",
+                    "date": "2020-05-20"
+                },{
+                    "id": "202005202",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_20_2_lengua_indigena.html",
+                    "date": "2020-05-20"
+                }
+            ]
         }
     ]
 ]

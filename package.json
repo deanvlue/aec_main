@@ -1,0 +1,25 @@
+{
+  "name": "aprende-en-casa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^3.4.1",
+    "underscore": "^1.10.2",
+    "vue": "^2.6.11",
+    "vue-lazyload": "^1.3.3",
+    "vue-paginate": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/alexsflores/aec_main.git",
+  "author": "Alex's Flores <alexsflores@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexsflores/aec_main/issues"
+  },
+  "homepage": "https://github.com/alexsflores/aec_main#readme"
+}

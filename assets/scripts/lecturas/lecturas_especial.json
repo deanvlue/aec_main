@@ -1,129 +1,126 @@
 [
     {
-        "name": "PDF",
+        "name": "Lecturas PDF",
         "image": "pdf.svg",
-        "is_active": true,
-        "has_filters": false,
-        "externalLink": "",
+        "active": true,
         "books": {
             "Preescolar": [
                 {
                     "id": "1",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Preescolar_Blancanieves_Lectura.pdf",
-                    "name": "Blancanieves"
+                    "title": "Blancanieves"
                 },{
                     "id": "2",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Preescolar_Loscolores_Lectura.pdf",
-                    "name": "Los colores"
+                    "title": "Los colores"
                 },{
                     "id": "3",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Preescolar_Pinocho_Lectura.pdf",
-                    "name": "Pinocho"
+                    "title": "Pinocho"
                 },{
                     "id": "4",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Preescolar_Unliodecordones_Lectura.pdf",
-                    "name": "Un lío de cordones"
+                    "title": "Un lío de cordones"
                 },{
                     "id": "5",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Preescolar_Vayaapetitozorrito_Lectura.pdf",
-                    "name": "¡Vaya apetito tiene el zorro!"
+                    "title": "¡Vaya apetito tiene el zorro!"
                 },{
                     "id": "6",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Pri_Alta_ElEscarabajo_Lectura.pdf",
-                    "name": "El escarabajo"
+                    "title": "El escarabajo"
                 }
             ],
             "Primaria Alta": [
                 {
                     "id": "1",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Pri_Alta_ElPerritoQueNoPodiaCaminar_Lectura.pdf",
-                    "name": "El perrito que no podía caminar"
+                    "title": "El perrito que no podía caminar"
                 },{
                     "id": "2",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Pri_Alta_LaMariquitaCatarina_Lectura.pdf",
-                    "name": "La mariquita Catarina"
+                    "title": "La mariquita Catarina"
                 },{
                     "id": "3",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Pri_Alta_LeyendaAfricanaElMensaje_Lectura.pdf",
-                    "name": "Leyenda africana 'El mensaje' o por qué la luna tiene manchas"
+                    "title": "Leyenda africana 'El mensaje' o por qué la luna tiene manchas"
                 },{
                     "id": "4",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Pri_Alta_MusicaenelPlato_Lectura.pdf",
-                    "name": "Música en el plato"
+                    "title": "Música en el plato"
                 },{
                     "id": "5",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Pri_Baja_ElParque_Lectura.pdf",
-                    "name": "El parque"
+                    "title": "El parque"
                 },{
                     "id": "6",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Pri_Baja_LaMuneca_Lectura.pdf",
-                    "name": "La muñeca"
+                    "title": "La muñeca"
                 },{
                     "id": "7",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Pri_Baja_LasVacas_Lectura.pdf",
-                    "name": "Las Vacas"
+                    "title": "Las Vacas"
                 },{
                     "id": "8",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Pri_Baja_MiFamilia_Lectura.pdf",
-                    "name": "Mi familia"
+                    "title": "Mi familia"
                 },{
                     "id": "9",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Pri_Baja_UnPaseoalParque_Lectura.pdf",
-                    "name": "Un paseo al parque"
+                    "title": "Un paseo al parque"
                 }
             ],
             "SEBA": [
                 {
                     "id": "1",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/SEBA_Laboral_Carreradezapatillas_Lectura.pdf",
-                    "name": "Carrera de zapatillas: cuento infantil sobre la amistad"
+                    "title": "Carrera de zapatillas: cuento infantil sobre la amistad"
                 },{
                     "id": "2",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/SEBA_Laboral_Cuentoinfantilsobrelacompasion_Lectura.pdf",
-                    "name": "Cuento infantil sobre la compasión"
+                    "title": "Cuento infantil sobre la compasión"
                 },{
                     "id": "3",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/SEBA_Laboral_Cuentosobrelaamabilidadparaninos_Lectura.pdf",
-                    "name": "Cuento sobre la amabilidad para niños"
+                    "title": "Cuento sobre la amabilidad para niños"
                 },{
                     "id": "4",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/SEBA_Laboral_Santilin_Lectura.pdf",
-                    "name": "Santilín. Cuentos infantiles con valores"
+                    "title": "Santilín. Cuentos infantiles con valores"
                 },{
                     "id": "5",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/SEBA_LaboralL_Cuentosobrelosberrinchesdelosni%C3%B1os_Lectura.pdf",
-                    "name": "Cuento sobre los berrinches de los niños"
+                    "title": "Cuento sobre los berrinches de los niños"
                 }
             ],
             "Secundaria": [
                 {
                     "id": "1",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Secundaria_Elelefanteencadenado_Lectura.pdf",
-                    "name": "El elefante encadenado"
+                    "title": "El elefante encadenado"
                 },{
                     "id": "2",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Secundaria_Eloroylasratas_Lectura.pdf",
-                    "name": "El oro y las ratas"
+                    "title": "El oro y las ratas"
                 },{
                     "id": "3",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Secundaria_Lacigarraylahormiga_Lectura.pdf",
-                    "name": "La cigarra y la hormiga"
+                    "title": "La cigarra y la hormiga"
                 },{
                     "id": "4",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Secundaria_Laviejaqueenganoalamuerte_Lectura.pdf",
-                    "name": "La vieja que engaño a la muerte"
+                    "title": "La vieja que engaño a la muerte"
                 },{
                     "id": "5",
                     "link": "https://www.aprendeencasa.mx/aprende-en-casa/alumnos-especial/lecturas/archivos-especial/Secundaria_Nuestraacompanantelaluna_Lectura.pdf",
-                    "name": "Nuestra acompañante la luna"
+                    "title": "Nuestra acompañante la luna"
                 }
             ]
         }
     },{
         "name": "Audiolibros",
         "image": "audiolibros.svg",
-        "is_active": false,
-        "has_filters": false,
+        "active": false,
         "audiobooks": [
             {
                 "name": "Audiolibro Habi, de Guillermo Samperio",
@@ -150,8 +147,7 @@
     },{
         "name": "Audiolibros Amazon",
         "image": "audiolibros_amazon.svg",
-        "is_active": false,
-        "has_filters": false,
+        "active": false,
         "externalLink": "https://stories.audible.com/discovery/enterprise-discovery-21122525011?ref=adbl_ent_anon_ds_ds_pl_2&page=2"
     }
 ]

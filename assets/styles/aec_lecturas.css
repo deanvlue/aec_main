@@ -1,3 +1,4 @@
+#app{margin-top: 74px;padding-left: 0;padding-right: 0;padding-bottom: 40px;}
 body{background-color: #fefefe !important;font-family: 'Nunito', sans-serif;}
 .vc-title,.vc-weekday{color:rgba(179, 51, 127, 1.0) !important;}
 .vc-flex{color:#FFFFFF !important;background-color: #3182ce !important;border-radius: 50% !important;}
@@ -77,7 +78,7 @@ input[type="text"]::placeholder {
   width: 180px;
   display: grid;
   grid-template-columns: 180px;
-  grid-template-rows: 90px 100px 80px;
+  grid-template-rows: 90px 120px 80px;
   grid-template-areas: "image" "text" "tools";
 
   border-radius: 10px;
@@ -218,11 +219,11 @@ input[type="text"]::placeholder {
 .category-title{font-size: 24px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.33;letter-spacing: normal;color: #2c374b !important;margin-top: 15px;padding-bottom: 15px;border-bottom: 1px solid #01a2aa;}
 
 /* Filters */
-#filters input[type="checkbox"] {
+.filters input[type="checkbox"] {
     display: none;
 }
 
-#filters span {
+.filters span {
     display: inline-block;
     padding: 15px;
     border: 1px solid #ecebed;
@@ -234,12 +235,12 @@ input[type="text"]::placeholder {
     cursor: pointer;
 }
 
-#filters input[type="checkbox"]:checked + span {
+.filters input[type="checkbox"]:checked + span {
     background-color: #01a2aa;
     color: #fafdfe;
 }
 
-#filters label {
+.filters label {
     margin-bottom: 20px;
     margin-right: 20px;
 }
@@ -268,7 +269,15 @@ input[type="text"]::placeholder {
     color: #ccc;
     cursor: no-drop;
 }
-
+.pagination>li>a, .pagination>li>span {
+    color: #01a2aa;
+    font-size: 16px;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #FFF;
+    background-color: #01a2aa;
+    border-color: #01a2aa;
+}
 .search-container{padding-left: 30px}
 .form .filter-btn{padding-right: 30px}
 
@@ -288,14 +297,18 @@ input[type="text"]::placeholder {
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
-@media (min-width: 768px) and (max-width: 1024px) {              
+@media (min-width: 768px) and (max-width: 1024px) {       
+    .card{width:165px;grid-template-columns:165px;}       
 }
 /* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .text-center{margin: -15px 0 20px 0;}            
+    .text-center{margin: -15px 0 20px 0;}        
+    .card{width: 175px;grid-template-columns: 175px;}    
+    audio{width:255px;}
+    .card2{width: 303px;grid-template-columns: 303px;margin:10px;}
 }
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -312,7 +325,6 @@ input[type="text"]::placeholder {
     .tabs-container .sub{padding:20px}
     .tabs-details {padding-top: 22px;} 
     .tabs .tab {margin-bottom: 10px;padding-right: 0;}
-    #experiences .topics{padding-left: 0;padding-right: 0}
     .text-center{margin: 15px 0 20px 0;}
     .category-title {text-align: left;margin-left: 20px;}
     .form{margin-bottom: 30px;}
@@ -321,8 +333,8 @@ input[type="text"]::placeholder {
     .text-left{padding-left: 15px;}
     .card2 {width: 320px;grid-template-columns: 320px;}
     .card {width: 163px;grid-template-columns: 163px;grid-template-rows: 90px 139px 80px}
-    #filters span {width: 100%}
-    #filters label {margin-bottom:10px;margin-right:0;width: 100%;}
+    .filters span {width: 100%}
+    .filters label {margin-bottom:10px;margin-right:0;width: 100%;}
     .filters-container {padding-left: 30px;padding-right: 15px;}
     .search-container{padding-left: 30px !important;padding-right: 15px;}
 }
@@ -336,3 +348,12 @@ input[type="text"]::placeholder {
         width: 1200px;
     }
 }
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }

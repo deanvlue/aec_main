@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "name": "Cuentos con valores"
+    },{
+        "id": 2,
+        "name": "Cuentos de princesas y príncipes"
+    },{
+        "id": 3,
+        "name": "Cuentos de animales"
+    },{
+        "id": 4,
+        "name": "Cuentos infantiles clásicos para niños"
+    },{
+        "id": 5,
+        "name": "Cuentos sobre tolerancia y bullying"
+    },{
+        "id": 6,
+        "name": "Cuentos infantiles de amistad"
+    },{
+        "id": 7,
+        "name": "Cuentos infantiles de dinosaurios"
+    },{
+        "id": 8,
+        "name": "Cuentos inventados por niños y otras colaboraciones"
+    },{
+        "id": 9,
+        "name": "Cuentos de piratas para niños"
+    },{
+        "id": 10,
+        "name": "Cuentos infantiles de amor y San Valentín"
+    },{
+        "id": 11,
+        "name": "Cuentos de sirenas para niños"
+    },{
+        "id": 12,
+        "name": "Cuentos de colaboraciones"
+    },{
+        "id": 13,
+        "name": "Cuentos de Navidad para niños"
+    },{
+        "id": 14,
+        "name": "Cuentos de brujas para niños"
+    },{
+        "id": 15,
+        "name": "Cuentos de miedo para niños"
+    },{
+        "id": 16,
+        "name": "Cuentos para dormir"
+    },{
+        "id": 17,
+        "name": "Cuentos de dragones para niños"
+    },{
+        "id": 18,
+        "name": "Cuentos de hadas para niños"
+    },{
+        "id": 19,
+        "name": "Microcuentos infantiles"
+    }
+]

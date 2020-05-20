@@ -12,13 +12,13 @@
       },
       {
         "id": 4,
-        "img": "https: //placeimg.com/350/200/any",
+        "img": "https://placeimg.com/350/200/any",
         "titulo": "Educación en 90: Google Classroom",
         "src": "https://www.youtube.com/embed/Z0tQkLJEfz0"
       },
       {
         "id": 5,
-        "img": "https: //placeimg.com/350/200/any",
+        "img": "https://placeimg.com/350/200/any",
         "titulo": "Educación en 90: Creando Preguntas ",
         "src": "https://www.youtube.com/embed/YXo9K10nDsE"
       }
@@ -26,19 +26,19 @@
     "microsoft": [
       {
         "id": 1,
-        "img": "https: //placeimg.com/350/200/any",
+        "img": "https://placeimg.com/350/200/any",
         "titulo": "Primeros pasos con Microsoft Teams.",
         "src": "https://www.youtube.com/embed/XcIiVZ84_LI"
       },
       {
         "id": 2,
-        "img": "https: //placeimg.com/350/200/any",
+        "img": "https://placeimg.com/350/200/any",
         "titulo": "Iniciar en Microsoft Teams. En español.",
         "src": "https://www.youtube.com/embed/lHeyAUMBdaQ"
       },
       {
         "id": 3,
-        "img": "https: //placeimg.com/350/200/any",
+        "img": "https://placeimg.com/350/200/any",
         "titulo": "Programar una reunión. Microsoft Teams en español.",
         "src": "https://www.youtube.com/embed/eTL4Y8StL1w"
       }

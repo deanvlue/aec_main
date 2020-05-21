@@ -47,6 +47,10 @@
   "links": {
     "google": [
       {
+        "nombre": "Enseña desde casa",
+        "URL": "https://teachfromhome.google/intl/es-419/"
+      },
+      {
         "nombre": "Aprende sobre las herramientas que ofrece Google for education",
         "URL": "https://edu.google.com"
       },

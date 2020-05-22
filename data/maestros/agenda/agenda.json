@@ -69,7 +69,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": "https://aka.ms/22Mayo/AEFCM/1030",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-22",
@@ -78,7 +78,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": "https://aka.ms/22Mayo/AEFCM/1630",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-26",
@@ -87,7 +87,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": "https://aka.ms/26Mayo/OneNoteAEF/1030",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-26",
@@ -96,7 +96,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": "https://aka.ms/26Mayo/ OneNoteAEF/1630",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-26",
@@ -105,7 +105,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": " https://aka.ms/26Mayo/ OneNoteAEF/1800",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-27",
@@ -114,7 +114,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": " https://aka.ms/27Mayo/TEAMSAEF/1030",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-27",
@@ -123,7 +123,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": " https://aka.ms/27Mayo/TEAMSAEF/1630",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-27",
@@ -132,7 +132,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": " https://aka.ms/27Mayo/TEAMSAEF/1800",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-27",
@@ -141,7 +141,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": " https://aka.ms/27Mayo/AdminAEF/1130",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-27",
@@ -150,7 +150,7 @@
     "impartido": "Microsoft Teams",
     "poblacionBeneficiada": "Docentes",
     "link": " https://aka.ms/27Mayo/AdminAEF/1730",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-28",
@@ -159,7 +159,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": " https://aka.ms/28Mayo/AdminAEF/1130",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-28",
@@ -168,7 +168,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": " https://aka.ms/28Mayo/AdminAEF/1730",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-29",
@@ -177,7 +177,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": "  https://aka.ms/29Mayo/AdminAEF/1130",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-29",
@@ -186,7 +186,7 @@
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
     "link": "  https://aka.ms/29Mayo/AdminAEF/1730",
-    "activa": true
+    "activa": false
   },
   {
     "fecha": "2020-05-22",
@@ -195,7 +195,7 @@
     "actividad": "Sesiones introductorias al uso de herramientas de Microsoft",
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
-    "activa": false
+    "activa": true
   },
   {
     "fecha": "2020-05-22",
@@ -204,7 +204,7 @@
     "actividad": "Sesiones introductorias al uso de herramientas de Microsoft",
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
-    "activa": false
+    "activa": true
   },
   {
     "fecha": "2020-05-25",
@@ -213,7 +213,7 @@
     "actividad": "Sesiones introductorias al uso de herramientas de Microsoft",
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
-    "activa": false
+    "activa": true
   },
   {
     "fecha": "2020-05-25",
@@ -222,7 +222,7 @@
     "actividad": "Sesiones introductorias al uso de herramientas de Microsoft",
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
-    "activa": false
+    "activa": true
   },
   {
     "fecha": "2020-05-25",
@@ -231,7 +231,7 @@
     "actividad": "Sesiones introductorias al uso de herramientas de Microsoft",
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
-    "activa": false
+    "activa": true
   },
   {
     "fecha": "2020-05-25",
@@ -240,7 +240,7 @@
     "actividad": "Sesiones introductorias al uso de herramientas de Microsoft",
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
-    "activa": false
+    "activa": true
   },
   {
     "fecha": "2020-05-26",
@@ -249,7 +249,7 @@
     "actividad": "Sesiones introductorias al uso de herramientas de Microsoft",
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
-    "activa": false
+    "activa": true
   },
   {
     "fecha": "2020-05-27",
@@ -258,7 +258,7 @@
     "actividad": "Sesiones introductorias al uso de herramientas de Microsoft",
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
-    "activa": false
+    "activa": true
   },
   {
     "fecha": "2020-05-28",
@@ -267,7 +267,7 @@
     "actividad": "Sesiones introductorias al uso de herramientas de Microsoft",
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
-    "activa": false
+    "activa": true
   },
   {
     "fecha": "2020-05-29",
@@ -276,6 +276,6 @@
     "actividad": "Sesiones introductorias al uso de herramientas de Microsoft",
     "poblacionBeneficiada": "Docentes",
     "impartido": "Microsoft Teams",
-    "activa": false
+    "activa": true
   }
 ]

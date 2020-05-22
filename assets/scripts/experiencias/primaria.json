@@ -541,8 +541,7 @@
                     "date": "2020-05-19"
                 }
             ]
-        },
-        {
+        },{
             "date": "2020-05-20",
             "topics": [
                 {
@@ -568,6 +567,34 @@
                     "topic": "artes",
                     "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_20_4_artes.html",
                     "date": "2020-05-20"
+                }
+            ]
+        },{
+            "date": "2020-05-21",
+            "topics": [
+                {
+                    "id": "202005211",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_21_1_lenguaje.html",
+                    "date": "2020-05-21"
+                },
+                {
+                    "id": "202005212",
+                    "topic": "artes",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_21_2_artes.html",
+                    "date": "2020-05-21"
+                },
+                {
+                    "id": "202005213",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_21_3_lengua_indigena.html",
+                    "date": "2020-05-21"
+                },
+                {
+                    "id": "202005214",
+                    "topic": "deportes",
+                    "modal_url": "/assets/scripts/experiencias/primaria_1_2/2020_05_21_4_deportes.html",
+                    "date": "2020-05-21"
                 }
             ]
         }
@@ -1105,8 +1132,7 @@
                     "date": "2020-05-19"
                 }
             ]
-        },
-        {
+        },{
             "date": "2020-05-20",
             "topics": [
                 {
@@ -1132,6 +1158,22 @@
                     "topic": "matematicas",
                     "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_20_4_matematicas.html",
                     "date": "2020-05-20"
+                }
+            ]
+        },{
+            "date": "2020-05-21",
+            "topics": [
+                {
+                    "id": "202005211",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_21_1_lenguaje.html",
+                    "date": "2020-05-21"
+                },
+                {
+                    "id": "202005212",
+                    "topic": "artes",
+                    "modal_url": "/assets/scripts/experiencias/primaria_3_4/2020_05_21_2_artes.html",
+                    "date": "2020-05-21"
                 }
             ]
         }
@@ -1678,8 +1720,7 @@
                     "date": "2020-05-19"
                 }
             ]
-        },
-        {
+        },{
             "date": "2020-05-20",
             "topics": [
                 {
@@ -1705,6 +1746,28 @@
                     "topic": "lenguaje",
                     "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_20_4_lengua_indigena.html",
                     "date": "2020-05-20"
+                }
+            ]
+        },{
+            "date": "2020-05-21",
+            "topics": [
+                {
+                    "id": "202005211",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_21_1_lengua_indigena.html",
+                    "date": "2020-05-21"
+                },
+                {
+                    "id": "202005212",
+                    "topic": "matematicas",
+                    "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_21_2_matematicas.html",
+                    "date": "2020-05-21"
+                },
+                {
+                    "id": "202005213",
+                    "topic": "geografia",
+                    "modal_url": "/assets/scripts/experiencias/primaria_5_6/2020_05_21_3_geografia.html",
+                    "date": "2020-05-21"
                 }
             ]
         }

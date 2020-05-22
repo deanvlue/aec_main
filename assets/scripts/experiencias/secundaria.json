@@ -450,8 +450,7 @@
           "date": "2020-05-19"
         }
       ]
-    },
-    {
+    },{
       "date": "2020-05-20",
       "topics": [
         {
@@ -471,6 +470,28 @@
           "topic": "historia",
           "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_20_3_historia.html",
           "date": "2020-05-20"
+        }
+      ]
+    },{
+      "date": "2020-05-21",
+      "topics": [
+        {
+          "id": "202005211",
+          "topic": "biologia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_21_1_biologia.html",
+          "date": "2020-05-21"
+        },
+        {
+          "id": "202005212",
+          "topic": "geografia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_21_2_geografia.html",
+          "date": "2020-05-21"
+        },
+        {
+          "id": "202005213",
+          "topic": "matematicas",
+          "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_21_3_matematicas.html",
+          "date": "2020-05-21"
         }
       ]
     }
@@ -931,8 +952,7 @@
           "date": "2020-05-19"
         }
       ]
-    },
-    {
+    },{
       "date": "2020-05-20",
       "topics": [
         {
@@ -952,6 +972,28 @@
           "topic": "matematicas",
           "modal_url": "/assets/scripts/experiencias/secundaria_2/2020_05_20_3_matematicas.html",
           "date": "2020-05-20"
+        }
+      ]
+    },{
+      "date": "2020-05-21",
+      "topics": [
+        {
+          "id": "202005211",
+          "topic": "matematicas",
+          "modal_url": "/assets/scripts/experiencias/secundaria_2/2020_05_21_1_matematicas.html",
+          "date": "2020-05-21"
+        },
+        {
+          "id": "202005212",
+          "topic": "historia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_2/2020_05_21_2_historia.html",
+          "date": "2020-05-21"
+        },
+        {
+          "id": "202005213",
+          "topic": "fisica",
+          "modal_url": "/assets/scripts/experiencias/secundaria_2/2020_05_21_3_fisica.html",
+          "date": "2020-05-21"
         }
       ]
     }
@@ -1396,8 +1438,7 @@
           "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_19_3_quimica.html"
         }
       ]
-    },
-    {
+    },{
       "date": "2020-05-20",
       "topics": [
         {
@@ -1414,6 +1455,25 @@
           "id": "202005203",
           "topic": "civismo",
           "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_20_3_civismo.html"
+        }
+      ]
+    },{
+      "date": "2020-05-21",
+      "topics": [
+        {
+          "id": "202005211",
+          "topic": "quimica",
+          "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_21_1_quimica.html"
+        },
+        {
+          "id": "202005212",
+          "topic": "historia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_21_2_historia.html"
+        },
+        {
+          "id": "202005213",
+          "topic": "matematicas",
+          "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_21_3_matematicas.html"
         }
       ]
     }

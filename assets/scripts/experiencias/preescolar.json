@@ -327,8 +327,7 @@
                     "date": "2020-05-19"
                 }
             ]
-        },
-        {
+        },{
             "date": "2020-05-20",
             "topics": [
                 {
@@ -342,6 +341,22 @@
                     "topic": "lenguaje",
                     "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_20_2_lengua_indigena.html",
                     "date": "2020-05-20"
+                }
+            ]
+        },{
+            "date": "2020-05-21",
+            "topics": [
+                {
+                    "id": "202005211",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_21_1_lenguaje.html",
+                    "date": "2020-05-21"
+                },
+                {
+                    "id": "202005212",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_21_2_lenguaje.html",
+                    "date": "2020-05-21"
                 }
             ]
         }

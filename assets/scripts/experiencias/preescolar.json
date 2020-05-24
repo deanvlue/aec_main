@@ -359,6 +359,22 @@
                     "date": "2020-05-21"
                 }
             ]
+        },{
+            "date": "2020-05-22",
+            "topics": [
+                {
+                    "id": "202005221",
+                    "topic": "artes",
+                    "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_22_1_artes.html",
+                    "date": "2020-05-22"
+                },
+                {
+                    "id": "202005222",
+                    "topic": "lenguaje",
+                    "modal_url": "/assets/scripts/experiencias/preescolar/2020_05_22_2_lengua_indigena.html",
+                    "date": "2020-05-22"
+                }
+            ]
         }
     ]
 ]

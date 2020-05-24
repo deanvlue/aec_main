@@ -252,7 +252,8 @@
                 parameters = this.$route.query;
                 this.nivel = parameters.nivel;
                 //experienciasURL= mainURL + "/assets/scripts/experiencias/"+this.nivel+".json"
-                experienciasURL = "https://www.aprendeencasa.mx/assets/scripts/experiencias/" + this.nivel + ".json"
+                //experienciasURL = "https://www.aprendeencasa.mx/assets/scripts/experiencias/" + this.nivel + ".json"
+                experienciasURL = "https://vibrant-hypatia-d11911.netlify.app/assets/scripts/experiencias/" + this.nivel + ".json"
                 axios
                     .get(experienciasURL)
                     .then(response => {

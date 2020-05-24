@@ -494,6 +494,28 @@
           "date": "2020-05-21"
         }
       ]
+    },{
+      "date": "2020-05-22",
+      "topics": [
+        {
+          "id": "202005221",
+          "topic": "tecnologia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_22_1_tecnologia.html",
+          "date": "2020-05-22"
+        },
+        {
+          "id": "202005222",
+          "topic": "biologia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_22_2_biologia.html",
+          "date": "2020-05-22"
+        },
+        {
+          "id": "202005223",
+          "topic": "lenguaje",
+          "modal_url": "/assets/scripts/experiencias/secundaria_1/2020_05_22_3_lenguaje.html",
+          "date": "2020-05-22"
+        }
+      ]
     }
   ],
   [
@@ -996,6 +1018,28 @@
           "date": "2020-05-21"
         }
       ]
+    },{
+      "date": "2020-05-22",
+      "topics": [
+        {
+          "id": "202005221",
+          "topic": "matematicas",
+          "modal_url": "/assets/scripts/experiencias/secundaria_2/2020_05_21_1_matematicas.html",
+          "date": "2020-05-22"
+        },
+        {
+          "id": "202005222",
+          "topic": "historia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_2/2020_05_21_2_historia.html",
+          "date": "2020-05-22"
+        },
+        {
+          "id": "202005223",
+          "topic": "fisica",
+          "modal_url": "/assets/scripts/experiencias/secundaria_2/2020_05_21_3_fisica.html",
+          "date": "2020-05-22"
+        }
+      ]
     }
   ],
   [
@@ -1474,6 +1518,25 @@
           "id": "202005213",
           "topic": "matematicas",
           "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_21_3_matematicas.html"
+        }
+      ]
+    },{
+      "date": "2020-05-22",
+      "topics": [
+        {
+          "id": "202005221",
+          "topic": "tecnologia",
+          "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_22_1_tecnologia.html"
+        },
+        {
+          "id": "202005222",
+          "topic": "artes",
+          "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_22_2_artes.html"
+        },
+        {
+          "id": "202005223",
+          "topic": "lenguaje",
+          "modal_url": "/assets/scripts/experiencias/secundaria_3/2020_05_22_3_lenguaje.html"
         }
       ]
     }

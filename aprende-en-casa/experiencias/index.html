@@ -252,8 +252,8 @@
             mounted: function () {
                 parameters = this.$route.query;
                 this.nivel = parameters.nivel;
-                experienciasURL = "http://127.0.0.1:5500/assets/scripts/experiencias/main.json"
-                //experienciasURL = "https://www.aprendeencasa.mx/assets/scripts/experiencias/" + this.nivel + ".json"
+                //experienciasURL = "http://127.0.0.1:5500/assets/scripts/experiencias/main.json"
+                experienciasURL = "https://www.aprendeencasa.mx/assets/scripts/experiencias/main.json"
                 axios
                     .get(experienciasURL)
                     .then(response => {

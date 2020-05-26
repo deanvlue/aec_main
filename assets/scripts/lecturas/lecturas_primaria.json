@@ -221,5 +221,10 @@
         "image": "cuentacuentos_ine.svg",
         "active": false,
         "externalLink": "https://www.ine.mx/cuentacuentos-talleres/"
+    },{
+        "name": "Lecturas Twig - Changomaniaco",
+        "image": "chango_maniaco.svg",
+        "active": false,
+        "externalLink": "https://www.changomaniaco.com/lecturas_twig/"
     }
 ]

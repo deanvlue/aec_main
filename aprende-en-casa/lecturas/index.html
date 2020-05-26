@@ -120,7 +120,9 @@
             <div class="row">
                 <div class="col-sm-12" style="margin-top: -12px;">
                     <img v-if="level == 'preescolar'" src="/assets/images/lecturas/banner_preescolar.svg" style="max-width: 1400px;width: 100%;height: auto;" alt="Banner">
-                    <img v-else src="/assets/images/lecturas/banner.svg" style="max-width: 1400px;width: 100%;height: auto;" alt="Banner">
+                    <img v-if="level == 'primaria'" src="/assets/images/lecturas/banner_primaria.svg" style="max-width: 1400px;width: 100%;height: auto;" alt="Banner">
+                    <img v-if="level == 'secundaria'" src="/assets/images/lecturas/banner_secundaria.svg" style="max-width: 1400px;width: 100%;height: auto;" alt="Banner">
+                    <!--<img v-else src="/assets/images/lecturas/banner.svg" style="max-width: 1400px;width: 100%;height: auto;" alt="Banner">-->
                 </div>
             </div>
             <div class="row header-text">

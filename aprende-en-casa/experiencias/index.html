@@ -110,6 +110,7 @@
                                     </div>
                                     <div v-else>
                                         <h3>Estamos preparando contenido para tí</h3>
+
                                     </div>
                                 </div>
                             </div>
@@ -251,19 +252,24 @@
             mounted: function () {
                 parameters = this.$route.query;
                 this.nivel = parameters.nivel;
-                //experienciasURL= mainURL + "/assets/scripts/experiencias/"+this.nivel+".json"
-                experienciasURL = "https://www.aprendeencasa.mx/assets/scripts/experiencias/" + this.nivel + ".json"
+                experienciasURL = "http://127.0.0.1:5500/assets/scripts/experiencias/main.json"
+                //experienciasURL = "https://www.aprendeencasa.mx/assets/scripts/experiencias/" + this.nivel + ".json"
                 axios
                     .get(experienciasURL)
                     .then(response => {
-                        this.experiencias = response.data
+                        this.experiencias = response.data[this.nivel]
                         this.experienciasDisplay = this.experiencias[this.currentTab];
-                        console.log(response.data)
+
+                        //console.log(response.data)
                     })
             },
             methods: {
                 filtra: function (fecha) {
-                    this.experienciasDisplay = _.findWhere(this.experiencias[this.currentTab], { date: fecha })
+                    //this.experienciasDisplay = _.findWhere(this.experiencias[this.currentTab], { date: fecha })
+                    this.experienciasDisplay = this.experiencias[this.currentTab].nivel.find(e => {
+                        return e.fecha == fecha
+                    })
+
                 },
                 selectDay: function (e) {
                     this.filtra(e.id);

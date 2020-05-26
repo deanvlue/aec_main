@@ -339,9 +339,7 @@ input[type="text"]::placeholder {
     .search-container{padding-left: 30px !important;padding-right: 15px;}
 }
 @media (min-width: 768px){
-    .col-sm-2 {
-        width: 20%;
-    }
+    
 } 
 @media (min-width: 1200px) {
     .container {

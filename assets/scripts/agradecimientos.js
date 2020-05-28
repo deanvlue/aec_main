@@ -16,6 +16,7 @@ const brands = [
   'plazasesamo.png',
   'science_bits.png',
   'stc.png',
+  'chango_maniaco.png',
   'uam.png',
   'fundacion_aprende.png',
 ];

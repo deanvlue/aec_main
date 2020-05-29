@@ -284,6 +284,7 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/29Mayo/Teams/1030",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -292,6 +293,7 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/29Mayo/Teams/1230",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -300,6 +302,7 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/29Mayo/Teams/1600",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -308,6 +311,7 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/1Junio/Teams/1030",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -316,6 +320,8 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/1Junio/Teams/1230",
+    "impartido": "Microsoft Teams",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -324,6 +330,7 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/1Junio/Teams/1600",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -332,6 +339,7 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Libreta digital de clases",
     "link": "https://aka.ms/2Junio/Teams/1030",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -340,6 +348,7 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Libreta digital de clases",
     "link": "https://aka.ms/2Junio/Teams/1230",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -348,6 +357,7 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Libreta digital de clases",
     "link": "https://aka.ms/2Junio/Teams/1600",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -356,6 +366,7 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Evaluación y creación de exámenes",
     "link": "https://aka.ms/3Junio/Teams/1030",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -364,6 +375,7 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Evaluación y creación de exámenes",
     "link": "https://aka.ms/3Junio/Teams/1230",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -372,6 +384,7 @@
     "poblacionBeneficiada": "Docentes",
     "tema": "Evaluación y creación de exámenes",
     "link": "https://aka.ms/3Junio/Teams/1600",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -380,6 +393,7 @@
     "tema": "Asignación de tareas",
     "poblacionBeneficiada": "Docentes",
     "link": "https://aka.ms/4Junio/Teams/1030",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -388,6 +402,7 @@
     "tema": "Asignación de tareas",
     "poblacionBeneficiada": "Docentes",
     "link": "https://aka.ms/4Junio/Teams/1230",
+    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -396,6 +411,7 @@
     "tema": "Asignación de tareas",
     "poblacionBeneficiada": "Docentes",
     "link": "https://aka.ms/4Junio/Teams/1600",
+    "impartido": "Microsoft Teams",
     "activa": true
   }
 ]

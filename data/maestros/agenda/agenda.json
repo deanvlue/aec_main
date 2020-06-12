@@ -5,7 +5,7 @@
     "actividad": "Introducción a mi cuenta y uso de classroom.",
     "poblacionBeneficiada": "Figuras Educativas",
     "impartido": "Google for Education",
-    "link": "",
+    "link": "https://youtu.be/mFnjGYGL_zg",
     "activa": true
   },
   {
@@ -14,7 +14,7 @@
     "actividad": "Drive y archivos de colaboración.",
     "poblacionBeneficiada": "Figuras Educativas",
     "impartido": "Google for Education",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfPZCrwb7hWJPC9z0Ma3veQkZHc4ob9rhJZxY8J4--WBk8k_A/viewform",
+    "link": "https://youtu.be/twFYT6MG3sY",
     "activa": true
   },
   {
@@ -23,7 +23,7 @@
     "actividad": "Formularios de Google.",
     "poblacionBeneficiada": "Figuras Educativas",
     "impartido": "Google for Education",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLScJG6EfmE0FZKSOC3im1oteu1s_cr58-Cd_4_E0IGojLxVU7A/viewform",
+    "link": "https://youtu.be/2bfSsl18nkg",
     "activa": true
   },
   {
@@ -32,7 +32,7 @@
     "actividad": "Crea videoconferencias (meet, calendario, classroom).",
     "poblacionBeneficiada": "Figuras Educativas",
     "impartido": "Google for Education",
-    "link": "",
+    "link": "https://youtu.be/rvW7JZvWt68",
     "activa": true
   },
   {
@@ -41,7 +41,7 @@
     "actividad": "Optimiza tu classroom.",
     "poblacionBeneficiada": "Figuras Educativas",
     "impartido": "Google for Education",
-    "link": "",
+    "link": "https://youtu.be/Xvs-e4txQno",
     "activa": true
   },
   {
@@ -321,7 +321,6 @@
     "tema": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/1Junio/Teams/1230",
     "impartido": "Microsoft Teams",
-    "impartido": "Microsoft Teams",
     "activa": true
   },
   {
@@ -412,6 +411,51 @@
     "poblacionBeneficiada": "Docentes",
     "link": "https://aka.ms/4Junio/Teams/1600",
     "impartido": "Microsoft Teams",
+    "activa": true
+  },
+  {
+    "fecha": "2020-06-03",
+    "hora": "11:00",
+    "tema": "Aprendizaje a distancia para los más pequeños",
+    "poblacionBeneficiada": "Docentes",
+    "link": "https://events.withgoogle.com/educacion-a-distancia/agenda-junio/#content",
+    "impartido": "Google for Education",
+    "activa": true
+  },
+  {
+    "fecha": "2020-06-10",
+    "hora": "09:30",
+    "tema": "Organización de actividades y administración del tiempo",
+    "poblacionBeneficiada": "Docentes",
+    "link": "https://events.withgoogle.com/educacion-a-distancia/agenda-junio/#content",
+    "impartido": "Google for Education",
+    "activa": true
+  },
+  {
+    "fecha": "2020-06-17",
+    "hora": "09:30",
+    "tema": "EduTubers: sé parte de la era digital",
+    "poblacionBeneficiada": "Docentes",
+    "link": "https://events.withgoogle.com/educacion-a-distancia/agenda-junio/#content",
+    "impartido": "Google for Education",
+    "activa": true
+  },
+  {
+    "fecha": "2020-06-24",
+    "hora": "09:30",
+    "tema": "Se genial en internet: uso seguro y responsable internet",
+    "poblacionBeneficiada": "Docentes",
+    "link": "https://events.withgoogle.com/educacion-a-distancia/agenda-junio/#content",
+    "impartido": "Google for Education",
+    "activa": true
+  },
+  {
+    "fecha": "2020-06-12",
+    "hora": "Del 8 de Junio al 17 de Julio",
+    "tema": "Registro Convocatoria: Maestría en educación con campo en planeación educativa(MECPE)",
+    "poblacionBeneficiada": "Docentes",
+    "link": "http://posgradounidades.upn.mx",
+    "impartido": "UPN",
     "activa": true
   }
 ]

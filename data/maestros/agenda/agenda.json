@@ -282,7 +282,7 @@
     "fecha": "2020-05-29",
     "hora": "10:30 - 12:00",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Funciones básicas de 0365. Videoconferencia",
+    "actividad": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/29Mayo/Teams/1030",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -291,7 +291,7 @@
     "fecha": "2020-05-29",
     "hora": "12:30 - 14:00",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Funciones básicas de 0365. Videoconferencia",
+    "actividad": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/29Mayo/Teams/1230",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -300,7 +300,7 @@
     "fecha": "2020-05-29",
     "hora": "16:00 - 17:30",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Funciones básicas de 0365. Videoconferencia",
+    "actividad": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/29Mayo/Teams/1600",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -309,7 +309,7 @@
     "fecha": "2020-06-01",
     "hora": "10:30 - 12:00",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Funciones básicas de 0365. Videoconferencia",
+    "actividad": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/1Junio/Teams/1030",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -318,7 +318,7 @@
     "fecha": "2020-06-01",
     "hora": "12:30 - 14:00",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Funciones básicas de 0365. Videoconferencia",
+    "actividad": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/1Junio/Teams/1230",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -327,7 +327,7 @@
     "fecha": "2020-06-01",
     "hora": "16:00 - 17:30",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Funciones básicas de 0365. Videoconferencia",
+    "actividad": "Funciones básicas de 0365. Videoconferencia",
     "link": "https://aka.ms/1Junio/Teams/1600",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -336,7 +336,7 @@
     "fecha": "2020-06-02",
     "hora": "10:30 - 12:00",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Libreta digital de clases",
+    "actividad": "Libreta digital de clases",
     "link": "https://aka.ms/2Junio/Teams/1030",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -345,7 +345,7 @@
     "fecha": "2020-06-02",
     "hora": "12:30 - 14:00",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Libreta digital de clases",
+    "actividad": "Libreta digital de clases",
     "link": "https://aka.ms/2Junio/Teams/1230",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -354,7 +354,7 @@
     "fecha": "2020-06-02",
     "hora": "16:00 - 17:30",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Libreta digital de clases",
+    "actividad": "Libreta digital de clases",
     "link": "https://aka.ms/2Junio/Teams/1600",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -363,7 +363,7 @@
     "fecha": "2020-06-05",
     "hora": "10:30 - 12:00",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Evaluación y creación de exámenes",
+    "actividad": "Evaluación y creación de exámenes",
     "link": "https://aka.ms/3Junio/Teams/1030",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -372,7 +372,7 @@
     "fecha": "2020-06-05",
     "hora": "12:30 - 14:00",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Evaluación y creación de exámenes",
+    "actividad": "Evaluación y creación de exámenes",
     "link": "https://aka.ms/3Junio/Teams/1230",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -381,7 +381,7 @@
     "fecha": "2020-06-05",
     "hora": "16:00 - 17:30",
     "poblacionBeneficiada": "Docentes",
-    "tema": "Evaluación y creación de exámenes",
+    "actividad": "Evaluación y creación de exámenes",
     "link": "https://aka.ms/3Junio/Teams/1600",
     "impartido": "Microsoft Teams",
     "activa": true
@@ -389,7 +389,7 @@
   {
     "fecha": "2020-06-08",
     "hora": "10:30 - 12:00",
-    "tema": "Asignación de tareas",
+    "actividad": "Asignación de tareas",
     "poblacionBeneficiada": "Docentes",
     "link": "https://aka.ms/4Junio/Teams/1030",
     "impartido": "Microsoft Teams",
@@ -398,7 +398,7 @@
   {
     "fecha": "2020-06-08",
     "hora": "12:30 - 14:00",
-    "tema": "Asignación de tareas",
+    "actividad": "Asignación de tareas",
     "poblacionBeneficiada": "Docentes",
     "link": "https://aka.ms/4Junio/Teams/1230",
     "impartido": "Microsoft Teams",
@@ -407,7 +407,7 @@
   {
     "fecha": "2020-06-08",
     "hora": "16:00 - 17:30",
-    "tema": "Asignación de tareas",
+    "actividad": "Asignación de tareas",
     "poblacionBeneficiada": "Docentes",
     "link": "https://aka.ms/4Junio/Teams/1600",
     "impartido": "Microsoft Teams",
@@ -416,7 +416,7 @@
   {
     "fecha": "2020-06-03",
     "hora": "11:00",
-    "tema": "Aprendizaje a distancia para los más pequeños",
+    "actividad": "Aprendizaje a distancia para los más pequeños",
     "poblacionBeneficiada": "Docentes",
     "link": "https://events.withgoogle.com/educacion-a-distancia/agenda-junio/#content",
     "impartido": "Google for Education",
@@ -425,7 +425,7 @@
   {
     "fecha": "2020-06-10",
     "hora": "09:30",
-    "tema": "Organización de actividades y administración del tiempo",
+    "actividad": "Organización de actividades y administración del tiempo",
     "poblacionBeneficiada": "Docentes",
     "link": "https://events.withgoogle.com/educacion-a-distancia/agenda-junio/#content",
     "impartido": "Google for Education",
@@ -434,7 +434,7 @@
   {
     "fecha": "2020-06-17",
     "hora": "09:30",
-    "tema": "EduTubers: sé parte de la era digital",
+    "actividad": "EduTubers: sé parte de la era digital",
     "poblacionBeneficiada": "Docentes",
     "link": "https://events.withgoogle.com/educacion-a-distancia/agenda-junio/#content",
     "impartido": "Google for Education",
@@ -443,7 +443,7 @@
   {
     "fecha": "2020-06-24",
     "hora": "09:30",
-    "tema": "Se genial en internet: uso seguro y responsable internet",
+    "actividad": "Se genial en internet: uso seguro y responsable internet",
     "poblacionBeneficiada": "Docentes",
     "link": "https://events.withgoogle.com/educacion-a-distancia/agenda-junio/#content",
     "impartido": "Google for Education",
@@ -452,7 +452,7 @@
   {
     "fecha": "2020-06-12",
     "hora": "Del 8 de Junio al 17 de Julio",
-    "tema": "Registro Convocatoria: Maestría en educación con campo en planeación educativa(MECPE)",
+    "actividad": "Registro Convocatoria: Maestría en educación con campo en planeación educativa(MECPE)",
     "poblacionBeneficiada": "Docentes",
     "link": "http://posgradounidades.upn.mx",
     "impartido": "UPN",

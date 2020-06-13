@@ -1,6 +1,6 @@
 {
   "btnLinks": {
-    "google": "https://edu.google.com",
+    "google": "https://edu.google.com/intl/es-419/?modal_active=none",
     "microsoft": "https://teams.microsoft.com"
   },
   "videos": {
@@ -13,7 +13,7 @@
       {
         "id": 4,
         "img": "https://placeimg.com/350/200/any",
-        "titulo": "Educación en 90: Google Classroom",
+        "titulo": "Educación en 90: Creando Preguntas en Google Classroom",
         "src": "https://www.youtube.com/embed/Z0tQkLJEfz0"
       },
       {
@@ -33,13 +33,13 @@
       {
         "id": 2,
         "img": "https://placeimg.com/350/200/any",
-        "titulo": "Iniciar en Microsoft Teams. En español.",
+        "titulo": "Iniciar en Microsoft Teams.",
         "src": "https://www.youtube.com/embed/lHeyAUMBdaQ"
       },
       {
         "id": 3,
         "img": "https://placeimg.com/350/200/any",
-        "titulo": "Programar una reunión. Microsoft Teams en español.",
+        "titulo": "Programar una reunión.",
         "src": "https://www.youtube.com/embed/eTL4Y8StL1w"
       }
     ]
@@ -52,7 +52,7 @@
       },
       {
         "nombre": "Aprende sobre las herramientas que ofrece Google for education",
-        "URL": "https://edu.google.com"
+        "URL": "https://edu.google.com/intl/es-419/?modal_active=none"
       },
       {
         "nombre": "Inicio de sesión ",

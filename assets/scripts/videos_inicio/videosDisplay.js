@@ -1,4 +1,9 @@
 const vLinks = [{
+        id: "7",
+        titulo: "#GraciasMaestros",
+        url: "https://drive.google.com/file/d/13xJa3AqlVQYF3mGJEWLm-ojs3TQN8fLV/preview"
+    },
+    {
         id: "1",
         titulo: "#GraciasMaestra - Leonora",
         url: "https://www.youtube.com/embed/f8H-7YZeL5o"
@@ -28,7 +33,20 @@ const vLinks = [{
         id: "6",
         titulo: "#GraciasMaestra - PRE",
         url: "https://www.youtube.com/embed/S9r8omFwsoo"
+    },
+
+    {
+        id: "8",
+        titulo: "#GraciasMaestro",
+        url: "https://www.youtube.com/embed/mO9EBK7uDNE"
+    },
+
+    {
+        id: "9",
+        titulo: "#GraciasMaestro",
+        url: "https://www.youtube.com/embed/Gzn74KFD-VU"
     }
+
 ];
 
 new Vue({

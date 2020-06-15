@@ -90,7 +90,7 @@ var getParams = function getParams(url) {
 
 Vue.use(VueLazyload);
 Vue.component("tabs", {
-  template: "\n            <div>\n                <div class=\"tabs\">\n                  <div v-for=\"tab in tabs\" class=\"tab col-sm-2\" align=\"center\" @click=\"hideFilters\"> \n                    <a :href=\"tab.href\" :target=\"tab.externalLink ? '_blank' : ''\" @click=\"selectTab(tab)\">\n                        <img :src=\"tab.img\" :class=\"{ 'is-active': tab.isActive }\" width=\"100%\" height=\"100px\" :alt=\"tab.name\" />\n                    </a>\n                  </div>\n                </div>\n\n                <div class=\"tabs-details\">\n                    <slot></slot>\n                </div>\n            </div>\n        ",
+  template: "\n<div>\n<div class=\"tabs\">\n<div v-for=\"tab in tabs\" class=\"tab col-sm-2\" align=\"center\" @click=\"hideFilters\"> \n<a :href=\"tab.href\" :target=\"tab.externalLink ? '_blank' : ''\" @click=\"selectTab(tab)\">\n<img :src=\"tab.img\" :class=\"{ 'is-active': tab.isActive }\" width=\"100%\" height=\"100px\" :alt=\"tab.name\" />\n                    </a>\n                  </div>\n                </div>\n\n                <div class=\"tabs-details\">\n                    <slot></slot>\n                </div>\n            </div>\n        ",
   data: function data() {
     return {
       tabs: []

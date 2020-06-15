@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MIDE</title>
+
+        <!--<script src="https://unpkg.com/vue"></script>-->
+        <link href="/assets/styles/aec.css" rel="stylesheet" />
+        <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+
+        <style>
+            body{background-color: #fefefe !important;font-family: 'Nunito', sans-serif;}
+            .vc-title,.vc-weekday{color:rgba(179, 51, 127, 1.0) !important;}
+            .vc-flex{color:#FFFFFF !important;background-color: #3182ce !important;border-radius: 50% !important;}
+            .tabs .is-active{border: 1px solid #01a2aa !important;}
+            .tabs .tab {padding-bottom: 5px}
+            .tabs .tab img{border-radius: 8px;border: 1px solid #ecebed;}
+            .tabs-details{padding-top: 40px}
+            .tabs-container{margin-bottom: 100px;border:none;border-radius: 10px; text-align: center;padding: 0}
+            .tabs-container .title{margin-top: 100px;font-weight: bold}
+            .tabs-container .sub{padding:40px;background-color: #FFFFFF;margin-top: 40px;border-radius: 5px;-webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35); 
+box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);}
+            .tabs-container .sub .menu{margin-top:40px;border:1px solid #cccccc;border-radius: 10px; text-align: center;padding: 20px}
+            .grid{padding-bottom: 0px !important}
+            .modal-title{color:#FFFFFF !important;}
+            .close{color:#FFFFFF;opacity: 0.5 !important;}
+            .close:hover{color:#ACADAD !important}
+            .tabs-container h5{color: #d53c88;}
+            .text-center{margin: 10px 0 20px 0;}
+            .btn-primary{color: #FFFFFF;background-color: #BA186A;border-color: #BA186A;}
+            .btn-primary.active, .btn-primary:active, .btn-primary:hover{color: #FFFFFF;background-color: #9E1559;border-color: #9E1559}
+            .card {
+              float: left;
+              width: 540px;
+              display: grid;
+              grid-template-columns: 540px;
+              grid-template-rows: 80px auto 80px;
+              grid-template-areas: "title" "text" "tools";
+
+              border-radius: 4px;
+              background: white;
+              -webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);
+              box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);
+              text-align: left;
+
+              transition: 0.5s ease;
+              cursor: pointer;
+              margin: 15px;
+              padding: 0 !important;
+              border: none;
+            }
+            .card-title {
+                grid-area: title;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+
+                font-size: 24px; 
+                color: rgb(44, 55, 75); 
+                font-weight: bold; 
+                margin: 25px;
+            }
+            .card-text {
+                grid-area: text;
+                margin: 0px 25px 25px 25px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                line-height: 1.3em;
+            }
+            .card-text .title {
+                color: rgb(255, 7, 110);
+                font-size:13px;
+            }
+            .card-text p {
+              font-size: 15px;
+              font-weight: 500;
+            }
+            .card-tools {
+                grid-area: tools;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+            .card-tools .tool {
+                padding:0px 26px 10px 26px;
+                display: flex;
+                align-items: left;
+                justify-content: center;
+                flex-direction: column;
+                color: white;
+                text-align: right;
+            }
+            .text-center {
+                color: #b3337f !important;
+                margin-top: 0px;
+            }
+            .cards-container{
+              margin-left: 0;
+            }
+            .sub-nav{
+              padding: 20px 100px 50px 100px;
+            }
+            /*Cards primaria*/
+            .card3 {
+              float: left;
+              width: 358px;
+              display: grid;
+              grid-template-columns: 358px;
+              grid-template-rows: 60px 100px 200px 170px 80px;
+              grid-template-areas: "grade" "title" "image" "text" "tools";
+
+              border-radius: 10px;
+              background: white;
+              -webkit-box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);
+              box-shadow: 1px 2px 21px -10px rgba(0,0,0,0.35);
+              text-align: left;
+
+              transition: 0.5s ease;
+              cursor: pointer;
+              margin: 11px;
+              padding: 0 !important;
+              border: none;
+            }
+            .card3-grade {
+                grid-area: grade;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 0 0 67%;
+            }
+            .card3-grade span {
+                width: auto;
+                height: 40px;
+                background-color: #01a2aa;
+                font-size: 16px;
+                font-weight: bold;
+                color: #fafdfe;
+                padding: 10px;
+            }
+            .card3-title {
+                grid-area: title;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+                font-weight: bold;
+                color: #2c374b;
+                margin: 0 31px;
+                text-align: center;
+            }
+            .card3-image {
+                grid-area: image;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 63px;
+            }
+            .card3-image img{
+                width: 100%;
+                height: auto;
+            }
+            .card3-text {
+                grid-area: text;
+                margin: 25px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                line-height: 1.3em;
+            }
+            .card3-text .title {
+                color: rgb(255, 7, 110);
+                font-size:13px;
+            }
+            .card3-text p {
+              font-size: 16px;
+              font-weight: 500;
+              font-weight: normal;
+              color: #2c374b;
+            }
+            .card3-tools {
+                grid-area: tools;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+            .card3-tools .tool {
+                padding: 0px 26px 10px 26px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                color: white;
+            }
+            .text3-center {
+                color: #b3337f !important;
+                margin-top: 0px;
+            }
+            .cards3-container{
+              margin-left: 0;
+            }
+            /* 
+              ##Device = Desktops
+              ##Screen = 1281px to higher resolution desktops
+            */
+            @media (min-width: 1281px) {              
+            }
+            /* 
+              ##Device = Laptops, Desktops
+              ##Screen = B/w 1025px to 1280px
+            */
+            @media (min-width: 1025px) and (max-width: 1280px) {              
+            }
+            /* 
+              ##Device = Tablets, Ipads (portrait)
+              ##Screen = B/w 768px to 1024px
+            */
+            @media (min-width: 768px) and (max-width: 1024px) {    
+              .tabs-container{padding: 10px 0}
+            }
+            /* 
+              ##Device = Tablets, Ipads (landscape)
+              ##Screen = B/w 768px to 1024px
+            */
+            @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+              .tabs-container{padding: 10px 0}
+              .card{margin: 6px;}
+                          
+            }
+            /* 
+              ##Device = Low Resolution Tablets, Mobiles (Landscape)
+              ##Screen = B/w 481px to 767px
+            */
+            @media (min-width: 481px) and (max-width: 767px) {              
+            }
+            /* 
+              ##Device = Most of the Smartphones Mobiles (Portrait)
+              ##Screen = B/w 320px to 479px
+            */
+            @media (min-width: 320px) and (max-width: 480px) {
+              .tabs-container{padding: 10px}
+              .cards-container{
+                margin-left: -2px;
+              }
+              .tabs-details {
+                  padding-top: 30px;
+              }
+              .sub-nav{
+                padding: 21px 35px 50px;
+              }
+              .sub-nav div{
+                margin-top: 20px;
+              }
+            }
+            /* 
+              ##Device = Desktops
+              ##Screen = 1281px to higher resolution desktops
+            */
+            @media (min-width: 1281px) {              
+            }
+            /* 
+              ##Device = Laptops, Desktops
+              ##Screen = B/w 1025px to 1280px
+            */
+            @media (min-width: 1025px) and (max-width: 1280px) {              
+            }
+            /* 
+              ##Device = Tablets, Ipads (portrait)
+              ##Screen = B/w 768px to 1024px
+            */
+            @media (min-width: 768px) and (max-width: 1024px) {
+                .card{width: 330px;grid-template-columns: 330px;grid-template-rows: 150px 200px 80px;}
+                .tabs-details {padding-top: 80px;}     
+                .card3{width: 338px;grid-template-columns: 338px;}
+                .card3-grade span {font-size: 15px !important};
+            }
+            /* 
+              ##Device = Tablets, Ipads (landscape)
+              ##Screen = B/w 768px to 1024px
+            */
+            @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+                .text-center{margin: -15px 0 20px 0;}
+                .card{width: 457px;grid-template-columns: 457px;}
+                .tabs-details {padding-top: 100px;}
+                .card3{margin: 22px 56px;}
+                .card3-grade span {font-size: 15px !important};
+            }
+            /* 
+              ##Device = Low Resolution Tablets, Mobiles (Landscape)
+              ##Screen = B/w 481px to 767px
+            */
+            @media (min-width: 481px) and (max-width: 767px) {              
+            }
+            /* 
+              ##Device = Most of the Smartphones Mobiles (Portrait)
+              ##Screen = B/w 320px to 479px
+            */
+            @media (min-width: 320px) and (max-width: 480px) {
+                .tabs-container{padding: 10px;margin-top: -25px !important;}
+                .tabs-container .sub{padding:20px}
+                .tabs-details {padding-top: 0px;padding-right: 25px;} 
+                .tabs .tab {margin-bottom: 10px;}
+                #experiences .topics{padding-left: 0;padding-right: 0}
+                .text-center{margin: 15px 0 20px 0;}
+                .card3{width:100%;grid-template-columns:100%;grid-template-rows: 60px 100px 200px 170px 80px;width:310px;grid-template-columns: 310px;}
+                .title-img{display: none;}
+                h3{font-size: 25px;}
+                .card3-grade span {font-size: 13px !important};
+            }
+        </style>
+    </head>
+    <body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+            <!--<div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarMainCollapse">
+                <span class="sr-only">Interruptor de Navegación</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.gob.mx/">
+                <img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" width="128" height="48" alt="Página de inicio, Gobierno de México">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarMainCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.gob.mx/tramites">Trámites</a></li>
+                <li><a href="https://www.gob.mx/gobierno">Gobierno</a></li>
+                <li><a href="https://www.gob.mx/busqueda"><span class="sr-only">Búsqueda</span><i class="icon-search"></i></a>
+                </li>
+                </ul>
+            </div>-->
+            </div>
+        </nav>
+        </header>
+          
+        <nav class="navbar navbar-inverse sub-navbar navbar-fixed-top"> 
+            <div class="container">
+                <div class="navbar-header">
+                    <!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces"-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces" aria-expanded="false">
+                        <span class="sr-only">Interruptor de Navegación</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="/"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="subenlaces">
+                    <!--div id="subenlaces"-->
+                    <ul class="nav navbar-nav navbar-right"></ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="app" class="container" style="margin-top: 75px;">
+
+            <nav class="navbar aec">
+                <div class="row">
+                  <div class="col-sm-9">
+                    <ol class="breadcrumb aec">
+                      <li><a href="https://www.gob.mx/aefcm"><span class="glyphicon glyphicon-home"></span></a></li>
+                      <li><a href="/aprende-en-casa-2/index.html">Inicio</a></li>
+                      <li><a href="/aprende-en-casa-2/index.html">Aprende en Casa</a></li>
+                      <li><a href="/aprende-en-casa-2/acceso.html">Acceso</a></li>
+                      <li><a href="/aprende-en-casa-2/niveles/index.html">Niveles</a></li>
+                      <li><a :href="mide[0].level_url">Educación {{ mide[0].name }}</a></li>
+                      <li class="active">MIDE</li>
+                    </ol>
+                  </div>
+                  <div class="col-sm-3 visible-md visible-lg">
+                    <img class="img-responsive  navbar-logo" src="/assets/images/logo_aprende@2x.svg" alt="">
+                  </div>
+                </div>
+            </nav>
+
+            <div class="row">
+                <div class="col-sm-12" style="margin-top: 20px;margin-bottom: 35px;">
+                    <h3 v-if="level == 'secundaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;"><img class="title-img" src="/assets/images/mide/secundaria/icono-pdf.svg" width="88" height="99" style="margin-right: 20px;">Actividades para maestros con alumnos</h3>
+                    <h3 v-if="level == 'primaria'" class="text-left" style="font-size: 40px;font-weight: 800;color: #992576;margin-left: 15px;"><img class="title-img" src="/assets/images/mide/secundaria/icono-pdf.svg" width="88" height="99" style="margin-right: 20px;">Actividades para alumnos con familiares</h3>
+                </div>
+            </div>
+
+            <tabs>
+
+                <tab v-if="level == 'secundaria'" v-for="item in mide[0].grades" :name="item.name" :selected="item.is_active" :img="item.image">
+                    <div class="tabs-container">
+                        <div class="card" v-for="activity in item.activities">
+                            <div class="card-title">
+                              {{ activity.title }}
+                            </div>
+                            <div class="card-text">
+                              <p>{{ activity.content }}</p>
+                              <span style="font-size: 16px;color: #01a2aa;">{{ activity.subjects }}</span>
+                            </div>
+                            <div class="card-tools">
+                              <div class="tool">
+                                <div >
+                                  <a :href="activity.link ? activity.link : '#'" :target="activity.link ? '_blank' : ''" class="btn btn-primary">Consultar PDF</a>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </tab>
+
+                <div v-if="level == 'primaria'" class="tabs-container" style="margin-top: -100px;">
+                    <div class="card3" v-for="activity in mide[0].activities">
+                        <div class="card3-grade">
+                            <span>{{ activity.grades }}</span>
+                        </div>
+                        <div class="card3-title">
+                            {{ activity.title }}
+                        </div>
+                        <div class="card3-image">
+                            <img :src="activity.image" alt="">
+                        </div>
+                        <div class="card3-text">
+                            <p>{{ activity.content }}</p>
+                        </div>
+                        <div class="card3-tools">
+                            <div class="tool">
+                            <div>
+                                <a :href="activity.link ? activity.link : '#'" :target="activity.link ? '_blank' : ''" class="btn btn-primary">Consultar PDF</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </tabs>
+
+        </div>          
+        
+        <footer class="main-footer"><div class="list-info"><div class="container"><div class="row"><div class="col-sm-3"><img data-v-9e928f9a="" src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" href="/" alt="logo gobierno de méxico" class="logo_footer" style="max-width: 90%;"></div><div class="col-sm-3"><h5>Enlaces</h5><ul><li><a href="https://participa.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Participa</a></li><li><a href="https://www.gob.mx/publicaciones" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Publicaciones Oficiales</a></li><li><a href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Marco Jurídico</a></li><li><a href="https://consultapublicamx.inai.org.mx/vut-web/" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Plataforma Nacional de Transparencia</a></li></ul></div><div class="col-sm-3"><h5>¿Qué es gob.mx?</h5><p>Es el portal único de trámites, información y participación ciudadana. <a href="https://www.gob.mx/que-es-gobmx">Leer más</a></p><ul><li><a href="https://datos.gob.mx">Portal de datos abiertos</a></li><li><a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a></li><li><a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a></li><li><a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a></li><li><a href="https://www.gob.mx/terminos">Términos y Condiciones</a></li><li><a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a></li><li><a href="https://www.gob.mx/sitemap">Mapa de sitio</a></li></ul></div><div class="col-sm-3"><h5><a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia contra servidores públicos</a></h5><h5>Síguenos en</h5><ul class="list-inline"><li><a class="social-icon facebook" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://www.facebook.com/gobmexico" aria-label="Facebook de presidencia"></a></li><li><a class="social-icon twitter" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://twitter.com/GobiernoMX" aria-label="Twitter de presidencia"></a></li></ul></div></div></div></div><div class="container-fluid footer-pleca"><div class="row"><div class="col"><br><br></div></div></div></footer>
+
+        <script src='/assets/scripts/vendor/vue@2.6.11/vue.js'></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <!--<script src="https://cdn.jsdelivr.net/vuejs-paginator/2.0.0/vuejs-paginator.min.js"></script>-->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.1/moment-with-locales.min.js" integrity="sha256-tYxbRsX9g9rCkoqG99Bnze2SRAs2A14gAtMIsaz2SP8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" integrity="sha256-G7A4JrJjJlFqP0yamznwPjAApIKPkadeHfyIwiaa9e0=" crossorigin="anonymous"></script>
+        
+        <script>
+          moment.locale('es', {
+            weekdays : 'Domingo_Lunes_Martes_Miércoles_Jueves_Viernes_Sábado'.split('_'),
+            longDateFormat : {
+                LT : 'HH:mm',
+                LTS : 'HH:mm:ss',
+                L : 'DD/MM/YYYY',
+                LL : 'D MMMM YYYY',
+                LLL : 'D MMMM YYYY HH:mm',
+                LLLL : 'dddd, D [de] MMMM'
+            }
+          });
+
+          var getParams = function (url) {
+            var params = {}
+            var parser = document.createElement('a');
+            parser.href = url;
+            var query = parser.search.substring(1);
+            var vars = query.split('&');
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split('=');
+                params[pair[0]] = decodeURIComponent(pair[1]);
+            }
+            return params;
+          };
+
+          var slug = function(str) {
+              str = str.replace(/^\s+|\s+$/g, '');
+              str = str.toLowerCase();
+
+              // remove accents, swap ñ for n, etc
+              var from = "ãàáäâẽèéëêìíïîõòóöôùúüûñç·/_,:;";
+              var to   = "aaaaaeeeeeiiiiooooouuuunc------";
+              for (var i=0, l=from.length ; i<l ; i++) {
+                str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+              }
+
+              str = str.replace(/[^a-z0-9 -]/g, '')
+                .replace(/\s+/g, '-')
+                .replace(/-+/g, '-');
+
+              return str;
+          };
+
+          Vue.component("tabs", {
+              template: `
+                    <div>
+                        <div class="tabs">
+                          <div v-for="tab in tabs" class="tab col-sm-4" align="center"> 
+                            <a :href="tab.href" @click="selectTab(tab)">
+                                <img :src="tab.img" :class="{ 'is-active': tab.isActive }" width="100%" height="auto" :alt="tab.name" />
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="tabs-details">
+                            <slot></slot>
+                        </div>
+                    </div>
+                `,
+
+              data() {
+                return { tabs: [] };
+              },
+
+              created() {
+                this.tabs = this.$children;
+              },
+              methods: {
+                selectTab(selectedTab) {
+                  this.tabs.forEach((tab) => {
+                    tab.isActive = tab.name == selectedTab.name;
+                  });
+                }
+              }
+          });
+
+          Vue.component("tab", {
+              template: `
+
+                    <div v-show="isActive"><slot></slot></div>
+
+                `,
+
+              props: {
+                name: { required: true },
+                img: { required: true },
+                selected: { default: false }
+              },
+
+              data() {
+                return {
+                  isActive: false
+                };
+              },
+
+              computed: {
+                href() {
+                  return "#" + this.name.toLowerCase().replace(/ /g, "-");
+                }
+              },
+
+              mounted() {
+                this.isActive = this.selected;
+              }
+          });
+
+          var app = new Vue({
+            el: '#app',
+            data: {
+                params: getParams(window.location.href),
+                level: "",
+                url: window.location.origin,
+                mide: [],
+            },
+            components: {
+                
+            },
+            methods: {
+                
+            },
+            created() {
+
+                var param = this.params.nivel;
+
+                if(typeof param === 'undefined' || param == "") {$("#app").html("");return}
+
+                this.level = param;
+
+                fetch(this.url + '/assets/scripts/mide/mide.json')
+                        .then(response => response.json())
+                        .then(json => {
+                            this.mide = json;
+
+                            this.mide = this.mide.filter(function(mide){      
+                                //console.log("param: " + param + " MIDE name: " + slug(mide.name));
+
+                                if(slug(mide.name) === param) {
+                                    return mide;
+                                }
+                            })
+                        })
+
+                //console.log("Level: [" + param + "]");
+
+            }
+          })
+        </script>
+    </body>
+</html>

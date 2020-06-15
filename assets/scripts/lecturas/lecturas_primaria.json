@@ -221,5 +221,15 @@
         "image": "cuentacuentos_ine.svg",
         "active": false,
         "externalLink": "https://www.ine.mx/cuentacuentos-talleres/"
+    },{
+        "name": "Mile de historias",
+        "image": "miles_de_historias.svg",
+        "active": false,
+        "externalLink": "https://milesdehistorias.conaliteg.gob.mx/#/grade/1/Primaria"
+    },{
+        "name": "Lecturas Twig - Changomaniaco",
+        "image": "chango_maniaco.svg",
+        "active": false,
+        "externalLink": "https://www.changomaniaco.com/lecturas_twig/"
     }
 ]

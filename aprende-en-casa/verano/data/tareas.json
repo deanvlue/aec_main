@@ -1,0 +1,1104 @@
+{
+  "type": "directory",
+  "name": "",
+  "children": [
+    {
+      "type": "directory",
+      "name": "preescolar",
+      "children": [
+        {
+          "type": "directory",
+          "name": "1",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-03-02-ficha63.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-03-ficha991.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-05-ficha39.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-05-ficha621.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-10-ficha83.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-16-ficha648.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-20-ficha615.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-26-ficha389.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-03-ficha523.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-15-ficha319.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-18-ficha155.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-21-ficha61.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-22-ficha869.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-23-ficha179.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-27-ficha138.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-27-ficha347.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-30-ficha529.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-04-ficha156.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-05-ficha750.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-11-ficha463.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-18-ficha256.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-19-ficha620.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-19-ficha866.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-26-ficha333.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-27-ficha173.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-28-ficha435.txt"
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "2",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-02-29-ficha183.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-07-ficha1020.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-08-ficha752.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-09-ficha37.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-18-ficha849.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-20-ficha892.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-21-ficha680.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-23-ficha63.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-24-ficha751.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-25-ficha893.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-25-ficha936.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-31-ficha700.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-13-ficha476.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-20-ficha846.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-22-ficha71.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-24-ficha358.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-26-ficha339.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-27-ficha35.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-05-ficha950.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-08-ficha432.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-08-ficha669.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-10-ficha968.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-18-ficha493.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-22-ficha558.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-25-ficha478.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-26-ficha814.txt"
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "3",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-03-04-ficha15.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-19-ficha281.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-24-ficha840.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-03-ficha120.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-09-ficha829.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-10-ficha659.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-18-ficha426.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-20-ficha858.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-26-ficha268.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-28-ficha1.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-01-ficha208.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-10-ficha548.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-11-ficha425.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-17-ficha977.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-18-ficha489.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-20-ficha420.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-27-ficha89.txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "primaria",
+      "children": [
+        {
+          "type": "directory",
+          "name": "1",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-06-02-ficha643.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-02-ficha643.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-06-01-ficha643.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-05-ficha90.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-10-ficha418.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-22-ficha755.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-24-ficha227.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-11-ficha761.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-20-ficha208.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-29-ficha549.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-04-ficha126.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-08-ficha327.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-10-ficha434.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-17-ficha641.txt"
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "2",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-03-06-ficha579.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-09-ficha641.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-11-ficha685.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-18-ficha378.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-19-ficha719.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-20-ficha463.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-20-ficha7.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-22-ficha928.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-27-ficha225.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-28-ficha614.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-30-ficha403.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-31-ficha468.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-03-ficha145.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-08-ficha989.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-09-ficha671.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-25-ficha231.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-27-ficha192.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-01-ficha326.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-03-ficha951.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-22-ficha293.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-22-ficha314.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-25-ficha436.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-28-ficha311.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-28-ficha507.txt"
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "3",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-03-01-ficha428.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-04-ficha891.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-14-ficha335.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-22-ficha373.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-30-ficha415.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-03-ficha245.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-08-ficha732.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-17-ficha906.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-18-ficha1019.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-04-ficha300.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-11-ficha790.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-13-ficha164.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-19-ficha768.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-27-ficha757.txt"
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "4",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-03-16-ficha33.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-17-ficha542.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-19-ficha477.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-22-ficha194.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-26-ficha517.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-14-ficha636.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-16-ficha595.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-18-ficha350.txt"
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "5",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-03-05-ficha886.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-06-ficha826.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-09-ficha889.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-10-ficha380.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-12-ficha110.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-16-ficha660.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-20-ficha613.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-30-ficha445.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-01-ficha497.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-08-ficha283.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-18-ficha331.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-20-ficha923.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-24-ficha108.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-09-ficha769.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-10-ficha252.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-16-ficha247.txt"
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "6",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-02-29-ficha588.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-05-ficha553.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-23-ficha187.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-31-ficha657.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-03-ficha643.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-08-ficha199.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-13-ficha831.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-21-ficha757.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-22-ficha744.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-05-ficha610.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-18-ficha7.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-23-ficha185.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-23-ficha963.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-26-ficha387.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-28-ficha498.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-28-ficha879.txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "secundaria",
+      "children": [
+        {
+          "type": "directory",
+          "name": "1",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-03-06-ficha152.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-08-ficha17.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-08-ficha759.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-11-ficha971.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-17-ficha135.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-21-ficha285.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-25-ficha360.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-27-ficha679.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-29-ficha243.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-29-ficha256.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-31-ficha236.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-31-ficha361.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-04-ficha809.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-06-ficha850.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-13-ficha625.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-19-ficha165.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-20-ficha866.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-22-ficha786.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-23-ficha958.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-24-ficha911.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-27-ficha505.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-30-ficha984.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-02-ficha796.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-03-ficha843.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-06-ficha393.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-07-ficha13.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-11-ficha24.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-12-ficha33.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-16-ficha160.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-17-ficha878.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-24-ficha691.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-25-ficha599.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-25-ficha987.txt"
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "2",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-03-08-ficha270.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-08-ficha652.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-08-ficha659.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-12-ficha34.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-12-ficha566.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-16-ficha913.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-17-ficha844.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-20-ficha760.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-22-ficha178.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-22-ficha639.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-23-ficha288.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-25-ficha112.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-26-ficha789.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-27-ficha56.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-28-ficha111.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-28-ficha558.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-31-ficha775.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-10-ficha805.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-22-ficha252.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-25-ficha956.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-28-ficha524.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-29-ficha900.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-07-ficha934.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-09-ficha31.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-15-ficha419.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-16-ficha44.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-16-ficha751.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-19-ficha229.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-19-ficha346.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-23-ficha389.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-23-ficha759.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-24-ficha566.txt"
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "3",
+          "children": [
+            {
+              "type": "file",
+              "name": "2020-02-29-ficha840.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-03-ficha435.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-03-ficha462.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-03-ficha628.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-09-ficha870.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-12-ficha221.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-12-ficha719.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-22-ficha996.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-24-ficha646.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-24-ficha938.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-29-ficha991.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-03-30-ficha898.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-02-ficha385.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-09-ficha568.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-09-ficha776.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-11-ficha547.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-16-ficha796.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-04-22-ficha621.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-01-ficha698.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-02-ficha619.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-02-ficha864.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-05-ficha790.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-06-ficha163.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-06-ficha74.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-07-ficha765.txt"
+            },
+            {
+              "type": "file",
+              "name": "2020-05-21-ficha577.txt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

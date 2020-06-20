@@ -14,9 +14,14 @@ const brands = [
   'mide.png',
   'papalote.png',
   'plazasesamo.png',
-  'science_bits.png',
+  'blank.png',
   'stc.png',
+
+  'science_bits.png',
+  'blank.png',
   'chango_maniaco.png',
+
+  'anthal.png',
   'blank.png',
   'muzzy.png',
   'uam.png',

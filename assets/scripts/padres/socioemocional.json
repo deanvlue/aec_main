@@ -1,81 +1,93 @@
 [
-    {
-      "id": 1,
-      "type": "video",
-      "text": "A tu lado: Consejos para madres y padres en tiempos de coronavirus",
-      "source": "Save the Children España",
-      "link": "https://youtu.be/7nY8PwgrBDI"
-    },{
-      "id": 2,
-      "type": "pdf",
-      "text": "A tu lado: ¿Cómo ayudar a nuestros hijos e hijas con sus emociones?",
-      "source": "Save the Children España",
-      "link": "file:///C:/Users/alberto/Downloads/coronavirus_proyectoa_tu_lado_guia_emociones.pdf"
-    },{
-      "id": 3,
-      "type": "video",
-      "text": "A tu lado: gestión de EMOCIONES por el confinamiento",
-      "source": "Save the Children España",
-      "link": "https://www.youtube.com/watch?v=RyU_FpHhofY&feature=youtu.be"
-    },{
-      "id": 4,
-      "type": "pdf",
-      "text": "A tu lado: ¿Cómo garantizar un lugar seguro para nuestros hijos e hijas?",
-      "source": "Save the Children España",
-      "link": "file:///C:/Users/alberto/Downloads/2_coronavirus_proyectoa_tu_lado_guia_proteccion_savethechildren.pdf"
-    },{
-      "id": 5,
-      "type": "pdf",
-      "text": "CONSEJOS PARA PAPÁ y MAMÁ: apoyo emocional para niños y niñas ante el Covid-19",
-      "source": "UNICEF",
-      "link": "file:///C:/Users/alberto/Downloads/Consejos%20de%20salud%20mental%20para%20nin%CC%83as%20y%20nin%CC%83os.pdf"
-    },{
-      "id": 6,
-      "type": "video",
-      "text": "Salud emocional de niñas y niños durante la crisis por COVID19",
-      "source": "UNICEF",
-      "link": "https://www.youtube.com/watch?v=zhZPzK49e0o&feature=youtu.be"
-    },{
-      "id": 7,
-      "type": "video",
-      "text": "Consejos madres y padres sobre el COVID-19",
-      "source": "UNICEF",
-      "link": "https://www.youtube.com/watch?v=mdPkek2PAEc&feature=youtu.be"
-    },{
-      "id": 8,
-      "type": "site",
-      "text": "Manejo de emociones",
-      "source": "Sesame Workshop",
-      "link": "https://sesamo.com/articles/manejo-de-emociones/"
-    },{
-      "id": 9,
-      "type": "video",
-      "text": "Tips para papás con sus hijos en casa",
-      "source": "Grupo REFORMA",
-      "link": "https://www.youtube.com/watch?v=2gYeI2m8yGo"
-    },{
-      "id": 10,
-      "type": "site",
-      "text": "Respira, Piensa, Actúa",
-      "source": "Sesame Workshop",
-      "link": "https://sesamo.com/articles/respira-piensa-actua/"
-    },{
-      "id": 11,
-      "type": "video",
-      "text": "Salud mental en adolescentes durante el COVID19",
-      "source": "UNICEF",
-      "link": "https://www.youtube.com/watch?v=EJ48mIG8ksA"
-    },{
-      "id": 12,
-      "type": "video",
-      "text": "Recomendaciones para adolescentes",
-      "source": "Ministerio de Salud de la Nación",
-      "link": "https://www.youtube.com/watch?v=bxF8C4FDdek"
-    },{
-      "id": 13,
-      "type": "site",
-      "text": "Covid-19: No estás solo, estas universidades brindan asesoría psicológica por teléfono",
-      "source": "El Sol de México",
-      "link": "https://www.elsoldemexico.com.mx/mexico/sociedad/covid-19-no-estas-solo-estas-universidades-brindan-asesoria-psicologica-por-telefono-depresion-desesperacion-ansiedad-5035022.html"
-    }
-  ]
+  {
+    "id": 1,
+    "type": "video",
+    "text": "A tu lado: Consejos para madres y padres en tiempos de coronavirus",
+    "source": "Save the Children España",
+    "link": "https://youtu.be/7nY8PwgrBDI"
+  },
+  {
+    "id": 2,
+    "type": "pdf",
+    "text": "A tu lado: ¿Cómo ayudar a nuestros hijos e hijas con sus emociones?",
+    "source": "Save the Children España",
+    "link": "https://www.savethechildren.es/sites/default/files/2020-03/coronavirus_proyectoa_tu_lado_guia_emociones.pdf"
+  },
+  {
+    "id": 3,
+    "type": "video",
+    "text": "A tu lado: gestión de EMOCIONES por el confinamiento",
+    "source": "Save the Children España",
+    "link": "https://www.youtube.com/watch?v=RyU_FpHhofY&feature=youtu.be"
+  },
+  {
+    "id": 4,
+    "type": "pdf",
+    "text": "A tu lado: ¿Cómo garantizar un lugar seguro para nuestros hijos e hijas?",
+    "source": "Save the Children España",
+    "link": "https://www.savethechildren.es/sites/default/files/2020-03/2_coronavirus_proyectoa_tu_lado_guia_proteccion_savethechildren.pdf"
+  },
+  {
+    "id": 5,
+    "type": "pdf",
+    "text": "CONSEJOS PARA PAPÁ y MAMÁ: apoyo emocional para niños y niñas ante el Covid-19",
+    "source": "UNICEF",
+    "link": "https://www.unicef.org/mexico/media/3161/file/Consejos%20de%20salud%20mental%20para%20ni%C3%B1as%20y%20ni%C3%B1os.pdf"
+  },
+  {
+    "id": 6,
+    "type": "video",
+    "text": "Salud emocional de niñas y niños durante la crisis por COVID19",
+    "source": "UNICEF",
+    "link": "https://www.youtube.com/watch?v=zhZPzK49e0o&feature=youtu.be"
+  },
+  {
+    "id": 7,
+    "type": "video",
+    "text": "Consejos madres y padres sobre el COVID-19",
+    "source": "UNICEF",
+    "link": "https://www.youtube.com/watch?v=mdPkek2PAEc&feature=youtu.be"
+  },
+  {
+    "id": 8,
+    "type": "site",
+    "text": "Manejo de emociones",
+    "source": "Sesame Workshop",
+    "link": "https://sesamo.com/articles/manejo-de-emociones/"
+  },
+  {
+    "id": 9,
+    "type": "video",
+    "text": "Tips para papás con sus hijos en casa",
+    "source": "Grupo REFORMA",
+    "link": "https://www.youtube.com/watch?v=2gYeI2m8yGo"
+  },
+  {
+    "id": 10,
+    "type": "site",
+    "text": "Respira, Piensa, Actúa",
+    "source": "Sesame Workshop",
+    "link": "https://sesamo.com/articles/respira-piensa-actua/"
+  },
+  {
+    "id": 11,
+    "type": "video",
+    "text": "Salud mental en adolescentes durante el COVID19",
+    "source": "UNICEF",
+    "link": "https://www.youtube.com/watch?v=EJ48mIG8ksA"
+  },
+  {
+    "id": 12,
+    "type": "video",
+    "text": "Recomendaciones para adolescentes",
+    "source": "Ministerio de Salud de la Nación",
+    "link": "https://www.youtube.com/watch?v=bxF8C4FDdek"
+  },
+  {
+    "id": 13,
+    "type": "site",
+    "text": "Covid-19: No estás solo, estas universidades brindan asesoría psicológica por teléfono",
+    "source": "El Sol de México",
+    "link": "https://www.elsoldemexico.com.mx/mexico/sociedad/covid-19-no-estas-solo-estas-universidades-brindan-asesoria-psicologica-por-telefono-depresion-desesperacion-ansiedad-5035022.html"
+  }
+]

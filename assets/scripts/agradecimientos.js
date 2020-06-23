@@ -18,12 +18,12 @@ const brands = [
   'stc.png',
 
   'science_bits.png',
-  'blank.png',
   'chango_maniaco.png',
-
   'anthal.png',
-  'blank.png',
   'muzzy.png',
+  'inbal.png',
+  'socrates.png',
+
   'uam.png',
   'fundacion_aprende.png',
 ];

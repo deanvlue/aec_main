@@ -13,5 +13,20 @@
     "id": "3",
     "descripcion": "Búsqueda del tesoro",
     "src": "https://www.aprendeencasa.mx/assets/videos/TEPORINGOSbusqueda_tesoro.mp4"
+  },
+  {
+    "id": "4",
+    "descripcion": "Presentación \"Salvando al Profe Paco\"",
+    "src": "https://www.youtube.com/embed/PICpEll_dn4"
+  },
+  {
+    "id": "5",
+    "descripcion": "Reto 1 \"Salvando al Profe Paco\"",
+    "src": "https://www.youtube.com/embed/eXMdkYx5Dtw"
+  },
+  {
+    "id": "6",
+    "descripcion": "Reto 2 \"Salvando al Profe Paco\"",
+    "src": "https://www.youtube.com/embed/_fGUAzL4eT8"
   }
 ]

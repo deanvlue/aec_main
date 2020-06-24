@@ -8,7 +8,7 @@
         </mask>
         <rect width="254" height="233" x=".5" y=".5" stroke="#CCC" rx="8"/>
         <text fill="#000" font-family="Montserrat-Medium, Montserrat" font-size="18" font-weight="400" mask="url(#prefix__b)">
-            <tspan x="63.398" y="201">Divertiinventa</tspan>
+            <tspan x="65.909" y="201">Divertinventa</tspan>
         </text>
         <g fill-rule="nonzero">
             <path fill="#864C9B" d="M125 69.5c0 34.518-27.983 62.5-62.5 62.5C27.982 132 0 104.018 0 69.5 0 34.983 27.982 7 62.5 7c16.6-.078 32.542 6.481 44.28 18.22C118.52 36.957 125.079 52.9 125 69.5z" transform="translate(65 30)"/>

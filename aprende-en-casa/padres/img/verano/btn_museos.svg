@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="48" viewBox="0 0 200 48">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="200" height="48" fill="#95C11F" rx="24"/>
+        <g fill="#FFF">
+            <text font-family="Montserrat-Medium, Montserrat" font-size="16" font-weight="400" transform="translate(30.225 16)">
+                <tspan x=".298" y="15">Ver actividades</tspan>
+            </text>
+            <path fill-rule="nonzero" d="M138.597 14c-.256 0-.512-.098-.707-.293-.391-.391-.391-1.023 0-1.414l3.305-3.305-3.18-3.293c-.383-.398-.372-1.031.025-1.414.398-.383 1.03-.372 1.414.024l3.862 4c.379.393.374 1.016-.012 1.402l-4 4c-.195.195-.451.293-.707.293" transform="translate(30.225 16)"/>
+        </g>
+    </g>
+</svg>

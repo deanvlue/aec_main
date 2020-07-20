@@ -2,9 +2,9 @@
   "secundaria": {
       "1": {
           "integrada": {
-              "s2": ["sec_1_in_s2_069-ficha069.txt", "sec_1_in_s2_011-ficha011.txt"],
-              "s1": ["sec_1_in_s1_092-ficha092.txt", "sec_1_in_s1_086-ficha086.txt", "sec_1_in_s1_054-ficha054.txt"],
-              "s3": ["sec_1_in_s3_054-ficha054.txt"]
+              "s2": ["sec_1_ma_s1_01-laimportanciadelascifras.pdf", "sec_1_ma_s1_01-laimportanciadelascifras.pdf",  "sec_1_ma_s1_01-laimportanciadelascifras.pdf",  "sec_1_ma_s1_01-laimportanciadelascifras.pdf",  "sec_1_ma_s1_01-laimportanciadelascifras.pdf",  "sec_1_ma_s1_01-laimportanciadelascifras.pdf"],
+              "s1": ["sec_1_ma_s1_01-laimportanciadelascifras.pdf", "sec_1_ma_s1_01-laimportanciadelascifras.pdf", "sec_1_ma_s1_01-laimportanciadelascifras.pdf",  "sec_1_ma_s1_01-laimportanciadelascifras.pdf",  "sec_1_ma_s1_01-laimportanciadelascifras.pdf"],
+              "s3": ["sec_1_ma_s1_01-laimportanciadelascifras.pdf"]
           },
           "matematicas": {
               "s1": ["sec_1_ma_s1_081-ficha081.txt"]

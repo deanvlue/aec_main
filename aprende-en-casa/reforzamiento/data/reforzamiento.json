@@ -1,0 +1,365 @@
+{
+  "secundaria": {
+      "1": {
+          "integrada": {
+              "s2": ["sec_1_in_s2_069-ficha069.txt", "sec_1_in_s2_011-ficha011.txt"],
+              "s1": ["sec_1_in_s1_092-ficha092.txt", "sec_1_in_s1_086-ficha086.txt", "sec_1_in_s1_054-ficha054.txt"],
+              "s3": ["sec_1_in_s3_054-ficha054.txt"]
+          },
+          "matematicas": {
+              "s1": ["sec_1_ma_s1_081-ficha081.txt"]
+          },
+          "ciencias": {
+              "s3": ["sec_1_ci_s3_044-ficha044.txt", "sec_1_ci_s3_040-ficha040.txt"],
+              "s1": ["sec_1_ci_s1_025-ficha025.txt", "sec_1_ci_s1_093-ficha093.txt"]
+          }
+      },
+      "2": {
+          "matematicas": {
+              "s2": ["sec_2_ma_s2_093-ficha093.txt", "sec_2_ma_s2_097-ficha097.txt", "sec_2_ma_s2_075-ficha075.txt"],
+              "s3": ["sec_2_ma_s3_037-ficha037.txt"]
+          },
+          "espanol": {
+              "s1": ["sec_2_es_s1_039-ficha039.txt"],
+              "s2": ["sec_2_es_s2_068-ficha068.txt", "sec_2_es_s2_018-ficha018.txt"]
+          },
+          "ciencias": {
+              "s1": ["sec_2_ci_s1_017-ficha017.txt", "sec_2_ci_s1_053-ficha053.txt"],
+              "s2": ["sec_2_ci_s2_054-ficha054.txt"]
+          },
+          "integrada": {
+              "s2": ["sec_2_in_s2_074-ficha074.txt"]
+          }
+      },
+      "3": {
+          "ciencias": {
+              "s2": ["sec_3_ci_s2_087-ficha087.txt", "sec_3_ci_s2_075-ficha075.txt"],
+              "s3": ["sec_3_ci_s3_079-ficha079.txt"]
+          },
+          "matematicas": {
+              "s1": ["sec_3_ma_s1_035-ficha035.txt"],
+              "s3": ["sec_3_ma_s3_042-ficha042.txt"]
+          },
+          "integrada": {
+              "s3": ["sec_3_in_s3_035-ficha035.txt", "sec_3_in_s3_095-ficha095.txt"],
+              "s1": ["sec_3_in_s1_078-ficha078.txt", "sec_3_in_s1_010-ficha010.txt", "sec_3_in_s1_045-ficha045.txt"],
+              "s2": ["sec_3_in_s2_037-ficha037.txt"]
+          },
+          "espanol": {
+              "s3": ["sec_3_es_s3_067-ficha067.txt"],
+              "s2": ["sec_3_es_s2_006-ficha006.txt", "sec_3_es_s2_045-ficha045.txt"],
+              "s1": ["sec_3_es_s1_022-ficha022.txt"]
+          }
+      }
+  },
+  "primaria": {
+      "5": {
+          "matematicas": {
+              "s1": ["pri_5_ma_s1_022-ficha022.txt"],
+              "s3": ["pri_5_ma_s3_062-ficha062.txt"]
+          },
+          "espanol": {
+              "s1": ["pri_5_es_s1_047-ficha047.txt", "pri_5_es_s1_064-ficha064.txt", "pri_5_es_s1_061-ficha061.txt"],
+              "s3": ["pri_5_es_s3_032-ficha032.txt"]
+          },
+          "integrada": {
+              "s2": ["pri_5_in_s2_084-ficha084.txt"]
+          }
+      },
+      "6": {
+          "matematicas": {
+              "s3": ["pri_6_ma_s3_093-ficha093.txt"],
+              "s2": ["pri_6_ma_s2_076-ficha076.txt"],
+              "s1": ["pri_6_ma_s1_059-ficha059.txt"]
+          },
+          "espanol": {
+              "s3": ["pri_6_es_s3_068-ficha068.txt", "pri_6_es_s3_075-ficha075.txt"]
+          },
+          "ciencias": {
+              "s2": ["pri_6_ci_s2_055-ficha055.txt", "pri_6_ci_s2_056-ficha056.txt"]
+          }
+      },
+      "3": {
+          "matematicas": {
+              "s2": ["pri_3_ma_s2_052-ficha052.txt", "pri_3_ma_s2_051-ficha051.txt"]
+          },
+          "espanol": {
+              "s1": ["pri_3_es_s1_003-ficha003.txt"],
+              "s3": ["pri_3_es_s3_089-ficha089.txt"]
+          },
+          "integrada": {
+              "s1": ["pri_3_in_s1_006-ficha006.txt", "pri_3_in_s1_095-ficha095.txt"]
+          },
+          "ciencias": {
+              "s2": ["pri_3_ci_s2_042-ficha042.txt"]
+          }
+      },
+      "2": {
+          "ciencias": {
+              "s1": ["pri_2_ci_s1_015-ficha015.txt"],
+              "s2": ["pri_2_ci_s2_093-ficha093.txt"]
+          },
+          "matematicas": {
+              "s3": ["pri_2_ma_s3_005-ficha005.txt", "pri_2_ma_s3_060-ficha060.txt", "pri_2_ma_s3_030-ficha030.txt"]
+          },
+          "integrada": {
+              "s2": ["pri_2_in_s2_066-ficha066.txt"]
+          }
+      },
+      "4": {
+          "espanol": {
+              "s3": ["pri_4_es_s3_078-ficha078.txt", "pri_4_es_s3_071-ficha071.txt"]
+          },
+          "matematicas": {
+              "s2": ["pri_4_ma_s2_002-ficha002.txt"],
+              "s1": ["pri_4_ma_s1_062-ficha062.txt"]
+          },
+          "integrada": {
+              "s1": ["pri_4_in_s1_043-ficha043.txt"],
+              "s3": ["pri_4_in_s3_094-ficha094.txt"]
+          },
+          "ciencias": {
+              "s2": ["pri_4_ci_s2_024-ficha024.txt"],
+              "s1": ["pri_4_ci_s1_067-ficha067.txt"]
+          }
+      },
+      "1": {
+          "espanol": {
+              "s2": ["pri_1_es_s2_008-ficha008.txt"]
+          },
+          "ciencias": {
+              "s2": ["pri_1_ci_s2_068-ficha068.txt"],
+              "s3": ["pri_1_ci_s3_038-ficha038.txt"]
+          }
+      }
+  },
+  "eadultos": {
+      "secundaria_inicial": {
+          "matematicas": {
+              "s3": ["ead_sec_ini_ma_s3_044-ficha044.txt", "ead_sec_ini_ma_s3_088-ficha088.txt"],
+              "s2": ["ead_sec_ini_ma_s2_074-ficha074.txt"]
+          },
+          "ciencias": {
+              "s2": ["ead_sec_ini_ci_s2_043-ficha043.txt", "ead_sec_ini_ci_s2_025-ficha025.txt", "ead_sec_ini_ci_s2_084-ficha084.txt", "ead_sec_ini_ci_s2_002-ficha002.txt", "ead_sec_ini_ci_s2_075-ficha075.txt"],
+              "s3": ["ead_sec_ini_ci_s3_019-ficha019.txt"]
+          },
+          "integrada": {
+              "s1": ["ead_sec_ini_in_s1_000-ficha000.txt", "ead_sec_ini_in_s1_012-ficha012.txt", "ead_sec_ini_in_s1_043-ficha043.txt", "ead_sec_ini_in_s1_084-ficha084.txt", "ead_sec_ini_in_s1_026-ficha026.txt"],
+              "s3": ["ead_sec_ini_in_s3_057-ficha057.txt", "ead_sec_ini_in_s3_061-ficha061.txt", "ead_sec_ini_in_s3_045-ficha045.txt"],
+              "s2": ["ead_sec_ini_in_s2_021-ficha021.txt"]
+          },
+          "espanol": {
+              "s3": ["ead_sec_ini_es_s3_046-ficha046.txt", "ead_sec_ini_es_s3_024-ficha024.txt"],
+              "s2": ["ead_sec_ini_es_s2_089-ficha089.txt"]
+          }
+      },
+      "primaria_inicial": {
+          "espanol": {
+              "s1": ["ead_pri_ini_es_s1_016-ficha016.txt"],
+              "s3": ["ead_pri_ini_es_s3_064-ficha064.txt"],
+              "s2": ["ead_pri_ini_es_s2_032-ficha032.txt"]
+          },
+          "integrada": {
+              "s3": ["ead_pri_ini_in_s3_012-ficha012.txt", "ead_pri_ini_in_s3_044-ficha044.txt"],
+              "s2": ["ead_pri_ini_in_s2_039-ficha039.txt"]
+          },
+          "ciencias": {
+              "s2": ["ead_pri_ini_ci_s2_056-ficha056.txt", "ead_pri_ini_ci_s2_037-ficha037.txt"],
+              "s1": ["ead_pri_ini_ci_s1_083-ficha083.txt"]
+          },
+          "matematicas": {
+              "s3": ["ead_pri_ini_ma_s3_083-ficha083.txt", "ead_pri_ini_ma_s3_086-ficha086.txt"],
+              "s2": ["ead_pri_ini_ma_s2_073-ficha073.txt"],
+              "s1": ["ead_pri_ini_ma_s1_087-ficha087.txt"]
+          }
+      },
+      "primaria_avanzado": {
+          "matematicas": {
+              "s2": ["ead_pri_ava_ma_s2_030-ficha030.txt", "ead_pri_ava_ma_s2_065-ficha065.txt"],
+              "s3": ["ead_pri_ava_ma_s3_035-ficha035.txt"]
+          },
+          "espanol": {
+              "s2": ["ead_pri_ava_es_s2_011-ficha011.txt"],
+              "s3": ["ead_pri_ava_es_s3_014-ficha014.txt"]
+          },
+          "integrada": {
+              "s2": ["ead_pri_ava_in_s2_078-ficha078.txt", "ead_pri_ava_in_s2_000-ficha000.txt"]
+          },
+          "ciencias": {
+              "s2": ["ead_pri_ava_ci_s2_024-ficha024.txt"],
+              "s1": ["ead_pri_ava_ci_s1_056-ficha056.txt", "ead_pri_ava_ci_s1_067-ficha067.txt"]
+          }
+      },
+      "secundaria_avanzado": {
+          "ciencias": {
+              "s3": ["ead_sec_ava_ci_s3_041-ficha041.txt", "ead_sec_ava_ci_s3_082-ficha082.txt"]
+          },
+          "matematicas": {
+              "s3": ["ead_sec_ava_ma_s3_043-ficha043.txt", "ead_sec_ava_ma_s3_007-ficha007.txt"],
+              "s1": ["ead_sec_ava_ma_s1_055-ficha055.txt", "ead_sec_ava_ma_s1_039-ficha039.txt"],
+              "s2": ["ead_sec_ava_ma_s2_034-ficha034.txt"]
+          },
+          "espanol": {
+              "s3": ["ead_sec_ava_es_s3_026-ficha026.txt", "ead_sec_ava_es_s3_090-ficha090.txt"],
+              "s1": ["ead_sec_ava_es_s1_080-ficha080.txt"]
+          },
+          "integrada": {
+              "s2": ["ead_sec_ava_in_s2_056-ficha056.txt"],
+              "s3": ["ead_sec_ava_in_s3_061-ficha061.txt"]
+          }
+      }
+  },
+  "eespecial": {
+      "primariaalta": {
+          "ciencias": {
+              "s3": ["ees_prialta_ci_s3_034-ficha034.txt"],
+              "s1": ["ees_prialta_ci_s1_040-ficha040.txt"]
+          },
+          "matematicas": {
+              "s3": ["ees_prialta_ma_s3_090-ficha090.txt"],
+              "s1": ["ees_prialta_ma_s1_008-ficha008.txt"],
+              "s2": ["ees_prialta_ma_s2_010-ficha010.txt"]
+          },
+          "espanol": {
+              "s2": ["ees_prialta_es_s2_077-ficha077.txt", "ees_prialta_es_s2_034-ficha034.txt"]
+          }
+      },
+      "laboral": {
+          "integrada": {
+              "s1": ["ees_lab_in_s1_040-ficha040.txt", "ees_lab_in_s1_002-ficha002.txt", "ees_lab_in_s1_036-ficha036.txt", "ees_lab_in_s1_072-ficha072.txt"]
+          },
+          "espanol": {
+              "s1": ["ees_lab_es_s1_099-ficha099.txt"],
+              "s2": ["ees_lab_es_s2_037-ficha037.txt"]
+          }
+      },
+      "primariabaja": {
+          "ciencias": {
+              "s3": ["ees_pribaja_ci_s3_049-ficha049.txt", "ees_pribaja_ci_s3_005-ficha005.txt"],
+              "s1": ["ees_pribaja_ci_s1_024-ficha024.txt", "ees_pribaja_ci_s1_040-ficha040.txt"]
+          },
+          "matematicas": {
+              "s3": ["ees_pribaja_ma_s3_031-ficha031.txt", "ees_pribaja_ma_s3_002-ficha002.txt"],
+              "s2": ["ees_pribaja_ma_s2_087-ficha087.txt"]
+          }
+      },
+      "lactancia": {
+          "integrada": {
+              "s1": ["ees_lac_in_s1_070-ficha070.txt"],
+              "s3": ["ees_lac_in_s3_024-ficha024.txt"],
+              "s2": ["ees_lac_in_s2_068-ficha068.txt"]
+          },
+          "ciencias": {
+              "s1": ["ees_lac_ci_s1_046-ficha046.txt", "ees_lac_ci_s1_059-ficha059.txt"],
+              "s3": ["ees_lac_ci_s3_007-ficha007.txt", "ees_lac_ci_s3_028-ficha028.txt"]
+          },
+          "espanol": {
+              "s2": ["ees_lac_es_s2_044-ficha044.txt"]
+          },
+          "matematicas": {
+              "s2": ["ees_lac_ma_s2_089-ficha089.txt"]
+          }
+      },
+      "preescolar": {
+          "integrada": {
+              "s2": ["ees_pre_in_s2_063-ficha063.txt"]
+          },
+          "ciencias": {
+              "s1": ["ees_pre_ci_s1_087-ficha087.txt"],
+              "s3": ["ees_pre_ci_s3_081-ficha081.txt"],
+              "s2": ["ees_pre_ci_s2_030-ficha030.txt"]
+          },
+          "espanol": {
+              "s2": ["ees_pre_es_s2_001-ficha001.txt"],
+              "s1": ["ees_pre_es_s1_045-ficha045.txt"]
+          },
+          "matematicas": {
+              "s1": ["ees_pre_ma_s1_021-ficha021.txt"],
+              "s2": ["ees_pre_ma_s2_001-ficha001.txt"]
+          }
+      },
+      "secundaria": {
+          "matematicas": {
+              "s3": ["ees_sec_ma_s3_079-ficha079.txt"],
+              "s1": ["ees_sec_ma_s1_019-ficha019.txt"]
+          },
+          "integrada": {
+              "s2": ["ees_sec_in_s2_039-ficha039.txt", "ees_sec_in_s2_045-ficha045.txt"]
+          }
+      },
+      "maternal": {
+          "integrada": {
+              "s3": ["ees_ma_in_s3_065-ficha065.txt"]
+          },
+          "matematicas": {
+              "s2": ["ees_ma_ma_s2_009-ficha009.txt"]
+          },
+          "espanol": {
+              "s3": ["ees_ma_es_s3_055-ficha055.txt"]
+          }
+      }
+  },
+  "preescolar": {
+      "1": {
+          "ciencias": {
+              "s2": ["pre_1_ci_s2_085-ficha085.txt", "pre_1_ci_s2_030-ficha030.txt", "pre_1_ci_s2_065-ficha065.txt"],
+              "s1": ["pre_1_ci_s1_099-ficha099.txt", "pre_1_ci_s1_061-ficha061.txt", "pre_1_ci_s1_058-ficha058.txt", "pre_1_ci_s1_000-ficha000.txt", "pre_1_ci_s1_096-ficha096.txt", "pre_1_ci_s1_087-ficha087.txt"],
+              "s3": ["pre_1_ci_s3_064-ficha064.txt", "pre_1_ci_s3_030-ficha030.txt", "pre_1_ci_s3_015-ficha015.txt"]
+          },
+          "integrada": {
+              "s1": ["pre_1_in_s1_001-ficha001.txt", "pre_1_in_s1_043-ficha043.txt", "pre_1_in_s1_060-ficha060.txt"],
+              "s3": ["pre_1_in_s3_018-ficha018.txt", "pre_1_in_s3_025-ficha025.txt"],
+              "s2": ["pre_1_in_s2_017-ficha017.txt", "pre_1_in_s2_099-ficha099.txt", "pre_1_in_s2_011-ficha011.txt", "pre_1_in_s2_027-ficha027.txt", "pre_1_in_s2_078-ficha078.txt"]
+          },
+          "matematicas": {
+              "s1": ["pre_1_ma_s1_039-ficha039.txt", "pre_1_ma_s1_061-ficha061.txt"],
+              "s2": ["pre_1_ma_s2_013-ficha013.txt", "pre_1_ma_s2_057-ficha057.txt", "pre_1_ma_s2_099-ficha099.txt", "pre_1_ma_s2_093-ficha093.txt", "pre_1_ma_s2_012-ficha012.txt"],
+              "s3": ["pre_1_ma_s3_060-ficha060.txt", "pre_1_ma_s3_064-ficha064.txt", "pre_1_ma_s3_012-ficha012.txt"]
+          },
+          "espanol": {
+              "s1": ["pre_1_es_s1_086-ficha086.txt", "pre_1_es_s1_022-ficha022.txt"],
+              "s3": ["pre_1_es_s3_054-ficha054.txt", "pre_1_es_s3_083-ficha083.txt", "pre_1_es_s3_073-ficha073.txt", "pre_1_es_s3_018-ficha018.txt"],
+              "s2": ["pre_1_es_s2_016-ficha016.txt", "pre_1_es_s2_092-ficha092.txt", "pre_1_es_s2_041-ficha041.txt", "pre_1_es_s2_047-ficha047.txt"]
+          }
+      }
+  },
+  "einicial": {
+      "maternal": {
+          "matematicas": {
+              "s3": ["ein_ma_ma_s3_030-ficha030.txt", "ein_ma_ma_s3_091-ficha091.txt", "ein_ma_ma_s3_084-ficha084.txt", "ein_ma_ma_s3_013-ficha013.txt"],
+              "s1": ["ein_ma_ma_s1_027-ficha027.txt", "ein_ma_ma_s1_077-ficha077.txt"],
+              "s2": ["ein_ma_ma_s2_062-ficha062.txt", "ein_ma_ma_s2_029-ficha029.txt", "ein_ma_ma_s2_019-ficha019.txt"]
+          },
+          "espanol": {
+              "s3": ["ein_ma_es_s3_000-ficha000.txt", "ein_ma_es_s3_026-ficha026.txt"],
+              "s2": ["ein_ma_es_s2_058-ficha058.txt"]
+          },
+          "integrada": {
+              "s2": ["ein_ma_in_s2_081-ficha081.txt"],
+              "s3": ["ein_ma_in_s3_046-ficha046.txt", "ein_ma_in_s3_084-ficha084.txt"]
+          },
+          "ciencias": {
+              "s3": ["ein_ma_ci_s3_034-ficha034.txt"],
+              "s2": ["ein_ma_ci_s2_010-ficha010.txt"]
+          }
+      },
+      "lactancia": {
+          "matematicas": {
+              "s2": ["ein_lac_ma_s2_065-ficha065.txt", "ein_lac_ma_s2_029-ficha029.txt", "ein_lac_ma_s2_075-ficha075.txt", "ein_lac_ma_s2_025-ficha025.txt"],
+              "s3": ["ein_lac_ma_s3_043-ficha043.txt"]
+          },
+          "ciencias": {
+              "s3": ["ein_lac_ci_s3_090-ficha090.txt"],
+              "s2": ["ein_lac_ci_s2_094-ficha094.txt"]
+          },
+          "espanol": {
+              "s1": ["ein_lac_es_s1_044-ficha044.txt", "ein_lac_es_s1_049-ficha049.txt", "ein_lac_es_s1_090-ficha090.txt", "ein_lac_es_s1_031-ficha031.txt"],
+              "s2": ["ein_lac_es_s2_075-ficha075.txt", "ein_lac_es_s2_067-ficha067.txt", "ein_lac_es_s2_021-ficha021.txt"]
+          },
+          "integrada": {
+              "s2": ["ein_lac_in_s2_047-ficha047.txt"],
+              "s3": ["ein_lac_in_s3_026-ficha026.txt"]
+          }
+      }
+  }
+}

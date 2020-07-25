@@ -250,6 +250,22 @@
                 </div>
             </div>
         </div>
+        <hr>
+        <!-- Audios Aire libre -->
+        <div class="row">
+            <div class="col-md-12" align="center">
+                <div class="grid">
+                    <div class="grid-sizer" id="audiosInformativos">
+                        <div class="grid-item-video" v-for="(video, index) in audioLinks" :key="video.id">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item"
+                                    :src="'https://www.youtube.com/embed/'+video.videoId"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--div class="row">
             <div class="col-md-12" align="center">
                 <a href="https://www.youtube.com/channel/UCKY4x_NljxNGWhHPKofjzZg/videos" target="_blank">
@@ -272,6 +288,7 @@
     <div class="margin-bottom">&nbsp;</div>
     <div w3-include-html="/assets/componentes/footer.html"></div>
     <script src="/assets/scripts/videos_inicio/videosDisplay.js"></script>
+    <script src="/assets/scripts/videos_inicio/audiosInformativos.js"></script>
     <script src="/assets/scripts/agradecimientos.js"></script>
     <!--script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script-->
     <script>

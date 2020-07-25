@@ -1,4 +1,4 @@
- [
+[
     {
         "name": "Alimentación",
         "image": "alimentacion.svg",
@@ -248,6 +248,82 @@
                         "title": "CONSEJOS PARA PAPÁ y MAMÁ: apoyo emocional para niños y niñas ante el Covid-19",
                         "source": "UNICEF",
                         "link": "file:///C:/Users/alberto/Downloads/Consejos%20de%20salud%20mental%20para%20nin%CC%83as%20y%20nin%CC%83os.pdf"
+                    }
+                ]
+            }
+        ]
+    },{
+        "name": "Videos",
+        "image": "videos.svg",
+        "subcategories": [
+            {
+                "name": "Aire Libre 105.3 fm",
+                "sources": [
+                    {
+                        "type": "video",
+                        "title": "Reconozco y respeto mis derechos",
+                        "source": "",
+                        "link": "http://youtu.be/JCQQ0axSlMI"
+                    },{
+                        "type": "video",
+                        "title": "Trabajando en la tolerancia",
+                        "source": "",
+                        "link": "https://youtu.be/-QwO_LL78xw"
+                    },{
+                        "type": "video",
+                        "title": "Enseñando juntos",
+                        "source": "",
+                        "link": "https://youtu.be/t2O1gBiCI1o"
+                    },{
+                        "type": "video",
+                        "title": "Inclusión educativa",
+                        "source": "",
+                        "link": "https://youtu.be/fdoPT0yLIls"
+                    },{
+                        "type": "video",
+                        "title": "Porque me quiero me cuido",
+                        "source": "",
+                        "link": "https://youtu.be/TNBjb6OSVzs"
+                    },{
+                        "type": "video",
+                        "title": "Reconozco las capacidades de mi familia",
+                        "source": "",
+                        "link": "https://youtu.be/_GWXf_5JbQM"
+                    },{
+                        "type": "video",
+                        "title": "Actividad física",
+                        "source": "",
+                        "link": "https://youtu.be/tRLv1hEr5B8"
+                    },{
+                        "type": "video",
+                        "title": "Aprendizaje en el hogar",
+                        "source": "",
+                        "link": "https://youtu.be/9eqp5kJINyE"
+                    },{
+                        "type": "video",
+                        "title": "Autoestima, identifico y fortalezco mis cualidades",
+                        "source": "",
+                        "link": "https://youtu.be/wjopsCGpksY"
+                    },{
+                        "type": "video",
+                        "title": "Cómo ayudar a tus hijos a descubrir su potencial",
+                        "source": "",
+                        "link": "https://youtu.be/UcWvsLli_1Q"
+                    },{
+                        "type": "video",
+                        "title": "Cómo desarrollar la relajación en mis hijos",
+                        "source": "",
+                        "link": "https://youtu.be/Y8xiX_saFl4"
+                    },{
+                        "type": "video",
+                        "title": "Expresión y regulación de emociones",
+                        "source": "",
+                        "link": "https://youtu.be/7TsRY0M73CE"
+                    },{
+                        "type": "video",
+                        "title": "Formación de ambiente saludable en el hogar",
+                        "source": "",
+                        "link": "https://youtu.be/BEA48J9BhDY"
                     }
                 ]
             }

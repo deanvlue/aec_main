@@ -25,16 +25,11 @@
             },
             "evdiag": {
                 "s3": [
-                    "ees_pribaja_ev_s3_08-evaluacion.pdf",
-                    "ees_pribaja_ev_s3_09-evaluacion.pdf",
-                    "ees_pribaja_ev_s3_07-evaluacion.pdf",
+                    "ees_pribaja_ev_s3_03-evaluacion.pdf",
                     "ees_pribaja_ev_s3_01-evaluacion.pdf",
                     "ees_pribaja_ev_s3_02-evaluacion.pdf"
                 ],
                 "s2": [
-                    "ees_pribaja_ev_s2_06-evaluacion.pdf",
-                    "ees_pribaja_ev_s2_04-evaluacion.pdf",
-                    "ees_pribaja_ev_s2_05-evaluación.pdf",
                     "ees_pribaja_ev_s2_02-evaluación.pdf",
                     "ees_pribaja_ev_s2_01-evaluacion.pdf",
                     "ees_pribaja_ev_s2_03-evaluacion.pdf"
@@ -43,9 +38,6 @@
                     "ees_pribaja_ev_s1_02-evaluacion.pdf",
                     "ees_pribaja_ev_s1_01-evaluacion.pdf",
                     "ees_pribaja_ev_s1_03-evaluacion.pdf"
-                ],
-                "S3": [
-                    "ees_pribaja_ev_S3_03-evaluacion.pdf"
                 ]
             },
             "espanol": {
@@ -85,18 +77,12 @@
             },
             "evdiag": {
                 "s3": [
-                    "ees_pre_ev_s3_07-evaluacion.pdf",
-                    "ees_pre_ev_s3_09-evaluacion.pdf",
                     "ees_pre_ev_s3_03-evaluacion.pdf",
                     "ees_pre_ev_s3_01-evaluacion.pdf",
                     "ees_pre_ev_s3_02-evaluacion.pdf"
                 ],
                 "s2": [
-                    "ees_pre_ev_s2_04-evaluacion.pdf",
                     "ees_pre_ev_s2_02-evaluacion.pdf",
-                    "ees_pre_ev_s2_05-evaluacion.pdf",
-                    "ees_pre_ev_s2_06-evaluacion.pdf",
-                    "ees_pre_ev_s2_08-evaluacion.pdf",
                     "ees_pre_ev_s2_01-evaluacion.pdf",
                     "ees_pre_ev_s2_03-evaluacion.pdf"
                 ],
@@ -143,17 +129,11 @@
             },
             "evdiag": {
                 "s3": [
-                    "ees_prialta_ev_s3_08-evaluacion.pdf",
-                    "ees_prialta_ev_s3_07-evaluacion.pdf",
-                    "ees_prialta_ev_s3_09-evaluacion.pdf",
+                    "ees_prialta_ev_s3_02-evaluacion.pdf",
                     "ees_prialta_ev_s3_01-evaluacion.pdf",
-                    "ees_prialta_ev_s3_02-evaluacion..pdf",
                     "ees_prialta_ev_s3_03-evaluacion.pdf"
                 ],
                 "s2": [
-                    "ees_prialta_ev_s2_06-evaluacion.pdf",
-                    "ees_prialta_ev_s2_04-evaluacion.pdf",
-                    "ees_prialta_ev_s2_05-evaluacion.pdf",
                     "ees_prialta_ev_s2_01-evaluacion.pdf",
                     "ees_prialta_ev_s2_02-evaluacion.pdf",
                     "ees_prialta_ev_s2_03-evaluacion.pdf"
@@ -201,17 +181,11 @@
             },
             "evdiag": {
                 "s3": [
-                    "ees_sec_ev_s3_07-evaluacion.pdf",
-                    "ees_sec_ev_s3_08-evaluacion.pdf",
-                    "ees_sec_ev_s3_09-evaluacion.pdf",
                     "ees_sec_ev_s3_01-evaluacion.pdf",
                     "ees_sec_ev_s3_03-evaluacion.pdf",
                     "ees_sec_ev_s3_02-evaluacion.pdf"
                 ],
                 "s2": [
-                    "ees_sec_ev_s2_06-evaluacion.pdf",
-                    "ees_sec_ev_s2_04-evaluacion.pdf",
-                    "ees_sec_ev_s2_05-evaluacion.pdf",
                     "ees_sec_ev_s2_01-evaluacion.pdf",
                     "ees_sec_ev_s2_03-evaluacion.pdf",
                     "ees_sec_ev_s2_02-evaluacion.pdf"
@@ -308,10 +282,6 @@
             },
             "evdiag": {
                 "s3": [
-                    "ees_lab_ev_s3_11-evaluacion.pdf",
-                    "ees_lab_ev_s3_12-evaluacion.pdf",
-                    "ees_lab_ev_s3_10-evaluacion.pdf",
-                    "ees_lab_ev_s3_09-evaluacion.pdf",
                     "ees_lab_ev_s3_03-evaluacion.pdf",
                     "ees_lab_ev_s3_01-evaluacion.pdf",
                     "ees_lab_ev_s3_02-evaluacion.pdf",
@@ -319,10 +289,6 @@
                 ],
                 "s2": [
                     "ees_lab_ev_s2_02-evaluacion.pdf",
-                    "ees_lab_ev_s2_07-evaluación.pdf",
-                    "ees_lab_ev_s2_06-evaluacion.pdf",
-                    "ees_lab_ev_s2_08-evaluacion.pdf",
-                    "ees_lab_ev_s2_05-evaluacion.pdf",
                     "ees_lab_ev_s2_01-evaluacion.pdf",
                     "ees_lab_ev_s2_04-evaluacion.pdf",
                     "ees_lab_ev_s2_03-evaluacion.pdf"
@@ -394,17 +360,14 @@
                     "pri_1_ci_s2_01-alimentacionsanaybalanceada.pdf"
                 ],
                 "s1": [
-                    "pri_1_ci_s1_01.pdf",
                     "pri_1_ci_s1_01-elplatodelbiencomer.pdf"
                 ]
             },
             "evdiag": {
                 "s3": [
-                    "pri_1_ev_s3_01.pdf",
                     "pri_1_ev_s3_01-evaluacion.pdf"
                 ],
                 "s2": [
-                    "pri_1_ev_s2_01.pdf",
                     "pri_1_ev_s2_01-evaluacion.pdf"
                 ],
                 "s1": [
@@ -426,7 +389,6 @@
         "2": {
             "matematicas": {
                 "s3": [
-                    "pri_2_ma_s3_01.pdf",
                     "pri_2_ma_s3_01-yatenemosmas.pdf"
                 ],
                 "s2": [
@@ -449,15 +411,12 @@
             },
             "evdiag": {
                 "s3": [
-                    "pri_2_ev_s3_01.pdf",
                     "pri_2_ev_s3_01-evaluacion.pdf"
                 ],
                 "s2": [
-                    "pri_2_ev_s2_01.pdf",
                     "pri_2_ev_s2_01-evaluacion.pdf"
                 ],
                 "s1": [
-                    "pri_2_ev_s1_01.pdf",
                     "pri_2_ev_s1_01-evaluacion.pdf"
                 ]
             },
@@ -694,8 +653,7 @@
                     "pre_1_ev_s3_01-evaluacion.pdf"
                 ],
                 "s2": [
-                    "pre_1_ev_s2_01-evaluacion.pdf",
-                    "pre_1_ev_s2_01-evaluación.pdf"
+                    "pre_1_ev_s2_01-evaluacion.pdf"
                 ],
                 "s1": [
                     "pre_1_ev_s1_01-evaluacion.pdf"
@@ -1183,43 +1141,6 @@
         }
     },
     "einicial": {
-        "ma": {
-            "integrada": {
-                "s3": [
-                    "ein_ma_in_s3_01-presentandonos.pdf"
-                ],
-                "s2": [
-                    "ein_ma_in_s2_01-lasemociones.pdf"
-                ],
-                "s1": [
-                    "ein_ma_in_s1_01-nospreparamosparaelregreso.pdf"
-                ]
-            },
-            "evdiag": {
-                "s3": [
-                    "ein_ma_ev_s3_01-evaluacion.pdf",
-                    "ein_ma_ev_s3_04-evaluación.pdf",
-                    "ein_ma_ev_s3_03-evaluacion.pdf",
-                    "ein_ma_ev_s3_05-evaluación.pdf",
-                    "ein_ma_ev_s3_06-evaluacion.pdf",
-                    "ein_ma_ev_s3_02-evaluacion.pdf"
-                ],
-                "s2": [
-                    "ein_ma_ev_s2_05-evaluacion.pdf",
-                    "ein_ma_ev_s2_06-evaluacion.pdf",
-                    "ein_ma_ev_s2_04-evaluacion.pdf",
-                    "ein_ma_ev_s2_02-evaluacion.pdf",
-                    "ein_ma_ev_s2_01-evaluacion.pdf",
-                    "ein_ma_ev_s2_03-evaluacion.pdf"
-                ],
-                "s1": [
-                    "ein_ma_ev_s1_01-evaluacion.pdf",
-                    "ein_ma_ev_s1_03-evaluacion.pdf",
-                    "ein_ma_ev_s1_02-evaluacion.pdf",
-                    "ein_ma_ev_s1_04-evaluacion.pdf"
-                ]
-            }
-        },
         "maternal": {
             "integrada": {
                 "s3": [
@@ -1239,7 +1160,9 @@
                     "ein_mat_ev_s3_04-evaluacion.pdf",
                     "ein_mat_ev_s3_05-evaluacion.pdf",
                     "ein_mat_ev_s3_02-evaluacion.pdf",
-                    "ein_mat_ev_s3_01-evaluacion.pdf"
+                    "ein_mat_ev_s3_01-evaluacion.pdf",
+                    "ein_mat_ev_s3_04-evaluación.pdf",
+                    "ein_mat_ev_s3_05-evaluación.pdf"
                 ],
                 "s2": [
                     "ein_mat_ev_s2_04-evaluacion.pdf",

@@ -1,0 +1,1221 @@
+{
+    "eespecial": {
+        "primariabaja": {
+            "matematicas": {
+                "s3": [
+                    "ees_pribaja_ma_s3_01-midocomparoyordeno.pdf"
+                ],
+                "s2": [
+                    "ees_pribaja_ma_s2_01-aprendomassumandoyrestando.pdf"
+                ],
+                "s1": [
+                    "ees_pribaja_ma_s1_01-descubriendofigurasgeometricas.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "ees_pribaja_ci_s3_01-disfrutodemiscostumbresenfamilia.pdf"
+                ],
+                "s2": [
+                    "ees_pribaja_ci_s2_01-yoytodoscuidemosnuestromedioambiente.pdf"
+                ],
+                "s1": [
+                    "ees_pribaja_ci_s1_01-conozcamoslosanimalessegunsutamano.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ees_pribaja_ev_s3_03-evaluacion.pdf",
+                    "ees_pribaja_ev_s3_01-evaluacion.pdf",
+                    "ees_pribaja_ev_s3_02-evaluacion.pdf"
+                ],
+                "s2": [
+                    "ees_pribaja_ev_s2_02-evaluación.pdf",
+                    "ees_pribaja_ev_s2_01-evaluacion.pdf",
+                    "ees_pribaja_ev_s2_03-evaluacion.pdf"
+                ],
+                "s1": [
+                    "ees_pribaja_ev_s1_02-evaluacion.pdf",
+                    "ees_pribaja_ev_s1_01-evaluacion.pdf",
+                    "ees_pribaja_ev_s1_03-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "ees_pribaja_es_s3_01-elaboraciondecartel.pdf"
+                ],
+                "s2": [
+                    "ees_pribaja_es_s2_01-juegodeboliche.pdf"
+                ],
+                "s1": [
+                    "ees_pribaja_es_s1_01-todostenemosunnombre.pdf"
+                ]
+            }
+        },
+        "preescolar": {
+            "matematicas": {
+                "s3": [
+                    "ees_pre_ma_s3_01-encuentraeltesoro.pdf"
+                ],
+                "s2": [
+                    "ees_pre_ma_s2_01-misjuguetesfavoritoscuantocuestan.pdf"
+                ],
+                "s1": [
+                    "ees_pre_ma_s1_01-hastacuantocuentas.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "ees_pre_ci_s3_01-habitosdehigiene.pdf"
+                ],
+                "s2": [
+                    "ees_pre_ci_s2_01-comoevitarlosaccidentes.pdf"
+                ],
+                "s1": [
+                    "ees_pre_ci_s1_01-seresvivosynovivos.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ees_pre_ev_s3_03-evaluacion.pdf",
+                    "ees_pre_ev_s3_01-evaluacion.pdf",
+                    "ees_pre_ev_s3_02-evaluacion.pdf"
+                ],
+                "s2": [
+                    "ees_pre_ev_s2_02-evaluacion.pdf",
+                    "ees_pre_ev_s2_01-evaluacion.pdf",
+                    "ees_pre_ev_s2_03-evaluacion.pdf"
+                ],
+                "s1": [
+                    "ees_pre_ev_s1_01-evaluacion.pdf",
+                    "ees_pre_ev_s1_03-evaluacion.pdf",
+                    "ees_pre_ev_s1_02-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "ees_pre_es_s3_01-cuentameuncuento.pdf"
+                ],
+                "s2": [
+                    "ees_pre_es_s2_01-aprendiendoenlacocina.pdf"
+                ],
+                "s1": [
+                    "ees_pre_es_s1_01-comomesientohoy.pdf"
+                ]
+            }
+        },
+        "primariaalta": {
+            "matematicas": {
+                "s3": [
+                    "ees_prialta_ma_s3_01-conversionesdeunidadesdemedida.pdf"
+                ],
+                "s2": [
+                    "ees_prialta_ma_s2_01-ubicaciondeobjetosenelespacioespecificandounpuntodereferencia.pdf"
+                ],
+                "s1": [
+                    "ees_prialta_ma_s1_01-rectasparalelasperpendicularesysecantesangulosagudosrectosyobtusos.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "ees_prialta_ci_s3_01-queplanetasmeacompanan.pdf"
+                ],
+                "s2": [
+                    "ees_prialta_ci_s2_01-unaricamezcla.pdf"
+                ],
+                "s1": [
+                    "ees_prialta_ci_s1_01-tambienelaguaestaenlasfrutas.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ees_prialta_ev_s3_02-evaluacion.pdf",
+                    "ees_prialta_ev_s3_01-evaluacion.pdf",
+                    "ees_prialta_ev_s3_03-evaluacion.pdf"
+                ],
+                "s2": [
+                    "ees_prialta_ev_s2_01-evaluacion.pdf",
+                    "ees_prialta_ev_s2_02-evaluacion.pdf",
+                    "ees_prialta_ev_s2_03-evaluacion.pdf"
+                ],
+                "s1": [
+                    "ees_prialta_ev_s1_03-evaluacion.pdf",
+                    "ees_prialta_ev_s1_01-evaluacion.pdf",
+                    "ees_prialta_ev_s1_02-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "ees_prialta_es_s3_01-ycomoes.pdf"
+                ],
+                "s2": [
+                    "ees_prialta_es_s2_01-elproductomejorvendido.pdf"
+                ],
+                "s1": [
+                    "ees_prialta_es_s1_01-realidadofantasia.pdf"
+                ]
+            }
+        },
+        "secundaria": {
+            "matematicas": {
+                "s3": [
+                    "ees_sec_ma_s3_01-matematicaselnumeroganador.pdf"
+                ],
+                "s2": [
+                    "ees_sec_ma_s2_01-matematicasencontrandodiferentesrutas.pdf"
+                ],
+                "s1": [
+                    "ees_sec_ma_s1_01-matematicasjuguemosalcajero.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "ees_sec_ci_s3_01-cienciasfisica.pdf"
+                ],
+                "s2": [
+                    "ees_sec_ci_s2_01-cienciasbiologiaii.pdf"
+                ],
+                "s1": [
+                    "ees_sec_ci_s1_01-cienciasbiologia.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ees_sec_ev_s3_01-evaluacion.pdf",
+                    "ees_sec_ev_s3_03-evaluacion.pdf",
+                    "ees_sec_ev_s3_02-evaluacion.pdf"
+                ],
+                "s2": [
+                    "ees_sec_ev_s2_01-evaluacion.pdf",
+                    "ees_sec_ev_s2_03-evaluacion.pdf",
+                    "ees_sec_ev_s2_02-evaluacion.pdf"
+                ],
+                "s1": [
+                    "ees_sec_ev_s1_01b-evaluacion.pdf",
+                    "ees_sec_ev_s1_01-evaluacion.pdf",
+                    "ees_sec_ev_s1_02-evaluacion.pdf",
+                    "ees_sec_ev_s1_03-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "ees_sec_es_s3_01-espanolcorreodelapizypapel.pdf"
+                ],
+                "s2": [
+                    "ees_sec_es_s2_01-espanolcomojugamosyporquedebemosseguirlasreglas.pdf"
+                ],
+                "s1": [
+                    "ees_sec_es_s1_01-espanolenbuscadeinventores.pdf"
+                ]
+            }
+        },
+        "einma": {
+            "integrada": {
+                "s3": [
+                    "ees_einma_in_s3_01-presentandonos.pdf"
+                ],
+                "s2": [
+                    "ees_einma_in_s2_01-lasemociones.pdf"
+                ],
+                "s1": [
+                    "ees_einma_in_s1_01-nospreparamosparaelregreso.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ees_einma_ev_s3_03-evaluacion.pdf",
+                    "ees_einma_ev_s3_05-evaluacion.pdf",
+                    "ees_einma_ev_s3_04-evaluacion.pdf",
+                    "ees_einma_ev_s3_02-evaluacion.pdf",
+                    "ees_einma_ev_s3_01-evaluacion.pdf",
+                    "ees_einma_ev_s3_06-evaluacion.pdf"
+                ],
+                "s2": [
+                    "ees_einma_ev_s2_01-evaluacion.pdf",
+                    "ees_einma_ev_s2_03-evaluacion.pdf",
+                    "ees_einma_ev_s2_04-evaluacion.pdf",
+                    "ees_einma_ev_s2_05-evaluacion.pdf",
+                    "ees_einma_ev_s2_06-evaluacion.pdf",
+                    "ees_einma_ev_s2_02-evaluacion.pdf"
+                ],
+                "s1": [
+                    "ees_einma_ev_s1_01-evaluacion.pdf",
+                    "ees_einma_ev_s1_03-evaluacion.pdf",
+                    "ees_einma_ev_s1_02-evaluacion.pdf",
+                    "ees_einma_ev_s1_04-evaluacion.pdf"
+                ]
+            }
+        },
+        "laboral": {
+            "taller3": {
+                "s3": [
+                    "ees_lab_ta3_s3_01-areasespecificascocinasyhospitales.pdf"
+                ],
+                "s2": [
+                    "ees_lab_ta3_s2_01-areasgeneralesbanos.pdf"
+                ],
+                "s1": [
+                    "ees_lab_ta3_s1_01-areasgeneralescasahabitacion.pdf"
+                ]
+            },
+            "taller2": {
+                "s3": [
+                    "ees_lab_ta2_s3_01-realizandounserviciocapilar.pdf"
+                ],
+                "s2": [
+                    "ees_lab_ta2_s2_01-embellecimientodetusunas.pdf"
+                ],
+                "s1": [
+                    "ees_lab_ta2_s1_01-medidasdeseguridad.pdf"
+                ]
+            },
+            "taller1": {
+                "s3": [
+                    "ees_lab_ta1_s3_01-apoyoalserviciodelavanderia.pdf"
+                ],
+                "s2": [
+                    "ees_lab_ta1_s2_01-atencionacomensalesespecialidades.pdf"
+                ],
+                "s1": [
+                    "ees_lab_ta1_s1_01-montajedemesas.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ees_lab_ev_s3_03-evaluacion.pdf",
+                    "ees_lab_ev_s3_01-evaluacion.pdf",
+                    "ees_lab_ev_s3_02-evaluacion.pdf",
+                    "ees_lab_ev_s3_04-evaluacion.pdf"
+                ],
+                "s2": [
+                    "ees_lab_ev_s2_02-evaluacion.pdf",
+                    "ees_lab_ev_s2_01-evaluacion.pdf",
+                    "ees_lab_ev_s2_04-evaluacion.pdf",
+                    "ees_lab_ev_s2_03-evaluacion.pdf"
+                ],
+                "s1": [
+                    "ees_lab_ev_s1_01-evaluacion.pdf",
+                    "ees_lab_ev_s1_02-evaluacion.pdf",
+                    "ees_lab_ev_s1_03-evaluacion.pdf",
+                    "ees_lab_ev_s1_04-evaluacion.pdf"
+                ]
+            }
+        },
+        "lactancia": {
+            "integrada": {
+                "s3": [
+                    "ees_einlac_in_s3_01-lasiesta.pdf"
+                ],
+                "s2": [
+                    "ees_einlac_in_s2_01-masajerelajante.pdf"
+                ],
+                "s1": [
+                    "ees_einlac_in_s1_01-actividadesdeadaptacion.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ees_einlac_ev_s3_04-evaluacion.pdf",
+                    "ees_einlac_ev_s3_01-evaluacion.pdf",
+                    "ees_einlac_ev_s3_03-evaluacion.pdf",
+                    "ees_einlac_ev_s3_05-evaluacion.pdf",
+                    "ees_einlac_ev_s3_02-evaluacion.pdf",
+                    "ees_einlac_ev_s3_06-evaluacion.pdf"
+                ],
+                "s2": [
+                    "ees_einlac_ev_s2_02-evaluacion.pdf",
+                    "ees_einlac_ev_s2_04-evaluacion.pdf",
+                    "ees_einlac_ev_s2_01-evaluacion.pdf",
+                    "ees_einlac_ev_s2_03-evaluacion.pdf",
+                    "ees_einlac_ev_s2_06-evaluacion.pdf",
+                    "ees_einlac_ev_s2_05-evaluacion.pdf"
+                ],
+                "s1": [
+                    "ees_einlac_ev_s1_01-evaluacion.pdf",
+                    "ees_einlac_ev_s1_02-evaluacion.pdf",
+                    "ees_einlac_ev_s1_04-evaluacion.pdf",
+                    "ees_einlac_ev_s1_03-evaluacion.pdf"
+                ]
+            }
+        }
+    },
+    "primaria": {
+        "1": {
+            "matematicas": {
+                "s3": [
+                    "pri_1_ma_s3_01-descubriendolosnumeros.pdf"
+                ],
+                "s2": [
+                    "pri_1_ma_s2_01-cuantomedimos.pdf"
+                ],
+                "s1": [
+                    "pri_1_ma_s1_01-resuelveproblemasatravesdelconteo.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "pri_1_ci_s3_01-cuidomishabitosdehigiene.pdf"
+                ],
+                "s2": [
+                    "pri_1_ci_s2_01-alimentacionsanaybalanceada.pdf"
+                ],
+                "s1": [
+                    "pri_1_ci_s1_01-elplatodelbiencomer.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "pri_1_ev_s3_01-evaluacion.pdf"
+                ],
+                "s2": [
+                    "pri_1_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "pri_1_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "pri_1_es_s3_01-contemosuncuento.pdf"
+                ],
+                "s2": [
+                    "pri_1_es_s2_01-minombreysuorigen.pdf"
+                ],
+                "s1": [
+                    "pri_1_es_s1_01-observoconozcoyaprendo.pdf"
+                ]
+            }
+        },
+        "2": {
+            "matematicas": {
+                "s3": [
+                    "pri_2_ma_s3_01-yatenemosmas.pdf"
+                ],
+                "s2": [
+                    "pri_2_ma_s2_01-losdiasdelasemanaymesesdelano.pdf"
+                ],
+                "s1": [
+                    "pri_2_ma_s1_01-cuantostenemos.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "pri_2_ci_s3_01-micuerposemueveysenutre.pdf"
+                ],
+                "s2": [
+                    "pri_2_ci_s2_01-lamejorfamiliadelmundo.pdf"
+                ],
+                "s1": [
+                    "pri_2_ci_s1_01-aprendoaconvivir.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "pri_2_ev_s3_01-evaluacion.pdf"
+                ],
+                "s2": [
+                    "pri_2_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "pri_2_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "pri_2_es_s3_01-microbiosyvirus.pdf"
+                ],
+                "s2": [
+                    "pri_2_es_s2_01-realicemosunaobradeteatro.pdf"
+                ],
+                "s1": [
+                    "pri_2_es_s1_01-lasreglasdemisalon.pdf"
+                ]
+            }
+        },
+        "3": {
+            "matematicas": {
+                "s3": [
+                    "pri_3_ma_s3_01-enfamilia.pdf"
+                ],
+                "s2": [
+                    "pri_3_ma_s2_01-descubriendofiguras.pdf"
+                ],
+                "s1": [
+                    "pri_3_ma_s1_01-adescomponernumeros.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "pri_3_ci_s3_01-alimentodeleyenda.pdf"
+                ],
+                "s2": [
+                    "pri_3_ci_s2_01-juguemosconloscincosentidos.pdf"
+                ],
+                "s1": [
+                    "pri_3_ci_s1_01-cambiemoselestadodelamateria.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "pri_3_ev_s3_01-evaluacion.pdf"
+                ],
+                "s2": [
+                    "pri_3_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "pri_3_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "pri_3_es_s3_01-conociendoanimalessalvajes.pdf"
+                ],
+                "s2": [
+                    "pri_3_es_s2_01-anarrar.pdf"
+                ],
+                "s1": [
+                    "pri_3_es_s1_01-lostextosnarrativos.pdf"
+                ]
+            }
+        },
+        "4": {
+            "matematicas": {
+                "s3": [
+                    "pri_4_ma_s3_01-cuantonecesitoamedirlongitudes.pdf"
+                ],
+                "s2": [
+                    "pri_4_ma_s2_01-cuantoshaylasfracciones.pdf"
+                ],
+                "s1": [
+                    "pri_4_ma_s1_01-ajugarconlosnumeros.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "pri_4_ci_s3_01-interaccionesdeimanes.pdf"
+                ],
+                "s2": [
+                    "pri_4_ci_s2_01-estabilidadparaelecosistemayaccionesparasumantenimiento.pdf"
+                ],
+                "s1": [
+                    "pri_4_ci_s1_01-lainteracciondelossistemasenlanutricion.pdf",
+                    "pri_4_ci_s1_01-lainteracciondelossistemasenlanutricion1.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "pri_4_ev_s3_01-evaluacion.pdf"
+                ],
+                "s2": [
+                    "pri_4_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "pri_4_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "pri_4_es_s3_01-quemecuentasdeestecuento.pdf"
+                ],
+                "s2": [
+                    "pri_4_es_s2_01-adivinaadivinadordimequiensoyyo.pdf"
+                ],
+                "s1": [
+                    "pri_4_es_s1_01-lasfuentesdeinformacion.pdf"
+                ]
+            }
+        },
+        "5": {
+            "matematicas": {
+                "s3": [
+                    "pri_5_ma_s3_01-rompecabezasgeometrico.pdf"
+                ],
+                "s2": [
+                    "pri_5_ma_s2_01-elmascercanoa1000.pdf"
+                ],
+                "s1": [
+                    "pri_5_ma_s1_01-gigantesyenanos.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "pri_5_ci_s3_01-eclipsesolaryeclipselunar.pdf"
+                ],
+                "s2": [
+                    "pri_5_ci_s2_01-cadenasalimentarias.pdf"
+                ],
+                "s1": [
+                    "pri_5_ci_s1_01-importanciadelsistemainmunologico.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "pri_5_ev_s3_01-evaluacion.pdf"
+                ],
+                "s2": [
+                    "pri_5_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "pri_5_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "pri_5_es_s3_01-consumoconinteligencia.pdf"
+                ],
+                "s2": [
+                    "pri_5_es_s2_01-depoemasemocionesyotrasbonitassensaciones.pdf"
+                ],
+                "s1": [
+                    "pri_5_es_s1_01-candildelacalleoscuridaddesucasa.pdf"
+                ]
+            }
+        },
+        "6": {
+            "matematicas": {
+                "s3": [
+                    "pri_6_ma_s3_01-lasfraccionesdetipon_m.pdf"
+                ],
+                "s2": [
+                    "pri_6_ma_s2_01-lasrutasdemiciudad.pdf"
+                ],
+                "s1": [
+                    "pri_6_ma_s1_01-lacalculadorayladivision.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "pri_6_ci_s3_01-loscomponentesdenuestrosistemasolar.pdf"
+                ],
+                "s2": [
+                    "pri_6_ci_s2_01-comoescuchamosyporquedebemosevitarsonidosintensos.pdf"
+                ],
+                "s1": [
+                    "pri_6_ci_s1_01-porqueesimportantealimentarnoscorrectamente.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "pri_6_ev_s3_01-evaluacion.pdf"
+                ],
+                "s2": [
+                    "pri_6_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "pri_6_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "pri_6_es_s3_01-lasencuestas.pdf"
+                ],
+                "s2": [
+                    "pri_6_es_s2_01-cuentameunafabulayunrefran.pdf"
+                ],
+                "s1": [
+                    "pri_6_es_s1_01-leerycomprender.pdf"
+                ]
+            }
+        }
+    },
+    "preescolar": {
+        "1": {
+            "matematicas": {
+                "s3": [
+                    "pre_1_ma_s3_01-secontar.pdf",
+                    "pre_1_ma_s3_03-comparomedidas.pdf",
+                    "pre_1_ma_s3_02-ordenoydesordeno.pdf"
+                ],
+                "s2": [
+                    "pre_1_ma_s2_02-masomenos.pdf",
+                    "pre_1_ma_s2_01-encuentraycuenta.pdf",
+                    "pre_1_ma_s2_03-agregaroquitar.pdf"
+                ],
+                "s1": [
+                    "pre_1_ma_s1_01-miroyubico.pdf",
+                    "pre_1_ma_s1_02-ubicandome.pdf",
+                    "pre_1_ma_s1_03-describoloqueveo.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "pre_1_ci_s3_01-alimentossaludables.pdf"
+                ],
+                "s2": [
+                    "pre_1_ci_s2_01-evitoelpeligro.pdf"
+                ],
+                "s1": [
+                    "pre_1_ci_s1_01-cuidomisaludymeprotejo.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "pre_1_ev_s3_01-evaluacion.pdf"
+                ],
+                "s2": [
+                    "pre_1_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "pre_1_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "pre_1_es_s3_01-familiatalentosa.pdf",
+                    "pre_1_es_s3_02-causayconsecuencias.pdf",
+                    "pre_1_es_s3_03-mifamiliasaberimar.pdf"
+                ],
+                "s2": [
+                    "pre_1_es_s2_01-minombre.pdf",
+                    "pre_1_es_s2_02-aprendoacuidarme.pdf",
+                    "pre_1_es_s2_03-somosdiferentessomosiguales.pdf"
+                ],
+                "s1": [
+                    "pre_1_es_s1_01-palabrasmagicas.pdf",
+                    "pre_1_es_s1_02-avecesganamosavecesperdemos.pdf",
+                    "pre_1_es_s1_03-unafamiliadesuperheroes.pdf"
+                ]
+            }
+        },
+        "2": {
+            "matematicas": {
+                "s3": [
+                    "pre_2_ma_s3_01-relaciondeelementosconlaserienumerica.pdf"
+                ],
+                "s2": [
+                    "pre_2_ma_s2_01-siguiendolospasosalcargamentodeltren.pdf"
+                ],
+                "s1": [
+                    "pre_2_ma_s1_01-ubicaciondeobjetos.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "pre_2_ci_s3_01-beneficiosdeunaalimentacioncorrecta.pdf"
+                ],
+                "s2": [
+                    "pre_2_ci_s2_01-promoviendoelautocuidado.pdf"
+                ],
+                "s1": [
+                    "pre_2_ci_s1_01-aprendamoslaimportanciadeloshabitosdehigienepersonal.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "pre_2_ev_s3_01-evaluacion.pdf",
+                    "pre_2_ev_s3_01-evaluación.pdf"
+                ],
+                "s2": [
+                    "pre_2_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "pre_2_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "pre_2_es_s3_01-lasadivinanzasyeltrabalenguas.pdf"
+                ],
+                "s2": [
+                    "pre_2_es_s2_01-eltendedero.pdf"
+                ],
+                "s1": [
+                    "pre_2_es_s1_01-elorigendelaspalabras.pdf"
+                ]
+            }
+        },
+        "3": {
+            "matematicas": {
+                "s3": [
+                    "pre_3_ma_s3_01-juguemosaformarcolecciones.pdf"
+                ],
+                "s2": [
+                    "pre_3_ma_s2_01-jugandotripasdegato.pdf"
+                ],
+                "s1": [
+                    "pre_3_ma_s1_01-aquenomeencuentras.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "pre_3_ci_s3_01-losalimentossaludables.pdf"
+                ],
+                "s2": [
+                    "pre_3_ci_s2_01-aprendamosacuidarnuestrasalud.pdf"
+                ],
+                "s1": [
+                    "pre_3_ci_s1_01-mecuidonomearriesgo.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "pre_3_ev_s3_01-evaluacion.pdf"
+                ],
+                "s2": [
+                    "pre_3_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "pre_3_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "pre_3_es_s3_01-palabrasqueriman.pdf"
+                ],
+                "s2": [
+                    "pre_3_es_s2_01-comoesmifamilia.pdf"
+                ],
+                "s1": [
+                    "pre_3_es_s1_01-nosrespetamostodos.pdf"
+                ]
+            }
+        }
+    },
+    "secundaria": {
+        "1": {
+            "espanol": {
+                "s3": [
+                    "sec_1_es_s3_01-biografiayautobiografia.pdf"
+                ],
+                "s2": [
+                    "sec_1_es_s2_01-instructivosentodoslados.pdf"
+                ],
+                "s1": [
+                    "sec_1_es_s1_01-losconectoreslogicoseslabonesdetexto.pdf"
+                ]
+            },
+            "matematicas": {
+                "s3": [
+                    "sec_1_ma_s3_01-magnitudesymedidasequivalencias.pdf"
+                ],
+                "s2": [
+                    "sec_1_ma_s2_01-lasmedidasdetendenciacentral.pdf"
+                ],
+                "s1": [
+                    "sec_1_ma_s1_01-laimportanciadelascifras.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "sec_1_ci_s3_01-calentamientoglobal.pdf"
+                ],
+                "s2": [
+                    "sec_1_ci_s2_01-energiaysustransformaciones.pdf"
+                ],
+                "s1": [
+                    "sec_1_ci_s1_01-energiaysustransformaciones.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "sec_1_ev_s3_01-evaluacion.pdf"
+                ],
+                "s2": [
+                    "sec_1_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "sec_1_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "recped": {
+                "s3": [
+                    "sec_1_rp_s3_01-cuadernillocompleto.pdf"
+                ],
+                "s2": [
+                    "sec_1_rp_s2_01-cuadernillocompleto.pdf"
+                ],
+                "s1": [
+                    "sec_1_rp_s1_01-cuadernillocompleto.pdf"
+                ]
+            }
+        },
+        "2": {
+            "espanol": {
+                "s3": [
+                    "sec_2_es_s3_01-organizoycompartoconocimientomediantefichastematicas.pdf"
+                ],
+                "s2": [
+                    "sec_2_es_s2_01-refranesdichospopularesypregones.pdf"
+                ],
+                "s1": [
+                    "sec_2_es_s1_01-usosfuncionesdelaentrevista.pdf"
+                ]
+            },
+            "matematicas": {
+                "s3": [
+                    "sec_2_ma_s3_01-estadisticameididasdetendenciacentralmodamediaarimeticamediana.pdf"
+                ],
+                "s2": [
+                    "sec_2_ma_s2_01-problemasdeproporcionalidaddirectaconconstantenaturalfraccionodecimal.pdf"
+                ],
+                "s1": [
+                    "sec_2_ma_s1_01-problemasdemultiplicacionconfraccionesydecimalesydivisionescondecimales.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "sec_2_ci_s3_01-transformacionesdelaenergiaenlosecosistemas.pdf"
+                ],
+                "s2": [
+                    "sec_2_ci_s2_01-elsobrepesoylaobesidad.pdf"
+                ],
+                "s1": [
+                    "sec_2_ci_s1_01-elsistemanervioso.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "sec_2_ev_s3_01-evaluacion.pdf"
+                ],
+                "s2": [
+                    "sec_2_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "sec_2_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "recped": {
+                "s3": [
+                    "sec_2_rp_s3_01-cuadernillocompleto.pdf"
+                ],
+                "s2": [
+                    "sec_2_rp_s2_01-cuadernillocompleto.pdf"
+                ],
+                "s1": [
+                    "sec_2_rp_s1_01-cuadernillocompleto.pdf"
+                ]
+            }
+        },
+        "3": {
+            "espanol": {
+                "s3": [
+                    "sec_3_es_s3_01-creacionytransformaciondetextos.pdf"
+                ],
+                "s2": [
+                    "sec_3_es_s2_01-seleccionaranalizaryresumirdiversostextos.pdf"
+                ],
+                "s1": [
+                    "sec_3_es_s1_01-comparaciondetextos.pdf"
+                ]
+            },
+            "matematicas": {
+                "s3": [
+                    "sec_3_ma_s3_01-estadisticamedidasdetendenciacentral.pdf"
+                ],
+                "s2": [
+                    "sec_3_ma_s2_01-proporcionalidadyrepresentaciontabular.pdf"
+                ],
+                "s1": [
+                    "sec_3_ma_s1_01-sistemadeecuaciones2x2.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "sec_3_ci_s3_01-calorytemperatura.pdf"
+                ],
+                "s2": [
+                    "sec_3_ci_s2_01-estadosdeagregaciondelamateriayequilibriotermico.pdf"
+                ],
+                "s1": [
+                    "sec_3_ci_s1_01-estructuradelamateriamodelocineticomolecular.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "sec_3_ev_s3_01-evaluacion.pdf"
+                ],
+                "s2": [
+                    "sec_3_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "sec_3_ev_s1_01-evaluacion.pdf"
+                ]
+            },
+            "recped": {
+                "s3": [
+                    "sec_3_rp_s3_01-cuadernillocompleto.pdf"
+                ],
+                "s2": [
+                    "sec_3_rp_s2_01-cuadernillocompleto.pdf"
+                ],
+                "s1": [
+                    "sec_3_rp_s1_01-cuadernillocompleto.pdf"
+                ]
+            }
+        }
+    },
+    "eadultos": {
+        "primaria_avanzado": {
+            "matematicas": {
+                "s3": [
+                    "ead_pri_ava_ma_s3_01-magnitudesymedidas.pdf"
+                ],
+                "s2": [
+                    "ead_pri_ava_ma_s2_01-adicionysustraccion.pdf"
+                ],
+                "s1": [
+                    "ead_pri_ava_ma_s1_01-numero.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "ead_pri_ava_ci_s3_01_tiempocontinuidadyciclos.pdf"
+                ],
+                "s2": [
+                    "ead_pri_ava_ci_s2_01_sistemas.pdf"
+                ],
+                "s1": [
+                    "ead_pri_ava_ci_s1_01_propiedades.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ead_pri_ava_ev_s3_02-evaluacioncalculoyresoluciondeproblemas.pdf",
+                    "ead_pri_ava_ev_s3_03-evaluacionsaludyambiente.pdf",
+                    "ead_pri_ava_ev_s3_01-evaluacionlenguaycomunicacion.pdf"
+                ],
+                "s2": [
+                    "ead_pri_ava_ev_s2_02-evaluacioncalculoyresoluciondeproblemas.pdf",
+                    "ead_pri_ava_ev_s2_01-evaluacionlenguaycomunicacion.pdf",
+                    "ead_pri_ava_ev_s2_03-evaluacionsaludyambiente.pdf"
+                ],
+                "s1": [
+                    "ead_pri_ava_ev_s1_02-evaluacioncalculoyresoluciondeproblemas.pdf",
+                    "ead_pri_ava_ev_s1_03-evaluacionsaludyambiente.pdf",
+                    "ead_pri_ava_ev_s1_01-evaluacionlenguaycomunicacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "ead_pri_ava_es_s3_01-escribiruninstrumento.pdf"
+                ],
+                "s2": [
+                    "ead_pri_ava_es_s2_01-textosnarrativos.pdf"
+                ],
+                "s1": [
+                    "ead_pri_ava_es_s1_01-textosinformativos.pdf"
+                ]
+            }
+        },
+        "secundaria_inicial": {
+            "matematicas": {
+                "s3": [
+                    "ead_sec_ini_ma_s3_01-razonesyproporciones.pdf"
+                ],
+                "s2": [
+                    "ead_sec_ini_ma_s2_01-diferentesnumeros.pdf"
+                ],
+                "s1": [
+                    "ead_sec_ini_ma_s1_01_ordenycomparaciondenumerosenteros.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "ead_sec_ini_ci_s3_01-areasnaturalesprotegidasenmexico.pdf"
+                ],
+                "s2": [
+                    "ead_sec_ini_ci_s2_01-describomipropioecosistema.pdf"
+                ],
+                "s1": [
+                    "ead_sec_ini_ci_s1_01-estadosdelamateriaylafuerzadegravedad.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ead_sec_ini_ev_s3_01-evaluacionespanol.pdf",
+                    "ead_sec_ini_ev_s3_01-evaluacionciencias.pdf",
+                    "ead_sec_ini_ev_s3_01-evaluacionmatematicas.pdf"
+                ],
+                "s2": [
+                    "ead_sec_ini_ev_s2_01-evaluacionespanol.pdf",
+                    "ead_sec_ini_ev_s2_01-evaluacionciencias.pdf",
+                    "ead_sec_ini_ev_s2_01-evaluacionmatematicas.pdf"
+                ],
+                "s1": [
+                    "ead_sec_ini_ev_s1_01-evaluacionciencias.pdf",
+                    "ead_sec_ini_ev_s1_01-evaluacionmatematicas.pdf",
+                    "ead_sec_ini_ev_s1_01-evaluacionespanol.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "ead_sec_ini_es_s3_01-noticiasypublicidadunmatrimoniosolido .pdf"
+                ],
+                "s2": [
+                    "ead_sec_ini_es_s2_01-cuentosepidemiasymoralejashistoricas .pdf"
+                ],
+                "s1": [
+                    "ead_sec_ini_es_s1_01-elaboremosunresumen .pdf"
+                ]
+            }
+        },
+        "secundaria_avanzado": {
+            "matematicas": {
+                "ev": [
+                    "ead_sec_ava_ma_ev_s1_01-evaluacionmatematicas.pdf",
+                    "ead_sec_ava_ma_ev_s2_01-evaluacionmatematicas.pdf",
+                    "ead_sec_ava_ma_ev_s3_01-evaluacionmatematicas.pdf"
+                ]
+            },
+            "ciencias": {
+                "ev": [
+                    "ead_sec_ava_ci_ev_s1_01-evaluacionciencias.pdf",
+                    "ead_sec_ava_ci_ev_s2_01-evaluacionciencias.pdf",
+                    "ead_sec_ava_ci_ev_s3_01-evaluacionciencias.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ead_sec_ava_ev_s3_01-evaluacionespanol.pdf"
+                ],
+                "s2": [
+                    "ead_sec_ava_ev_s2_01-evaluacionespanol.pdf"
+                ],
+                "s1": [
+                    "ead_sec_ava_ev_s1_01-evaluacionespanol.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "ead_sec_ava_es_s3_01-notasinformativas .pdf"
+                ],
+                "s2": [
+                    "ead_sec_ava_es_s2_01subgenerosnarrativos .pdf"
+                ],
+                "s1": [
+                    "ead_sec_ava_es_s1_01-resumenesyesquemasqueintegranlainformaciondediversasfuentes.pdf"
+                ]
+            }
+        },
+        "primaria_inicial": {
+            "matematicas": {
+                "s3": [
+                    "ead_pri_ini_ma_s3_01-figurasycuerposgeometricos.pdf"
+                ],
+                "s2": [
+                    "ead_pri_ini_ma_s2_01-adicionysustraccion.pdf"
+                ],
+                "s1": [
+                    "ead_pri_ini_ma_s1_01-numero.pdf"
+                ]
+            },
+            "ciencias": {
+                "s3": [
+                    "ead_pri_ini_ci_s3_01_sistemasdelcuerpohumanoysalud.pdf"
+                ],
+                "s2": [
+                    "ead_pri_ini_ci_s2_01_sistemasdelcuerpohumanoysalud.pdf"
+                ],
+                "s1": [
+                    "ead_pri_ini_ci_s1_01sistemasdelcuerpohumanoysalud.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ead_pri_ini_ev_s3_03-evaluacionsaludyambiente.pdf",
+                    "ead_pri_ini_ev_s3_01-evaluacionlenguaycomunicacion.pdf",
+                    "ead_pri_ini_ev_s3_02-evaluacioncalculoyresoluciondeproblemas.pdf"
+                ],
+                "s2": [
+                    "ead_pri_ini_ev_s2_03-evaluacionsaludyambiente.pdf",
+                    "ead_pri_ini_ev_s2_01-evaluacionlenguaycomunicacion.pdf",
+                    "ead_pri_ini_ev_s2_02-evaluacioncalculoyresoluciondeproblemas.pdf"
+                ],
+                "s1": [
+                    "ead_pri_ini_ev_s1_03-evaluacionsaludyambiente.pdf",
+                    "ead_pri_ini_ev_s1_02-evaluacioncalculoyresoluciondeproblemas.pdf",
+                    "ead_pri_ini_ev_s1_01-evaluacionlenguaycomunicacion.pdf"
+                ]
+            },
+            "espanol": {
+                "s3": [
+                    "ead_pri_ini_es_s3_01-alaspalabrasnoselasllevaelviento.pdf"
+                ],
+                "s2": [
+                    "ead_pri_ini_es_s2_01-yosoyquiensoyynomeparezcoanadie.pdf"
+                ],
+                "s1": [
+                    "ead_pri_ini_es_s1_01-escriboluegoexisto.pdf"
+                ]
+            }
+        }
+    },
+    "einicial": {
+        "maternal": {
+            "integrada": {
+                "s3": [
+                    "ein_mat_in_s3_01-presentandonos.pdf"
+                ],
+                "s2": [
+                    "ein_mat_in_s2_01-lasemociones.pdf"
+                ],
+                "s1": [
+                    "ein_mat_in_s1_01-nospreparamosparaelregreso.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ein_mat_ev_s3_06-evaluacion.pdf",
+                    "ein_mat_ev_s3_03-evaluacion.pdf",
+                    "ein_mat_ev_s3_04-evaluacion.pdf",
+                    "ein_mat_ev_s3_05-evaluacion.pdf",
+                    "ein_mat_ev_s3_02-evaluacion.pdf",
+                    "ein_mat_ev_s3_01-evaluacion.pdf",
+                    "ein_mat_ev_s3_04-evaluación.pdf",
+                    "ein_mat_ev_s3_05-evaluación.pdf"
+                ],
+                "s2": [
+                    "ein_mat_ev_s2_04-evaluacion.pdf",
+                    "ein_mat_ev_s2_03-evaluacion.pdf",
+                    "ein_mat_ev_s2_05-evaluacion.pdf",
+                    "ein_mat_ev_s2_06-evaluacion.pdf",
+                    "ein_mat_ev_s2_02-evaluacion.pdf",
+                    "ein_mat_ev_s2_01-evaluacion.pdf"
+                ],
+                "s1": [
+                    "ein_mat_ev_s1_02-evaluacion.pdf",
+                    "ein_mat_ev_s1_03-evaluacion.pdf",
+                    "ein_mat_ev_s1_01-evaluacion.pdf",
+                    "ein_mat_ev_s1_04-evaluacion.pdf"
+                ]
+            }
+        },
+        "lactancia": {
+            "integrada": {
+                "s3": [
+                    "ein_lac_in_s3_01-lasiesta.pdf"
+                ],
+                "s2": [
+                    "ein_lac_in_s2_01-masajerelajante.pdf"
+                ],
+                "s1": [
+                    "ein_lac_in_s1_01-actividadesdeadaptacion.pdf"
+                ]
+            },
+            "evdiag": {
+                "s3": [
+                    "ein_lac_ev_s3_02-evaluacion.pdf",
+                    "ein_lac_ev_s3_03-evaluacion.pdf",
+                    "ein_lac_ev_s3_04-evaluacion.pdf",
+                    "ein_lac_ev_s3_05-evaluacion.pdf",
+                    "ein_lac_ev_s3_01-evaluacion.pdf",
+                    "ein_lac_ev_s3_06-evaluacion.pdf"
+                ],
+                "s2": [
+                    "ein_lac_ev_s2_01-evaluacion.pdf",
+                    "ein_lac_ev_s2_06-evaluacion.pdf",
+                    "ein_lac_ev_s2_02-evaluacion.pdf",
+                    "ein_lac_ev_s2_03-evaluacion.pdf",
+                    "ein_lac_ev_s2_05-evaluacion.pdf",
+                    "ein_lac_ev_s2_04-evaluacion.pdf"
+                ],
+                "s1": [
+                    "ein_lac_ev_s1_04-evaluacion.pdf",
+                    "ein_lac_ev_s1_01-evaluacion.pdf",
+                    "ein_lac_ev_s1_02-evaluacion.pdf",
+                    "ein_lac_ev_s1_03-evaluacion.pdf"
+                ]
+            }
+        }
+    }
+}

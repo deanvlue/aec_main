@@ -1,329 +1,569 @@
 [
     {
-        "name": "Alimentación",
         "image": "alimentacion.svg",
+        "name": "Alimentaci\u00f3n",
         "subcategories": [
             {
                 "name": "Enlaces externos",
                 "sources": [
                     {
-                        "type": "site",
-                        "title": "A tu lado: ¿Cómo asegurar una buena alimentación para nuestros hijos e hijas?",
-                        "source": "Save the Children España",
-                        "link": "https://www.savethechildren.es/sites/default/files/2020-03/4_coronavirus_proyectoa_tu_lado_guia_nutricion_savethechildren.pdf"
-                    },{
-                        "type": "site",
-                        "title": "La guía del buen comer de Archibaldo",
+                        "link": "https://www.savethechildren.es/sites/default/files/2020-03/4_coronavirus_proyectoa_tu_lado_guia_nutricion_savethechildren.pdf",
+                        "source": "Save the Children Espa\u00f1a",
+                        "title": "A tu lado: \u00bfC\u00f3mo asegurar una buena alimentaci\u00f3n para nuestros hijos e hijas?",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Cuento-La-gui%CC%81a-del-buen-comer.pdf",
                         "source": "Sesame Workshop",
-                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Cuento-La-gui%CC%81a-del-buen-comer.pdf"
+                        "title": "La gu\u00eda del buen comer de Archibaldo",
+                        "type": "site"
                     }
                 ]
-            },{
+            },
+            {
                 "name": "Videos",
                 "sources": [
                     {
-                        "type": "video",
-                        "title": "A tu lado: pautas de NUTRICIÓN para el confinamiento",
-                        "source": "Save the Children España",
-                        "link": "https://www.youtube.com/watch?v=E4wImMgoalU&feature=youtu.be"
-                    },{
-                        "type": "video",
-                        "title": "#COVID2019: consejos para una alimentación saludable durante la cuarentena",
-                        "source": "Cruz Roja Española",
-                        "link": "https://www.youtube.com/watch?v=mwU4eHsBWiQ&feature=youtu.be"
-                    },{
-                        "type": "video",
-                        "title": "7 consejos de alimentación saludable para enfrentar la crisis del COVID19",
+                        "link": "https://www.youtube.com/watch?v=E4wImMgoalU&feature=youtu.be",
+                        "source": "Save the Children Espa\u00f1a",
+                        "title": "A tu lado: pautas de NUTRICI\u00d3N para el confinamiento",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=mwU4eHsBWiQ&feature=youtu.be",
+                        "source": "Cruz Roja Espa\u00f1ola",
+                        "title": "#COVID2019: consejos para una alimentaci\u00f3n saludable durante la cuarentena",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=QWciCvcOwS8&feature=youtu.be",
                         "source": "FAO",
-                        "link": "https://www.youtube.com/watch?v=QWciCvcOwS8&feature=youtu.be"
-                    },{
-                        "type": "video",
-                        "title": "Alimentos que refuerzan tus defensas y combaten el coronavirus",
+                        "title": "7 consejos de alimentaci\u00f3n saludable para enfrentar la crisis del COVID19",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=lxaPoLbOZk4&feature=youtu.be",
                         "source": "Diario correo",
-                        "link": "https://www.youtube.com/watch?v=lxaPoLbOZk4&feature=youtu.be"
+                        "title": "Alimentos que refuerzan tus defensas y combaten el coronavirus",
+                        "type": "video"
                     }
                 ]
-            },{
+            },
+            {
                 "name": "Recetas",
                 "sources": [
                     {
-                        "type": "recipe",
-                        "title": "Receta: Ensalada de pollo",
-                        "source": "Revista del consumidor -PROFECO TV",
-                        "link": "https://www.youtube.com/watch?v=m41JiM5OVCI&list=PL83034254E8CEA917"
-                    },{
-                        "type": "recipe",
-                        "title": "Receta: Estofado de pollo",
-                        "source": "Revista del consumidor -PROFECO TV",
-                        "link": "https://www.youtube.com/watch?v=j9AZ5VU5G00&list=PL83034254E8CEA917&index=12"
-                    },{
-                        "type": "recipe",
-                        "title": "Receta: Ensalada primavera",
-                        "source": "Revista del consumidor -PROFECO TV",
-                        "link": "https://www.youtube.com/watch?v=gMwK97_yJAQ&list=PL83034254E8CEA917&index=30"
-                    },{
-                        "type": "recipe",
-                        "title": "Receta: Albóndigas con chícharos",
-                        "source": "Revista del consumidor -PROFECO TV",
-                        "link": "https://www.youtube.com/watch?v=5HsXDy6BCtg&list=PL83034254E8CEA917&index=38"
-                    },{
-                        "type": "recipe",
-                        "title": "Receta: Croquetas de atún con pico de gallo",
-                        "source": "Revista del consumidor -PROFECO TV",
-                        "link": "https://www.youtube.com/watch?v=PiBGanrD3Bg&list=PL83034254E8CEA917&index=55"
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Albondigasdepolloconamaranto.pdf",
+                        "source": "Reyhan",
+                        "title": "Albondigas de pollo con amaranto",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Brochetapollo.pdf",
+                        "source": "Reyhan",
+                        "title": "Brocheta de pollo",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Enchiladasdemole.pdf",
+                        "source": "Reyhan",
+                        "title": "Enchiladas de mole",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Fajitasdepolloconverduras.pdf",
+                        "source": "Reyhan",
+                        "title": "Fajitas de pollo con verduras",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Moleconpollo.pdf",
+                        "source": "Reyhan",
+                        "title": "Mole con pollo",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Molepoblanoconpoll%20ynopales.pdf",
+                        "source": "Reyhan",
+                        "title": "Mole poblano con pollo y nopales",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Pechugasdepolloalperejil.pdf",
+                        "source": "Reyhan",
+                        "title": "Pechugas de pollo al perej\u00edl",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Polloalajardinera.pdf",
+                        "source": "Reyhan",
+                        "title": "Pollo a la jardinera",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Polloconacelgasensalsaroja.pdf",
+                        "source": "Reyhan",
+                        "title": "Pollo con acelgas en salsa roja",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Polloconrajas.pdf",
+                        "source": "Reyhan",
+                        "title": "Pollo con rajas",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Polloenpipi%C3%A1n.pdf",
+                        "source": "Reyhan",
+                        "title": "Pollo en pipi\u00e1n",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Pozoledepollo.pdf",
+                        "source": "Reyhan",
+                        "title": "Pozole de pollo",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Tacosdoradosdepolloconensaladadelechuga.pdf",
+                        "source": "Reyhan",
+                        "title": "Tacos dorados de pollo con ensalada de lechuga",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Tortasdeamarantoconpolloensalsaverde.pdf",
+                        "source": "Reyhan",
+                        "title": "Tortas de amaranto con pollo en salsa verde",
+                        "type": "recipe"
+                    },
+                    {
+                        "link": "https://www.aprendeencasa.mx/data/verano/secundaria/Cocina_saludable/s8/Aliado%20Reyhan/Tortitasdeespinacaconpollo.pdf",
+                        "source": "Reyhan",
+                        "title": "Tortitas de espinaca con pollo",
+                        "type": "recipe"
                     }
                 ]
             }
         ]
-    },{
-        "name": "Salud",
+    },
+    {
         "image": "salud.svg",
+        "name": "Salud",
         "subcategories": [
             {
                 "name": "Enlaces externos",
                 "sources": [
                     {
-                        "type": "site",
-                        "title": "A tu lado: ¿Cómo promover la participación de nuestros hijos e hijas?",
-                        "source": "Save the Children España",
-                        "link": "file:///C:/Users/alberto/Downloads/5_coronavirus_proyectoa_tu_lado_guia_participacion_infantil%20(1).pdf"
-                    },{
-                        "type": "site",
-                        "title": "9 tips para cuidar la salud de niños y adolescentes durante la cuarentena",
-                        "source": "Fundación Carlos Slim",
-                        "link": "https://www.clikisalud.net/9-tips-para-cuidar-la-salud-de-ninos-y-adolescentes-durante-la-cuarentena/"
-                    }
-                ]
-            },{
-                "name": "Videos",
-                "sources": [
+                        "link": "https://www.savethechildren.es/sites/default/files/2020-03/5_coronavirus_proyectoa_tu_lado_guia_participacion_infantil.pdf",
+                        "source": "Save the Children Espa\u00f1a",
+                        "title": "A tu lado: \u00bfC\u00f3mo promover la participaci\u00f3n de nuestros hijos e hijas?",
+                        "type": "site"
+                    },
                     {
-                        "type": "video",
-                        "title": "A tu lado: gestión del OCIO durante el confinamiento",
-                        "source": "Save the Children España",
-                        "link": "https://www.youtube.com/watch?v=4Bp_APXLEwI&feature=youtu.be"
-                    },{
-                        "type": "video",
-                        "title": "Save the Children España",
-                        "source": "A tu lado: pautas de PARTICIPACIÓN por el confinamiento",
-                        "link": "https://www.youtube.com/watch?v=oghHdSYhYUU&feature=youtu.be"
-                    },{
-                        "type": "video",
-                        "title": "¿Qué es el COVID-19? Once Niñas y Niños",
-                        "source": "Once niños",
-                        "link": "https://www.youtube.com/watch?v=PlpVBvFvlnU"
-                    },{
-                        "type": "video",
-                        "title": "Lavado correcto de manos. Once Niñas y Niños",
-                        "source": "Once niños",
-                        "link": "https://www.youtube.com/watch?v=gEjnX86yeis"
-                    }
-                ]
-            },{
-                "name": "PDF",
-                "sources": [
+                        "link": "https://www.clikisalud.net/9-tips-para-cuidar-la-salud-de-ninos-y-adolescentes-durante-la-cuarentena/",
+                        "source": "Fundaci\u00f3n Carlos Slim",
+                        "title": "9 tips para cuidar la salud de ni\u00f1os y adolescentes durante la cuarentena",
+                        "type": "site"
+                    },
                     {
-                        "type": "pdf",
-                        "title": "Coronavirus (COVID-19), lo que madres, padres, educadores deben saber: cómo proteger a hijas, hijos y alumnos",
-                        "source": "UNICEF",
-                        "link": "file:///C:/Users/alberto/Downloads/Publicacio%CC%81n%20_%20Coronavirus%20(COVID-19)%20.pdf"
-                    },{
-                        "type": "pdf",
-                        "title": "Hablando sobre el CORONAVIRUS-19, con los niños y niñas más pequeños",
-                        "source": "UNICEF",
-                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Hablando_sobre_el_coronavirus_con_los_mas_pequenos.pdf"
-                    },{
-                        "type": "pdf",
-                        "title": "Hábitos saludables para la vida",
-                        "source": "SesameWorksshop.org",
-                        "link": "file:///C:/Users/alberto/Downloads/Healthy%20Habits%20for%20Life%20Guide_Spanish.pdf"
-                    }
-                ]
-            },{
-                "name": "Activación física",
-                "sources": [
-                    {
-                        "type": "video",
-                        "title": "Ejercicios para hacer en casa",
-                        "source": "Recomendaciones de la OMS",
-                        "link": "https://www.youtube.com/watch?v=4Tn9jMey0RY"
-                    },{
-                        "type": "video",
-                        "title": "Ejercitarse- Once Niñas y Niños",
-                        "source": "Once niños",
-                        "link": "https://www.youtube.com/watch?v=hecg2ShyeaM&feature=youtu.be"
-                    },{
-                        "type": "site",
-                        "title": "Fitness en casa: cómo mantenerse activo en cuarentena, según la OMS",
+                        "link": "https://www.infobae.com/salud/2020/05/01/fitness-en-casa-como-mantenerse-activo-en-cuarentena-segun-la-oms/",
                         "source": "Infobae, recomendaciones de la OMS",
-                        "link": "https://www.infobae.com/salud/2020/05/01/fitness-en-casa-como-mantenerse-activo-en-cuarentena-segun-la-oms/"
-                    },{
-                        "type": "video",
-                        "title": "Yoga Niños - Para jugar y estudiar mejor",
-                        "source": "Canal bienestar.com",
-                        "link": "https://www.youtube.com/watch?v=nNbRQX8yJWs"
+                        "title": "Fitness en casa: c\u00f3mo mantenerse activo en cuarentena, seg\u00fan la OMS",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Guia_espacios_seguros_para_NNA.pdf",
+                        "source": "Coronavirus.gob.mx",
+                        "title": "\u00bfC\u00f3mo hacer de casa un espacio seguro para ni\u00f1as, ni\u00f1os y adolescentes?",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Actividades_y_juegos_para_ninos.pdf",
+                        "source": "Coronavirus.gob.mx",
+                        "title": "\u00a1Quedarnos en casa tambi\u00e9n es divertido! Actividades y juegos para ni\u00f1os y ni\u00f1as",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://www.infobae.com/salud/2020/05/01/fitness-en-casa-como-mantenerse-activo-en-cuarentena-segun-la-oms/",
+                        "source": "Coronavirus.gob.mx",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Hablando_sobre_el_coronavirus_con_los_mas_pequenos.pdf",
+                        "source": "Coronavirus.gob.mx",
+                        "title": "Hablando sobre el coronavirus -19 con los ni\u00f1os y ni\u00f1as m\u00e1s peque\u00f1os",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Guia_Como_ayudar_a_hijos_con_sus_emociones.pdf",
+                        "source": "Coronavirus.gob.mx",
+                        "title": "\u00bfC\u00f3mo ayudar a nuestros hijos e hijas con sus emociones?",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Guia_para_padres_sobre_Coroanvirus-UNICEF.pdf",
+                        "source": "Coronavirus.gob.mx",
+                        "title": "Coronavirus (COVID-19) Lo que madres padres y educadores deben saber: c\u00f3mo proteger a hijas, hijos y alumnos.",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Guias-Para-Cuidadores-Boletines-sobre-Ha%CC%81bitos-Saludables.pdf",
+                        "source": "Coronavirus.gob.mx",
+                        "title": "S\u00e9samo. Listos a jugar",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Recomendaciones_Transtorno_del_Espectro_Autista_COVID-19.pdf",
+                        "source": "Coronavirus.gob.mx",
+                        "title": "Recomendaciones para padres, madres y cuidadores de ni\u00f1as, ni\u00f1os y adolescentes con el Trastorno del Espectro Autista (TEA). Durante la contingencia COVID-19",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://climss.imss.gob.mx/#6",
+                        "source": "Coronavirus.gob.mx",
+                        "title": "El ABC de la obesidad",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://climss.imss.gob.mx/#9",
+                        "source": "Coronavirus.gob.mx",
+                        "title": "Cuidando tu coraz\u00f3n",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Guias-Para-Cuidadores-Podemos-Ayudar.pdf",
+                        "source": "Coronavirus.gob.mx",
+                        "title": "Podemos ayudar \u00a1Si te cuidas t\u00fa, nos cuidamos todos!",
+                        "type": "site"
+                    }
+                ]
+            },
+            {
+                "name": "Videos",
+                "sources": [
+                    {
+                        "link": "https://www.youtube.com/watch?v=4Bp_APXLEwI&feature=youtu.be",
+                        "source": "Save the Children Espa\u00f1a",
+                        "title": "A tu lado: gesti\u00f3n del OCIO durante el confinamiento",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=oghHdSYhYUU&feature=youtu.be",
+                        "source": "Save the Children Espa\u00f1a",
+                        "title": "A tu lado: pautas de PARTICIPACI\u00d3N por el confinamiento",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=PlpVBvFvlnU",
+                        "source": "Once ni\u00f1os",
+                        "title": "\u00bfQu\u00e9 es el COVID-19? Once Ni\u00f1as y Ni\u00f1os",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=gEjnX86yeis",
+                        "source": "Once ni\u00f1os",
+                        "title": "Lavado correcto de manos. Once Ni\u00f1as y Ni\u00f1os",
+                        "type": "video"
+                    }
+                ]
+            },
+            {
+                "name": "PDF",
+                "sources": [
+                    {
+                        "link": "https://www.unicef.org/mexico/informes/gu%C3%ADa-sobre-el-coronavirus-covid-19",
+                        "source": "UNICEF",
+                        "title": "Coronavirus (COVID-19), lo que madres, padres, educadores deben saber: c\u00f3mo proteger a hijas, hijos y alumnos",
+                        "type": "pdf"
+                    },
+                    {
+                        "link": "https://coronavirus.gob.mx/wp-content/uploads/2020/04/Hablando_sobre_el_coronavirus_con_los_mas_pequenos.pdf",
+                        "source": "UNICEF",
+                        "title": "Hablando sobre el CORONAVIRUS-19, con los ni\u00f1os y ni\u00f1as m\u00e1s peque\u00f1os",
+                        "type": "pdf"
+                    },
+                    {
+                        "link": "https://cdn.sesamestreet.org/sites/default/files/media_folders/Images/Healthy%20Habits%20for%20Life%20Guide_Spanish.pdf",
+                        "source": "SesameWorksshop.org",
+                        "title": "H\u00e1bitos saludables para la vida",
+                        "type": "pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Activaci\u00f3n f\u00edsica",
+                "sources": [
+                    {
+                        "link": "https://www.youtube.com/watch?v=4Tn9jMey0RY",
+                        "source": "Recomendaciones de la OMS",
+                        "title": "Ejercicios para hacer en casa",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=hecg2ShyeaM&feature=youtu.be",
+                        "source": "Once ni\u00f1os",
+                        "title": "Ejercitarse- Once Ni\u00f1as y Ni\u00f1os",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=ehLesrzXkzc",
+                        "source": "Unicef",
+                        "title": "Yoga para ni\u00f1as y ni\u00f1os",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=hUyqR_shVKg",
+                        "source": "Recomendaciones de la OMS",
+                        "title": "Pausas saludables: flexibilidad (Mutual de Seguridad)",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=JoAMmkRdyeE",
+                        "source": "Aprende en Casa",
+                        "title": "#AprendeEnCasa | Pausa Activa | Rommel Pacheco 01",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=Pbgz7jJKjTw",
+                        "source": "Aprende en Casa",
+                        "title": "#AprendeEnCasa | Pausa Activa | Rommel Pacheco 02",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=9nVVvnoSf4Q",
+                        "source": "Aprende en Casa",
+                        "title": "#AprendeEnCasa | Pausa Activa | Rommel Pacheco 03",
+                        "type": "video"
                     }
                 ]
             }
         ]
-    },{
-        "name": "Socioemocional",
+    },
+    {
         "image": "socioemocional.svg",
+        "name": "Socioemocional",
         "subcategories": [
             {
                 "name": "Enlaces externos",
                 "sources": [
                     {
-                        "type": "site",
+                        "link": "https://sesamo.com/articles/manejo-de-emociones/",
+                        "source": "Sesame Workshop",
                         "title": "Manejo de emociones",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://sesamo.com/articles/respira-piensa-actua/",
                         "source": "Sesame Workshop",
-                        "link": "https://sesamo.com/articles/manejo-de-emociones/"
-                    },{
-                        "type": "site",
-                        "title": "Respira, Piensa, Actúa",
-                        "source": "Sesame Workshop",
-                        "link": "https://sesamo.com/articles/respira-piensa-actua/"
-                    },{
-                        "type": "site",
-                        "title": "Covid-19: No estás solo, estas universidades brindan asesoría psicológica por teléfono",
-                        "source": "El Sol de México",
-                        "link": "https://www.elsoldemexico.com.mx/mexico/sociedad/covid-19-no-estas-solo-estas-universidades-brindan-asesoria-psicologica-por-telefono-depresion-desesperacion-ansiedad-5035022.html"
+                        "title": "Respira, Piensa, Act\u00faa",
+                        "type": "site"
+                    },
+                    {
+                        "link": "https://www.elsoldemexico.com.mx/mexico/sociedad/covid-19-no-estas-solo-estas-universidades-brindan-asesoria-psicologica-por-telefono-depresion-desesperacion-ansiedad-5035022.html",
+                        "source": "El Sol de M\u00e9xico",
+                        "title": "Covid-19: No est\u00e1s solo, estas universidades brindan asesor\u00eda psicol\u00f3gica por tel\u00e9fono",
+                        "type": "site"
                     }
                 ]
-            },{
+            },
+            {
                 "name": "Videos",
                 "sources": [
                     {
-                        "type": "video",
+                        "link": "https://youtu.be/7nY8PwgrBDI",
+                        "source": "Save the Children Espa\u00f1a",
                         "title": "A tu lado: Consejos para madres y padres en tiempos de coronavirus",
-                        "source": "Save the Children España",
-                        "link": "https://youtu.be/7nY8PwgrBDI"
-                    },{
-                        "type": "video",
-                        "title": "A tu lado: gestión de EMOCIONES por el confinamiento",
-                        "source": "Save the Children España",
-                        "link": "https://www.youtube.com/watch?v=RyU_FpHhofY&feature=youtu.be"
-                    },{
-                        "type": "video",
-                        "title": "Salud emocional de niñas y niños durante la crisis por COVID19",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=RyU_FpHhofY&feature=youtu.be",
+                        "source": "Save the Children Espa\u00f1a",
+                        "title": "A tu lado: gesti\u00f3n de EMOCIONES por el confinamiento",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=zhZPzK49e0o&feature=youtu.be",
                         "source": "UNICEF",
-                        "link": "https://www.youtube.com/watch?v=zhZPzK49e0o&feature=youtu.be"
-                    },{
-                        "type": "video",
+                        "title": "Salud emocional de ni\u00f1as y ni\u00f1os durante la crisis por COVID19",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=mdPkek2PAEc&feature=youtu.be",
+                        "source": "UNICEF",
                         "title": "Consejos madres y padres sobre el COVID-19",
-                        "source": "UNICEF",
-                        "link": "https://www.youtube.com/watch?v=mdPkek2PAEc&feature=youtu.be"
-                    },{
-                        "type": "video",
-                        "title": "Tips para papás con sus hijos en casa",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=2gYeI2m8yGo",
                         "source": "Grupo REFORMA",
-                        "link": "https://www.youtube.com/watch?v=2gYeI2m8yGo"
-                    },{
-                        "type": "video",
-                        "title": "Salud mental en adolescentes durante el COVID19",
+                        "title": "Tips para pap\u00e1s con sus hijos en casa",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=EJ48mIG8ksA",
                         "source": "UNICEF",
-                        "link": "https://www.youtube.com/watch?v=EJ48mIG8ksA"
-                    },{
-                        "type": "video",
+                        "title": "Salud mental en adolescentes durante el COVID19",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/watch?v=bxF8C4FDdek",
+                        "source": "Ministerio de Salud de la Naci\u00f3n",
                         "title": "Recomendaciones para adolescentes",
-                        "source": "Ministerio de Salud de la Nación",
-                        "link": "https://www.youtube.com/watch?v=bxF8C4FDdek"
+                        "type": "video"
                     }
                 ]
-            },{
+            },
+            {
                 "name": "PDF",
                 "sources": [
                     {
-                        "type": "pdf",
-                        "title": "A tu lado: ¿Cómo ayudar a nuestros hijos e hijas con sus emociones?",
-                        "source": "Save the Children España",
-                        "link": "file:///C:/Users/alberto/Downloads/coronavirus_proyectoa_tu_lado_guia_emociones.pdf"
-                    },{
-                        "type": "pdf",
-                        "title": "A tu lado: ¿Cómo garantizar un lugar seguro para nuestros hijos e hijas?",
-                        "source": "Save the Children España",
-                        "link": "file:///C:/Users/alberto/Downloads/2_coronavirus_proyectoa_tu_lado_guia_proteccion_savethechildren.pdf"
-                    },{
-                        "type": "pdf",
-                        "title": "CONSEJOS PARA PAPÁ y MAMÁ: apoyo emocional para niños y niñas ante el Covid-19",
+                        "link": "https://www.savethechildren.es/sites/default/files/2020-03/coronavirus_proyectoa_tu_lado_guia_emociones.pdf",
+                        "source": "Save the Children Espa\u00f1a",
+                        "title": "A tu lado: \u00bfC\u00f3mo ayudar a nuestros hijos e hijas con sus emociones?",
+                        "type": "pdf"
+                    },
+                    {
+                        "link": "https://www.savethechildren.es/sites/default/files/2020-03/2_coronavirus_proyectoa_tu_lado_guia_proteccion_savethechildren.pdf",
+                        "source": "Save the Children Espa\u00f1a",
+                        "title": "A tu lado: \u00bfC\u00f3mo garantizar un lugar seguro para nuestros hijos e hijas?",
+                        "type": "pdf"
+                    },
+                    {
+                        "link": "https://www.unicef.org/mexico/sites/unicef.org.mexico/files/2020-04/folleto2NNAemocionesVers2_2.pdf",
                         "source": "UNICEF",
-                        "link": "file:///C:/Users/alberto/Downloads/Consejos%20de%20salud%20mental%20para%20nin%CC%83as%20y%20nin%CC%83os.pdf"
+                        "title": "CONSEJOS PARA PAP\u00c1 y MAM\u00c1: apoyo emocional para ni\u00f1os y ni\u00f1as ante el Covid-19",
+                        "type": "pdf"
+                    },
+                    {
+                        "link": "https://drive.google.com/file/d/1LegYlliB7si8a7yZs6d7EYQK3FcNPbSl/preview?usp=sharing",
+                        "source": "AEF M\u00e9xico",
+                        "title": "Prepararnos en familia para el regreso a clases",
+                        "type": "pdf"
+                    },
+                    {
+                        "link": "https://drive.google.com/file/d/157km4wo8kdFzZrkydBIC1m1gcdQxfXOW/view?usp=sharing",
+                        "source": "AEF M\u00e9xico",
+                        "title": "Acciones de autocuidado al interior de la familia al retomar las actividades",
+                        "type": "pdf"
+                    },
+                    {
+                        "link": "https://drive.google.com/file/d/12KJj8ZW47VHz5XR13UbHGWCniYam_w0l/view?usp=sharing",
+                        "source": "AEF M\u00e9xico",
+                        "title": "Sugerencias para mejorar la convivencia familiar",
+                        "type": "pdf"
+                    },
+                    {
+                        "link": "https://drive.google.com/file/d/1EN-J03WeaW3uVR_V7-3AZ9sQekD0RBk9/view?usp=sharing",
+                        "source": "AEF M\u00e9xico",
+                        "title": "\u00bfC\u00f3mo apoyo a la escuela de mi hijo?",
+                        "type": "pdf"
+                    },
+                    {
+                        "link": "https://drive.google.com/file/d/1trZ5etDBPw2suNhIcVi_uWZDaDI0SojM/view?usp=sharing",
+                        "source": "AEF M\u00e9xico",
+                        "title": "Actividades de reforzamiento del aprendizaje en casa",
+                        "type": "pdf"
                     }
                 ]
             }
         ]
-    },{
-        "name": "Videos",
+    },
+    {
         "image": "videos.svg",
+        "name": "Videos",
         "subcategories": [
             {
-                "name": "Aire Libre 105.3 fm",
+                "name": "Aire libre",
                 "sources": [
                     {
-                        "type": "video",
-                        "title": "Reconozco y respeto mis derechos",
-                        "source": "",
-                        "link": "http://youtu.be/JCQQ0axSlMI"
-                    },{
-                        "type": "video",
-                        "title": "Trabajando en la tolerancia",
-                        "source": "",
-                        "link": "https://youtu.be/-QwO_LL78xw"
-                    },{
-                        "type": "video",
-                        "title": "Enseñando juntos",
-                        "source": "",
-                        "link": "https://youtu.be/t2O1gBiCI1o"
-                    },{
-                        "type": "video",
-                        "title": "Inclusión educativa",
-                        "source": "",
-                        "link": "https://youtu.be/fdoPT0yLIls"
-                    },{
-                        "type": "video",
-                        "title": "Porque me quiero me cuido",
-                        "source": "",
-                        "link": "https://youtu.be/TNBjb6OSVzs"
-                    },{
-                        "type": "video",
-                        "title": "Reconozco las capacidades de mi familia",
-                        "source": "",
-                        "link": "https://youtu.be/_GWXf_5JbQM"
-                    },{
-                        "type": "video",
-                        "title": "Actividad física",
-                        "source": "",
-                        "link": "https://youtu.be/tRLv1hEr5B8"
-                    },{
-                        "type": "video",
-                        "title": "Aprendizaje en el hogar",
-                        "source": "",
-                        "link": "https://youtu.be/9eqp5kJINyE"
-                    },{
-                        "type": "video",
-                        "title": "Autoestima, identifico y fortalezco mis cualidades",
-                        "source": "",
-                        "link": "https://youtu.be/wjopsCGpksY"
-                    },{
-                        "type": "video",
-                        "title": "Cómo ayudar a tus hijos a descubrir su potencial",
-                        "source": "",
-                        "link": "https://youtu.be/UcWvsLli_1Q"
-                    },{
-                        "type": "video",
-                        "title": "Cómo desarrollar la relajación en mis hijos",
-                        "source": "",
-                        "link": "https://youtu.be/Y8xiX_saFl4"
-                    },{
-                        "type": "video",
-                        "title": "Expresión y regulación de emociones",
-                        "source": "",
-                        "link": "https://youtu.be/7TsRY0M73CE"
-                    },{
-                        "type": "video",
-                        "title": "Formación de ambiente saludable en el hogar",
-                        "source": "",
-                        "link": "https://youtu.be/BEA48J9BhDY"
+                        "link": "https://www.youtube.com/embed/JCQQ0axSlMI",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | Reconozco y respeto mis derechos",
+                        "type": "video"
+                    },
+                    {
+                        "ink": "https://www.youtube.com/embed/-QwO_LL78xw",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | Trabajando en la tolerancia",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/t2O1gBiCI1o",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | Ense\u00f1ando juntos",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/fdoPT0yLIls",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | Inclusi\u00f3n educativa",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/TNBjb6OSVzs",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | Porque me quiero me cuido",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/_GWXf_5JbQM",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | Reconozco las capacidades de mi familia",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/tRLv1hEr5B8",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | Actividad f\u00edsica",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/9eqp5kJINyE",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | Aprendizaje en el hogar",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/wjopsCGpksY",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | Autoestima, identifico y fortalezco mis cualidades",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/UcWvsLli_1Q",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | C\u00f3mo ayudar a tus hijos a descubrir su potencial",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/Y8xiX_saFl4",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | C\u00f3mo desarrollar la relajaci\u00f3n en mis hijos",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/7TsRY0M73CE",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | Expresi\u00f3n y regulaci\u00f3n de emociones",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/BEA48J9BhDY",
+                        "source": "Aire libre",
+                        "title": "Padres de familia | Formaci\u00f3n de ambiente saludable en el hogar",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/fpL6GXwNoI8",
+                        "source": "Padres",
+                        "title": "Ci\u00e9rrale la puerta al COVID-19 (30)",
+                        "type": "video"
+                    },
+                    {
+                        "link": "https://www.youtube.com/embed/KL-4FTrWR2s",
+                        "source": "Padres",
+                        "title": "Padres de familia | Formaci\u00f3n de ambiente saludable en el hogar",
+                        "type": "video"
                     }
                 ]
             }

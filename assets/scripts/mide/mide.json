@@ -1,7 +1,7 @@
 [
     {
         "name": "Primaria",
-        "level_url": "/aprende-en-casa/niveles/primaria/",
+        "level_url": "/escuela-en-casa/niveles/primaria/",
         "activities": [
             {
                 "title": "¿Cómo llego esto aquí? ",
@@ -70,7 +70,7 @@
     },
     {
         "name": "Secundaria",
-        "level_url": "/aprende-en-casa/niveles/secundaria/",
+        "level_url": "/escuela-en-casa/niveles/secundaria/",
         "grades": [
             {
                 "name": "Primero de secundaria",

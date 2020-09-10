@@ -1,134 +1,134 @@
 const links = {
     tv: {
         name: 'Televisión educativa',
-        link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-secundaria/tv-educativa/index.html',
+        link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-secundaria/tv-educativa/index.html',
     },
     fichas: {
         primaria: {
             primero: [{
                     name: 'Día 1',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-20/1er_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-20/1er_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
                 },
                 {
                     name: 'Día 2',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-21/1er_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-21/1er_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
                 },
                 {
                     name: 'Día 3',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_1grado_primaria_tercer_dia_Semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_1grado_primaria_tercer_dia_Semana3.pdf'
                 },
                 {
                     name: 'Día 4',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_1grado_primaria_cuarto_dia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_1grado_primaria_cuarto_dia_semana3.pdf'
                 },
                 {
                     name: 'Día 5',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_1grado_primaria_cuartodia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_1grado_primaria_cuartodia_semana3.pdf'
                 }
             ],
             segundo: [{
                     name: 'Día 1',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-20/2do_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-20/2do_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
                 },
                 {
                     name: 'Día 2',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-21/2do_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-21/2do_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
                 },
                 {
                     name: 'Día 3',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_2grado_primaria_tercer_dia_Semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_2grado_primaria_tercer_dia_Semana3.pdf'
                 },
                 {
                     name: 'Día 4',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_2grado_primaria_cuarto_dia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_2grado_primaria_cuarto_dia_semana3.pdf'
                 },
                 {
                     name: 'Día 5',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_2grado_primaria_quintodia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_2grado_primaria_quintodia_semana3.pdf'
                 }
             ],
             tercero: [{
                     name: 'Día 1',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-20/3er_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-20/3er_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
                 },
                 {
                     name: 'Día 2',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-21/3er_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-21/3er_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
                 },
                 {
                     name: 'Día 3',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_3grado_primaria_tercer_dia_Semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_3grado_primaria_tercer_dia_Semana3.pdf'
                 },
                 {
                     name: 'Día 4',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_3grado_primaria_cuarto_dia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_3grado_primaria_cuarto_dia_semana3.pdf'
                 },
                 {
                     name: 'Día 5',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_3grado_primaria_quintodia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_3grado_primaria_quintodia_semana3.pdf'
                 }
             ],
             cuarto: [{
                     name: 'Día 1',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-20/4to_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-20/4to_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
                 },
                 {
                     name: 'Día 2',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-21/4to_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-21/4to_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
                 },
                 {
                     name: 'Día 3',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_4grado_primaria_tercer_dia_Semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_4grado_primaria_tercer_dia_Semana3.pdf'
                 },
                 {
                     name: 'Día 4',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_4grado_primaria_cuarto_dia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_4grado_primaria_cuarto_dia_semana3.pdf'
                 },
                 {
                     name: 'Día 5',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_4grado_primaria_quintodia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_4grado_primaria_quintodia_semana3.pdf'
                 }
             ],
             quinto: [{
                     name: 'Día 1',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-20/5to_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-20/5to_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
                 },
                 {
                     name: 'Día 2',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-21/5to_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-21/5to_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
                 },
                 {
                     name: 'Día 3',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_5grado_primaria_tercer_dia_Semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_5grado_primaria_tercer_dia_Semana3.pdf'
                 },
                 {
                     name: 'Día 4',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_5grado_primaria_cuarto_dia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_5grado_primaria_cuarto_dia_semana3.pdf'
                 },
                 {
                     name: 'Día 5',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_5grado_primaria_quintodia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_5grado_primaria_quintodia_semana3.pdf'
                 }
             ],
             sexto: [{
                     name: 'Día 1',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-20/6to_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-20/6to_grado_primaria_Primer_dia_Semana_3_abril_20.pdf'
                 },
                 {
                     name: 'Día 2',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-21/6to_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-21/6to_grado_primaria_Segundo_dia_Semana_3_abril_21.pdf'
                 },
                 {
                     name: 'Día 3',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_6grado_primaria_tercer_dia_Semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-22/22abril_6grado_primaria_tercer_dia_Semana3.pdf'
                 },
                 {
                     name: 'Día 4',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_6grado_primaria_cuarto_dia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-23/23abril_6grado_primaria_cuarto_dia_semana3.pdf'
                 },
                 {
                     name: 'Día 5',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_6grado_primaria_quintodia_semana3.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/tareas/abril/2020-04-24/24abril_6grado_primaria_quintodia_semana3.pdf'
                 }
             ],
         },
@@ -150,23 +150,23 @@ const links = {
                 },
                 {
                     name: 'La historia del perrito con el hueso',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Primero_Lahistoriadelperritoconelhueso_lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Primero_Lahistoriadelperritoconelhueso_lectura.pdf'
                 },
                 {
                     name: 'La mona María toca las maracas',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Primero_LamonaMariatocalasmaracas_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Primero_LamonaMariatocalasmaracas_Lectura.pdf'
                 },
                 {
                     name: 'La tigresa maquinista',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Primero_LaTigresaMaquinista_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Primero_LaTigresaMaquinista_Lectura.pdf'
                 },
                 {
                     name: 'Luca lee su libro',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Primero_LucaLeeSuLibro_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Primero_LucaLeeSuLibro_Lectura.pdf'
                 },
                 {
                     name: 'Santi no sabe silbar',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Primero_SantiNoSabeSilbar_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Primero_SantiNoSabeSilbar_Lectura.pdf'
                 }
             ],
             segundo: [{
@@ -179,65 +179,65 @@ const links = {
                 },
                 {
                     name: 'El chocolate',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Segundo_Elchocolate_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Segundo_Elchocolate_Lectura.pdf'
                 },
                 {
                     name: 'El gusano medidor',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Segundo_ElGusanoMedidor_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Segundo_ElGusanoMedidor_Lectura.pdf'
                 },
                 {
                     name: 'La concha del sapo',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Segundo_LaConchadelSapo_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Segundo_LaConchadelSapo_Lectura.pdf'
                 },
                 {
                     name: 'La huesuda y el borrachín',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Segundo_Lahuesudayelborrachin_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Segundo_Lahuesudayelborrachin_Lectura.pdf'
                 },
                 {
                     name: 'Regalo sorpresa',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Segundo_Regalosorpresa_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Segundo_Regalosorpresa_Lectura.pdf'
                 }
             ],
             tercero: [{
                     name: '¿De qué colores somos?',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Tercero_Dequecoloressomos_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Tercero_Dequecoloressomos_Lectura.pdf'
                 },
                 {
                     name: 'El Manchas',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Tercero_ElManchas_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Tercero_ElManchas_Lectura.pdf'
                 },
                 {
                     name: 'El peinado de la tía Chofi',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Tercero_ElPeinadodelaTiaChofi_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Tercero_ElPeinadodelaTiaChofi_Lectura.pdf'
                 },
                 {
                     name: 'Leo y el misterio de los amuletos',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Tercero_LeoyeMisteriodelosAmuletos_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Tercero_LeoyeMisteriodelosAmuletos_Lectura.pdf'
                 },
                 {
                     name: 'Leyenda del sol y la luna',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Tercero_Leyendadelsolylaluna_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Tercero_Leyendadelsolylaluna_Lectura.pdf'
                 }
             ],
             cuarto: [{
                     name: 'El cedro vanidoso',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Cuarto_ElCedroVanidoso_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Cuarto_ElCedroVanidoso_Lectura.pdf'
                 },
                 {
                     name: 'EL león y el ratón',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Cuarto_ElLeon%20yEl%20Raton_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Cuarto_ElLeon%20yEl%20Raton_Lectura.pdf'
                 },
                 {
                     name: 'El zorro y el cuervo',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Cuarto_ElZorroyElCuervo_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Cuarto_ElZorroyElCuervo_Lectura.pdf'
                 },
                 {
                     name: 'La mariposa azul',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Cuarto_LaMariposaAzul_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Cuarto_LaMariposaAzul_Lectura.pdf'
                 },
                 {
                     name: 'Virus',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Cuarto_Virus_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Cuarto_Virus_Lectura.pdf'
                 }
             ],
             quinto: [{
@@ -254,23 +254,23 @@ const links = {
                 },
                 {
                     name: 'Ceniciento y las zapatillas mágicas',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Quinto_Cenicientoylaszapatillasmagicas_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Quinto_Cenicientoylaszapatillasmagicas_Lectura.pdf'
                 },
                 {
                     name: 'El elefante encadenado',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Quinto_ElElefanteEncadenado_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Quinto_ElElefanteEncadenado_Lectura.pdf'
                 },
                 {
                     name: 'El tesoro perdido',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Quinto_Eltesoroperdido_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Quinto_Eltesoroperdido_Lectura.pdf'
                 },
                 {
                     name: 'Lázaro Cárdenas y la expropiación petrolera, breve historia',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Quinto_LazaroCardenasylaexpropiacion_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Quinto_LazaroCardenasylaexpropiacion_Lectura.pdf'
                 },
                 {
                     name: '¿Pueden existir los agujeros blancos?',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Quinto_PuedenExistirlosAgujerosBlancos_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Quinto_PuedenExistirlosAgujerosBlancos_Lectura.pdf'
                 }
             ],
             sexto: [{
@@ -283,23 +283,23 @@ const links = {
                 },
                 {
                     name: 'Así eran las siete maravillas del mundo antiguo',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Sexto_AsieranlasSieteMaravillas_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Sexto_AsieranlasSieteMaravillas_Lectura.pdf'
                 },
                 {
                     name: 'El maestro Sufí',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Sexto_ElMaestroSufi_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Sexto_ElMaestroSufi_Lectura.pdf'
                 },
                 {
                     name: 'Historia de Alejandro y Samuel',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Sexto_HistoriadealejandroySamuel_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Sexto_HistoriadealejandroySamuel_Lectura.pdf'
                 },
                 {
                     name: 'La montaña donde se abandonan a los ancioanos',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Sexto_LaMontanaDondeAbandonan_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Sexto_LaMontanaDondeAbandonan_Lectura.pdf'
                 },
                 {
                     name: 'Tyrannosaurus rex (T.rex): el mayor destructor de la historia',
-                    link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/lecturas/archivos-primaria/Sexto_Tyrannosaurusrex_Lectura.pdf'
+                    link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/lecturas/archivos-primaria/Sexto_Tyrannosaurusrex_Lectura.pdf'
                 }
             ],
         },
@@ -308,20 +308,20 @@ const links = {
     videos: {
         primaria: {
             name: 'Videos',
-            link: 'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/videos/index.html'
+            link: 'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/videos/index.html'
         },
     },
     videojuegos: {
                     name: 'Videojuegos',
-                    link:'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/videojuegos/index.html'
+                    link:'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/videojuegos/index.html'
     },
     reforzamiento: {
                     name: 'Reforzamiento del conocimiento',
-                    link:'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/reforzamiento/index.html'
+                    link:'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/reforzamiento/index.html'
     },
     programacion: {
                     name: 'Programación',
-                    link:'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/programacion/index.html'
+                    link:'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/programacion/index.html'
     },
     activacion: {
                     name: 'Actividad física',
@@ -329,11 +329,11 @@ const links = {
     },
     retos: {
                     name: 'Retos',
-                    link:'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/concursos/index.html'
+                    link:'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/concursos/index.html'
     },
     ludicas: {
                     name: 'Actividades Lúdicas',
-                    link:'https://www.aprendeencasa.mx/aprende-en-casa/alumnos-primaria/actividades-ludicas/index.html'
+                    link:'https://laescuelaencasa.mx/escuela-en-casa/alumnos-primaria/actividades-ludicas/index.html'
     },
     cineclub: {
         name: "Cine Club Familiar",

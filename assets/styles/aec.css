@@ -1,8 +1,9 @@
 /* prettier-ignore */
 
 .navbar.aec {
-    background-color : rgba(179, 51, 127, 1.0)!important;
-    color : white;
+    /*background-color : rgba(179, 51, 127, 1.0)!important;*/
+    background-color :#ECF0F8!important;
+    color : rgba(179, 51, 127, 1.0)
     width : 100%;
     padding-top : 5px;
     padding-bottom : 10px;
@@ -10,20 +11,20 @@
 .breadcrumb.aec {
     padding : 15px 20px;
     margin-bottom : 15px;
-    color : #ffffff;
+    color : #rgba(179, 51, 127, 1.0);
 }
 .breadcrumb.aec a {
-    color: white !important;
+    color: rgba(179, 51, 127, 1.0) !important;
 }
 .breadcrumb > li + li::before {
-    color : #fff !important;
+    color : rgba(179, 51, 127, 1.0)!important;
 }
 .breadcrumb > li + li {
-    color : #fff;
+    color : rgba(179, 51, 127, 1.0);
 }
 .breadcrumb.aec >.active {
     font-weight : bold;
-    color : white
+    color : rgba(179, 51, 127, 1.0)
 }
 .vcenter {
     display : inline-block;

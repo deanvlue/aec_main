@@ -1,0 +1,171 @@
+[
+    {
+      "id": "1",
+      "Resumen": "Capacítate para el empleo. De Fundación Carlos Slim",
+      "titulo": "Capacítate para el empleo. De Fundación Carlos Slim",
+      "fuente": "https://capacitateparaelempleo.org/pages.php?r=.index&filter_areaID=ALL",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_empleo.png"
+    },
+    {
+      "id": "2",
+      "Resumen": "Curso: Administrador de plataformas digitales de aprendizaje",
+      "titulo": "Curso: Administrador de plataformas digitales de aprendizaje",
+      "fuente": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=6790",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_empleo.png"
+    },
+    {
+      "id": "3",
+      "Resumen": "Curso: Administrador de proyectos para ambientes virtuales de aprendizaje",
+      "titulo": "Curso: Administrador de proyectos para ambientes virtuales de aprendizaje",
+      "fuente": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=4684",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_empleo.png"
+    },
+    {
+      "id": "4",
+      "Resumen": "Curso: Analista de necesidades de formación\nEspecialista en procesos de aprendizaje mediados por tecnología.",
+      "titulo": "Curso: Analista de necesidades de formación\nEspecialista en procesos de aprendizaje mediados por tecnología.",
+      "fuente": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=4668",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_empleo.png"
+    },
+    {
+      "id": "5",
+      "Resumen": "Curso: Arquitecto de ambientes virtuales de aprendizaje",
+      "titulo": "Curso: Arquitecto de ambientes virtuales de aprendizaje",
+      "fuente": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=4687",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_empleo.png"
+    },
+    {
+      "id": "6",
+      "Resumen": "Curso: Desarrollador de contenidos de aprendizaje",
+      "titulo": "Curso: Desarrollador de contenidos de aprendizaje",
+      "fuente": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=4685",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_empleo.png"
+    },
+    {
+      "id": "7",
+      "Resumen": "Curso: Evaluador de Ambientes Virtuales de Aprendizaje",
+      "titulo": "Curso: Evaluador de Ambientes Virtuales de Aprendizaje",
+      "fuente": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=5992",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_empleo.png"
+    },
+    {
+      "id": "8",
+      "Resumen": "Curso: Evaluador de aprendizaje digital",
+      "titulo": "Curso: Evaluador de aprendizaje digital",
+      "fuente": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=5947",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_empleo.png"
+    },
+    {
+      "id": "9",
+      "Resumen": "Curso: Facilitador de aprendizaje digital",
+      "titulo": "Curso: Facilitador de aprendizaje digital",
+      "fuente": "https://capacitateparaelempleo.org/pages.php?r=.tema&tagID=4686",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_empleo.png"
+    },
+    {
+      "id": "10",
+      "Resumen": "El panorama en la educación de hoy- Video de Microsoft- Video de Microsoft México",
+      "titulo": "El panorama en la educación de hoy- Video de Microsoft- Video de Microsoft México",
+      "fuente": "https://www.youtube.com/watch?v=P5Bpv3CdIq0",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "11",
+      "Resumen": "Primeros pasos con Microsoft Teams. Parte 1/4: Aprende a configurar Teams e inicia la conversación- Video de Microsoft México",
+      "titulo": "Primeros pasos con Microsoft Teams. Parte 1/4: Aprende a configurar Teams e inicia la conversación- Video de Microsoft México",
+      "fuente": "https://www.youtube.com/watch?v=XcIiVZ84_LI",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "12",
+      "Resumen": "Primeros pasos con Microsoft Teams. Parte 2/4: Agrupar personas en equipos de trabajo especializado- Video de Microsoft México",
+      "titulo": "Primeros pasos con Microsoft Teams. Parte 2/4: Agrupar personas en equipos de trabajo especializado- Video de Microsoft México",
+      "fuente": "https://www.youtube.com/watch?v=RZi4UnvWJOI",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "13",
+      "Resumen": "Primeros pasos con Microsoft Teams. Parte 3 /4: Utiliza SharePoint como hub de archivos en la nube- Video de Microsoft México",
+      "titulo": "Primeros pasos con Microsoft Teams. Parte 3 /4: Utiliza SharePoint como hub de archivos en la nube- Video de Microsoft México",
+      "fuente": "https://www.youtube.com/watch?v=bFJ4v_GwR0Q",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "14",
+      "Resumen": "Primeros pasos con Microsoft Teams. Parte 4/4: Crea canales para diferenciar temas y conversaciones- Video de Microsoft México",
+      "titulo": "Primeros pasos con Microsoft Teams. Parte 4/4: Crea canales para diferenciar temas y conversaciones- Video de Microsoft México",
+      "fuente": "https://www.youtube.com/watch?v=JL-lpnMnfts",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "15",
+      "Resumen": "Aprende a usar Microsoft Forms para la educación- Video de Microsoft México",
+      "titulo": "Aprende a usar Microsoft Forms para la educación- Video de Microsoft México",
+      "fuente": "https://www.youtube.com/watch?v=8NKffLFPAsw",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "16",
+      "Resumen": "Google Drive y archivos de colaboración",
+      "titulo": "Google Drive y archivos de colaboración",
+      "fuente": "https://www.youtube.com/watch?v=twFYT6MG3sY",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "17",
+      "Resumen": "Introducción a mi cuenta G Suite para la Educación",
+      "titulo": "Introducción a mi cuenta G Suite para la Educación",
+      "fuente": "https://www.youtube.com/watch?v=mFnjGYGL_zg&t=2771s",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "18",
+      "Resumen": "Formularios de Google",
+      "titulo": "Formularios de Google",
+      "fuente": "https://www.youtube.com/watch?v=2bfSsl18nkg",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "19",
+      "Resumen": "Crea videoconferencias productivas",
+      "titulo": "Crea videoconferencias productivas",
+      "fuente": "https://www.youtube.com/watch?v=rvW7JZvWt68",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "20",
+      "Resumen": "Optimiza y enriquece tu Classroom",
+      "titulo": "Optimiza y enriquece tu Classroom",
+      "fuente": "https://www.youtube.com/watch?v=Xvs-e4txQno",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "21",
+      "Resumen": "Webinar 6. Crea tu canal educativo en Youtube",
+      "titulo": "Webinar 6. Crea tu canal educativo en Youtube",
+      "fuente": "https://www.youtube.com/watch?v=zBdR90o4ahY&t=354s",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "22",
+      "Resumen": "Webinar 7. Configuraciones útiles: notificaciones, plantillas, offline",
+      "titulo": "Webinar 7. Configuraciones útiles: notificaciones, plantillas, offline",
+      "fuente": "https://www.youtube.com/watch?v=b_XoBg_91Uc",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "23",
+      "Resumen": "#SinViolenciaEnLinea durante la pandemia, UNICEF México",
+      "titulo": "#SinViolenciaEnLinea durante la pandemia, UNICEF México",
+      "fuente": "https://www.youtube.com/watch?v=KwbY4jv7YVk",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    },
+    {
+      "id": "24",
+      "Resumen": "Acoso escolar, Save the Children España",
+      "titulo": "Acoso escolar, Save the Children España",
+      "fuente": "https://www.youtube.com/watch?v=ovja5uA1JZg",
+      "img": "https://www.aprendeencasa.mx/assets/images/maestros/rpeda_video.png"
+    }
+  ]
+  
